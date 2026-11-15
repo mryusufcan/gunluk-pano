@@ -244,6 +244,7 @@ try {
 }
 let noteFilter = "all";
 let directoryQuery = "";
+let directoryEditQuery = "";
 let editingMemberId = null;
 let publishedAt = 0;
 let isDraft = false;
@@ -708,7 +709,12 @@ function renderDirectoryEditor() {
     box.innerHTML = '<p class="import-empty">Henüz kayıt yok. "Satır ekle" ile başlayın.</p>';
     return;
   }
-  box.innerHTML = state.directory
+  const filtered = state.directory.filter((item) => directoryMatches(item, directoryEditQuery));
+  const shown = filtered.slice(0, 50);
+  const hint = filtered.length
+    ? `<p class="import-empty">${filtered.length} kayıt${filtered.length > shown.length ? ` · ilk ${shown.length} gösteriliyor, arayarak daraltın` : ""}</p>`
+    : '<p class="import-empty">Eşleşen kayıt yok.</p>';
+  box.innerHTML = hint + shown
     .map(
       (item) => `<div class="directory-edit-row" data-id="${esc(item.id)}">
         <input data-directory="name" type="text" maxlength="60" value="${esc(item.name)}" placeholder="Ad soyad" aria-label="Ad soyad" />
@@ -2668,6 +2674,11 @@ function bindEvents() {
     renderDirectory();
   });
 
+  el("directory-edit-search").addEventListener("input", (event) => {
+    directoryEditQuery = event.target.value;
+    renderDirectoryEditor();
+  });
+
   el("add-directory").addEventListener("click", () => {
     if (!ADMIN_MODE) return;
     if (state.directory.length >= 300) {
@@ -2676,6 +2687,8 @@ function bindEvents() {
     }
     state.directory.push({ id: uid(), name: "", phone: "", unit: "" });
     save();
+    directoryEditQuery = "";
+    if (el("directory-edit-search")) el("directory-edit-search").value = "";
     renderDirectoryEditor();
     const last = el("directory-editor").lastElementChild?.querySelector('input[data-directory="name"]');
     if (last) last.focus();
