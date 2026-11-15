@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T19:11:07.655Z",
+  "updatedAt": "2026-11-15T19:12:40.290Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1045,7 +1045,16 @@
       }
     }
   },
-  "notes": [],
+  "notes": [
+    {
+      "id": "5bfbab54-fd68-4341-868c-6835d82760b9",
+      "text": "Mamografi cihazı için pazartesi günü parça gelecek.",
+      "author": "",
+      "ts": 1794769958347,
+      "pinned": false,
+      "done": false
+    }
+  ],
   "notice": {
     "text": "",
     "tone": "info",
