@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "",
+  "updatedAt": "2026-11-15T21:30:07+03:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -17,6 +17,147 @@
       "url": ""
     }
   ],
-  "days": {},
+  "days": {
+    "2026-11-11": {
+      "team": [],
+      "meal": {
+        "text": "TAVUKSUYU ÇORBASI\nKARIŞIK KURU DOLMA\nPORTAKALLI KEREVİZ\nELMA\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA + YOĞURT",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-12": {
+      "team": [],
+      "meal": {
+        "text": "ERİŞTELİ YEŞİL MERCİMEKLİ ÇORBASI\nPİLİÇ PİRZOLA AYVA DİLİM PATATES EŞLİĞİNDE\nDOMATESLİ PİRİNÇ PİLAVI\nTİRAMİSU\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA + NOHUT SALATASI",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-13": {
+      "team": [],
+      "meal": {
+        "text": "SÜTLÜ HAVUÇ ÇORBA\nHÜNKAR BEĞENDİ\nSEBZELİ BULGUR PİLAVI\nPORTAKAL\nGÖBEK +HAVUÇ+KIRMIZI LAHANA + ISPANAK BORANİ",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-14": {
+      "team": [],
+      "meal": {
+        "text": "DOMATES ÇORBASI\nÇİN USULÜ ACILI-TATLI TAVUK SOTE\nPESTO SOSLU MAKARNA\nKARIŞIK MEYVE\nGÖBEK+HAVUÇ+KIRMIZI LAHANA+ AYVALI KEREVİZ",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-15": {
+      "team": [],
+      "meal": {
+        "text": "DÜĞÜN ÇORBA\nGÜVEÇTE KIYMALI ISPANAK KAŞARLI\nPATATESLİ TEPSİ BÖREĞİ\nMANDALİNA\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA +HAYDARİ",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-16": {
+      "team": [],
+      "meal": {
+        "text": "SEBZE ÇORBA\nKÖFTE HAMBURGER\nPARMAK PATATES KIZARTMASI KETÇAP MAYONEZ İLE\nCOLA/FANTA/AYRAN\nHAVUÇ -GÖBEK - KIRMIZI LAHANA + SEBZE BUKETİ",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-17": {
+      "team": [],
+      "meal": {
+        "text": "KÖYLÜ ÇORBA\nPÜRELİ ROSTO KÖFTE SEBZE BUKETİ İLE\nARPA ŞEHRİYE PİLAVI\nPORTAKAL\nHAVUÇ +YEŞİL SALATA + GAVURDAĞI SALATA+ŞAKŞUKA",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-18": {
+      "team": [],
+      "meal": {
+        "text": "MERCİMEK ÇORBASI\nÇITIR TAVUK / ELMA DİLİM PATATES İLE\nPENNE MAKARNA\nAYRAN\nGÖBEK +HAVUÇ+KIRMIZI LAHANA + ZY. PIRASA",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-19": {
+      "team": [],
+      "meal": {
+        "text": "MAHLUTA ÇORBA\nKARIŞIK DOLMA\nPATATESLİ BÖREK\nAYVA TATLISI\nHAVUÇ +KIRMIZI LAHANA+DOMATES SALATALIK BİBER SÖĞÜŞ + YOĞURT",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-20": {
+      "team": [],
+      "meal": {
+        "text": "NANELİ YOĞURT ÇORBASI\nETLİ NOHUT\nŞEHRİYELİ PİRİNÇ PİLAV\nMANDALİNA\nHAVUÇ +KIRMIZI LAHANA+DOMATES SALATALIK BİBER SÖĞÜŞ+ TURŞU",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-21": {
+      "team": [],
+      "meal": {
+        "text": "DOMATES ÇORBASI\nPİZZA /PARMAK PATATES\nZEYTİNYAĞLI KEREVİZ\nCOLA/FANTA\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA + YOĞURTLU SEMİZOTU",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-22": {
+      "team": [],
+      "meal": {
+        "text": "EZOGELİN ÇORBA\nKIYMALI MANTI\nFIRINDA SEBZE BUKETİ\nARMUT\nGÖBEK +HAVUÇ+KIRMIZI LAHANA + ZY PORTAKALLI KEREVİZ",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-23": {
+      "team": [],
+      "meal": {
+        "text": "KAZDAĞI ÇORBA\nETLİ ALİ NAZİK\nZERDAÇALLI PİLAV\nSICAK İRMİK HELVASI\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA + KÖZ PATLICAN SALATASI",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-24": {
+      "team": [],
+      "meal": {
+        "text": "TAVUKSUYU ÇORBA (KIRMIZI)\nEKŞİLİ ETLİ NOHUTLU PATLICAN YEMEĞİ\nBULGUR PİLAVI\nTRİLİÇE\nGÖBEK +KIRMIZI LAHANA+DOMATES SALATALIK BİBER SÖĞÜŞ +HAVUÇ TARATOR",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-25": {
+      "team": [],
+      "meal": {
+        "text": "SÜTLÜ KEREVİZ ÇORBASI\nTAVUK BURGER/ PATATES\nCOLA-FANTA -AYRAN\nKEŞKÜL\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA+ PORTAKALLI PIRASA",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-26": {
+      "team": [],
+      "meal": {
+        "text": "MERCİMEK ÇORBA\nADANA KEBAP (ACISIZ) /LAVAŞ\nMEYHANE BURGUR PİLAVI\nAYRAN\nELMALI ROKA SALATA +HAVUÇ +DOMATES SALATALIK BİBER SÖĞÜŞ + ACILI EZME",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-27": {
+      "team": [],
+      "meal": {
+        "text": "DÜĞÜN ÇORBASI\nBAŞEMEL SOSLU SEBZE GRATEN\nZERDEÇALLI PİRİNÇ PİLAVI\nBİSKÜVİLİ PASTA\nHAVUÇ +KIRMIZI LAHANA+HAVUÇ+ PANCAR SALATASI",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-28": {
+      "team": [],
+      "meal": {
+        "text": "EZOGELİN ÇORBA\nPİLİÇ FLORENTİN\nDOMATES SOSLU MAKARNA\nFIRIN SÜTLAÇ\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA + ZY. PIRASA",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-29": {
+      "team": [],
+      "meal": {
+        "text": "YAYLA ÇORBASI\nKIYMALI YUFKADA PAŞA KEBABI\nSEBZELİ ARPA ŞEHRİYE PİLAVI\nARMUT\nYEŞİL SALATA +HAVUÇ+KIRMIZI LAHANA + HAYDARİ",
+        "updatedAt": 1794767407406
+      }
+    },
+    "2026-11-30": {
+      "team": [],
+      "meal": {
+        "text": "EZOGELİN ÇORBA\nET İSKENDER\nMELEK PİLAVI\nMANDALİNA\nHAVUÇ +KIRMIZI LAHANA+DOMATES SALATALIK BİBER SÖĞÜŞ+ YOĞURT",
+        "updatedAt": 1794767407406
+      }
+    }
+  },
   "notes": []
 }
