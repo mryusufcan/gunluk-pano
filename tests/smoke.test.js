@@ -364,6 +364,32 @@ async function main() {
   check("docx menüsü", stored2.days["2026-11-16"] && stored2.days["2026-11-16"].meal.text.split("\n").length === 3);
   pasteDom.dom.window.close();
 
+
+  /* ---------- 16. Aylık ızgara tablosu ---------- */
+  console.log("\n16) Aylık ızgara (gün numaralı) tablo");
+  pasteDom = makeDom(null);
+  await wait(120);
+  pdoc = pasteDom.dom.window.document;
+  pdoc.getElementById("import-team").click();
+  pdoc.getElementById("import-text").value = [
+    "KASIM 2026",
+    "Vardiya\t1\t2\t3\t4\t5",
+    "08-16\tAyşe Kaya\tMehmet Demir\tAli Vural\tAyşe Kaya\tMehmet Demir",
+    "16-24\tZeynep Ak\tAli Vural\tEmre Yıldız\tZeynep Ak\tAli Vural",
+  ].join("\n");
+  pdoc.getElementById("import-text").dispatchEvent(new pasteDom.dom.window.Event("input", { bubbles: true }));
+  await wait(450);
+  check("aylık önizleme 5 gün", pdoc.getElementById("import-preview").textContent.includes("5 gün"));
+  check("aylık önizleme 10 kişi", pdoc.getElementById("import-preview").textContent.includes("10 kişi"));
+  pdoc.getElementById("import-apply").click();
+  await wait(60);
+  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
+  check("ayın ilk günü", stored2.days["2026-11-01"] && stored2.days["2026-11-01"].team.length === 2);
+  check("ayın beşinci günü", stored2.days["2026-11-05"] && stored2.days["2026-11-05"].team.length === 2);
+  check("başlık isim sanılmadı", !Object.values(stored2.days).some((day) => day.team.some((member) => member.name.includes("Kasım 2026"))));
+  check("vardiya sütunları", stored2.days["2026-11-01"].team.some((member) => member.shift === "16–24"));
+  pasteDom.dom.window.close();
+
   console.log("\n" + (failures.length ? `BAŞARISIZ: ${failures.length} kontrol` : "TÜM KONTROLLER GEÇTİ"));
   process.exitCode = failures.length ? 1 : 0;
 }

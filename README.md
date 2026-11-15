@@ -43,10 +43,16 @@ Tarih        08:00-16:00        16:00-24:00   24:00-08:00
 Pazartesi    Ayşe    Mehmet    Ali        (gün adı, seçili haftaya göre)
 Sabah 08-16 Ayşe, Mehmet 16-24 Ali         (tek satırda birden fazla vardiya)
 MR: Ayşe Yılmaz · BT: Murat Demir         (cihaz etiketleri)
+
+KASIM 2026
+Vardiya   1        2          3          (aylık ızgara: üstte gün numaraları)
+08-16     Dr. Ayşe  Mehmet     Ali
+16-24     Zeynep    Ali        Emre
 ```
 
 - Tarih yazılmamışsa liste seçili güne yazılır; gün adları "Bu hafta / Gelecek hafta / Geçen hafta" seçimine göre hesaplanır.
 - Yıl yazılmamışsa (`15.11`) seçili tarihin yılı kullanılır, geçmiş tarihler bir sonraki yıla taşınır.
+- Aylık çizelgede üst satır gün numaralarıysa (`1 2 3 … 30`) ay bilgisi metindeki "KASIM 2026" satırından alınır; dikey tabloda gün numarası tek başına hücredeyse de aynı şekilde çözülür.
 - Aynı isim ve vardiya ikinci kez eklenmez; "mevcut ekibi sil" kutusu işaretlenirse o günün kadrosu önce temizlenir.
 - Yemek listesinde tarih satırlarının altındaki satırlar menü kabul edilir, `·` ve virgülle ayrılan yemekler ayrı satıra bölünür.
 - Anlaşılamayan satırlar önizlemede "atlandı" olarak listelenir; sonuç her zaman aktarmadan önce gösterilir.
@@ -110,7 +116,7 @@ tools/make_icons.py   simgeleri yeniden üretir (Pillow)
 
 ```bash
 npm install          # yalnızca jsdom, geliştirme bağımlılığı
-npm test             # 75 kontrol: ekip, menü, not, tema, kalıcılık, içe aktarma, bozuk veri
+npm test             # 81 kontrol: ekip, menü, not, tema, kalıcılık, içe aktarma, aylık tablo, bozuk veri
 ```
 
 ## Yol haritası

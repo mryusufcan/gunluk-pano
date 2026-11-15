@@ -999,6 +999,7 @@ function shiftSegments(line) {
 function looksLikePerson(text) {
   if (!text || text.length < 2 || text.length > 60) return false;
   if (!/[a-zçğıöşü]/i.test(text)) return false;
+  if (/\d/.test(text)) return false;
   const lower = lowerTr(text);
   if (HEADER_RE.test(lower)) return false;
   if (STOP_RE.test(lower)) return false;
@@ -1013,7 +1014,7 @@ function boundedSource(source) {
 }
 
 function splitPersonPieces(text) {
-  return text.split(/\s*(?:[,;|]|\s\/\s|\s\+\s|\s&\s|\bile\b|\bve\b)\s*|\s{2,}/i);
+  return text.split(/\s*(?:[,;|]|\t|\s\/\s|\s\+\s|\s&\s|\bile\b|\bve\b)\s*|\s{2,}/i);
 }
 
 function cleanPersonPiece(piece) {
@@ -1087,7 +1088,29 @@ function rowDateAnywhere(row, weekRef) {
   return "";
 }
 
-function parseTeamTable(lines, refKey, weekOffset) {
+function detectMonthContext(text, refKey) {
+  const lower = lowerTr(text);
+  const ref = parseKey(refKey);
+  const match = lower.match(new RegExp(`${MONTH_SOURCE}\\s*(\\d{4})?`));
+  if (match && IMPORT_MONTHS[match[1]]) {
+    return { year: match[2] ? Number(match[2]) : ref.getFullYear(), month: IMPORT_MONTHS[match[1]], explicit: true };
+  }
+  const numeric = lower.match(/\b(\d{1,2})[./](\d{4})\b/);
+  if (numeric && Number(numeric[1]) >= 1 && Number(numeric[1]) <= 12) {
+    return { year: Number(numeric[2]), month: Number(numeric[1]), explicit: true };
+  }
+  return { year: ref.getFullYear(), month: ref.getMonth() + 1, explicit: false };
+}
+
+function dayNumberDate(cell, context) {
+  const text = String(cell || "").trim();
+  if (!/^\d{1,2}$/.test(text) || !context) return "";
+  const day = Number(text);
+  if (day < 1 || day > 31) return "";
+  return dateKeyFrom(context.year, context.month, day);
+}
+
+function parseTeamTable(lines, refKey, weekOffset, monthContext) {
   const separator = tableSeparator(lines);
   if (!separator) return null;
   const weekRef = addDays(refKey, (weekOffset || 0) * 7);
@@ -1095,6 +1118,40 @@ function parseTeamTable(lines, refKey, weekOffset) {
   if (rows.length < 2) return null;
 
   const groups = new Map();
+  const dayHeaderIndex = rows.findIndex((row) => {
+    const numeric = row.filter((cell) => /^\d{1,2}$/.test(String(cell || "").trim())).length;
+    return numeric >= 3 || (numeric >= 2 && monthContext && monthContext.explicit);
+  });
+  if (dayHeaderIndex >= 0) {
+    const header = rows[dayHeaderIndex];
+    const dayColumns = header
+      .map((cell, index) => ({ index, day: Number(String(cell || "").trim()) }))
+      .filter((entry) => /^\d{1,2}$/.test(String(header[entry.index] || "").trim()) && entry.day >= 1 && entry.day <= 31);
+    const context = monthContext || { year: parseKey(refKey).getFullYear(), month: parseKey(refKey).getMonth() + 1 };
+    for (const row of rows.slice(dayHeaderIndex + 1)) {
+      const label = row[0] || "";
+      const rowShift = detectShift(label);
+      const rowRole = detectRole(label);
+      const labelDevice = detectDevice(label);
+      for (const column of dayColumns) {
+        const cell = row[column.index] || "";
+        if (!cell.trim()) continue;
+        const dateKey = dateKeyFrom(context.year, context.month, column.day);
+        if (!dateKey) continue;
+        const people = extractPeople(cell);
+        for (const person of people.details) {
+          addParsedMember(groups, dateKey, {
+            name: person.name,
+            role: person.role || rowRole,
+            shift: rowShift || "",
+            note: labelDevice || person.device || "",
+          });
+        }
+      }
+    }
+    return groups.size ? groups : null;
+  }
+
   const header = rows[0];
   const headerShifts = header.map((cell) => detectShift(cell));
   const headerDevices = header.map((cell) => detectDevice(cell));
@@ -1107,7 +1164,7 @@ function parseTeamTable(lines, refKey, weekOffset) {
     const dateCol = Math.max(0, header.findIndex((cell) => /tarih|gün/.test(lowerTr(cell))));
     const metaCols = header.map((_, index) => index).filter((index) => headerShifts[index] || headerDevices[index]);
     for (const row of dataRows) {
-      const dateKey = rowDate(row, dateCol, weekRef) || rowDateAnywhere(row, weekRef);
+      const dateKey = rowDate(row, dateCol, weekRef) || rowDateAnywhere(row, weekRef) || dayNumberDate(row[dateCol], monthContext);
       if (!dateKey) continue;
       const rowShift = detectShift(row.filter((_, index) => index !== dateCol).join(" "));
       for (const index of metaCols) {
@@ -1132,7 +1189,8 @@ function parseTeamTable(lines, refKey, weekOffset) {
   const useHeader = dateCol >= 0 || shiftCol >= 0 || nameCols.length > 0;
 
   for (const row of useHeader ? rows.slice(1) : rows) {
-    const dateKey = rowDate(row, useHeader && dateCol >= 0 ? dateCol : 0, weekRef) || rowDateAnywhere(row, weekRef);
+    const firstCellIndex = useHeader && dateCol >= 0 ? dateCol : 0;
+    const dateKey = rowDate(row, firstCellIndex, weekRef) || rowDateAnywhere(row, weekRef) || dayNumberDate(row[firstCellIndex], monthContext);
     if (!dateKey) continue;
     const shift = useHeader && shiftCol >= 0 ? detectShift(row[shiftCol] || "") : detectShift(row.join(" "));
     const first = useHeader && dateCol >= 0 ? dateCol : 0;
@@ -1208,7 +1266,7 @@ function parseTeamText(text, refKey, weekOffset) {
   const lines = String(text).replace(/\r\n?/g, "\n").split("\n").map((line) => line.replace(/\u00a0/g, " "));
   const skipped = [];
   let groups = null;
-  if (tableSeparator(lines)) groups = parseTeamTable(lines, refKey, weekOffset);
+  if (tableSeparator(lines)) groups = parseTeamTable(lines, refKey, weekOffset, detectMonthContext(text, refKey));
   if (!groups || !groups.size) groups = parseTeamLines(lines, refKey, weekOffset, skipped);
   return { mode: "team", groups: groups || new Map(), skipped };
 }
@@ -1223,18 +1281,43 @@ function cleanDish(line) {
     .trim();
 }
 
-function parseMealTable(lines, refKey, weekOffset) {
+function parseMealTable(lines, refKey, weekOffset, monthContext) {
   const separator = tableSeparator(lines);
   if (!separator) return null;
   const weekRef = addDays(refKey, (weekOffset || 0) * 7);
   const rows = lines.map((line) => line.split(separator).map((cell) => cell.trim())).filter((row) => row.some(Boolean));
   if (rows.length < 2) return null;
   const groups = new Map();
+
+  const dayHeaderIndex = rows.findIndex((row) => {
+    const numeric = row.filter((cell) => /^\d{1,2}$/.test(String(cell || "").trim())).length;
+    return numeric >= 3 || (numeric >= 2 && monthContext && monthContext.explicit);
+  });
+  if (dayHeaderIndex >= 0) {
+    const header = rows[dayHeaderIndex];
+    const dayColumns = header
+      .map((cell, index) => ({ index, day: Number(String(cell || "").trim()) }))
+      .filter((entry) => /^\d{1,2}$/.test(String(header[entry.index] || "").trim()) && entry.day >= 1 && entry.day <= 31);
+    const context = monthContext || { year: parseKey(refKey).getFullYear(), month: parseKey(refKey).getMonth() + 1 };
+    for (const row of rows.slice(dayHeaderIndex + 1)) {
+      for (const column of dayColumns) {
+        const cell = row[column.index] || "";
+        if (!cell.trim()) continue;
+        const dateKey = dateKeyFrom(context.year, context.month, column.day);
+        if (!dateKey) continue;
+        const dishes = cleanDish(cell).split("\n").map((dish) => dish.trim()).filter(Boolean);
+        if (!dishes.length) continue;
+        groups.set(dateKey, (groups.get(dateKey) || []).concat(dishes));
+      }
+    }
+    return groups.size ? groups : null;
+  }
+
   const header = rows[0];
   const hasHeader = header.some((cell) => /tarih|gün|menü|çorba/.test(lowerTr(cell)));
   const dateCol = hasHeader ? Math.max(0, header.findIndex((cell) => /tarih|gün/.test(lowerTr(cell)))) : 0;
   for (const row of hasHeader ? rows.slice(1) : rows) {
-    const dateKey = rowDate(row, dateCol, weekRef) || rowDateAnywhere(row, weekRef);
+    const dateKey = rowDate(row, dateCol, weekRef) || rowDateAnywhere(row, weekRef) || dayNumberDate(row[dateCol], monthContext);
     if (!dateKey) continue;
     const dishes = row
       .filter((_, index) => index !== dateCol)
@@ -1286,7 +1369,7 @@ function parseMealLines(lines, refKey, weekOffset) {
 function parseMealText(text, refKey, weekOffset) {
   const lines = String(text).replace(/\r\n?/g, "\n").split("\n").map((line) => line.replace(/\u00a0/g, " "));
   let groups = null;
-  if (tableSeparator(lines)) groups = parseMealTable(lines, refKey, weekOffset);
+  if (tableSeparator(lines)) groups = parseMealTable(lines, refKey, weekOffset, detectMonthContext(text, refKey));
   if (!groups || !groups.size) {
     const parsed = parseMealLines(lines, refKey, weekOffset);
     groups = parsed.groups;
