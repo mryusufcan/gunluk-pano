@@ -147,7 +147,7 @@ function normalizeDirectory(raw) {
       };
     })
     .filter(Boolean)
-    .slice(0, 300);
+    .slice(0, 1000);
 }
 
 function normalizeMember(raw) {
@@ -2681,8 +2681,8 @@ function bindEvents() {
 
   el("add-directory").addEventListener("click", () => {
     if (!ADMIN_MODE) return;
-    if (state.directory.length >= 300) {
-      toast("En fazla 300 kişi eklenebilir.", true);
+    if (state.directory.length >= 1000) {
+      toast("En fazla 1000 kişi eklenebilir.", true);
       return;
     }
     state.directory.push({ id: uid(), name: "", phone: "", unit: "" });
