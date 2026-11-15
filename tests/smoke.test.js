@@ -61,7 +61,7 @@ function jsonResponse(data, status = 200) {
   };
 }
 
-function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null } = {}) {
+function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null, draft = null } = {}) {
   const store = {
     content: JSON.parse(JSON.stringify(content)),
     fail: failContent,
@@ -90,6 +90,7 @@ function makeDom({ content = baseContent(), mode = "viewer", failContent = false
       window.TextDecoder = TextDecoder;
       window.DecompressionStream = DecompressionStream;
       if (publish) window.localStorage.setItem("pano-publish", JSON.stringify(publish));
+      if (draft) window.localStorage.setItem("pano-draft", JSON.stringify(draft));
       window.fetch = async (input, init = {}) => {
         const url = String(input);
         if (url.startsWith("https://api.github.com/repos/")) {
@@ -376,10 +377,25 @@ async function main() {
   check("yenileme yeni veriyi getirdi", ldoc.getElementById("team-list").textContent.includes("Sonradan Eklenen"));
   liveInstance.store.fail = true;
   ldoc.getElementById("refresh-btn").click();
-  await wait(250);
+  await wait(1100);
   check("çevrimdışı uyarısı", ldoc.getElementById("offline-note").hidden === false);
   check("önbellek gösterildi", ldoc.getElementById("team-list").textContent.includes("Ece Kaya"));
   liveInstance.dom.window.close();
+
+  console.log("\n10b) Yönetici çevrimdışı: taslak korunuyor");
+  const draftBase = baseContent();
+  draftBase.days[TODAY].team.push({ id: "a7", name: "Taslaktan Gelen", shift: "08–16", phone: "", note: "" });
+  draftBase.updatedAt = Date.now() + 5000;
+  const offlineAdmin = makeDom({ mode: "admin", failContent: true, draft: draftBase });
+  await wait(1100);
+  const odoc = offlineAdmin.dom.window.document;
+  check("taslak yüklendi", odoc.getElementById("team-list").textContent.includes("Taslaktan Gelen"));
+  check("yönetici durumu çevrimdışı", odoc.getElementById("admin-status").textContent.includes("Çevrimdışı"));
+  check("yayın düğmesi kapalı", odoc.getElementById("admin-publish").disabled === true);
+  check("yönetici yeniden dene görünür", odoc.getElementById("admin-retry").hidden === false);
+  check("çevrimdışı bant yöneticide gizli", odoc.getElementById("offline-note").hidden === true);
+  check("çevrimdışı hata yok", offlineAdmin.errors.length === 0, offlineAdmin.errors.join(" | "));
+  offlineAdmin.dom.window.close();
 
   /* ---------- 11. Bozuk içerik ---------- */
   console.log("\n11) Bozuk içerik");

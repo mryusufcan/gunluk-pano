@@ -34,7 +34,7 @@ Yönetici (telefon)                      GitHub                        Ekip (tel
 - **Canlı yayın kontrolü:** yönetici yayından sonra tek düğmeyle canlı sürümün çıkıp çıkmadığını doğrular.
 - **Otomatik tazelik:** gece yarısı kendiliğinden yeni güne geçer, açık kalan ekran 5 dakikada bir sessizce yenilenir.
 - **Paylaşım:** günün özeti (duyuru dahil) WhatsApp metni olarak gönderilir.
-- **Çevrimdışı:** son içerik önbellekte; internet yokken gösterilir, gelince yenilenir.
+- **Çevrimdışı:** son içerik önbellekte; internet yokken gösterilir, bağlantı gelince kendiliğinden yenilenir. Yöneticide önce **taslak** yüklenir, yayın düğmesi kapanır; bağlantı gelince "Yayınla" yeniden açılır.
 - Aydınlık / gece teması (cihaz başına).
 
 ## Kurulum

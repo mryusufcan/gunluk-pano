@@ -1,6 +1,6 @@
 /* Günün Panosu — çevrimdışı desteği.
    Dosyaları değiştirdiğinizde CACHE adındaki sürümü artırın (v1 → v2). */
-const CACHE = "gunluk-pano-v4";
+const CACHE = "gunluk-pano-v5";
 const ASSETS = [
   "./",
   "./index.html",

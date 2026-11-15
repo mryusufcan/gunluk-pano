@@ -297,9 +297,19 @@ function clearDraft() {
 async function fetchContent() {
   const url = new URL(CONTENT_URL, location.href);
   url.searchParams.set("v", String(Date.now()));
-  const response = await fetch(url.toString(), { cache: "no-store" });
-  if (!response.ok) throw new Error("content.json okunamadı");
-  return response.json();
+  const attempts = navigator.onLine === false ? 1 : 2;
+  let lastError = null;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      const response = await fetch(url.toString(), { cache: "no-store" });
+      if (!response.ok) throw new Error(`content.json okunamadı (${response.status})`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+      if (attempt + 1 < attempts) await new Promise((resolve) => setTimeout(resolve, 500));
+    }
+  }
+  throw lastError || new Error("content.json okunamadı");
 }
 
 async function loadContent({ quiet = false } = {}) {
@@ -318,16 +328,28 @@ async function loadContent({ quiet = false } = {}) {
       }
     }
   } catch (error) {
+    offlineMode = true;
+    const draft = ADMIN_MODE ? readDraft() : null;
     const cached = readCache();
-    if (cached) {
+    if (draft) {
+      state = normalizeState(draft);
+      isDraft = true;
+      publishedAt = cached ? Date.parse(cached.data.updatedAt) || cached.savedAt || 0 : publishedAt;
+    } else if (cached) {
       state = normalizeState(cached.data);
       publishedAt = Date.parse(cached.data.updatedAt) || cached.savedAt || 0;
-      offlineMode = true;
     } else {
       state = blankState();
     }
     if (!quiet) {
-      toast(offlineMode ? "Bağlantı yok; son önbellek gösteriliyor." : "İçerik yüklenemedi. Bağlantıyı kontrol edin.", true);
+      toast(
+        draft
+          ? "Çevrimdışısınız; taslağınız yüklendi. Yayınlamak için internet gerekir."
+          : cached
+            ? "Bağlantı kurulamadı; son kaydedilmiş veriler gösteriliyor."
+            : "İçerik yüklenemedi. Bağlantıyı kontrol edin.",
+        true,
+      );
     }
   }
   lastLoadedAt = Date.now();
@@ -661,15 +683,32 @@ function updateChrome() {
   if (bar) bar.hidden = !ADMIN_MODE;
   if (ADMIN_MODE) {
     const status = el("admin-status");
-    status.classList.toggle("is-draft", isDraft || !publishedAt);
-    status.textContent = isDraft
-      ? "Yayınlanmamış değişiklikler var"
-      : publishedAt
-        ? `Yayınlandı · ${formatStamp(publishedAt)}`
-        : "Henüz yayınlanmadı";
+    status.classList.toggle("is-draft", isDraft || !publishedAt || offlineMode);
+    status.textContent = offlineMode
+      ? isDraft
+        ? "Çevrimdışı · taslak yüklendi"
+        : "Çevrimdışı"
+      : isDraft
+        ? "Yayınlanmamış değişiklikler var"
+        : publishedAt
+          ? `Yayınlandı · ${formatStamp(publishedAt)}`
+          : "Henüz yayınlanmadı";
+    const publishButton = el("admin-publish");
+    if (publishButton) publishButton.disabled = offlineMode;
+    const retryButton = el("admin-retry");
+    if (retryButton) retryButton.hidden = !offlineMode;
   }
   const offline = el("offline-note");
-  if (offline) offline.hidden = ADMIN_MODE || !offlineMode;
+  if (offline) {
+    offline.hidden = ADMIN_MODE || !offlineMode;
+    const label = el("offline-text");
+    if (label) {
+      label.textContent =
+        navigator.onLine === false
+          ? "İnternet yok; son kaydedilmiş veriler gösteriliyor."
+          : "İçerik alınamadı; son kaydedilmiş veriler gösteriliyor (sayfa yenilemesi yeterli olabilir).";
+    }
+  }
 }
 
 function renderSettings() {
@@ -2339,10 +2378,26 @@ function bindEvents() {
   el("offline-retry").addEventListener("click", refreshContent);
 
   document.addEventListener("visibilitychange", () => {
-    if (ADMIN_MODE || document.visibilityState !== "visible") return;
+    if (document.visibilityState !== "visible") return;
+    if (offlineMode) {
+      loadContent({ quiet: true });
+      return;
+    }
+    if (ADMIN_MODE) return;
     if (Date.now() - lastLoadedAt < 120000) return;
     loadContent({ quiet: true });
   });
+
+  window.addEventListener("online", () => {
+    if (!offlineMode) return;
+    loadContent({ quiet: true }).then(() => {
+      if (!offlineMode) toast("Bağlantı geri geldi; veriler yenilendi.");
+    });
+  });
+
+  setInterval(() => {
+    if (offlineMode && document.visibilityState === "visible") loadContent({ quiet: true });
+  }, 20000);
 
   el("prev-day").addEventListener("click", () => changeDay(-1));
   el("next-day").addEventListener("click", () => changeDay(1));
@@ -2388,6 +2443,7 @@ function bindEvents() {
     renderNotice();
     saveSoon();
   });
+  el("admin-retry").addEventListener("click", refreshContent);
   el("notice-edit").addEventListener("click", () => {
     switchView("ayarlar");
     setTimeout(() => {
