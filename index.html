@@ -95,6 +95,14 @@
 
       <div id="weekstrip" class="weekstrip" role="group" aria-label="Bu hafta"></div>
 
+      <div id="notice" class="notice" role="status" hidden>
+        <span class="notice-icon" aria-hidden="true">!</span>
+        <span class="notice-text" id="notice-text"></span>
+        <button id="notice-edit" class="link-btn admin-only" type="button">Düzenle</button>
+      </div>
+
+      <div id="updated-line" class="updated-line viewer-only" hidden></div>
+
       <main id="main">
         <section class="view" data-view="ekip" aria-label="Günün ekibi">
           <div class="panel">
@@ -213,6 +221,26 @@
           <div class="panel admin-only">
             <div class="panel-head">
               <div>
+                <h2>Duyuru şeridi</h2>
+                <p class="panel-hint">Üstte bant olarak görünür. Boş bırakırsanız gizlenir.</p>
+              </div>
+            </div>
+            <label class="field">
+              <span>Duyuru metni</span>
+              <textarea id="notice-input" rows="2" maxlength="200" placeholder="Örn. BT cihazı 14:00–16:00 arası bakımda."></textarea>
+            </label>
+            <label class="field">
+              <span>Tür</span>
+              <select id="notice-tone">
+                <option value="info">Bilgi (sakin)</option>
+                <option value="warn">Uyarı (dikkat çekici)</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="panel admin-only">
+            <div class="panel-head">
+              <div>
                 <h2>GitHub yayını</h2>
                 <p class="panel-hint">Değişiklikler GitHub'daki <code>content.json</code> dosyasına yazılır; GitHub Pages 1-2 dakikada günceller.</p>
               </div>
@@ -223,10 +251,16 @@
               <label class="field"><span>Dosya</span><input id="pub-path" type="text" autocomplete="off" placeholder="content.json" /></label>
             </div>
             <label class="field"><span>GitHub anahtarı (Contents: Read and write)</span><input id="pub-token" type="password" autocomplete="off" placeholder="github_pat_…" /></label>
+            <p class="panel-hint" style="margin: 0 0 10px">
+              Anahtarınız yoksa:
+              <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub'da anahtar oluştur</a> →
+              Repository access: <em>Only select repositories</em> (gunluk-pano) → Permissions: <em>Contents: Read and write</em> → Generate.
+            </p>
             <div class="panel-actions">
               <button id="pub-save" class="btn secondary" type="button">Ayarları kaydet</button>
               <button id="pub-test" class="btn secondary" type="button">Bağlantıyı dene</button>
               <button id="pub-publish" class="btn" type="button">Yayınla</button>
+              <button id="pub-check" class="btn secondary" type="button">Canlıyı kontrol et</button>
             </div>
             <p id="pub-status" class="panel-hint"></p>
             <p class="panel-hint" style="margin-top: 8px">

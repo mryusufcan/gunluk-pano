@@ -29,7 +29,11 @@ Yönetici (telefon)                      GitHub                        Ekip (tel
 - **Hızlı erişim:** PACS, RIS veya ekip grubu bağlantıları.
 - **Liste içe aktarma (yönetici):** haftalık/aylık çalışma listesini veya yemek listesini yapıştırın ya da `.xlsx` / `.docx` seçin; tarih, gün adı, vardiya, isim ve cihaz otomatik ayrılır, aktarmadan önce önizleme gösterilir.
 - **Aylık ızgara:** üst satırı gün numaraları (`1 2 3 … 30`) olan tablolar ve dikey gün numaralı listeler desteklenir.
-- **Paylaşım:** günün özeti WhatsApp metni olarak gönderilir.
+- **Duyuru şeridi:** acil bilgi (ör. "BT 14:00–16:00 arası bakımda") panonun üstünde bant olarak; bilgi veya uyarı tonu seçilebilir.
+- **Son güncelleme satırı:** ekip, gördüğü içeriğin ne zaman yayınlandığını görür.
+- **Canlı yayın kontrolü:** yönetici yayından sonra tek düğmeyle canlı sürümün çıkıp çıkmadığını doğrular.
+- **Otomatik tazelik:** gece yarısı kendiliğinden yeni güne geçer, açık kalan ekran 5 dakikada bir sessizce yenilenir.
+- **Paylaşım:** günün özeti (duyuru dahil) WhatsApp metni olarak gönderilir.
 - **Çevrimdışı:** son içerik önbellekte; internet yokken gösterilir, gelince yenilenir.
 - Aydınlık / gece teması (cihaz başına).
 
@@ -57,7 +61,7 @@ Anahtar istemiyorsanız: düzenleyin → **Veri → content.json kopyala** → *
 
 ## Yönetici kullanımı
 
-1. `?admin=1` adresini açın (yer imine ekleyin).
+1. `?admin=1` adresini açın (yer imine ekleyin). Duyuruları **Ayarlar → Duyuru şeridi**'nden yazın; üstteki düzenle düğmesi de oraya götürür.
 2. Üstteki turuncu/kırmızı yazı **"Yayınlanmamış değişiklikler var"** olduğunda değişiklikler yalnızca sizde demektir.
 3. Ekip / Yemek / Notlar sekmelerinde düzenleyin. **Listeden içe aktar** ile Excel, Word veya WhatsApp metnini kullanın.
 4. **Yayınla** → "Yayınlandı" yazısı çıkar. GitHub Pages 1-2 dakika içinde güncellenir.
@@ -103,8 +107,8 @@ tools/                simge ve test dosyası üreticileri
 
 ```bash
 npm install          # yalnızca jsdom, geliştirme bağımlılığı
-npm test             # 69 kontrol: görüntüleme, yönetici, yayın API'si,
-                     # içe aktarma, önbellek, bozuk içerik
+npm test             # 80 kontrol: görüntüleme, yönetici, yayın API'si,
+                     # duyuru, içe aktarma, önbellek, bozuk içerik
 ```
 
 ## Sınırlar

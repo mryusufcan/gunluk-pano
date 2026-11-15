@@ -48,6 +48,7 @@ function baseContent() {
     notes: [
       { id: "n1", text: "Saat 15:00 toplantı", author: "Başhekimlik", ts: Date.parse("2026-11-15T12:00:00Z"), pinned: true, done: false },
     ],
+    notice: { text: "BT 14:00–16:00 arası bakımda", tone: "warn", updatedAt: Date.parse("2026-11-15T10:00:00Z") },
   };
 }
 
@@ -147,6 +148,11 @@ async function main() {
   check("bölüm içerikten", doc.getElementById("brand-dept").textContent === "Görüntüleme");
   check("hızlı erişim çipi", Boolean(q(doc, '#quick-links a[href="https://pacs.example/"]')));
   check("yönetici çubuğu gizli", doc.getElementById("admin-bar").hidden);
+  check("duyuru şeridi görünür", !doc.getElementById("notice").hidden);
+  check("duyuru metni", doc.getElementById("notice-text").textContent.includes("bakımda"));
+  check("duyuru uyarı tonu", doc.getElementById("notice").classList.contains("notice-warn"));
+  check("duyuru düzenle gizli", doc.getElementById("notice-edit").hidden);
+  check("son güncelleme satırı", doc.getElementById("updated-line").textContent.includes("Son güncelleme"));
   check("önbellek uyarısı gizli", doc.getElementById("offline-note").hidden);
   check("ayarlarda okuma bilgisi", doc.getElementById("view-title").textContent === "Radyoloji Panosu");
   check("yayın bölümü gizli", doc.getElementById("pub-repo").closest(".panel").hidden);
@@ -193,6 +199,12 @@ async function main() {
   check("durum: yayınlanmış", doc.getElementById("admin-status").textContent.includes("Yayınlandı"));
   check("ekip ekle görünür", !doc.getElementById("add-member").hidden);
   check("depo önceden dolu", doc.getElementById("pub-repo").value === "mryusufcan/gunluk-pano");
+  check("duyuru alanı dolu", doc.getElementById("notice-input").value.includes("bakımda"));
+  doc.getElementById("notice-input").value = "MR cihazı arızalı";
+  doc.getElementById("notice-input").dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  await wait(550);
+  check("duyuru şeridi güncellendi", doc.getElementById("notice-text").textContent === "MR cihazı arızalı");
+  check("duyuru taslağa yazıldı", JSON.parse(dom.window.localStorage.getItem("pano-draft")).notice.text === "MR cihazı arızalı");
   check("GitHub düzenleme bağlantısı", doc.getElementById("pub-github-edit").href.includes("/mryusufcan/gunluk-pano/edit/main/content.json"));
   doc.getElementById("add-member").click();
   check("üye diyaloğu açıldı", doc.getElementById("member-dialog").hasAttribute("open"));
@@ -387,6 +399,7 @@ async function main() {
   await wait(60);
   check("paylaşım diyaloğu", doc.getElementById("share-dialog").hasAttribute("open"));
   check("paylaşım metni", doc.getElementById("share-text").value.includes("GÜNÜN EKİBİ"));
+  check("paylaşımda duyuru", doc.getElementById("share-text").value.includes("DUYURU:"));
   dom.window.close();
 
   console.log("\n13) Aylık ızgara (yönetici)");

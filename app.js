@@ -121,8 +121,19 @@ function blankState() {
     ],
     days: {},
     notes: [],
+    notice: { text: "", tone: "info", updatedAt: 0 },
     updatedAt: 0,
   };
+}
+
+function normalizeNotice(raw) {
+  const notice = { text: "", tone: "info", updatedAt: 0 };
+  if (!raw || typeof raw !== "object") return notice;
+  notice.text = str(raw.text, "", 200).trim();
+  notice.tone = raw.tone === "warn" ? "warn" : "info";
+  const updated = Number(raw.updatedAt);
+  notice.updatedAt = Number.isFinite(updated) && updated > 0 ? updated : 0;
+  return notice;
 }
 
 function normalizeLink(raw) {
@@ -199,6 +210,8 @@ function normalizeState(raw) {
     state.notes = raw.notes.map(normalizeNote).filter(Boolean).slice(0, 300);
   }
 
+  state.notice = normalizeNotice(raw.notice);
+
   const updated = Number(raw.updatedAt);
   state.updatedAt = Number.isFinite(updated) && updated > 0 ? updated : 0;
   return state;
@@ -213,6 +226,7 @@ function contentPayload() {
     links: state.links,
     days: state.days,
     notes: state.notes,
+    notice: state.notice,
   };
 }
 
@@ -345,6 +359,8 @@ function saveSoon() {
   stateTimer = setTimeout(() => {
     save();
     renderSettings();
+    renderNotice();
+    renderUpdatedLine();
   }, 450);
 }
 
@@ -413,6 +429,29 @@ async function copyText(text) {
 }
 
 /* ---------- Görünüm ---------- */
+function renderNotice() {
+  const notice = state.notice || { text: "", tone: "info" };
+  const text = String(notice.text || "").trim();
+  const box = el("notice");
+  if (!box) return;
+  box.hidden = !text;
+  if (!text) return;
+  box.className = `notice notice-${notice.tone === "warn" ? "warn" : "info"}`;
+  el("notice-text").textContent = text;
+}
+
+function renderUpdatedLine() {
+  const line = el("updated-line");
+  if (!line) return;
+  if (ADMIN_MODE) {
+    line.hidden = true;
+    return;
+  }
+  const updated = state.updatedAt || publishedAt;
+  line.hidden = !updated;
+  line.textContent = updated ? `Son güncelleme: ${formatStamp(updated)}` : "";
+}
+
 function renderBrand() {
   el("brand-title").textContent = state.settings.title || "Günün Panosu";
   el("brand-dept").textContent = state.settings.dept || "Radyoloji";
@@ -641,6 +680,9 @@ function renderSettings() {
     const deptInput = el("set-dept");
     if (document.activeElement !== titleInput) titleInput.value = state.settings.title;
     if (document.activeElement !== deptInput) deptInput.value = state.settings.dept;
+    const noticeInput = el("notice-input");
+    if (noticeInput && document.activeElement !== noticeInput) noticeInput.value = state.notice.text;
+    if (el("notice-tone")) el("notice-tone").value = state.notice.tone === "warn" ? "warn" : "info";
   } else {
     el("view-title").textContent = state.settings.title;
     el("view-dept").textContent = state.settings.dept;
@@ -649,8 +691,8 @@ function renderSettings() {
   renderStats();
   const updated = state.updatedAt || publishedAt;
   el("version-note").textContent = updated
-    ? `${offlineMode ? "Önbellek" : "Son güncelleme"}: ${formatStamp(updated)} · Sürüm 2.0`
-    : "Sürüm 2.0 · Henüz içerik yayınlanmadı";
+    ? `${offlineMode ? "Önbellek" : "Son güncelleme"}: ${formatStamp(updated)} · Sürüm 2.1`
+    : "Sürüm 2.1 · Henüz içerik yayınlanmadı";
   el("badge-ekip").hidden = !getDay(selected).team.length;
   el("badge-ekip").textContent = String(getDay(selected).team.length);
 }
@@ -711,6 +753,8 @@ function render() {
   renderBrand();
   renderDate();
   renderWeekstrip();
+  renderNotice();
+  renderUpdatedLine();
   renderTeam();
   renderMeal();
   renderNotes();
@@ -788,7 +832,10 @@ function importShiftTeam() {
 /* ---------- Paylaşım ---------- */
 function buildShareText() {
   const day = getDay(selected);
-  const lines = [`${state.settings.dept || "Radyoloji"} · ${longDate(selected)} ${weekdayOf(selected)}`, "", "GÜNÜN EKİBİ"];
+  const lines = [`${state.settings.dept || "Radyoloji"} · ${longDate(selected)} ${weekdayOf(selected)}`];
+  const notice = String((state.notice && state.notice.text) || "").trim();
+  if (notice) lines.push("", `DUYURU: ${notice}`);
+  lines.push("", "GÜNÜN EKİBİ");
   const team = sortTeam(day.team);
   if (team.length) {
     for (const member of team) {
@@ -1132,12 +1179,33 @@ async function publishContent() {
     setPublishStatus(`Yayınlandı · ${formatStamp(Date.now())}. GitHub Pages 1-2 dakikada günceller.`);
     updateChrome();
     toast("Yayınlandı. Ekip sayfayı yenileyince görür.");
+    setTimeout(checkLivePublish, 60000);
   } catch (error) {
     setPublishStatus(String(error.message || error), true);
     toast("Yayınlanamadı; ayarları kontrol edin.", true);
   } finally {
     button.disabled = false;
     settingsButton.disabled = false;
+  }
+}
+
+async function checkLivePublish() {
+  setPublishStatus("Canlı yayın kontrol ediliyor…");
+  try {
+    const response = await fetch(`content.json?live=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Canlı içerik okunamadı (${response.status}).`);
+    const live = await response.json();
+    const liveTime = Date.parse(live.updatedAt) || 0;
+    const expected = state.updatedAt || publishedAt;
+    if (liveTime && expected && Math.abs(liveTime - expected) < 180000) {
+      setPublishStatus(`Canlı yayın güncel · ${formatStamp(liveTime)}`);
+      toast("Canlı yayın güncel.");
+    } else {
+      const liveLabel = liveTime ? formatStamp(liveTime) : "yayınlanmamış";
+      setPublishStatus(`Canlıdaki sürüm: ${liveLabel}. Yeni sürüm henüz görünmüyor; 1-2 dakika sonra tekrar deneyin.`, true);
+    }
+  } catch (error) {
+    setPublishStatus(String(error.message || error), true);
   }
 }
 
@@ -2309,6 +2377,28 @@ function bindEvents() {
   el("add-member").addEventListener("click", () => openMemberDialog(null));
   el("sync-shift").addEventListener("click", importShiftTeam);
 
+  el("notice-input").addEventListener("input", () => {
+    if (!ADMIN_MODE) return;
+    state.notice.text = el("notice-input").value.slice(0, 200);
+    state.notice.updatedAt = Date.now();
+    renderNotice();
+    saveSoon();
+  });
+  el("notice-tone").addEventListener("change", () => {
+    if (!ADMIN_MODE) return;
+    state.notice.tone = el("notice-tone").value === "warn" ? "warn" : "info";
+    state.notice.updatedAt = Date.now();
+    renderNotice();
+    saveSoon();
+  });
+  el("notice-edit").addEventListener("click", () => {
+    switchView("ayarlar");
+    setTimeout(() => {
+      if (el("notice-input")) el("notice-input").focus();
+    }, 120);
+  });
+  el("pub-check").addEventListener("click", checkLivePublish);
+
   el("import-team").addEventListener("click", () => openImport("team"));
   el("import-meal").addEventListener("click", () => openImport("meal"));
   document.querySelectorAll("[data-import-mode]").forEach((button) => {
@@ -2685,6 +2775,22 @@ async function init() {
   render();
   await loadContent();
   applySharedHash();
+
+  let bootToday = todayKey();
+  setInterval(() => {
+    const current = todayKey();
+    if (current === bootToday) return;
+    const wasToday = selected === bootToday;
+    bootToday = current;
+    if (wasToday) {
+      setDate(current);
+      toast(`Yeni gün: ${longDate(current)}`);
+    }
+  }, 30000);
+
+  setInterval(() => {
+    if (!ADMIN_MODE && document.visibilityState === "visible") loadContent({ quiet: true });
+  }, 300000);
 
   if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
     navigator.serviceWorker.register("./sw.js").catch(() => {

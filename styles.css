@@ -107,13 +107,15 @@ h3 {
 .app {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto minmax(0, 1fr) auto;
+  grid-template-rows: auto auto auto auto auto auto auto minmax(0, 1fr) auto;
   grid-template-areas:
     "top"
     "admin"
     "offline"
     "date"
     "week"
+    "notice"
+    "updated"
     "main"
     "nav";
   height: 100vh;
@@ -137,6 +139,14 @@ h3 {
 
 #offline-note {
   grid-area: offline;
+}
+
+#notice {
+  grid-area: notice;
+}
+
+#updated-line {
+  grid-area: updated;
 }
 
 .weekstrip {
@@ -276,6 +286,55 @@ code {
   border-radius: 5px;
   background: var(--surface-2);
   font-size: 0.86em;
+}
+
+/* ---------- Duyuru şeridi ---------- */
+.notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.notice.notice-warn {
+  background: var(--warn-bg);
+  border-color: var(--warn-border);
+  color: var(--warn-text);
+}
+
+.notice.notice-info {
+  background: var(--accent-weak);
+  border-color: var(--line);
+  color: var(--accent);
+}
+
+.notice-icon {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  font-size: 0.66rem;
+  font-weight: 800;
+}
+
+.notice-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.updated-line {
+  padding: 3px 14px 5px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.68rem;
+  text-align: right;
 }
 
 /* ---------- Tarih ---------- */
@@ -1337,13 +1396,15 @@ main {
     max-width: 1120px;
     margin: 22px auto;
     height: calc(100dvh - 44px);
-    grid-template-rows: auto auto auto auto auto auto minmax(0, 1fr);
+    grid-template-rows: auto auto auto auto auto auto auto auto minmax(0, 1fr);
     grid-template-areas:
       "top"
       "admin"
       "offline"
       "date"
       "week"
+      "notice"
+      "updated"
       "nav"
       "main";
     border: 1px solid var(--line);
