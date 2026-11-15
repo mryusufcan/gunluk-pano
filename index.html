@@ -86,6 +86,7 @@
             <div id="team-list" class="team-list"></div>
             <div class="panel-actions">
               <button id="add-member" class="btn" type="button">Ekip üyesi ekle</button>
+              <button id="import-team" class="btn secondary" type="button">Listeden içe aktar</button>
               <button id="copy-team" class="btn secondary" type="button">Dünkü ekibi kopyala</button>
               <button id="forward-team" class="btn secondary" type="button" hidden>Yarına aktar</button>
               <button id="sync-shift" class="btn secondary" type="button" hidden>Nöbet listesinden al</button>
@@ -116,6 +117,7 @@
             <div id="meal-body" class="meal-body"></div>
             <div class="panel-actions">
               <button id="edit-meal" class="btn" type="button">Menüyü düzenle</button>
+              <button id="import-meal" class="btn secondary" type="button">Listeden içe aktar</button>
               <button id="copy-meal" class="btn secondary" type="button">Dünkü menüyü kopyala</button>
             </div>
           </div>
@@ -199,6 +201,9 @@
               Kurulum, hesap veya mağaza gerekmez. Pano iPhone ve Android tarayıcısında açılır; veriler yalnızca bu cihazın tarayıcısında saklanır, sunucuya gitmez.
             </p>
             <p class="text-block">
+              Ekip ve yemek listelerini elle yazmak zorunda değilsiniz: <strong>Listeden içe aktar</strong> düğmesiyle Excel, Word veya WhatsApp'tan kopyaladığınız metni yapıştırın ya da <strong>.xlsx / .docx</strong> dosyası seçin. Tarih, gün adı, vardiya, isim ve cihazlar otomatik ayrılır; aktarmadan önce önizlemeyi görürsünüz.
+            </p>
+            <p class="text-block">
               Aynı panoyu ekip arkadaşınızla paylaşmak için üstteki <strong>paylaş</strong> düğmesini kullanın: günün özeti WhatsApp'a metin olarak eklenir, isterseniz bağlantı olarak da gönderilir.
             </p>
             <h3 class="sub-title">Ana ekrana ekle (isteğe bağlı)</h3>
@@ -276,6 +281,46 @@
           <button type="submit" class="btn">Kaydet</button>
         </div>
       </form>
+    </dialog>
+
+    <dialog id="import-dialog" class="dialog import-dialog" aria-labelledby="import-title">
+      <div class="dialog-body">
+        <h2 id="import-title">Listeden içe aktar</h2>
+        <div class="segmented" role="group" aria-label="İçe aktarma türü">
+          <button type="button" class="seg is-active" data-import-mode="team">Ekip listesi</button>
+          <button type="button" class="seg" data-import-mode="meal">Yemek listesi</button>
+        </div>
+        <p class="panel-hint" id="import-hint"></p>
+        <label class="field">
+          <span>Liste metni</span>
+          <textarea id="import-text" rows="7" placeholder="Listeyi buraya yapıştırın (Excel, Word, WhatsApp…)" spellcheck="false"></textarea>
+        </label>
+        <div class="import-tools">
+          <label class="btn secondary file-label">
+            Dosya seç
+            <input id="import-file" type="file" accept=".txt,.csv,.tsv,.md,.xlsx,.docx,text/plain,text/csv" hidden />
+          </label>
+          <button id="import-example" class="link-btn" type="button">Örnek doldur</button>
+          <label class="import-week-label">
+            Gün adları
+            <select id="import-week">
+              <option value="0">Bu hafta</option>
+              <option value="1">Gelecek hafta</option>
+              <option value="-1">Geçen hafta</option>
+            </select>
+          </label>
+        </div>
+        <label class="check">
+          <input id="import-replace" type="checkbox" />
+          <span id="import-replace-label">Bu günlerdeki mevcut ekibi sil</span>
+        </label>
+        <div id="import-preview" class="import-preview"></div>
+        <div class="dialog-actions">
+          <span class="spacer"></span>
+          <button type="button" class="btn secondary" data-close>Vazgeç</button>
+          <button type="button" class="btn" id="import-apply" disabled>İçe aktar</button>
+        </div>
+      </div>
     </dialog>
 
     <dialog id="confirm-dialog" class="dialog small" aria-labelledby="confirm-title">

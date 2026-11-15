@@ -1000,7 +1000,7 @@ main {
   background: var(--surface-2);
   color: var(--text);
   font-family: inherit;
-  font-size: 0.88rem;
+  font-size: 16px;
   line-height: 1.5;
   resize: vertical;
 }
@@ -1031,6 +1031,157 @@ main {
   color: var(--danger);
   font-size: 0.78rem;
   font-weight: 600;
+}
+
+/* ---------- İçe aktarma ---------- */
+.segmented {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+  padding: 4px;
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.seg {
+  flex: 1;
+  min-height: 38px;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.81rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.seg.is-active {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+}
+
+.import-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+
+.import-tools .btn {
+  min-height: 38px;
+  padding: 7px 12px;
+  font-size: 0.78rem;
+}
+
+.import-week-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.import-week-label select {
+  min-height: 36px;
+  padding: 6px 8px;
+  border: 1px solid var(--line-strong);
+  border-radius: 9px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.import-preview {
+  max-height: 250px;
+  margin: 8px 0 2px;
+  padding: 10px;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: 0.8rem;
+}
+
+.import-summary {
+  margin: 0 0 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.import-summary span {
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.import-day {
+  padding-top: 8px;
+  margin-top: 8px;
+  border-top: 1px dashed var(--line-strong);
+}
+
+.import-day-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 5px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.import-day-head span {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.import-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.import-chip {
+  padding: 3px 7px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface);
+  font-size: 0.71rem;
+  color: var(--text);
+}
+
+.import-chip b {
+  margin-right: 4px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.import-meal {
+  margin: 0;
+  white-space: pre-line;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.import-empty {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.import-skip {
+  margin: 8px 0 0;
+  font-size: 0.7rem;
+  color: var(--muted);
+  overflow-wrap: anywhere;
 }
 
 /* ---------- Bildirim ---------- */

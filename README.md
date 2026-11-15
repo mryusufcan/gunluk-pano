@@ -9,6 +9,7 @@ Radyoloji departmanının günlük operasyon panosu: **günün ekibi**, **günü
 - **Mobil öncelikli arayüz:** alt sekme çubuğu, büyük dokunma hedefleri, güvenli alan (çentik) desteği, alt sayfa (bottom sheet) diyalogları, 16 px giriş alanları (iOS'ta yakınlaştırma yapmaz).
 - **Masaüstünde gerçek düzen:** üst başlık, yatay bölüm sekmeleri, iki sütunlu paneller, klavye kısayolları.
 - **Günün ekibi:** vardiyaya göre gruplu liste (08–16, 16–24, 24–08, icap, idari, izinli), görev etiketi, telefon/dahili için `tel:` bağlantısı, kişi notu.
+- **Liste içe aktarma:** haftalık/aylık çalışma listesini yapıştırın veya `.xlsx` / `.docx` dosyası seçin; tarih, gün adı, vardiya, isim ve cihaz otomatik ayrılır, aktarmadan önce önizleme gösterilir. Yemek listesi için de aynısı geçerli.
 - **Günün yemeği:** çok satırlı menü; "dünkü menüyü kopyala" ile her gün sıfırdan yazma yok.
 - **Notlar:** yazar, saat, sabitleme, "tamamlandı" işareti, Tümü / Bugün / Sabitlenen / Açık filtreleri.
 - **Hızlı erişim:** PACS, RIS veya ekip grubu gibi bağlantılar panonun üstünde kısayol olur.
@@ -17,6 +18,38 @@ Radyoloji departmanının günlük operasyon panosu: **günün ekibi**, **günü
 - **Veri sizinle kalır:** sunucu, veritabanı ve hesap yok; kayıtlar `localStorage` içinde. Yedek alıp başka cihaza taşıyabilirsiniz.
 - **Çevrimdışı:** ana ekrana eklenince servis çalışanı sayfa kabuğunu önbelleğe alır, internet olmadan da açılır.
 - Aydınlık / gece teması.
+
+## Liste içe aktarma
+
+Ekip ve yemek listelerini elle yazmak gerekmez. **Listeden içe aktar** düğmesi şu yolları kabul eder:
+
+- Excel'den kopyalanan tablo (sekme/`;` ayrımlı), WhatsApp veya Word metni yapıştırma.
+- `.txt`, `.csv`, `.tsv`, `.xlsx`, `.docx` dosyası seçme. Excel ve Word dosyaları tarayıcıda açılır; sunucuya gitmez.
+
+Ayrıştırıcı şu biçimleri tanır:
+
+```
+Tarih            Vardiya        Personel
+15.11.2026       08:00-16:00    Dr. Ayşe Yılmaz (MR)
+15.11.2026       16:00-24:00    Ali Şahin
+
+15 Kasım Cumartesi
+08-16: Ayşe Yılmaz, Murat Demir (BT)
+Akşam: Zeynep Ak
+
+Tarih        08:00-16:00        16:00-24:00   24:00-08:00
+16.11.2026   Dr. Ece Kaya, ...  Ali Şahin     Emre Yıldız
+
+Pazartesi    Ayşe    Mehmet    Ali        (gün adı, seçili haftaya göre)
+Sabah 08-16 Ayşe, Mehmet 16-24 Ali         (tek satırda birden fazla vardiya)
+MR: Ayşe Yılmaz · BT: Murat Demir         (cihaz etiketleri)
+```
+
+- Tarih yazılmamışsa liste seçili güne yazılır; gün adları "Bu hafta / Gelecek hafta / Geçen hafta" seçimine göre hesaplanır.
+- Yıl yazılmamışsa (`15.11`) seçili tarihin yılı kullanılır, geçmiş tarihler bir sonraki yıla taşınır.
+- Aynı isim ve vardiya ikinci kez eklenmez; "mevcut ekibi sil" kutusu işaretlenirse o günün kadrosu önce temizlenir.
+- Yemek listesinde tarih satırlarının altındaki satırlar menü kabul edilir, `·` ve virgülle ayrılan yemekler ayrı satıra bölünür.
+- Anlaşılamayan satırlar önizlemede "atlandı" olarak listelenir; sonuç her zaman aktarmadan önce gösterilir.
 
 ## Kullanım
 
@@ -77,12 +110,13 @@ tools/make_icons.py   simgeleri yeniden üretir (Pillow)
 
 ```bash
 npm install          # yalnızca jsdom, geliştirme bağımlılığı
-npm test             # 50 kontrol: ekip, menü, not, tema, kalıcılık, bozuk veri
+npm test             # 75 kontrol: ekip, menü, not, tema, kalıcılık, içe aktarma, bozuk veri
 ```
 
 ## Yol haritası
 
 - Ortak (tek) veri: bugünkü yapı cihaz başınadır. Departmanın aynı panoyu aynı anda görmesi istenirse küçük bir API eklenebilir: Cloudflare Worker + Durable Object, Supabase veya mevcut sunucuda bir Node/PHP uç noktası. Arayüz `state` nesnesi ve `save()` üzerinden çalıştığı için bu geçiş tek dosyada yapılabilir.
+- PDF ve fotoğraf (menü tabelası) okuma: tarayıcıda OCR olmadığı için şimdilik metin/Excel/Word ile sınırlı.
 - Aylık menü takvimi, PACS/RIS derin bağlantıları, ekip üyelerini Nöbet Listesi kadrosundan tek tıkla doldurma.
 
 ## Lisans

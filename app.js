@@ -397,6 +397,7 @@ function renderTeam() {
 
   el("sync-shift").hidden = !readShiftTeam(selected);
   el("forward-team").hidden = !team.length;
+  el("copy-team").hidden = team.length > 0;
 }
 
 function renderMeal() {
@@ -404,6 +405,7 @@ function renderMeal() {
   const text = day.meal.text.trim();
   el("meal-pill").hidden = !text;
   el("meal-pill").textContent = text ? "Girildi" : "";
+  el("copy-meal").hidden = Boolean(text);
   el("meal-body").innerHTML = text
     ? `<p class="meal-text">${esc(text)}</p>${day.meal.updatedAt ? `<p class="meal-updated">Son güncelleme: ${esc(formatStamp(day.meal.updatedAt))}</p>` : ""}`
     : `<div class="empty"><strong>Menü girilmemiş</strong>Yemekhanenin menüsünü yazın; dünkü menüyü tek tuşla kopyalayabilirsiniz.</div>`;
@@ -493,7 +495,7 @@ function renderSettings() {
   el("set-theme").value = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
   renderStats();
   const saved = state.updatedAt ? new Date(state.updatedAt) : null;
-  el("version-note").textContent = saved ? `Son kayıt: ${formatStamp(state.updatedAt)} · Sürüm 1.0` : "Sürüm 1.0 · Henüz kayıt yok";
+  el("version-note").textContent = saved ? `Son kayıt: ${formatStamp(state.updatedAt)} · Sürüm 1.1` : "Sürüm 1.1 · Henüz kayıt yok";
   el("badge-ekip").hidden = !getDay(selected).team.length;
   el("badge-ekip").textContent = String(getDay(selected).team.length);
 }
@@ -766,6 +768,948 @@ async function applySharedHash() {
   toast("Paylaşılan pano eklendi.");
 }
 
+/* ---------- Liste içe aktarma ---------- */
+const IMPORT_MONTHS = {
+  ocak: 1, şubat: 2, subat: 2, mart: 3, nisan: 4, mayıs: 5, mayis: 5, haziran: 6,
+  temmuz: 7, ağustos: 8, agustos: 8, eylül: 9, eylul: 9, ekim: 10, kasım: 11, kasim: 11, aralık: 12, aralik: 12,
+  oca: 1, şub: 2, sub: 2, mar: 3, nis: 4, may: 5, haz: 6, tem: 7, ağu: 8, agu: 8, eyl: 9, eki: 10, kas: 11, ara: 12,
+};
+const MONTH_SOURCE = "(ocak|şubat|subat|mart|nisan|mayıs|mayis|haziran|temmuz|ağustos|agustos|eylül|eylul|ekim|kasım|kasim|aralık|aralik|oca|şub|sub|mar|nis|may|haz|tem|ağu|agu|eyl|eki|kas|ara)";
+
+const IMPORT_WEEKDAYS = {
+  pazartesi: 1, salı: 2, sali: 2, çarşamba: 3, carsamba: 3, perşembe: 4, persembe: 4,
+  cuma: 5, cumartesi: 6, pazar: 0, pzt: 1, sal: 2, çar: 3, car: 3, per: 4, cum: 5, cmt: 6, paz: 0,
+};
+
+const SHIFT_WORDS = {
+  sabah: "08–16", sabahçı: "08–16", sabahci: "08–16", gündüz: "08–16", gunduz: "08–16", öğle: "08–16", ogle: "08–16",
+  akşam: "16–24", aksam: "16–24", akşamcı: "16–24", aksamci: "16–24",
+  gece: "24–08", gececi: "24–08", icap: "İcap", idari: "İdari", izinli: "İzinli", izin: "İzinli",
+};
+const ROLE_WORDS = {
+  "asistan radyolog": "Asistan radyolog", radyolog: "Radyolog", "röntgen teknisyeni": "Teknisyen", teknisyen: "Teknisyen",
+  hemşire: "Hemşire", sekreter: "Sekreter", fizikçi: "Fizikçi", öğrenci: "Öğrenci", stajyer: "Öğrenci", başasistan: "Asistan radyolog",
+};
+
+const RANGE_SOURCE = "\\d{1,2}(?:[:.]\\d{1,2})?\\s*(?:-|–|—|~)\\s*\\d{1,2}(?:[:.]\\d{1,2})?";
+const ROLE_SOURCE = "(?:asistan\\s+radyolog|radyolog|röntgen\\s+teknisyeni|teknisyen|hemşire|sekreter|fizikçi|öğrenci|stajyer|başasistan)";
+const DEVICE_SOURCE = "(?:rönt-port|röntgen|rönt-mamo|mamografi|mamograf|ultrason|rönt|usg|mr|bt)";
+const LABEL_SOURCE = "(?:personel|isim|ad\\s+soyad|ekip|nöbetçi|vardiya|saat|tarih|gün|liste)\\s*:";
+const SHIFT_WORD_SOURCE = "(?:sabahçı|akşamcı|gececi|sabah|akşam|gece|gündüz|icap|idari|izinli|izin)";
+const TIME_SOURCE = "\\d{1,2}[:.]\\d{2}";
+const HEADER_RE = /^(tarih|günün|günlük|gün|günler|personel|isim|ad|ad soyad|ekip|vardiya|saat|mesai|kişi|nöbet|nöbetçi|liste|hafta|kadro|program|çizelge|toplam|not|notlar|açıklama|menü|çorba|ana yemek|yardımcı yemek|tatlı|salata|içecek|kahvaltı)(?![a-zçğıöşü])/;
+const STOP_RE = /^(radyoloji|görüntüleme|hastane|departman|servis|poliklinik|toplantı|toplanti|duyuru|eğitim|egitim|seminer|kurul|rapor|tatil|bayram|nöbet| nobet|ekip|kadro|liste|program|çizelge|hafta)$/;
+
+const EXAMPLE_TEAM = `15.11.2026 Cumartesi
+08:00-16:00  Dr. Ayşe Yılmaz (MR), Murat Demir (BT), Ece K. (RÖNT-PORT)
+16:00-24:00  Ali Şahin, Zeynep Ak
+24:00-08:00  Emre Yıldız
+
+16.11.2026 Pazar
+08:00-16:00  Dr. Ayşe Yılmaz (MR)
+16:00-24:00  Murat Demir
+24:00-08:00  Ali Şahin`;
+
+const EXAMPLE_MEAL = `15.11.2026 Cumartesi
+Mercimek çorbası
+Izgara tavuk
+Pirinç pilavı
+Mevsim salatası
+
+16.11.2026 Pazar
+Domates çorbası · Karnıyarık · Bulgur pilavı · Sütlaç`;
+
+let importMode = "team";
+let importResult = null;
+let importTimer = null;
+
+function lowerTr(text) {
+  return String(text ?? "").toLocaleLowerCase("tr");
+}
+
+function blankOut(text, index, length) {
+  return text.slice(0, index) + " ".repeat(length) + text.slice(index + length);
+}
+
+function dateKeyFrom(year, month, day) {
+  if (!Number.isFinite(year) || !Number.isFinite(month) || !Number.isFinite(day)) return "";
+  const date = new Date(year, month - 1, day);
+  if (date.getFullYear() !== year || date.getMonth() !== month - 1 || date.getDate() !== day) return "";
+  return keyOf(date);
+}
+
+/** Metindeki ilk tarihi bulur ve o kısmı boşlukla değiştirir. */
+function takeDate(text, refKey) {
+  const lower = lowerTr(text);
+  const ref = parseKey(refKey);
+  let match = lower.match(/(\d{4})-(\d{1,2})-(\d{1,2})(?:[t ]\d{1,2}[:.]\d{2}(?::\d{2})?)?/);
+  if (match) {
+    const key = dateKeyFrom(Number(match[1]), Number(match[2]), Number(match[3]));
+    if (key) return { key, cleaned: blankOut(text, match.index, match[0].length) };
+  }
+  match = lower.match(/(\d{1,2})[./-](\d{1,2})[./-](\d{4})/);
+  if (match) {
+    const key = dateKeyFrom(Number(match[3]), Number(match[2]), Number(match[1]));
+    if (key) return { key, cleaned: blankOut(text, match.index, match[0].length) };
+  }
+  match = lower.match(new RegExp(`(\\d{1,2})\\s+${MONTH_SOURCE}(?![a-zçğıöşü])(?:\\s+(\\d{4}))?`));
+  if (match) {
+    const month = IMPORT_MONTHS[match[2]];
+    if (month) {
+      const year = match[3] ? Number(match[3]) : ref.getFullYear();
+      const key = dateKeyFrom(year, month, Number(match[1]));
+      if (key) return { key, cleaned: blankOut(text, match.index, match[0].length) };
+    }
+  }
+  match = lower.match(/(?:^|[^\d])(\d{1,2})[./](\d{1,2})(?![\d])/);
+  if (match) {
+    const offset = match[0].search(/\d/);
+    const day = Number(match[1]);
+    const month = Number(match[2]);
+    if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+      let key = dateKeyFrom(ref.getFullYear(), month, day);
+      if (key) {
+        const candidate = parseKey(key);
+        if ((ref - candidate) / 86400000 > 183) key = dateKeyFrom(ref.getFullYear() + 1, month, day) || key;
+        return { key, cleaned: blankOut(text, match.index + offset, match[0].length - offset) };
+      }
+    }
+  }
+  return null;
+}
+
+function takeWeekday(text) {
+  const lower = lowerTr(text);
+  const words = Object.keys(IMPORT_WEEKDAYS).sort((a, b) => b.length - a.length);
+  for (const word of words) {
+    const index = lower.indexOf(word);
+    if (index === -1) continue;
+    const before = index > 0 ? lower[index - 1] : "";
+    const after = lower[index + word.length] || "";
+    if (/[a-zçğıöşü]/.test(before) || /[a-zçğıöşü]/.test(after)) continue;
+    return { day: IMPORT_WEEKDAYS[word], cleaned: blankOut(text, index, word.length) };
+  }
+  return null;
+}
+
+function detectShift(text) {
+  const lower = lowerTr(text).replace(/\s+/g, " ");
+  const regex = new RegExp(RANGE_SOURCE, "g");
+  let match;
+  while ((match = regex.exec(lower))) {
+    const before = match.index > 0 ? lower[match.index - 1] : "";
+    if (/[\d./:]/.test(before)) continue;
+    const pieces = match[0].split(/\s*(?:-|–|—|~)\s*/);
+    if (pieces.length < 2) continue;
+    const start = Number(pieces[0].split(/[:.]/)[0]);
+    const end = Number(pieces[1].split(/[:.]/)[0]);
+    if (!Number.isFinite(start) || !Number.isFinite(end) || start > 24 || end > 24 || start === end) continue;
+    return shiftLabel(start, end);
+  }
+  const single = lower.match(/(?:^|[\s(])(\d{1,2})[:.](\d{2})(?![\d])/);
+  if (single) {
+    const hour = Number(single[1]);
+    const mapped = { 8: "08–16", 16: "16–24", 24: "24–08", 0: "24–08" }[hour];
+    if (mapped) return mapped;
+  }
+  const words = Object.keys(SHIFT_WORDS).sort((a, b) => b.length - a.length);
+  for (const word of words) {
+    const index = lower.indexOf(word);
+    if (index === -1) continue;
+    const before = index > 0 ? lower[index - 1] : "";
+    const after = lower[index + word.length] || "";
+    if (/[a-zçğıöşü]/.test(before) || /[a-zçğıöşü]/.test(after)) continue;
+    return SHIFT_WORDS[word];
+  }
+  return "";
+}
+
+function shiftLabel(start, end) {
+  const from = start === 24 ? 0 : start;
+  const to = end === 24 ? 0 : end;
+  if (from === 8 && to === 16) return "08–16";
+  if (from === 16 && to === 0) return "16–24";
+  if (from === 0 && to === 8) return "24–08";
+  return `${pad(start)}–${pad(end)}`;
+}
+
+function detectDevice(text) {
+  const lower = lowerTr(text);
+  const regex = new RegExp(DEVICE_SOURCE, "g");
+  let match;
+  while ((match = regex.exec(lower))) {
+    const before = match.index > 0 ? lower[match.index - 1] : "";
+    const after = lower[match.index + match[0].length] || "";
+    if (/[a-zçğıöşü]/.test(before) || /[a-zçğıöşü]/.test(after)) continue;
+    return match[0].toLocaleUpperCase("tr-TR");
+  }
+  return "";
+}
+
+function detectRole(text) {
+  const lower = lowerTr(text);
+  const words = Object.keys(ROLE_WORDS).sort((a, b) => b.length - a.length);
+  for (const word of words) {
+    const index = lower.indexOf(word);
+    if (index === -1) continue;
+    const before = index > 0 ? lower[index - 1] : "";
+    const after = lower[index + word.length] || "";
+    if (/[a-zçğıöşü]/.test(before) || /[a-zçğıöşü]/.test(after)) continue;
+    return ROLE_WORDS[word];
+  }
+  return "";
+}
+
+/** Metinden belirli kalıpları boşlukla siler; Türkçe küçültme uzunluğu korur. */
+function removeMatches(text, source) {
+  const lower = lowerTr(text);
+  const regex = new RegExp(source, "g");
+  let result = "";
+  let last = 0;
+  let match;
+  while ((match = regex.exec(lower))) {
+    if (!match[0].length) {
+      regex.lastIndex += 1;
+      continue;
+    }
+    result += text.slice(last, match.index) + " ".repeat(match[0].length);
+    last = match.index + match[0].length;
+  }
+  return result + text.slice(last);
+}
+
+/** Tek satırda birden fazla vardiya varsa (08-16 Ayşe 16-24 Ali) dilimlere ayırır. */
+function shiftSegments(line) {
+  const regex = new RegExp(RANGE_SOURCE, "g");
+  const matches = [];
+  let match;
+  while ((match = regex.exec(line))) {
+    const before = match.index > 0 ? line[match.index - 1] : "";
+    if (/[\d./:]/.test(before)) continue;
+    matches.push({ index: match.index });
+  }
+  if (matches.length < 2) return null;
+  return matches.map((item, position) => {
+    const start = item.index;
+    const stop = position + 1 < matches.length ? matches[position + 1].index : line.length;
+    return line.slice(start, stop);
+  });
+}
+
+function looksLikePerson(text) {
+  if (!text || text.length < 2 || text.length > 60) return false;
+  if (!/[a-zçğıöşü]/i.test(text)) return false;
+  const lower = lowerTr(text);
+  if (HEADER_RE.test(lower)) return false;
+  if (STOP_RE.test(lower)) return false;
+  return true;
+}
+
+const TR_LETTERS = "a-zçğıöşü";
+
+/** Türkçe harfler  ile sınır sayılmadığı için kendi sınır kontrolümüz. */
+function boundedSource(source) {
+  return `(?<![${TR_LETTERS}])${source}(?![${TR_LETTERS}])`;
+}
+
+function splitPersonPieces(text) {
+  return text.split(/\s*(?:[,;|]|\s\/\s|\s\+\s|\s&\s|\bile\b|\bve\b)\s*|\s{2,}/i);
+}
+
+function cleanPersonPiece(piece) {
+  return piece
+    .replace(/^[\s\-–—•*·→>):;,]+/, "")
+    .replace(/^\d+[.)]\s*/, "")
+    .replace(/[\s:;.]+$/, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+function extractPeople(text) {
+  const lineRole = detectRole(text);
+  const lineDevice = detectDevice(text);
+  const details = [];
+  for (const raw of splitPersonPieces(text)) {
+    if (!raw.trim()) continue;
+    const role = detectRole(raw) || lineRole;
+    const device = detectDevice(raw) || lineDevice;
+    let work = removeMatches(raw, RANGE_SOURCE);
+    work = removeMatches(work, boundedSource(TIME_SOURCE));
+    work = removeMatches(work, boundedSource(ROLE_SOURCE));
+    work = removeMatches(work, boundedSource(DEVICE_SOURCE));
+    work = removeMatches(work, boundedSource(SHIFT_WORD_SOURCE));
+    work = removeMatches(work, LABEL_SOURCE);
+    work = work.replace(/\([^)]*\)/g, " ");
+    const name = cleanPersonPiece(work);
+    if (looksLikePerson(name)) details.push({ name, role, device });
+  }
+  return { names: details.map((item) => item.name), details, role: lineRole, device: lineDevice };
+}
+
+function addParsedMember(groups, dateKey, member) {
+  const list = groups.get(dateKey) || [];
+  const exists = list.some((item) => item.name === member.name && item.shift === member.shift);
+  if (!exists) {
+    list.push({ name: member.name, role: member.role || "", shift: member.shift || "", note: member.note || "" });
+    groups.set(dateKey, list);
+  }
+}
+
+function weekdayDate(refKey, day) {
+  const date = parseKey(refKey);
+  const offset = (date.getDay() + 6) % 7;
+  const monday = addDays(refKey, -offset);
+  return addDays(monday, (day + 6) % 7);
+}
+
+function tableSeparator(lines) {
+  if (lines.some((line) => line.includes("\t"))) return "\t";
+  if (lines.filter((line) => line.split(";").length >= 3).length >= 2) return ";";
+  return "";
+}
+
+function rowDate(row, index, weekRef) {
+  const cell = row[index] || "";
+  const dateInfo = takeDate(cell, weekRef);
+  if (dateInfo) return dateInfo.key;
+  const weekday = takeWeekday(cell);
+  if (weekday) return weekdayDate(weekRef, weekday.day);
+  return "";
+}
+
+function rowDateAnywhere(row, weekRef) {
+  for (const cell of row) {
+    const dateInfo = takeDate(cell, weekRef);
+    if (dateInfo) return dateInfo.key;
+    const weekday = takeWeekday(cell);
+    if (weekday) return weekdayDate(weekRef, weekday.day);
+  }
+  return "";
+}
+
+function parseTeamTable(lines, refKey, weekOffset) {
+  const separator = tableSeparator(lines);
+  if (!separator) return null;
+  const weekRef = addDays(refKey, (weekOffset || 0) * 7);
+  const rows = lines.map((line) => line.split(separator).map((cell) => cell.trim())).filter((row) => row.some(Boolean));
+  if (rows.length < 2) return null;
+
+  const groups = new Map();
+  const header = rows[0];
+  const headerShifts = header.map((cell) => detectShift(cell));
+  const headerDevices = header.map((cell) => detectDevice(cell));
+  const hasColumnMeta = headerShifts.some(Boolean) || headerDevices.some(Boolean);
+  const looksHeader = header.some((cell) => HEADER_RE.test(lowerTr(cell))) || hasColumnMeta;
+  const dataRows = looksHeader ? rows.slice(1) : rows;
+  if (!dataRows.length) return null;
+
+  if (hasColumnMeta) {
+    const dateCol = Math.max(0, header.findIndex((cell) => /tarih|gün/.test(lowerTr(cell))));
+    const metaCols = header.map((_, index) => index).filter((index) => headerShifts[index] || headerDevices[index]);
+    for (const row of dataRows) {
+      const dateKey = rowDate(row, dateCol, weekRef) || rowDateAnywhere(row, weekRef);
+      if (!dateKey) continue;
+      const rowShift = detectShift(row.filter((_, index) => index !== dateCol).join(" "));
+      for (const index of metaCols) {
+        if (index === dateCol) continue;
+        const people = extractPeople(row[index] || "");
+        for (const person of people.details) {
+          addParsedMember(groups, dateKey, {
+            name: person.name,
+            role: person.role,
+            shift: headerShifts[index] || rowShift || "",
+            note: headerDevices[index] || person.device || "",
+          });
+        }
+      }
+    }
+    return groups.size ? groups : null;
+  }
+
+  const dateCol = header.findIndex((cell) => /tarih|gün/.test(lowerTr(cell)));
+  const shiftCol = header.findIndex((cell) => /vardiya|saat|mesai/.test(lowerTr(cell)));
+  const nameCols = header.map((cell, index) => (/personel|isim|ad|ekip|kişi/.test(lowerTr(cell)) ? index : -1)).filter((index) => index >= 0);
+  const useHeader = dateCol >= 0 || shiftCol >= 0 || nameCols.length > 0;
+
+  for (const row of useHeader ? rows.slice(1) : rows) {
+    const dateKey = rowDate(row, useHeader && dateCol >= 0 ? dateCol : 0, weekRef) || rowDateAnywhere(row, weekRef);
+    if (!dateKey) continue;
+    const shift = useHeader && shiftCol >= 0 ? detectShift(row[shiftCol] || "") : detectShift(row.join(" "));
+    const first = useHeader && dateCol >= 0 ? dateCol : 0;
+    const cols = useHeader && nameCols.length ? nameCols : row.map((_, index) => index).filter((index) => index !== first && index !== shiftCol);
+    for (const index of cols) {
+      const cell = row[index] || "";
+      if (!cell) continue;
+      const people = extractPeople(cell);
+      for (const person of people.details) {
+        addParsedMember(groups, dateKey, { name: person.name, role: person.role, shift: shift || "", note: person.device });
+      }
+    }
+  }
+  return groups.size ? groups : null;
+}
+
+function parseTeamLines(lines, refKey, weekOffset, skipped) {
+  const weekRef = addDays(refKey, (weekOffset || 0) * 7);
+  const groups = new Map();
+  let currentDate = "";
+  let currentShift = "";
+
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (/^[-=_*•·\s]+$/.test(line)) continue;
+
+    let work = line;
+    const dateInfo = takeDate(work, weekRef);
+    if (dateInfo) work = dateInfo.cleaned;
+    const weekdayInfo = takeWeekday(work);
+    if (weekdayInfo) work = weekdayInfo.cleaned;
+
+    const date = dateInfo ? dateInfo.key : weekdayInfo ? weekdayDate(weekRef, weekdayInfo.day) : "";
+    const shift = detectShift(work);
+    const segments = shiftSegments(work);
+
+    if (date) {
+      currentDate = date;
+      currentShift = segments ? "" : shift || "";
+    }
+
+    if (segments) {
+      const target = currentDate || refKey;
+      for (const segment of segments) {
+        const segmentShift = detectShift(segment) || currentShift;
+        const people = extractPeople(segment);
+        for (const person of people.details) {
+          addParsedMember(groups, target, { name: person.name, role: person.role, shift: segmentShift, note: person.device });
+        }
+      }
+      continue;
+    }
+
+    const people = extractPeople(work);
+    if (!people.names.length) {
+      if (!date && shift) currentShift = shift;
+      else if (!date && !shift) skipped.push(line);
+      continue;
+    }
+
+    const target = currentDate || refKey;
+    const memberShift = shift || currentShift;
+    for (const person of people.details) {
+      addParsedMember(groups, target, { name: person.name, role: person.role, shift: memberShift, note: person.device });
+    }
+  }
+
+  return groups;
+}
+
+function parseTeamText(text, refKey, weekOffset) {
+  const lines = String(text).replace(/\r\n?/g, "\n").split("\n").map((line) => line.replace(/\u00a0/g, " "));
+  const skipped = [];
+  let groups = null;
+  if (tableSeparator(lines)) groups = parseTeamTable(lines, refKey, weekOffset);
+  if (!groups || !groups.size) groups = parseTeamLines(lines, refKey, weekOffset, skipped);
+  return { mode: "team", groups: groups || new Map(), skipped };
+}
+
+function cleanDish(line) {
+  return line
+    .replace(/^[\s\-–—•*·→>):;,]+/, "")
+    .replace(/^\d+[.)]\s*/, "")
+    .replace(/\s*(?:·|\|)\s*/g, "\n")
+    .replace(/,\s*/g, "\n")
+    .replace(/[\s:;]+$/, "")
+    .trim();
+}
+
+function parseMealTable(lines, refKey, weekOffset) {
+  const separator = tableSeparator(lines);
+  if (!separator) return null;
+  const weekRef = addDays(refKey, (weekOffset || 0) * 7);
+  const rows = lines.map((line) => line.split(separator).map((cell) => cell.trim())).filter((row) => row.some(Boolean));
+  if (rows.length < 2) return null;
+  const groups = new Map();
+  const header = rows[0];
+  const hasHeader = header.some((cell) => /tarih|gün|menü|çorba/.test(lowerTr(cell)));
+  const dateCol = hasHeader ? Math.max(0, header.findIndex((cell) => /tarih|gün/.test(lowerTr(cell)))) : 0;
+  for (const row of hasHeader ? rows.slice(1) : rows) {
+    const dateKey = rowDate(row, dateCol, weekRef) || rowDateAnywhere(row, weekRef);
+    if (!dateKey) continue;
+    const dishes = row
+      .filter((_, index) => index !== dateCol)
+      .flatMap((cell) => cleanDish(cell).split("\n"))
+      .map((dish) => dish.trim())
+      .filter(Boolean);
+    if (!dishes.length) continue;
+    groups.set(dateKey, (groups.get(dateKey) || []).concat(dishes));
+  }
+  return groups.size ? groups : null;
+}
+
+function parseMealLines(lines, refKey, weekOffset) {
+  const weekRef = addDays(refKey, (weekOffset || 0) * 7);
+  const groups = new Map();
+  const loose = [];
+  const skipped = [];
+  let currentDate = "";
+
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (/^[-=_*•·\s]+$/.test(line)) continue;
+
+    let work = line;
+    const dateInfo = takeDate(work, weekRef);
+    if (dateInfo) work = dateInfo.cleaned;
+    const weekdayInfo = takeWeekday(work);
+    if (weekdayInfo) work = weekdayInfo.cleaned;
+    const date = dateInfo ? dateInfo.key : weekdayInfo ? weekdayDate(weekRef, weekdayInfo.day) : "";
+    if (date) currentDate = date;
+
+    const dishes = cleanDish(work).split("\n").map((dish) => dish.trim()).filter(Boolean);
+    if (!dishes.length) continue;
+    if (currentDate) {
+      groups.set(currentDate, (groups.get(currentDate) || []).concat(dishes));
+    } else {
+      loose.push(...dishes);
+    }
+  }
+
+  if (!groups.size) {
+    if (!loose.length) return { mode: "meal", groups: new Map(), skipped };
+    return { mode: "meal", groups: new Map([[refKey, loose]]), skipped };
+  }
+  return { mode: "meal", groups, skipped };
+}
+
+function parseMealText(text, refKey, weekOffset) {
+  const lines = String(text).replace(/\r\n?/g, "\n").split("\n").map((line) => line.replace(/\u00a0/g, " "));
+  let groups = null;
+  if (tableSeparator(lines)) groups = parseMealTable(lines, refKey, weekOffset);
+  if (!groups || !groups.size) {
+    const parsed = parseMealLines(lines, refKey, weekOffset);
+    groups = parsed.groups;
+    return { mode: "meal", groups, skipped: parsed.skipped };
+  }
+  return { mode: "meal", groups, skipped: [] };
+}
+
+function parseImport(text, mode, refKey, weekOffset) {
+  return mode === "meal" ? parseMealText(text, refKey, weekOffset) : parseTeamText(text, refKey, weekOffset);
+}
+
+/* ---------- İçe aktarma arayüzü ---------- */
+function importEmptyPreview() {
+  return '<p class="import-empty">Listeyi yapıştırın; önizleme burada görünecek.</p>';
+}
+
+function updateImportModeUi() {
+  document.querySelectorAll("[data-import-mode]").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.importMode === importMode);
+    button.setAttribute("aria-pressed", String(button.dataset.importMode === importMode));
+  });
+  el("import-title").textContent = importMode === "team" ? "Ekip listesini içe aktar" : "Yemek listesini içe aktar";
+  el("import-hint").textContent =
+    importMode === "team"
+      ? "Excel, Word veya WhatsApp'tan kopyalayıp yapıştırın. Tarih, vardiya, isim ve cihaz otomatik ayrılır; gün adları seçili haftaya göre yorumlanır."
+      : "Tarih satırları ve altındaki yemekler ayrıştırılır. Tarih yoksa menü seçili güne yazılır.";
+  el("import-replace-label").textContent = importMode === "team" ? "Bu günlerdeki mevcut ekibi sil" : "Aynı günlerin menüsünün üzerine yaz";
+  el("import-replace").checked = importMode === "meal";
+}
+
+function openImport(mode) {
+  importMode = mode === "meal" ? "meal" : "team";
+  importResult = null;
+  el("import-text").value = "";
+  el("import-preview").innerHTML = importEmptyPreview();
+  el("import-apply").disabled = true;
+  el("import-apply").textContent = "İçe aktar";
+  el("import-week").value = "0";
+  updateImportModeUi();
+  openDialog(el("import-dialog"));
+  setTimeout(() => el("import-text").focus(), 80);
+}
+
+function renderImportPreview() {
+  const text = el("import-text").value;
+  const box = el("import-preview");
+  const apply = el("import-apply");
+
+  if (!text.trim()) {
+    importResult = null;
+    box.innerHTML = importEmptyPreview();
+    apply.disabled = true;
+    apply.textContent = "İçe aktar";
+    return;
+  }
+
+  const weekOffset = Number(el("import-week").value) || 0;
+  const parsed = parseImport(text, importMode, selected, weekOffset);
+  importResult = { ...parsed, replace: el("import-replace").checked };
+  const dates = [...parsed.groups.keys()].sort();
+
+  if (!dates.length) {
+    importResult = null;
+    box.innerHTML = `<p class="import-empty">Listeden tarih veya isim çıkarılamadı. Satırları kontrol edin ya da örnek biçime bakın.</p>${
+      parsed.skipped.length ? `<p class="import-skip">Atlanan: ${esc(parsed.skipped.slice(0, 2).join(" · "))}</p>` : ""
+    }`;
+    apply.disabled = true;
+    apply.textContent = "İçe aktar";
+    return;
+  }
+
+  let total = 0;
+  let html = "";
+  const MAX_DAYS = 8;
+  for (const date of dates.slice(0, MAX_DAYS)) {
+    const items = parsed.groups.get(date);
+    if (importMode === "team") {
+      total += items.length;
+      const chips = items
+        .slice(0, 10)
+        .map((member) => `<span class="import-chip">${member.shift ? `<b>${esc(member.shift)}</b>` : ""}${esc(member.name)}${member.note ? ` <span class="import-empty">· ${esc(member.note)}</span>` : ""}</span>`)
+        .join("");
+      const more = items.length > 10 ? `<span class="import-chip">+${items.length - 10}</span>` : "";
+      html += `<div class="import-day"><div class="import-day-head">${esc(longDate(date))} ${esc(weekdayOf(date))}<span>${items.length} kişi</span></div><div class="import-chips">${chips}${more}</div></div>`;
+    } else {
+      total += items.length;
+      html += `<div class="import-day"><div class="import-day-head">${esc(longDate(date))} ${esc(weekdayOf(date))}<span>${items.length} satır</span></div><p class="import-meal">${esc(items.join("\n"))}</p></div>`;
+    }
+  }
+  const rest = dates.length - MAX_DAYS;
+  if (rest > 0) html += `<p class="import-empty">… ve ${rest} gün daha</p>`;
+
+  const summary =
+    importMode === "team"
+      ? `${dates.length} gün · ${total} kişi`
+      : `${dates.length} gün · ${total} yemek satırı`;
+  const skipped = parsed.skipped.length ? ` · ${parsed.skipped.length} satır atlandı` : "";
+  box.innerHTML = `<p class="import-summary">${esc(summary)}<span>${esc(skipped)}</span></p>${html}${
+    parsed.skipped.length ? `<details><summary class="import-skip">Atlanan satırlar</summary><p class="import-skip">${esc(parsed.skipped.slice(0, 6).join("\n"))}</p></details>` : ""
+  }`;
+  apply.disabled = false;
+  apply.textContent =
+    importMode === "team" ? `İçe aktar (${total} kişi)` : `İçe aktar (${dates.length} gün)`;
+}
+
+function applyImport() {
+  if (!importResult) return;
+  const { mode, groups } = importResult;
+  const replace = el("import-replace").checked;
+  const dates = [...groups.keys()].sort();
+  if (!dates.length) return;
+
+  let added = 0;
+  let days = 0;
+  const firstDate = dates[0];
+
+  if (mode === "team") {
+    for (const date of dates) {
+      const day = ensureDay(date);
+      if (replace) day.team = [];
+      let touched = false;
+      for (const member of groups.get(date)) {
+        if (day.team.some((item) => item.name === member.name && item.shift === member.shift)) continue;
+        day.team.push({ id: uid(), name: member.name, role: member.role, shift: member.shift, phone: "", note: member.note });
+        added += 1;
+        touched = true;
+      }
+      if (touched || (replace && day.team.length)) days += 1;
+    }
+    if (!added && !replace) {
+      toast("Yeni kişi yok; liste zaten panoda.", true);
+      return;
+    }
+  } else {
+    for (const date of dates) {
+      const day = ensureDay(date);
+      if (!replace && day.meal.text.trim()) continue;
+      const text = groups.get(date).join("\n").trim();
+      if (!text) continue;
+      day.meal = { text, updatedAt: Date.now() };
+      added += groups.get(date).length;
+      days += 1;
+    }
+    if (!days) {
+      toast("Mevcut menüler korundu; üzerine yazmak için kutuyu işaretleyin.", true);
+      return;
+    }
+  }
+
+  save();
+  render();
+  setDate(firstDate);
+  closeDialog(el("import-dialog"));
+  toast(
+    mode === "team"
+      ? `${added} kişi ${days} güne eklendi.`
+      : `${days} günün menüsü kaydedildi.`,
+  );
+}
+
+async function handleImportFile(event) {
+  const file = event.target.files && event.target.files[0];
+  event.target.value = "";
+  if (!file) return;
+  try {
+    const text = await readImportFile(file);
+    if (!text || !text.trim()) {
+      toast("Dosyadan metin okunamadı.", true);
+      return;
+    }
+    el("import-text").value = text;
+    renderImportPreview();
+    toast("Dosya okundu; önizlemeyi kontrol edin.");
+  } catch (error) {
+    toast("Dosya okunamadı. Listeyi kopyalayıp yapıştırın (.xlsx/.docx dışındaki dosyalar desteklenmez).", true);
+  }
+}
+
+async function readImportFile(file) {
+  const name = lowerTr(file.name);
+  if (name.endsWith(".xlsx") || name.endsWith(".docx")) {
+    return readOfficeText(await file.arrayBuffer(), name.endsWith(".docx") ? "docx" : "xlsx");
+  }
+  return file.text();
+}
+
+
+/* ---------- Excel (.xlsx) ve Word (.docx) okuma ---------- */
+async function inflateRaw(data) {
+  if (typeof DecompressionStream !== "function") throw new Error("sıkıştırma desteği yok");
+  const stream = new DecompressionStream("deflate-raw");
+  const writer = stream.writable.getWriter();
+  await writer.write(data);
+  await writer.close();
+  const reader = stream.readable.getReader();
+  const chunks = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    total += value.length;
+  }
+  const out = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) {
+    out.set(chunk, offset);
+    offset += chunk.length;
+  }
+  return out;
+}
+
+async function unzipEntries(buffer) {
+  const bytes = new Uint8Array(buffer);
+  const view = new DataView(bytes.buffer);
+  let eocd = -1;
+  for (let index = bytes.length - 22; index >= Math.max(0, bytes.length - 65558); index -= 1) {
+    if (view.getUint32(index, true) === 0x06054b50) {
+      eocd = index;
+      break;
+    }
+  }
+  if (eocd < 0) throw new Error("zip değil");
+  const count = view.getUint16(eocd + 10, true);
+  const directoryOffset = view.getUint32(eocd + 16, true);
+  const entries = new Map();
+  let pointer = directoryOffset;
+  for (let index = 0; index < count; index += 1) {
+    if (view.getUint32(pointer, true) !== 0x02014b50) break;
+    const method = view.getUint16(pointer + 10, true);
+    const compressedSize = view.getUint32(pointer + 20, true);
+    const nameLength = view.getUint16(pointer + 28, true);
+    const extraLength = view.getUint16(pointer + 30, true);
+    const commentLength = view.getUint16(pointer + 32, true);
+    const localOffset = view.getUint32(pointer + 42, true);
+    const name = new TextDecoder().decode(bytes.subarray(pointer + 46, pointer + 46 + nameLength));
+    const localNameLength = view.getUint16(localOffset + 26, true);
+    const localExtraLength = view.getUint16(localOffset + 28, true);
+    const start = localOffset + 30 + localNameLength + localExtraLength;
+    entries.set(name, { method, data: bytes.subarray(start, start + compressedSize) });
+    pointer += 46 + nameLength + extraLength + commentLength;
+  }
+  if (!entries.size) throw new Error("boş zip");
+  return {
+    has: (name) => entries.has(name),
+    names: () => [...entries.keys()],
+    text: async (name) => {
+      const entry = entries.get(name);
+      if (!entry) return "";
+      const raw = entry.method === 0 ? entry.data : await inflateRaw(entry.data);
+      return new TextDecoder().decode(raw);
+    },
+  };
+}
+
+function parseXml(text) {
+  const doc = new DOMParser().parseFromString(text, "application/xml");
+  if (!doc || doc.getElementsByTagName("parsererror").length) throw new Error("xml okunamadı");
+  return doc;
+}
+
+function xmlText(element) {
+  return [...element.getElementsByTagName("t")].map((node) => node.textContent || "").join("");
+}
+
+function columnIndex(reference) {
+  const letters = String(reference).replace(/\d+/g, "").toUpperCase();
+  let value = 0;
+  for (const letter of letters) value = value * 26 + (letter.charCodeAt(0) - 64);
+  return Math.max(0, value - 1);
+}
+
+function formatExcelDate(serial) {
+  const days = Math.floor(serial);
+  const fraction = serial - days;
+  const date = new Date(Date.UTC(1899, 11, 30) + days * 86400000);
+  let text = `${pad(date.getUTCDate())}.${pad(date.getUTCMonth() + 1)}.${date.getUTCFullYear()}`;
+  if (fraction > 0.0001) {
+    const minutes = Math.round(fraction * 1440);
+    text += ` ${pad(Math.floor(minutes / 60) % 24)}:${pad(minutes % 60)}`;
+  }
+  return text;
+}
+
+async function readDateStyles(zip) {
+  const builtin = new Set([14, 15, 16, 17, 18, 19, 20, 21, 22, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 45, 46, 47, 50, 51, 52, 53, 54, 55, 56, 57, 58]);
+  if (!zip.has("xl/styles.xml")) return { isDate: () => false };
+  try {
+    const doc = parseXml(await zip.text("xl/styles.xml"));
+    const custom = new Map();
+    for (const format of doc.getElementsByTagName("numFmt")) {
+      const id = Number(format.getAttribute("numFmtId"));
+      const code = String(format.getAttribute("formatCode") || "")
+        .replace(/"[^"]*"/g, "")
+        .replace(/\[[^\]]*\]/g, "");
+      custom.set(id, /[dmy]/i.test(code));
+    }
+    const styles = [];
+    const cellXfs = doc.getElementsByTagName("cellXfs")[0];
+    if (cellXfs) {
+      for (const xf of cellXfs.getElementsByTagName("xf")) styles.push(Number(xf.getAttribute("numFmtId")));
+    }
+    return {
+      isDate(styleIndex) {
+        const id = styles[styleIndex];
+        if (!Number.isFinite(id)) return false;
+        if (builtin.has(id)) return true;
+        return custom.get(id) === true;
+      },
+    };
+  } catch (error) {
+    return { isDate: () => false };
+  }
+}
+
+function readSheetCell(cell, sharedStrings, dateStyles) {
+  const type = cell.getAttribute("t") || "";
+  if (type === "inlineStr") return xmlText(cell);
+  const valueNode = cell.getElementsByTagName("v")[0];
+  const raw = valueNode ? valueNode.textContent || "" : "";
+  if (type === "s") {
+    const index = Number(raw);
+    return Number.isFinite(index) ? sharedStrings[index] || "" : "";
+  }
+  if (type === "b") return raw === "1" ? "TRUE" : raw === "0" ? "FALSE" : raw;
+  if (type === "str") return raw;
+  if (!raw) return "";
+  const numeric = Number(raw);
+  if (Number.isFinite(numeric)) {
+    const styleIndex = Number(cell.getAttribute("s"));
+    if (Number.isFinite(styleIndex) && dateStyles.isDate(styleIndex) && numeric > 0) return formatExcelDate(numeric);
+  }
+  return raw;
+}
+
+function rowsToText(rows) {
+  const lines = [];
+  for (const row of rows) {
+    const cells = row.map((value) => String(value == null ? "" : value).replace(/\t/g, " ").replace(/\r?\n/g, " "));
+    while (cells.length && !cells[cells.length - 1]) cells.pop();
+    if (!cells.length) continue;
+    lines.push(cells.join("\t"));
+  }
+  return lines.join("\n");
+}
+
+async function readXlsx(buffer) {
+  const zip = await unzipEntries(buffer);
+  const sharedStrings = [];
+  if (zip.has("xl/sharedStrings.xml")) {
+    try {
+      const doc = parseXml(await zip.text("xl/sharedStrings.xml"));
+      for (const item of doc.getElementsByTagName("si")) sharedStrings.push(xmlText(item));
+    } catch (error) {
+      /* paylaşılan metin yoksa hücreler kendi değerini taşır */
+    }
+  }
+  const dateStyles = await readDateStyles(zip);
+
+  let sheetPath = "xl/worksheets/sheet1.xml";
+  if (!zip.has(sheetPath)) {
+    const candidate = zip.names().find((name) => /^xl\/worksheets\/sheet\d+\.xml$/.test(name));
+    if (candidate) sheetPath = candidate;
+  }
+  if (zip.has("xl/workbook.xml") && zip.has("xl/_rels/workbook.xml.rels")) {
+    try {
+      const workbook = parseXml(await zip.text("xl/workbook.xml"));
+      const rels = parseXml(await zip.text("xl/_rels/workbook.xml.rels"));
+      const sheet = workbook.getElementsByTagName("sheet")[0];
+      const relationId = sheet && (sheet.getAttribute("r:id") || sheet.getAttributeNS("http://schemas.openxmlformats.org/officeDocument/2006/relationships", "id"));
+      if (relationId) {
+        const relation = [...rels.getElementsByTagName("Relationship")].find((node) => node.getAttribute("Id") === relationId);
+        const target = relation && relation.getAttribute("Target");
+        if (target) {
+          const normalized = target.startsWith("/") ? target.slice(1) : `xl/${target}`;
+          if (zip.has(normalized)) sheetPath = normalized;
+        }
+      }
+    } catch (error) {
+      /* ilk çalışma sayfasıyla devam */
+    }
+  }
+
+  const sheet = parseXml(await zip.text(sheetPath));
+  const rows = [];
+  for (const row of sheet.getElementsByTagName("row")) {
+    const cells = [];
+    for (const cell of row.getElementsByTagName("c")) {
+      const reference = cell.getAttribute("r") || "";
+      const index = reference ? columnIndex(reference) : cells.length;
+      cells[index] = readSheetCell(cell, sharedStrings, dateStyles);
+    }
+    rows.push(cells.map((value) => (value == null ? "" : value)));
+  }
+  return rowsToText(rows);
+}
+
+async function readDocx(buffer) {
+  const zip = await unzipEntries(buffer);
+  let xml = await zip.text("word/document.xml");
+  if (!xml) throw new Error("Word belgesi okunamadı");
+  xml = xml
+    .replace(/<w:tab\b[^>]*\/>/g, "\t")
+    .replace(/<w:br\b[^>]*\/>/g, "\n")
+    .replace(/<\/w:tc>/g, "\t")
+    .replace(/<\/w:tr>/g, "\n")
+    .replace(/<\/w:p>/g, "\n")
+    .replace(/<[^>]+>/g, "");
+  xml = xml
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, "&");
+  return xml.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+async function readOfficeText(buffer, type) {
+  if (typeof DOMParser !== "function") throw new Error("tarayıcı desteği yok");
+  return type === "docx" ? readDocx(buffer) : readXlsx(buffer);
+}
+
 /* ---------- Diyaloglar ---------- */
 let confirmResolver = null;
 function askConfirm({ title = "Emin misiniz?", text = "", ok = "Sil" } = {}) {
@@ -841,6 +1785,30 @@ function bindEvents() {
 
   el("add-member").addEventListener("click", () => openMemberDialog(null));
   el("sync-shift").addEventListener("click", importShiftTeam);
+
+  el("import-team").addEventListener("click", () => openImport("team"));
+  el("import-meal").addEventListener("click", () => openImport("meal"));
+  document.querySelectorAll("[data-import-mode]").forEach((button) => {
+    button.addEventListener("click", () => {
+      importMode = button.dataset.importMode === "meal" ? "meal" : "team";
+      updateImportModeUi();
+      renderImportPreview();
+    });
+  });
+  el("import-text").addEventListener("input", () => {
+    clearTimeout(importTimer);
+    importTimer = setTimeout(renderImportPreview, 300);
+  });
+  el("import-week").addEventListener("change", () => {
+    clearTimeout(importTimer);
+    importTimer = setTimeout(renderImportPreview, 50);
+  });
+  el("import-example").addEventListener("click", () => {
+    el("import-text").value = importMode === "team" ? EXAMPLE_TEAM : EXAMPLE_MEAL;
+    renderImportPreview();
+  });
+  el("import-apply").addEventListener("click", applyImport);
+  el("import-file").addEventListener("change", handleImportFile);
 
   el("copy-team").addEventListener("click", () => {
     const previous = state.days[addDays(selected, -1)];
