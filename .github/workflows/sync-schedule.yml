@@ -2,8 +2,9 @@ name: Çizelgeyi senkronla
 
 on:
   schedule:
-    # Her gün 04:30 UTC = 07:30 (Türkiye)
-    - cron: "30 4 * * *"
+    # Her pazar 21:00 (Türkiye, UTC+3) = 18:00 UTC
+    # Liste cumartesi günü kesinleştiği için haftada bir yeterli.
+    - cron: "0 18 * * 0"
   workflow_dispatch:
 
 permissions:
