@@ -5,18 +5,6 @@
     "title": "Günün Panosu",
     "dept": "Radyoloji"
   },
-  "links": [
-    {
-      "id": "pacs",
-      "label": "PACS",
-      "url": ""
-    },
-    {
-      "id": "grup",
-      "label": "Ekip grubu",
-      "url": ""
-    }
-  ],
   "days": {
     "2026-11-11": {
       "team": [
@@ -1059,5 +1047,6 @@
     "text": "",
     "tone": "info",
     "updatedAt": 0
-  }
+  },
+  "directory": []
 }

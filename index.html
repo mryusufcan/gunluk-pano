@@ -127,12 +127,15 @@
           <div class="panel">
             <div class="panel-head">
               <div>
-                <h2>Hızlı erişim</h2>
-                <p class="panel-hint">PACS, RIS veya ekip grubu.</p>
+                <h2>Telefon rehberi</h2>
+                <p class="panel-hint">Dahili numaralar; isim veya numara yazarak arayın.</p>
               </div>
-              <button id="edit-links" class="link-btn admin-only" type="button">Düzenle</button>
+              <span class="pill soft" id="directory-count" hidden></span>
             </div>
-            <div id="quick-links" class="quick-links"></div>
+            <label class="search-field">
+              <input id="directory-search" type="search" placeholder="Ara: isim, birim veya numara" autocomplete="off" aria-label="Rehberde ara" />
+            </label>
+            <div id="directory-list" class="directory-list"></div>
           </div>
         </section>
 
@@ -212,10 +215,10 @@
           </div>
 
           <div class="panel admin-only">
-            <div class="panel-head"><div><h2>Hızlı erişim bağlantıları</h2><p class="panel-hint">Adres boşsa panoda görünmez.</p></div></div>
-            <div id="link-editor"></div>
+            <div class="panel-head"><div><h2>Telefon rehberi</h2><p class="panel-hint">Ad zorunlu; numara ve birim isteğe bağlı. Boş satır yayınlanmaz.</p></div></div>
+            <div id="directory-editor"></div>
             <div class="panel-actions">
-              <button id="add-link" class="btn secondary" type="button">Bağlantı ekle</button>
+              <button id="add-directory" class="btn secondary" type="button">Satır ekle</button>
             </div>
           </div>
 

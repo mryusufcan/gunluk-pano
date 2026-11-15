@@ -35,7 +35,10 @@ function baseContent() {
     version: 1,
     updatedAt: "2026-11-15T18:00:00.000Z",
     settings: { title: "Radyoloji Panosu", dept: "Görüntüleme" },
-    links: [{ id: "pacs", label: "PACS", url: "https://pacs.example/" }],
+    directory: [
+      { id: "d1", name: "Radyoloji Sekreterliği", phone: "1234", unit: "Sekreterya" },
+      { id: "d2", name: "Uzm. Dr. Ece Kaya", phone: "0532 111 22 33", unit: "Radyoloji" },
+    ],
     days: {
       [TODAY]: {
         team: [
@@ -148,7 +151,9 @@ async function main() {
   check("not işlem düğmesi yok", doc.querySelectorAll("#note-list .note-actions").length === 0);
   check("başlık içerikten", doc.getElementById("brand-title").textContent === "Radyoloji Panosu");
   check("bölüm içerikten", doc.getElementById("brand-dept").textContent === "Görüntüleme");
-  check("hızlı erişim çipi", Boolean(q(doc, '#quick-links a[href="https://pacs.example/"]')));
+  check("rehber kaydı var", doc.getElementById("directory-list").textContent.includes("Radyoloji Sekreterliği"));
+  check("rehber telefon bağlantısı", Boolean(q(doc, '#directory-list a[href^="tel:"]')));
+  check("rehber sayacı", doc.getElementById("directory-count").textContent.includes("2 kişi"));
   check("yönetici çubuğu gizli", doc.getElementById("admin-bar").hidden);
   check("duyuru şeridi görünür", !doc.getElementById("notice").hidden);
   check("duyuru metni", doc.getElementById("notice-text").textContent.includes("bakımda"));
@@ -201,6 +206,14 @@ async function main() {
   check("durum: yayınlanmış", doc.getElementById("admin-status").textContent.includes("Yayınlandı"));
   check("ekip ekle görünür", !doc.getElementById("add-member").hidden);
   check("depo önceden dolu", doc.getElementById("pub-repo").value === "mryusufcan/gunluk-pano");
+  check("rehber düzenleyicisi satırları", doc.querySelectorAll("#directory-editor .directory-edit-row").length === 2);
+  const directoryPhone = doc.querySelector('#directory-editor input[data-directory="phone"]');
+  check("rehber giriş alanı", Boolean(directoryPhone));
+  check("rehber ad alanı", doc.querySelector('#directory-editor input[data-directory="name"]').value.includes("Sekreterliği"));
+  directoryPhone.value = "9999";
+  directoryPhone.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  await wait(600);
+  check("rehber taslağa yazıldı", JSON.parse(dom.window.localStorage.getItem("pano-draft")).directory[0].phone === "9999");
   check("duyuru alanı dolu", doc.getElementById("notice-input").value.includes("bakımda"));
   doc.getElementById("notice-input").value = "MR cihazı arızalı";
   doc.getElementById("notice-input").dispatchEvent(new dom.window.Event("input", { bubbles: true }));
@@ -439,7 +452,10 @@ async function main() {
   dom.window.close();
 
   console.log("\n" + (failures.length ? `BAŞARISIZ: ${failures.length} kontrol` : "TÜM KONTROLLER GEÇTİ"));
-  process.exitCode = failures.length ? 1 : 0;
+  const exitCode = failures.length ? 1 : 0;
+  process.exitCode = exitCode;
+  // jsdom zamanlayıcıları süreci askıda bırakmasın
+  setTimeout(() => process.exit(exitCode), 200);
 }
 
 main().catch((error) => {

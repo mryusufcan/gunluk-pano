@@ -26,7 +26,7 @@ Yönetici (telefon)                      GitHub                        Ekip (tel
 - **Günün ekibi:** vardiyaya göre gruplu liste (08–16, 16–24, 24–08, icap, idari, izinli), telefon/dahili için `tel:` bağlantısı, kişi notu.
 - **Günün yemeği:** çok satırlı menü; dünkü menüyü kopyalama.
 - **Notlar:** yazar, saat, sabitleme, tamamlandı işareti, Tümü / Bugün / Sabitlenen / Açık filtreleri.
-- **Hızlı erişim:** PACS, RIS veya ekip grubu bağlantıları.
+- **Telefon rehberi:** isim, birim veya numarayla aranabilir dahili numara listesi; numaraya dokununca telefon arar. Yönetici Ayarlar'dan satır ekleyip düzenler.
 - **Liste içe aktarma (yönetici):** haftalık/aylık çalışma listesini veya yemek listesini yapıştırın ya da `.xlsx` / `.docx` seçin; tarih, gün adı, vardiya, isim ve cihaz otomatik ayrılır, aktarmadan önce önizleme gösterilir.
 - **Aylık ızgara:** üst satırı gün numaraları (`1 2 3 … 30`) olan tablolar ve dikey gün numaralı listeler desteklenir.
 - **Duyuru şeridi:** acil bilgi (ör. "BT 14:00–16:00 arası bakımda") panonun üstünde bant olarak; bilgi veya uyarı tonu seçilebilir.

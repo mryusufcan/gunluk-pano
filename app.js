@@ -114,12 +114,9 @@ function blankState() {
   return {
     v: 1,
     settings: { title: "Günün Panosu", dept: "Radyoloji" },
-    links: [
-      { id: "pacs", label: "PACS", url: "" },
-      { id: "grup", label: "Ekip grubu", url: "" },
-    ],
     days: {},
     notes: [],
+    directory: [],
     notice: { text: "", tone: "info", updatedAt: 0 },
     updatedAt: 0,
   };
@@ -135,11 +132,22 @@ function normalizeNotice(raw) {
   return notice;
 }
 
-function normalizeLink(raw) {
-  if (!raw || typeof raw !== "object") return null;
-  const label = str(raw.label, "", 30).trim();
-  if (!label) return null;
-  return { id: str(raw.id, uid(), 60), label, url: str(raw.url, "", 300).trim() };
+function normalizeDirectory(raw) {
+  if (!Array.isArray(raw)) return [];
+  return raw
+    .map((item) => {
+      if (!item || typeof item !== "object") return null;
+      const name = str(item.name, "", 60).trim();
+      if (!name) return null;
+      return {
+        id: str(item.id, uid(), 60),
+        name,
+        phone: str(item.phone, "", 30).trim(),
+        unit: str(item.unit, "", 40).trim(),
+      };
+    })
+    .filter(Boolean)
+    .slice(0, 300);
 }
 
 function normalizeMember(raw) {
@@ -193,9 +201,7 @@ function normalizeState(raw) {
     state.settings.dept = str(raw.settings.dept, state.settings.dept, 40).trim();
   }
 
-  if (Array.isArray(raw.links)) {
-    state.links = raw.links.map(normalizeLink).filter(Boolean).slice(0, 12);
-  }
+  state.directory = normalizeDirectory(raw.directory);
 
   if (raw.days && typeof raw.days === "object") {
     for (const [date, day] of Object.entries(raw.days)) {
@@ -221,9 +227,9 @@ function contentPayload() {
     version: 1,
     updatedAt: new Date().toISOString(),
     settings: state.settings,
-    links: state.links,
     days: state.days,
     notes: state.notes,
+    directory: state.directory,
     notice: state.notice,
   };
 }
@@ -237,6 +243,7 @@ try {
   /* depolama kapalıysa bugünle devam */
 }
 let noteFilter = "all";
+let directoryQuery = "";
 let editingMemberId = null;
 let publishedAt = 0;
 let isDraft = false;
@@ -381,6 +388,7 @@ function saveSoon() {
     renderSettings();
     renderNotice();
     renderUpdatedLine();
+    renderDirectory();
   }, 450);
 }
 
@@ -638,28 +646,75 @@ function renderNotes() {
   badge.textContent = open > 9 ? "9+" : String(open);
 }
 
-function renderLinks() {
-  const links = state.links.filter((link) => link.url);
-  const chips = links
-    .map(
-      (link) => `<a class="link-chip" href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">
-        ${ICON_LINK}<span>${esc(link.label)}</span>
-      </a>`,
-    )
-    .join("");
-  const addChip = ADMIN_MODE
-    ? `<button class="link-chip is-empty" type="button" data-goto="ayarlar">+ Bağlantı ekle</button>`
-    : links.length ? "" : `<span class="import-empty">Bağlantı yok.</span>`;
-  el("quick-links").innerHTML = chips + addChip;
+function directoryMatches(item, query) {
+  if (!query) return true;
+  const search = lowerTr(query).trim();
+  const digits = search.replace(/[^\d+]/g, "");
+  if (lowerTr(item.name).includes(search)) return true;
+  if (lowerTr(item.unit).includes(search)) return true;
+  const phone = String(item.phone || "");
+  if (lowerTr(phone).includes(search)) return true;
+  if (digits && phone.replace(/[^\d+]/g, "").includes(digits)) return true;
+  return false;
 }
 
-function renderLinkEditor() {
-  el("link-editor").innerHTML = state.links
+function renderDirectory() {
+  const box = el("directory-list");
+  if (!box) return;
+  const entries = state.directory || [];
+  const count = el("directory-count");
+  if (count) {
+    count.hidden = !entries.length;
+    count.textContent = entries.length ? `${entries.length} kişi` : "";
+  }
+
+  const items = entries
+    .filter((item) => directoryMatches(item, directoryQuery))
+    .sort((a, b) => a.name.localeCompare(b.name, "tr"));
+
+  if (!items.length) {
+    const text = entries.length
+      ? "Eşleşen kişi yok."
+      : ADMIN_MODE
+        ? "Rehber henüz boş. Aşağıdaki düzenleyiciden satır ekleyin."
+        : "Rehber henüz yayınlanmadı.";
+    box.innerHTML = `<div class="empty"><strong>${entries.length ? "Sonuç yok" : "Rehber boş"}</strong>${text}</div>`;
+    return;
+  }
+
+  box.innerHTML = items
+    .map((item) => {
+      const tel = telOf(item.phone);
+      const phone = tel
+        ? `<a class="directory-phone" href="tel:${esc(tel)}">${esc(item.phone)}</a>`
+        : item.phone
+          ? `<span class="directory-phone">${esc(item.phone)}</span>`
+          : `<span class="directory-phone is-empty">—</span>`;
+      return `<div class="directory-row">
+        <div class="directory-main">
+          <span class="directory-name">${esc(item.name)}</span>
+          ${item.unit ? `<span class="directory-unit">${esc(item.unit)}</span>` : ""}
+        </div>
+        ${phone}
+      </div>`;
+    })
+    .join("");
+}
+
+function renderDirectoryEditor() {
+  const box = el("directory-editor");
+  if (!box) return;
+  if (!state.directory.length) {
+    box.innerHTML = '<p class="import-empty">Henüz kayıt yok. "Satır ekle" ile başlayın.</p>';
+    return;
+  }
+  box.innerHTML = state.directory
     .map(
-      (link) => `<div class="link-row" data-id="${esc(link.id)}">
-        <input data-link="label" type="text" maxlength="30" value="${esc(link.label)}" placeholder="Ad (PACS)" aria-label="Bağlantı adı" />
-        <input data-link="url" type="url" maxlength="300" value="${esc(link.url)}" placeholder="https://…" aria-label="Bağlantı adresi" inputmode="url" />
-        <button class="mini-btn" type="button" data-delete-link="${esc(link.id)}" aria-label="${esc(link.label)} bağlantısını sil" title="Sil">${ICON_TRASH}</button>
+      (item) => `<div class="directory-edit-row" data-id="${esc(item.id)}">
+        <input data-directory="name" type="text" maxlength="60" value="${esc(item.name)}" placeholder="Ad soyad" aria-label="Ad soyad" />
+        <input data-directory="phone" type="text" maxlength="30" value="${esc(item.phone)}" placeholder="Dahili / telefon" aria-label="Telefon" inputmode="tel" />
+        <input data-directory="unit" type="text" maxlength="40" value="${esc(item.unit)}" placeholder="Birim (isteğe bağlı)" aria-label="Birim" />
+        <button class="mini-btn" type="button" data-delete-directory="${esc(item.id)}" aria-label="Satırı sil" title="Sil">${ICON_TRASH}</button>
       </div>`,
     )
     .join("");
@@ -795,7 +850,8 @@ function render() {
   renderTeam();
   renderMeal();
   renderNotes();
-  renderLinks();
+  renderDirectory();
+  if (ADMIN_MODE) renderDirectoryEditor();
   renderSettings();
 }
 
@@ -2509,14 +2565,6 @@ function bindEvents() {
     toast("Ekip yarına aktarıldı.");
   });
 
-  el("edit-links").addEventListener("click", () => {
-    switchView("ayarlar");
-    setTimeout(() => {
-      const box = el("link-editor");
-      if (box && typeof box.scrollIntoView === "function") box.scrollIntoView({ block: "center" });
-    }, 80);
-  });
-
   el("member-form").addEventListener("submit", (event) => {
     event.preventDefault();
     const name = el("m-name").value.trim();
@@ -2615,26 +2663,33 @@ function bindEvents() {
     renderNotes();
   });
 
-  el("add-link").addEventListener("click", () => {
-    if (state.links.length >= 12) {
-      toast("En fazla 12 bağlantı eklenebilir.", true);
+  el("directory-search").addEventListener("input", (event) => {
+    directoryQuery = event.target.value;
+    renderDirectory();
+  });
+
+  el("add-directory").addEventListener("click", () => {
+    if (!ADMIN_MODE) return;
+    if (state.directory.length >= 300) {
+      toast("En fazla 300 kişi eklenebilir.", true);
       return;
     }
-    state.links.push({ id: uid(), label: "", url: "" });
+    state.directory.push({ id: uid(), name: "", phone: "", unit: "" });
     save();
-    renderLinkEditor();
-    const last = el("link-editor").lastElementChild?.querySelector('input[data-link="label"]');
+    renderDirectoryEditor();
+    const last = el("directory-editor").lastElementChild?.querySelector('input[data-directory="name"]');
     if (last) last.focus();
   });
 
-  el("link-editor").addEventListener("input", (event) => {
-    const row = event.target.closest(".link-row");
-    const field = event.target.dataset.link;
+  el("directory-editor").addEventListener("input", (event) => {
+    if (!ADMIN_MODE) return;
+    const row = event.target.closest(".directory-edit-row");
+    const field = event.target.dataset.directory;
     if (!row || !field) return;
-    const link = state.links.find((item) => item.id === row.dataset.id);
-    if (!link) return;
-    link[field] = event.target.value.slice(0, field === "url" ? 300 : 30);
-    renderLinks();
+    const entry = state.directory.find((item) => item.id === row.dataset.id);
+    if (!entry) return;
+    entry[field] = event.target.value.slice(0, field === "name" ? 60 : field === "phone" ? 30 : 40);
+    renderDirectory();
     saveSoon();
   });
 
@@ -2680,7 +2735,7 @@ function bindEvents() {
     }
     el("note-author").value = authorName;
     save();
-    renderLinkEditor();
+    renderDirectoryEditor();
     render();
     toast("Yedek yüklendi.");
   });
@@ -2696,7 +2751,7 @@ function bindEvents() {
     fresh.settings.theme = document.documentElement.dataset.theme;
     Object.assign(state, fresh);
     save();
-    renderLinkEditor();
+    renderDirectoryEditor();
     render();
     toast("Tüm veriler silindi.");
   });
@@ -2732,12 +2787,13 @@ function bindEvents() {
       return;
     }
 
-    const deleteLink = event.target.closest("[data-delete-link]");
-    if (deleteLink) {
-      state.links = state.links.filter((link) => link.id !== deleteLink.dataset.deleteLink);
+    const deleteDirectory = event.target.closest("[data-delete-directory]");
+    if (deleteDirectory) {
+      if (!ADMIN_MODE) return;
+      state.directory = state.directory.filter((item) => item.id !== deleteDirectory.dataset.deleteDirectory);
       save();
-      renderLinkEditor();
-      renderLinks();
+      renderDirectoryEditor();
+      renderDirectory();
       return;
     }
 
@@ -2817,7 +2873,7 @@ async function init() {
   applyTheme(document.documentElement.dataset.theme);
   el("note-author").value = authorName;
   if (ADMIN_MODE) {
-    renderLinkEditor();
+    renderDirectoryEditor();
     fillPublishFields();
   }
   bindEvents();
