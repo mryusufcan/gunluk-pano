@@ -192,6 +192,8 @@ async function main() {
   check("yönetici çubuğu görünür", !doc.getElementById("admin-bar").hidden);
   check("durum: yayınlanmış", doc.getElementById("admin-status").textContent.includes("Yayınlandı"));
   check("ekip ekle görünür", !doc.getElementById("add-member").hidden);
+  check("depo önceden dolu", doc.getElementById("pub-repo").value === "mryusufcan/gunluk-pano");
+  check("GitHub düzenleme bağlantısı", doc.getElementById("pub-github-edit").href.includes("/mryusufcan/gunluk-pano/edit/main/content.json"));
   doc.getElementById("add-member").click();
   check("üye diyaloğu açıldı", doc.getElementById("member-dialog").hasAttribute("open"));
   doc.getElementById("m-name").value = "Yeni Teknisyen";

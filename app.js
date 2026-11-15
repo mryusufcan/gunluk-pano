@@ -930,7 +930,12 @@ async function applySharedHash() {
 }
 
 /* ---------- GitHub yayını ---------- */
-const DEFAULT_PUBLISH = { repo: "", branch: "main", path: "content.json", token: "" };
+const DEFAULT_PUBLISH = {
+  repo: document.querySelector('meta[name="pano-repo"]')?.content || "",
+  branch: "main",
+  path: "content.json",
+  token: "",
+};
 
 function base64Utf8(text) {
   const bytes = new TextEncoder().encode(text);
@@ -986,13 +991,26 @@ function setPublishStatus(message, warn = false) {
   box.classList.toggle("is-warn", Boolean(warn));
 }
 
+function updateGithubEditLink(config) {
+  const link = el("pub-github-edit");
+  if (!link) return;
+  const parts = repoParts(config.repo);
+  if (!parts) {
+    link.hidden = true;
+    return;
+  }
+  link.hidden = false;
+  link.href = `https://github.com/${parts.owner}/${parts.name}/edit/${encodeURIComponent(config.branch)}/${config.path}`;
+}
+
 function fillPublishFields() {
   const config = readPublishConfig();
   el("pub-repo").value = config.repo;
   el("pub-branch").value = config.branch;
   el("pub-path").value = config.path;
   el("pub-token").value = config.token;
-  setPublishStatus(config.repo ? "Ayarlar kayıtlı." : "Henüz yapılandırılmadı.");
+  updateGithubEditLink(config);
+  setPublishStatus(config.token ? "Ayarlar kayıtlı." : "Depo hazır; yayınlamak için GitHub anahtarı girin.");
 }
 
 function repoParts(repo) {
@@ -1153,7 +1171,9 @@ async function refreshContent() {
 function bindAdminEvents() {
   el("admin-publish").addEventListener("click", publishContent);
   el("pub-save").addEventListener("click", () => {
-    if (writePublishConfig(publishFields())) {
+    const config = publishFields();
+    if (writePublishConfig(config)) {
+      updateGithubEditLink(config);
       setPublishStatus("Ayarlar kaydedildi. Bağlantıyı deneyin.");
       toast("Yayın ayarları kaydedildi.");
     }

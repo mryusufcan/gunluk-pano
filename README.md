@@ -5,6 +5,8 @@ Radyoloji departmanının günlük operasyon panosu: **günün ekibi**, **günü
 - **Ekip** normal adresi açar, sadece **görüntüler**; düzenleme düğmesi görmez.
 - **Yönetici** (`?admin=1`) düzenler, listeyi içe aktarır ve **Yayınla** ile `content.json` dosyasını GitHub'a yazar. GitHub Pages 1-2 dakikada yeni hâli yayınlar.
 
+**Canlı site:** [mryusufcan.github.io/gunluk-pano](https://mryusufcan.github.io/gunluk-pano/) · **Yönetim:** [../?admin=1](https://mryusufcan.github.io/gunluk-pano/?admin=1) · **Depo:** [github.com/mryusufcan/gunluk-pano](https://github.com/mryusufcan/gunluk-pano)
+
 Kurulum, hesap veya uygulama mağazası gerekmez; iPhone ve Android tarayıcısında açılır, masaüstünde düzenli bir sürümü vardır.
 
 ## Nasıl çalışır
@@ -33,6 +35,8 @@ Yönetici (telefon)                      GitHub                        Ekip (tel
 
 ## Kurulum
 
+Bu depo için kurulum tamamlandı (Pages açık, `main` dalına push otomatik yayınlanır). Sıfırdan kurmak isterseniz:
+
 1. Bu klasörün içeriğini yeni bir GitHub deposuna koyun (örnek: `gunluk-pano`).
 2. Depo → **Settings → Pages → Build and deployment → Source: GitHub Actions**. `main` dalına her push'ta yayınlanır.
 3. Adres: `https://<kullanıcı>.github.io/gunluk-pano/`
@@ -46,6 +50,10 @@ Yönetici (telefon)                      GitHub                        Ekip (tel
 6. Artık her düzenlemeden sonra **Yayınla**. Ekip normal adresi açtığında son hâli görür.
 
 > Anahtarı olmayan biri `?admin=1` sayfasını açsa bile yalnızca kendi tarayıcısında taslak oluşturabilir; yayınlayamaz.
+
+### Anahtar oluşturmadan yayınlama
+
+Anahtar istemiyorsanız: düzenleyin → **Veri → content.json kopyala** → **GitHub'da content.json'u düzenle** bağlantısına dokunun → dosyadaki metni silip kopyaladığınızı yapıştırın → **Commit changes**. Yayın yine 1-2 dakikada görünür.
 
 ## Yönetici kullanımı
 
