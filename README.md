@@ -86,6 +86,12 @@ Yarım kalan işler kaybolmaz: değişiklikler taslak olarak cihazda durur, sayf
 - Yayınlanan her sürüm GitHub'da commit geçmişinde durur: `content.json → History` ile eski hâle dönüp yeni commit atabilirsiniz.
 - Anahtar olmadan da yayın yapmak isterseniz: **Veri → content.json indir** ile dosyayı indirip GitHub'da `content.json` dosyasını düzenleyip yapıştırabilirsiniz.
 
+## Bağlantı önizlemesi
+
+WhatsApp, Telegram, X, LinkedIn, Slack gibi uygulamalarda link kartı görünmesi için `index.html` içinde OG/Twitter etiketleri ve `assets/onizleme.png` (1200×630) bulunur. Görseli değiştirmek için `python3 tools/make_preview.py` çalıştırın.
+
+Uygulamalar önizlemeyi önbelleğe alır; yeni kartı görmek için bağlantıyı `?v=2` gibi bir ekle paylaşın (WhatsApp eski kartı göstermeye devam edebilir).
+
 ## Yerel önizleme
 
 `index.html` dosyasını doğrudan açmak çalışmaz (tarayıcı `content.json` isteğini engeller). Basit bir sunucu kullanın:
