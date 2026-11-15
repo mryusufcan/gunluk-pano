@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T21:30:07+03:00",
+  "updatedAt": "2026-11-15T21:32:42+03:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -156,6 +156,13 @@
       "meal": {
         "text": "EZOGELİN ÇORBA\nET İSKENDER\nMELEK PİLAVI\nMANDALİNA\nHAVUÇ +KIRMIZI LAHANA+DOMATES SALATALIK BİBER SÖĞÜŞ+ YOĞURT",
         "updatedAt": 1794767407406
+      }
+    },
+    "2026-12-06": {
+      "team": [],
+      "meal": {
+        "text": "MERCİMEK ÇOBASI\nETSİZ  TÜRLÜ\nKIYMALI İÇLİ KÖFTE\nARMUT\nHAVUÇ+YEŞİL SALATA+YOĞURT+HAVUÇ TARATOR",
+        "updatedAt": 1794767562211
       }
     }
   },
