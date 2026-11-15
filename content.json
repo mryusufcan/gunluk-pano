@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T19:12:40.290Z",
+  "updatedAt": "2026-11-15T22:23:56+03:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1048,5 +1048,1470 @@
     "tone": "info",
     "updatedAt": 0
   },
-  "directory": []
+  "directory": [
+    {
+      "id": "d26",
+      "name": "A ( VİP ) BANKO",
+      "phone": "8279",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d46",
+      "name": "A BANKO",
+      "phone": "8149",
+      "unit": "MİSAFİR HİZMETLERİ"
+    },
+    {
+      "id": "d47",
+      "name": "A BANKO",
+      "phone": "8148",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d54",
+      "name": "A BANKO",
+      "phone": "8541-8542",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d128",
+      "name": "ABDULLAH KUZU",
+      "phone": "6901",
+      "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMC"
+    },
+    {
+      "id": "d117",
+      "name": "ACİL AMBULANS",
+      "phone": "8502-8514",
+      "unit": "EKİP LİDERİ"
+    },
+    {
+      "id": "d118",
+      "name": "ACİL CPR ODASI",
+      "phone": "8503",
+      "unit": "EKİP LİDERİ"
+    },
+    {
+      "id": "d121",
+      "name": "ACİL MÜŞAHADE",
+      "phone": "8511-8512-8513",
+      "unit": "EKİP LİDERİ"
+    },
+    {
+      "id": "d119",
+      "name": "ACİL SERVİS SORUMLU HASTA BAKIM HİZM. ODASI",
+      "phone": "8507",
+      "unit": "EKİP LİDERİ"
+    },
+    {
+      "id": "d200",
+      "name": "AMELİYATHANE BANKO",
+      "phone": "8336-8337",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d201",
+      "name": "AMELİYATHANE DOKTOR ODASI",
+      "phone": "8339",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d240",
+      "name": "ANA DEPO",
+      "phone": "8472",
+      "unit": "B5.KAT"
+    },
+    {
+      "id": "d204",
+      "name": "ANESTEZİ GÖRÜŞME ODASI",
+      "phone": "8346",
+      "unit": "ANESTEZİ"
+    },
+    {
+      "id": "d129",
+      "name": "ANIL EMRE YARAR",
+      "phone": "6901",
+      "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCIS"
+    },
+    {
+      "id": "d208",
+      "name": "ANJİO İŞLEM ODASI",
+      "phone": "5412",
+      "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ"
+    },
+    {
+      "id": "d226",
+      "name": "ANJİO LABORATUVARI",
+      "phone": "8629",
+      "unit": "GÜNÜBİRLİK YATIŞ İŞEMLERİ - TÜP BEBEK İŞ"
+    },
+    {
+      "id": "d53",
+      "name": "ARŞİV",
+      "phone": "8364",
+      "unit": "1.KAT İDARİ OFİSLER"
+    },
+    {
+      "id": "d157",
+      "name": "AĞIZ VE DİŞ SAĞLIĞI DECK",
+      "phone": "5413",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI"
+    },
+    {
+      "id": "d27",
+      "name": "B BANKO",
+      "phone": "8330",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d28",
+      "name": "B BANKO",
+      "phone": "8331",
+      "unit": "MİSAFİR HİZMETLERİ"
+    },
+    {
+      "id": "d33",
+      "name": "B BANKO",
+      "phone": "8294",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d48",
+      "name": "B BANKO",
+      "phone": "8137",
+      "unit": "MİSAFİR HİZMETLERİ"
+    },
+    {
+      "id": "d49",
+      "name": "B BANKO",
+      "phone": "8138",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d55",
+      "name": "B BANKO",
+      "phone": "8537-8538-8539",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d188",
+      "name": "B2 DR.ALEV ÖZSARI TOPLANTI SALONU",
+      "phone": "8486",
+      "unit": "KARDİYOLOJİ-GÖGÜS CERRAHİSİ -KVC -PLASTİ"
+    },
+    {
+      "id": "d130",
+      "name": "B2 TOPLANTI ODASI",
+      "phone": "8497",
+      "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI"
+    },
+    {
+      "id": "d32",
+      "name": "BANKO",
+      "phone": "8199",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d194",
+      "name": "BANKO",
+      "phone": "8360-8361",
+      "unit": "GENEL YOĞUN BAKIM HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d59",
+      "name": "BEBEK ODASI",
+      "phone": "8531",
+      "unit": "ZEMİN KAT YATAN HASTA"
+    },
+    {
+      "id": "d40",
+      "name": "BELLBOY",
+      "phone": "8200",
+      "unit": "2.KAT GİRİŞ"
+    },
+    {
+      "id": "d104",
+      "name": "BİLGİSAYARLI MR - 2",
+      "phone": "5404",
+      "unit": "RADYOLOJİ"
+    },
+    {
+      "id": "d103",
+      "name": "BİLGİSAYARLI TOMOGRAFİ - MR",
+      "phone": "8520",
+      "unit": "RADYOLOJİ"
+    },
+    {
+      "id": "d29",
+      "name": "C BANKO",
+      "phone": "8332",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d30",
+      "name": "C BANKO",
+      "phone": "8333",
+      "unit": "MİSAFİR HİZMETLERİ"
+    },
+    {
+      "id": "d50",
+      "name": "C BANKO",
+      "phone": "8139",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d56",
+      "name": "C BANKO",
+      "phone": "8543",
+      "unit": "HASTA BAKIM HİZMETLERİ"
+    },
+    {
+      "id": "d125",
+      "name": "CANAN SARI",
+      "phone": "DAHİLİ YOK",
+      "unit": "HASTA BAKIM HİZM.MÜDÜRÜ"
+    },
+    {
+      "id": "d115",
+      "name": "CHECK-UP NUMUNE ALMA",
+      "phone": "8374",
+      "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIK"
+    },
+    {
+      "id": "d223",
+      "name": "DANIŞMA-BİYOPSİ BANKO",
+      "phone": "8440",
+      "unit": "GÜNÜBİRLİK YATIŞ İŞEMLERİ - TÜP BEBEK İŞ"
+    },
+    {
+      "id": "d38",
+      "name": "DENİZ ÇAMKAYA",
+      "phone": "8225",
+      "unit": "FİYAT VERME HİZMETLERİ OFİSİ"
+    },
+    {
+      "id": "d37",
+      "name": "DİLA ALTIN",
+      "phone": "5400",
+      "unit": "YATIŞ HİZMETLERİ PROVİZYON"
+    },
+    {
+      "id": "d58",
+      "name": "DOĞUMHANE",
+      "phone": "8399",
+      "unit": "ZEMİN KAT YATAN HASTA"
+    },
+    {
+      "id": "d106",
+      "name": "DR. ADEM UÇAR",
+      "phone": "8469",
+      "unit": "Radyoloji"
+    },
+    {
+      "id": "d146",
+      "name": "DR. AHMET CEM DURAL",
+      "phone": "8432",
+      "unit": "Endokrin Cerrahi"
+    },
+    {
+      "id": "d20",
+      "name": "DR. AHMET SEVENCAN",
+      "phone": "8475-76",
+      "unit": "Ortopedi ve Travmatoloji"
+    },
+    {
+      "id": "d183",
+      "name": "DR. AHMET ÖZKARA",
+      "phone": "8409",
+      "unit": "Kalp ve Damar Cerrahi"
+    },
+    {
+      "id": "d167",
+      "name": "DR. AHMET ÖZSOY",
+      "phone": "8173",
+      "unit": "DAMAR CERRAHİSİ"
+    },
+    {
+      "id": "d184",
+      "name": "DR. ALİ BARAN BUDAK",
+      "phone": "8276",
+      "unit": "Kalp ve Damar Cerrahi"
+    },
+    {
+      "id": "d148",
+      "name": "DR. ATİLLA SORAN",
+      "phone": "8441",
+      "unit": "Genel Cerrahi"
+    },
+    {
+      "id": "d166",
+      "name": "DR. AYHAN SUCAK",
+      "phone": "8516",
+      "unit": "PERİNOTOLOJİ"
+    },
+    {
+      "id": "d109",
+      "name": "DR. AYŞİN PURBAGER",
+      "phone": "8469",
+      "unit": "Radyoloji"
+    },
+    {
+      "id": "d179",
+      "name": "DR. BARIŞ GÜVEN",
+      "phone": "8273",
+      "unit": "Kardiyoloji"
+    },
+    {
+      "id": "d98",
+      "name": "DR. BERİL UĞURNAL",
+      "phone": "8195",
+      "unit": "Laboratuvar"
+    },
+    {
+      "id": "d209",
+      "name": "DR. BİNNUR PINARBAŞI",
+      "phone": "8356",
+      "unit": "Gastroenteroloji"
+    },
+    {
+      "id": "d79",
+      "name": "DR. CANSU EKİNCİ ASLANOĞLU",
+      "phone": "8184",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d71",
+      "name": "DR. CENGİZ KARA",
+      "phone": "1920",
+      "unit": "Çocuk Endokrinoloji"
+    },
+    {
+      "id": "d14",
+      "name": "DR. DEMET YETKİN",
+      "phone": "8497",
+      "unit": "Endokronoloji"
+    },
+    {
+      "id": "d83",
+      "name": "DR. DİLEK ABUL",
+      "phone": "8194",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d216",
+      "name": "DR. DUYGU DERİN",
+      "phone": "8453",
+      "unit": "Onkoloji"
+    },
+    {
+      "id": "d231",
+      "name": "DR. EMRE MERDAN FAYDA",
+      "phone": "8425",
+      "unit": "RADYASYON ONKOLOJİ"
+    },
+    {
+      "id": "d67",
+      "name": "DR. ERKAN ÇAKIR",
+      "phone": "8521",
+      "unit": "Çocuk Gögüs Hastalıkları"
+    },
+    {
+      "id": "d230",
+      "name": "DR. EVRİM DUMAN",
+      "phone": "8426",
+      "unit": "RADYASYON ONKOLOJİ"
+    },
+    {
+      "id": "d149",
+      "name": "DR. FATİH YANAR",
+      "phone": "8247",
+      "unit": "Genel Cerrahi"
+    },
+    {
+      "id": "d147",
+      "name": "DR. GÖKÇE AYLAZ",
+      "phone": "8247",
+      "unit": "Genel Cerrahi"
+    },
+    {
+      "id": "d69",
+      "name": "DR. GÜLŞEN KÖSE",
+      "phone": "8259",
+      "unit": "Çocuk Nörolojisi"
+    },
+    {
+      "id": "d150",
+      "name": "DR. HAKAN TEOMAN YANAR",
+      "phone": "8441",
+      "unit": "Genel Cerrahi"
+    },
+    {
+      "id": "d185",
+      "name": "DR. HALİL HÜZMELİ",
+      "phone": "DAHİLİ YOK",
+      "unit": "Kalp ve Damar Cerrahi"
+    },
+    {
+      "id": "d65",
+      "name": "DR. HASRET AYYILDIZ CİVAN",
+      "phone": "8258",
+      "unit": "Çocuk Gastroentoloji"
+    },
+    {
+      "id": "d108",
+      "name": "DR. İREM ERDİL",
+      "phone": "8469",
+      "unit": "Radyoloji"
+    },
+    {
+      "id": "d211",
+      "name": "DR. İRFAN KORUK",
+      "phone": "8351",
+      "unit": "Gastroenteroloji"
+    },
+    {
+      "id": "d138",
+      "name": "DR. K. DOĞA SEÇKİN",
+      "phone": "8421",
+      "unit": "Kadın Hastalıkları ve Doğum IVF"
+    },
+    {
+      "id": "d154",
+      "name": "DR. KADER KESKİNBORA",
+      "phone": "8255",
+      "unit": "Algoloji"
+    },
+    {
+      "id": "d181",
+      "name": "DR. KADRİYE KILIÇKESMEZ",
+      "phone": "8221",
+      "unit": "Kardiyoloji"
+    },
+    {
+      "id": "d107",
+      "name": "DR. KEMAL KARA",
+      "phone": "8469",
+      "unit": "Radyoloji"
+    },
+    {
+      "id": "d81",
+      "name": "DR. LALE BEATRİCE ÖKTEM",
+      "phone": "8192",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d151",
+      "name": "DR. LEVHİ AKIN",
+      "phone": "8250",
+      "unit": "Genel Cerrahi"
+    },
+    {
+      "id": "d171",
+      "name": "DR. MEHMET AYDOĞAN",
+      "phone": "8261",
+      "unit": "Göğüs Hastalıkları"
+    },
+    {
+      "id": "d218",
+      "name": "DR. MEHMET HİLMİ DOĞU",
+      "phone": "8455",
+      "unit": "Hematoloji"
+    },
+    {
+      "id": "d80",
+      "name": "DR. MEHMET MURAT ÖNCEL",
+      "phone": "8191",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d176",
+      "name": "DR. MEHMET TEKİN AKPOLAT",
+      "phone": "8271",
+      "unit": "Nefroloji"
+    },
+    {
+      "id": "d72",
+      "name": "DR. MEKİ BİLİCİ",
+      "phone": "8521",
+      "unit": "Çocuk Kardiyolojisi"
+    },
+    {
+      "id": "d217",
+      "name": "DR. MELTEM TOPALGÖKÇELİ SELAM",
+      "phone": "8454",
+      "unit": "Onkoloji"
+    },
+    {
+      "id": "d133",
+      "name": "DR. MUSTAFA ALPER KARALÖK",
+      "phone": "8234",
+      "unit": "Kadın Hastalıkları ve Doğum"
+    },
+    {
+      "id": "d169",
+      "name": "DR. NEBİL YILDIZ",
+      "phone": "8244",
+      "unit": "Nöroloji"
+    },
+    {
+      "id": "d168",
+      "name": "DR. NİMET DÖRTCAN",
+      "phone": "8256",
+      "unit": "Nöroloji"
+    },
+    {
+      "id": "d88",
+      "name": "DR. ORHAN TANRIVERDİ",
+      "phone": "8180",
+      "unit": "Üroonkoloji"
+    },
+    {
+      "id": "d85",
+      "name": "DR. OSMAN MURAT UYAR",
+      "phone": "8192",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d70",
+      "name": "DR. SELAMİ SÖZÜBİR",
+      "phone": "8524",
+      "unit": "Çocuk Cerrrahisi Ve Ürolojisi"
+    },
+    {
+      "id": "d9",
+      "name": "DR. SERDAR KAHRAMAN",
+      "phone": "8411",
+      "unit": "Beyin ve Sinir Cerrahisi"
+    },
+    {
+      "id": "d134",
+      "name": "DR. SİBEL MALKOÇ",
+      "phone": "8235",
+      "unit": "Kadın Hastalıkları ve Doğum"
+    },
+    {
+      "id": "d136",
+      "name": "DR. TAMER SÖZEN",
+      "phone": "8233",
+      "unit": "Kadın Hastalıkları ve Doğum"
+    },
+    {
+      "id": "d89",
+      "name": "DR. UĞUR BOYLU",
+      "phone": "8179",
+      "unit": "Üroonkoloji"
+    },
+    {
+      "id": "d78",
+      "name": "DR. VEDAT KAYA",
+      "phone": "8192",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d92",
+      "name": "DR. YELİZ KÖMÜRCÜ",
+      "phone": "8198",
+      "unit": "İç Hastalıkları"
+    },
+    {
+      "id": "d234",
+      "name": "DR. ZEHRA ÇAĞLA KARAKOÇ",
+      "phone": "8355",
+      "unit": "Enfeksiyon Hastalıkları"
+    },
+    {
+      "id": "d170",
+      "name": "DR. ZİNNET ÖYKÜ ALTAY",
+      "phone": "8226",
+      "unit": "BESLENME VE DİYET"
+    },
+    {
+      "id": "d235",
+      "name": "DR. ÖZGENAZ KAZAN",
+      "phone": "8605",
+      "unit": "BESLENME VE DİYET"
+    },
+    {
+      "id": "d155",
+      "name": "DR. ŞENCAY YILDIZ ŞAHİN",
+      "phone": "8474",
+      "unit": "İç Hastalıkları"
+    },
+    {
+      "id": "d186",
+      "name": "DR. ŞENOL KOBAK",
+      "phone": "8242",
+      "unit": "Romatoloji"
+    },
+    {
+      "id": "d74",
+      "name": "DR.ABDULKADİR ÖZGÜR",
+      "phone": "8189",
+      "unit": "Kulak Burun Boğaz Hastalıkları"
+    },
+    {
+      "id": "d113",
+      "name": "DR.ALİHAN ORAL",
+      "phone": "8174",
+      "unit": "Beslenme ve Diyet"
+    },
+    {
+      "id": "d233",
+      "name": "DR.ASLI DATLI",
+      "phone": "8260",
+      "unit": "Plastik ve Rekonstrüktif Cerrahi"
+    },
+    {
+      "id": "d4",
+      "name": "DR.AYŞE DENİZ AKKAYA",
+      "phone": "8486",
+      "unit": "Dermatoloji"
+    },
+    {
+      "id": "d84",
+      "name": "DR.BETÜL TUĞCU",
+      "phone": "8190",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d135",
+      "name": "DR.ELİF Göknur Topçu",
+      "phone": "8235",
+      "unit": "Kadın Hastalıkları ve Doğum"
+    },
+    {
+      "id": "d222",
+      "name": "DR.EMEL CEYLAN",
+      "phone": "8436-8437",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ"
+    },
+    {
+      "id": "d120",
+      "name": "DR.EMRE ACAR",
+      "phone": "8505",
+      "unit": "Acil Doktor Odası"
+    },
+    {
+      "id": "d180",
+      "name": "DR.ENİS OĞUZ",
+      "phone": "Dahili no yok",
+      "unit": "Kardiyoloji"
+    },
+    {
+      "id": "d44",
+      "name": "DR.ERDAL KARAÖZ",
+      "phone": "8402",
+      "unit": "KÖK HÜCRE"
+    },
+    {
+      "id": "d18",
+      "name": "DR.ERDEN ERTÜRER",
+      "phone": "8475-76",
+      "unit": "Ortopedi ve Travmatoloji"
+    },
+    {
+      "id": "d153",
+      "name": "DR.FATMA GÜLÇİN ÖZALP",
+      "phone": "8254",
+      "unit": "İç Hastalıkları"
+    },
+    {
+      "id": "d12",
+      "name": "DR.FERAH ECE",
+      "phone": "8410",
+      "unit": "Göğüs Hastalıkları"
+    },
+    {
+      "id": "d111",
+      "name": "DR.FERİT ARĞUN",
+      "phone": "8175",
+      "unit": "İç Hastalıkları"
+    },
+    {
+      "id": "d43",
+      "name": "DR.GAMZE KESKİN",
+      "phone": "8278",
+      "unit": "Vıp - Check-up ve Sağlıklı Yaşam"
+    },
+    {
+      "id": "d64",
+      "name": "DR.GİZEM GÜVENER",
+      "phone": "8523",
+      "unit": "Çocuk Sağlığı Hastalıkları"
+    },
+    {
+      "id": "d178",
+      "name": "DR.GÖKHAN ERTAŞ",
+      "phone": "8459",
+      "unit": "Kardiyoloji"
+    },
+    {
+      "id": "d19",
+      "name": "DR.GÖKHAN KÜRŞAT KARA",
+      "phone": "8475-76",
+      "unit": "Omurga Cerrahisi"
+    },
+    {
+      "id": "d21",
+      "name": "DR.GÜRKAN GÜMÜŞSUYU",
+      "phone": "8475-76",
+      "unit": "Ortopedi ve Travmatoloji"
+    },
+    {
+      "id": "d210",
+      "name": "DR.HAMDİ LEVENT DOĞANAY",
+      "phone": "8444",
+      "unit": "Gastroenteroloji"
+    },
+    {
+      "id": "d8",
+      "name": "DR.İLTERİŞ OĞUZ",
+      "phone": "8492",
+      "unit": "Dermatoloji"
+    },
+    {
+      "id": "d22",
+      "name": "DR.İSMAİL TUGAY YAĞCI",
+      "phone": "8475-76",
+      "unit": "Ortopedi ve Travmatoloji"
+    },
+    {
+      "id": "d17",
+      "name": "DR.KADİR ABUL",
+      "phone": "8448",
+      "unit": "Ortopedi ve Travmatoloji"
+    },
+    {
+      "id": "d187",
+      "name": "DR.KENAN TEMİZ",
+      "phone": "8547",
+      "unit": "Psikiyatri"
+    },
+    {
+      "id": "d144",
+      "name": "DR.KORAY ACARLI",
+      "phone": "8248",
+      "unit": "Genel Cerrahi"
+    },
+    {
+      "id": "d140",
+      "name": "Dr.KÜBRA KARAKOLCU",
+      "phone": "8382",
+      "unit": "Kadın Hastalıkları ve Doğum"
+    },
+    {
+      "id": "d182",
+      "name": "DR.MEHMET ALPAY ÇAL",
+      "phone": "8274",
+      "unit": "Beyin ve Sinir Cerrahisi"
+    },
+    {
+      "id": "d23",
+      "name": "DR.MERAL GÜNALDI",
+      "phone": "8415",
+      "unit": "Onkoloji"
+    },
+    {
+      "id": "d143",
+      "name": "DR.MİRAÇ ÖZALP",
+      "phone": "8281",
+      "unit": "Kadın Hast ve Doğum"
+    },
+    {
+      "id": "d68",
+      "name": "DR.MUHAMMET ALİ VARKAL",
+      "phone": "8522",
+      "unit": "Çocuk Sağlığı Hastalıkları"
+    },
+    {
+      "id": "d10",
+      "name": "DR.MUHİTTİN EMRE ALTUNRENDE",
+      "phone": "8411",
+      "unit": "Beyin ve Sinir Cerrahisi"
+    },
+    {
+      "id": "d76",
+      "name": "DR.MUSTAFA TAŞTAN",
+      "phone": "8343",
+      "unit": "Kulak Burun Boğaz Hastalıkları"
+    },
+    {
+      "id": "d6",
+      "name": "DR.NAZLI CAF",
+      "phone": "8397",
+      "unit": "Dermatoloji"
+    },
+    {
+      "id": "d82",
+      "name": "DR.NUR ACAR GÖÇGİL",
+      "phone": "8192",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d63",
+      "name": "DR.OSMAN KARLI",
+      "phone": "8526",
+      "unit": "Çocuk Sağlığı Hastalıkları"
+    },
+    {
+      "id": "d86",
+      "name": "DR.RIFAT RASİER",
+      "phone": "8190",
+      "unit": "Göz Hastalıkları"
+    },
+    {
+      "id": "d156",
+      "name": "DR.SEDA TURGUT",
+      "phone": "8144",
+      "unit": "Endokrinoloji"
+    },
+    {
+      "id": "d165",
+      "name": "DR.SELDA KORKMAZ YAKAR",
+      "phone": "8249",
+      "unit": "Nöroloji"
+    },
+    {
+      "id": "d139",
+      "name": "DR.SELİN ÇETİNKAL",
+      "phone": "8236",
+      "unit": "Kadın Hastalıkları ve Doğum"
+    },
+    {
+      "id": "d145",
+      "name": "DR.SELMAN EMİROĞLU",
+      "phone": "8432",
+      "unit": "Meme Cerrahi"
+    },
+    {
+      "id": "d175",
+      "name": "DR.TAHİR KARADENİZ",
+      "phone": "8141",
+      "unit": "Üroloji"
+    },
+    {
+      "id": "d66",
+      "name": "DR.TAMER ÜNVER",
+      "phone": "8525",
+      "unit": "Çocuk Sağlığı Hastalıkları"
+    },
+    {
+      "id": "d42",
+      "name": "DR.TUBA EFE",
+      "phone": "8183",
+      "unit": "Vıp - Check-up ve Sağlıklı Yaşam"
+    },
+    {
+      "id": "d11",
+      "name": "DR.UĞUR HAKLAR",
+      "phone": "8418",
+      "unit": "Diz Cerrahisi"
+    },
+    {
+      "id": "d91",
+      "name": "DR.YAVUZ ÖZTÜRKER",
+      "phone": "8430",
+      "unit": "İç Hastalıkları"
+    },
+    {
+      "id": "d112",
+      "name": "Dr.YELİZ ZIHLI KIZAK",
+      "phone": "8150",
+      "unit": "İç Hastalıkları"
+    },
+    {
+      "id": "d236",
+      "name": "DR.YILDIZ GONCA DOĞRU",
+      "phone": "8412",
+      "unit": "Fiziksel Tıp ve Rehabilitasyon"
+    },
+    {
+      "id": "d5",
+      "name": "DR.ÖMER GEZDUR",
+      "phone": "8486",
+      "unit": "Dermatoloji"
+    },
+    {
+      "id": "d13",
+      "name": "DR.ÖZENÇ MİNARECİ",
+      "phone": "8418",
+      "unit": "Nöroradyoloji"
+    },
+    {
+      "id": "d159",
+      "name": "DT. AYDAN GÜRCAN",
+      "phone": "5413",
+      "unit": "Ağız Ve Diş Sağlığı"
+    },
+    {
+      "id": "d162",
+      "name": "DT. BEGÜM ASLAN",
+      "phone": "5413",
+      "unit": "Ağız Ve Diş Sağlığı"
+    },
+    {
+      "id": "d163",
+      "name": "DT. ECEM AYTUNA YARDIM",
+      "phone": "5413",
+      "unit": "Endodonti Uzmanı"
+    },
+    {
+      "id": "d161",
+      "name": "DT. MELİSA ALBAYRAK",
+      "phone": "5413",
+      "unit": "Ağız Ve Diş Sağlığı"
+    },
+    {
+      "id": "d160",
+      "name": "DT.OZAN KARAKAŞ",
+      "phone": "5413",
+      "unit": "Ağız Ve Diş Sağlığı"
+    },
+    {
+      "id": "d213",
+      "name": "ECZANE SORUMLUSU",
+      "phone": "8460-1919",
+      "unit": "B4.KAT"
+    },
+    {
+      "id": "d238",
+      "name": "ELEKTROTERAPİ ODASI-FİZYOTERAPİ SEANS ODALARI",
+      "phone": "8446",
+      "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERA"
+    },
+    {
+      "id": "d124",
+      "name": "ESRA AKDENİZ",
+      "phone": "8491",
+      "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI"
+    },
+    {
+      "id": "d189",
+      "name": "FERİDE TÜRKMEN",
+      "phone": "8178",
+      "unit": "KARDİYOLOJİ & KVC KOORDİNATÖRÜ"
+    },
+    {
+      "id": "d229",
+      "name": "FİZİK PLANLAMA ODASI",
+      "phone": "8427",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)"
+    },
+    {
+      "id": "d239",
+      "name": "FTR EGZERSİZ ODASI",
+      "phone": "8446",
+      "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERA"
+    },
+    {
+      "id": "d221",
+      "name": "GAMA ODASI-SİNTİGRAFİ",
+      "phone": "8620",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ"
+    },
+    {
+      "id": "d193",
+      "name": "GENEL YOĞUN BAKIM",
+      "phone": "8360",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d196",
+      "name": "GENEL YOĞUN BAKIM DOKTOR ODASI",
+      "phone": "5407",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d215",
+      "name": "HASTA BAKIM HİZMETLERİ BANKO",
+      "phone": "8456",
+      "unit": "MEDİKAL ( TIBBİ )ONKOLOJİ-HEMATOLOJİ"
+    },
+    {
+      "id": "d225",
+      "name": "HASTA BAKIM HİZMETLERİ BANKO",
+      "phone": "8442",
+      "unit": "GÜNÜBİRLİK YATIŞ İŞEMLERİ - TÜP BEBEK İŞ"
+    },
+    {
+      "id": "d207",
+      "name": "HASTA BAKIM HİZMETLERİ BANKO (ENDOSKOPİ İŞLEM )",
+      "phone": "8393",
+      "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ"
+    },
+    {
+      "id": "d61",
+      "name": "HASTA KABUL -VEZNE",
+      "phone": "8536- 8529",
+      "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ"
+    },
+    {
+      "id": "d3",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8445",
+      "unit": "DERMATOLOJİ - MEDİKAL ESTETİK"
+    },
+    {
+      "id": "d7",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8418-8419",
+      "unit": "DERMATOLOJİ - NÖRO RADYOLOJİ - BEYİN VE "
+    },
+    {
+      "id": "d41",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8182-8366",
+      "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM"
+    },
+    {
+      "id": "d73",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8188",
+      "unit": "KULAK BURUN BOĞAZ"
+    },
+    {
+      "id": "d77",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8194",
+      "unit": "GÖZ HASTALIKLARI"
+    },
+    {
+      "id": "d87",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8181",
+      "unit": "ÜROLOJİ"
+    },
+    {
+      "id": "d90",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8428",
+      "unit": "İÇ HASTALIKLARI"
+    },
+    {
+      "id": "d99",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "5404-8518",
+      "unit": "RADYOLOJİ"
+    },
+    {
+      "id": "d110",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8268-8335",
+      "unit": "CHECK-UP VE SAĞLIKLI YAŞAM"
+    },
+    {
+      "id": "d114",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8268",
+      "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIK"
+    },
+    {
+      "id": "d116",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8502-8514",
+      "unit": "ACİL SERVİS"
+    },
+    {
+      "id": "d132",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8230-8231",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM"
+    },
+    {
+      "id": "d137",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8240",
+      "unit": "TÜP BEBEK-IVF"
+    },
+    {
+      "id": "d142",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8245",
+      "unit": "GENEL CERRAHİ-PSİKOLOJİ-GENETİK"
+    },
+    {
+      "id": "d152",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8251-8252",
+      "unit": "3"
+    },
+    {
+      "id": "d158",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8252",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI"
+    },
+    {
+      "id": "d164",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8244",
+      "unit": "NÖROLOJİ - GÖĞÜS HASTALIKLARI"
+    },
+    {
+      "id": "d173",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8263-8262",
+      "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ"
+    },
+    {
+      "id": "d177",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8178",
+      "unit": "KARDİYOLOJİ-GÖGÜS CERRAHİSİ -KVC -PLASTİ"
+    },
+    {
+      "id": "d206",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8349-8350",
+      "unit": "GASTROENTOLOJİ"
+    },
+    {
+      "id": "d214",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8451-8452",
+      "unit": "MEDİKAL ( TIBBİ )ONKOLOJİ-HEMATOLOJİ"
+    },
+    {
+      "id": "d219",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8405 - 8435",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ"
+    },
+    {
+      "id": "d227",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8420",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)"
+    },
+    {
+      "id": "d232",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8257",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)"
+    },
+    {
+      "id": "d237",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8446",
+      "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERA"
+    },
+    {
+      "id": "d45",
+      "name": "HEMŞİRE BANKO",
+      "phone": "8272",
+      "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM"
+    },
+    {
+      "id": "d96",
+      "name": "HÜLYA YAYLA",
+      "phone": "5422",
+      "unit": "LABORATUVAR SORUMLU TEKNİKERİ"
+    },
+    {
+      "id": "d244",
+      "name": "ISS OFİS B2",
+      "phone": "8477",
+      "unit": "B5.KAT"
+    },
+    {
+      "id": "d242",
+      "name": "İBRAHİM YAVUZ",
+      "phone": "8296",
+      "unit": "TEKNİK HİZMETLER MÜDÜR YARDIMCISI"
+    },
+    {
+      "id": "d224",
+      "name": "İLKE BURÇAK ÖZ",
+      "phone": "8440",
+      "unit": "ANJİO BANKO (Koroner Anjio,Kalp Pili )"
+    },
+    {
+      "id": "d51",
+      "name": "İYOT ODASI",
+      "phone": "8135",
+      "unit": "1.KAT YATAN HASTA"
+    },
+    {
+      "id": "d52",
+      "name": "İYOT ODASI",
+      "phone": "8136",
+      "unit": "1.KAT YATAN HASTA"
+    },
+    {
+      "id": "d122",
+      "name": "KAN BANKASI",
+      "phone": "8510",
+      "unit": "EKİP LİDERİ"
+    },
+    {
+      "id": "d35",
+      "name": "KİRPİ CAFE",
+      "phone": "8461",
+      "unit": "2.KAT GİRİŞ"
+    },
+    {
+      "id": "d197",
+      "name": "KVC YOĞUN BAKIM",
+      "phone": "8353",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d198",
+      "name": "KVC YOĞUN BAKIM DOKTOR ODASI",
+      "phone": "5414",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d93",
+      "name": "KÖK HÜCRE LAB.",
+      "phone": "8624",
+      "unit": "İÇ HASTALIKLARI"
+    },
+    {
+      "id": "d95",
+      "name": "LABORATUVAR SEKRETERLİĞİ",
+      "phone": "8197",
+      "unit": "BİYOKİMYA LABORATUVARI"
+    },
+    {
+      "id": "d192",
+      "name": "LİV SAÇ TASARIM (KUAFÖR)",
+      "phone": "8363",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d203",
+      "name": "MELTEM HAZLIPINAR",
+      "phone": "8347",
+      "unit": "ANESTEZİ BANKO"
+    },
+    {
+      "id": "d195",
+      "name": "MERVE GENEL",
+      "phone": "8348",
+      "unit": "GENEL YOĞUN BAKIM MİSAFİR HİZMETLERİ BAN"
+    },
+    {
+      "id": "d97",
+      "name": "MİKROBİYOLOJİ LABORATUVARI",
+      "phone": "8196",
+      "unit": "BİYOKİMYA LABORATUVARI"
+    },
+    {
+      "id": "d174",
+      "name": "NUMUNE ALMA-HEMŞİRE",
+      "phone": "8205",
+      "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ"
+    },
+    {
+      "id": "d1",
+      "name": "NURSEL ARSLANTÜRK",
+      "phone": "8416",
+      "unit": "GENEL MÜDÜR ASİSTANI"
+    },
+    {
+      "id": "d220",
+      "name": "NÜKLEER TIP ÇEKİM ODASI VE TEKNİKER",
+      "phone": "8438",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ"
+    },
+    {
+      "id": "d131",
+      "name": "ODYOMETRİ",
+      "phone": "8187",
+      "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI"
+    },
+    {
+      "id": "d16",
+      "name": "ORTOPEDİ ASİSTAN BANKO",
+      "phone": "8475-8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ"
+    },
+    {
+      "id": "d24",
+      "name": "ORTOPEDİ EKİBİ DANIŞMANI",
+      "phone": "Deck 8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ"
+    },
+    {
+      "id": "d241",
+      "name": "OĞUZHAN BEKTAŞ",
+      "phone": "8293",
+      "unit": "TEKNİK HİZMETLER MÜDÜRÜ"
+    },
+    {
+      "id": "d15",
+      "name": "PANSUMAN - ALÇI ODASI",
+      "phone": "8417",
+      "unit": "DR. ALP BURAK ÇATAKOĞLU"
+    },
+    {
+      "id": "d199",
+      "name": "PATOLOJİ",
+      "phone": "8344",
+      "unit": "B3.KAT"
+    },
+    {
+      "id": "d62",
+      "name": "PEDİATRİ KAN ALMA",
+      "phone": "8527",
+      "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ"
+    },
+    {
+      "id": "d102",
+      "name": "RADYOLOJİ RAPOR ODASI",
+      "phone": "8470",
+      "unit": "RADYOLOJİ"
+    },
+    {
+      "id": "d101",
+      "name": "RADYOLOJİ SORUMLU ODASI",
+      "phone": "8466",
+      "unit": "RADYOLOJİ"
+    },
+    {
+      "id": "d228",
+      "name": "RADYOTERAPİ TEKNİKER ODASI",
+      "phone": "8429",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)"
+    },
+    {
+      "id": "d191",
+      "name": "RAZİYE HASBAŞ",
+      "phone": "DECT 5421",
+      "unit": "GENEL YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SO"
+    },
+    {
+      "id": "d34",
+      "name": "RESEPSİYON",
+      "phone": "8200",
+      "unit": "2.KAT GİRİŞ"
+    },
+    {
+      "id": "d105",
+      "name": "RÖNTGEN-MAMOGRAFİ",
+      "phone": "8520",
+      "unit": "RADYOLOJİ"
+    },
+    {
+      "id": "d36",
+      "name": "SEHER MERVE BOLAT/ELİF BAŞAK KARA",
+      "phone": "8213 - 8219",
+      "unit": "YATIŞ HİZMETLERİ OFİSİ"
+    },
+    {
+      "id": "d25",
+      "name": "TABURCULUK HİZMETLERİ OFİSİ",
+      "phone": "Deck 8146",
+      "unit": "3.KAT YATAN HASTA"
+    },
+    {
+      "id": "d57",
+      "name": "TABURCULUK HİZMETLERİ OFİSİ",
+      "phone": "8224",
+      "unit": "ZEMİN KAT YATAN HASTA"
+    },
+    {
+      "id": "d243",
+      "name": "TEKNİK SERVİS",
+      "phone": "8626",
+      "unit": "B5.KAT"
+    },
+    {
+      "id": "d2",
+      "name": "TIBBİ YÜRÜTME KURULU ODASI",
+      "phone": "8359-8496",
+      "unit": "4.KAT YÖNETİM"
+    },
+    {
+      "id": "d141",
+      "name": "TÜP BEBEK-IVF HASTA BAKIM HİZMETLERİ ODASI",
+      "phone": "8238",
+      "unit": "TÜP BEBEK-IVF"
+    },
+    {
+      "id": "d202",
+      "name": "TÜP BEBEK-IVF-EMBRİYO LABORATUVARI",
+      "phone": "8404",
+      "unit": "AMELİYATHANE DEPO"
+    },
+    {
+      "id": "d100",
+      "name": "ULTRASON BANKOSU",
+      "phone": "8519",
+      "unit": "RADYOLOJİ"
+    },
+    {
+      "id": "d205",
+      "name": "UYANDIRMA ODASI - POST OP",
+      "phone": "8612",
+      "unit": "ANESTEZİ"
+    },
+    {
+      "id": "d31",
+      "name": "UYKU ODASI",
+      "phone": "8325",
+      "unit": "3.KAT YATAN HASTA"
+    },
+    {
+      "id": "d172",
+      "name": "Uzm. Klinik Psikolog",
+      "phone": "8603",
+      "unit": "BURCU ÖZCAN"
+    },
+    {
+      "id": "d39",
+      "name": "VALE",
+      "phone": "8171",
+      "unit": "2.KAT GİRİŞ"
+    },
+    {
+      "id": "d127",
+      "name": "YADİGAR GÜNDOĞDU",
+      "phone": "DECT 8292",
+      "unit": "MİSAFİR İLİŞKİLERİ MÜDÜRÜ"
+    },
+    {
+      "id": "d60",
+      "name": "YENİDOĞAN YOĞUN BAKIM (NİCU)",
+      "phone": "8533-8534-8535",
+      "unit": "ZEMİN KAT YATAN HASTA"
+    },
+    {
+      "id": "d123",
+      "name": "YURTDIŞI PAZARLAMA",
+      "phone": "8397",
+      "unit": "B1 YÖNETİM OFİSLERİ"
+    },
+    {
+      "id": "d212",
+      "name": "ÇİĞDEM TELMAN",
+      "phone": "8459-1919",
+      "unit": "EZCANE/ ECZACI"
+    },
+    {
+      "id": "d75",
+      "name": "ÖMER ERDUR",
+      "phone": "8189",
+      "unit": "Kulak Burun Boğaz Hastalıkları"
+    },
+    {
+      "id": "d190",
+      "name": "ÖNDER OSMAN SEVİMLİ",
+      "phone": "DECT 5414",
+      "unit": "KVC YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SORU"
+    },
+    {
+      "id": "d94",
+      "name": "ÖRNEK KABUL",
+      "phone": "8286-8287",
+      "unit": "BİYOKİMYA LABORATUVARI"
+    },
+    {
+      "id": "d126",
+      "name": "ŞELALE ŞEKER",
+      "phone": "8426",
+      "unit": "KALİTE MÜDÜR YARDIMCISI"
+    }
+  ]
 }
