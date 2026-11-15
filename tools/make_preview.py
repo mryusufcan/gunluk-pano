@@ -67,9 +67,9 @@ draw.rounded_rectangle((card_x0, card_y0, card_x1, card_y1), radius=28, fill=CAR
 pad = 34
 draw.text((card_x0 + pad, card_y0 + 32), "GÜNÜN EKİBİ", font=bold(20), fill=TEAL)
 rows = [
-    ("08–16", "Hazal Kaşıkcı", "MR"),
-    ("16–24", "Yusuf Can Özdemir", ""),
-    ("24–08", "Abdullah Tecen", ""),
+    ("08–16", "Sabah ekibi", "MR"),
+    ("16–24", "Akşam ekibi", ""),
+    ("24–08", "Gece ekibi", ""),
 ]
 row_font = bold(24)
 meta_font = regular(20)
@@ -93,6 +93,9 @@ draw.text((card_x0 + pad, y + 34), "Izgara tavuk · Pilav · Salata", font=regul
 y += 96
 draw.text((card_x0 + pad, y), "NOT", font=bold(20), fill=TEAL)
 draw.text((card_x0 + pad, y + 32), "BT 14:00–16:00 bakımda", font=regular(22), fill=MUTED)
+
+# Kart altına temsili olduğu notu
+draw.text((card_x0 + pad, 552), "Temsili görünüm", font=regular(18), fill=(150, 196, 188))
 
 image.save(OUT, "PNG", optimize=True)
 print("yazıldı:", os.path.abspath(OUT), image.size)
