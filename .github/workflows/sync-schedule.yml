@@ -1,0 +1,42 @@
+name: Çizelgeyi senkronla
+
+on:
+  schedule:
+    # Her gün 04:30 UTC = 07:30 (Türkiye)
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-schedule
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılık
+        run: pip install openpyxl
+
+      - name: Ekip listesini çek
+        run: python3 tools/sync_schedule.py
+
+      - name: Değişiklik varsa kaydet
+        run: |
+          if git diff --quiet -- content.json; then
+            echo "Değişiklik yok."
+            exit 0
+          fi
+          git config user.name "pano-bot"
+          git config user.email "pano-bot@users.noreply.github.com"
+          git add content.json
+          git commit -m "Çizelgeden ekip güncellendi"
+          git push

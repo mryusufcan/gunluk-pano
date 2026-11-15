@@ -59,6 +59,17 @@ Bu depo için kurulum tamamlandı (Pages açık, `main` dalına push otomatik ya
 
 Anahtar istemiyorsanız: düzenleyin → **Veri → content.json kopyala** → **GitHub'da content.json'u düzenle** bağlantısına dokunun → dosyadaki metni silip kopyaladığınızı yapıştırın → **Commit changes**. Yayın yine 1-2 dakikada görünür.
 
+## Haftalık çizelge senkronu
+
+Ekip listesi, departmanın Google E-Tablo'sundaki haftalık çalışma listesinden otomatik gelir:
+
+- Google E-Tablo: haftalık çalışma listesi (`10-i9GB...JT-5I`), herkese açık bağlantı.
+- `tools/sync_schedule.py` çizelgeyi indirir, günleri/kişileri/vardiyaları ayrıştırır ve **yalnızca ekip alanlarını** `content.json`'a yazar.
+- `.github/workflows/sync-schedule.yml` bu betiği **her gün 07:30'da** çalıştırır; değişiklik varsa commit eder, Pages kendiliğinden yayınlar.
+- Elle çalıştırmak için: GitHub → **Actions → Çizelgeyi senkronla → Run workflow**.
+- Yemek, not, duyuru ve ayarlara dokunulmaz. Telefon numaraları isim eşleşmesiyle korunur.
+- Otomatik senkron istenmiyorsa workflow dosyasını silin; her şey elle de çalışır (`python3 tools/sync_schedule.py`).
+
 ## Yönetici kullanımı
 
 1. `?admin=1` adresini açın (yer imine ekleyin). Duyuruları **Ayarlar → Duyuru şeridi**'nden yazın; üstteki düzenle düğmesi de oraya götürür.
