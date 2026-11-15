@@ -169,6 +169,7 @@ function normalizeState(raw) {
   if (raw.settings && typeof raw.settings === "object") {
     state.settings.title = str(raw.settings.title, state.settings.title, 40).trim() || "Günün Panosu";
     state.settings.dept = str(raw.settings.dept, state.settings.dept, 40).trim();
+    if (raw.settings.theme === "dark" || raw.settings.theme === "light") state.settings.theme = raw.settings.theme;
   }
   state.author = str(raw.author, "", 40).trim();
 
@@ -235,7 +236,7 @@ function saveSoon() {
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
     save();
-    renderStats();
+    renderSettings();
   }, 450);
 }
 
@@ -1032,7 +1033,10 @@ function bindEvents() {
     if (!ok) return;
     const next = normalizeState(parsed);
     Object.assign(state, next);
-    applyTheme(state.settings.theme === "dark" ? "dark" : "light");
+    if (parsed.settings && (parsed.settings.theme === "dark" || parsed.settings.theme === "light")) {
+      applyTheme(parsed.settings.theme);
+    }
+    el("note-author").value = state.author || "";
     save();
     renderLinkEditor();
     render();
