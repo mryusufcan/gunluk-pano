@@ -13,7 +13,6 @@ const THEME_KEY = "pano-theme";
 const VIEW_KEY = "pano-view";
 const SHIFT_KEY = "nobet-listesi-static-v1";
 const SHIFT_DEVICES = ["MR", "BT", "RÖNT-PORT", "RÖNTGEN", "RÖNT-MAMO"];
-const ROLES = ["Radyolog", "Asistan radyolog", "Teknisyen", "Hemşire", "Sekreter", "Fizikçi", "Öğrenci", "Diğer"];
 const SHIFTS = ["08–16", "16–24", "24–08", "İcap", "İdari", "İzinli"];
 const VIEWS = ["ekip", "yemek", "notlar", "ayarlar"];
 const WEEKDAYS = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
@@ -150,7 +149,6 @@ function normalizeMember(raw) {
   return {
     id: str(raw.id, uid(), 60),
     name,
-    role: str(raw.role, "", 30).trim(),
     shift: str(raw.shift, "", 12).trim(),
     phone: str(raw.phone, "", 30).trim(),
     note: str(raw.note, "", 80).trim(),
@@ -503,7 +501,7 @@ function personHtml(member) {
   return `<article class="person">
     <span class="avatar" style="--h:${hueOf(member.name)}" aria-hidden="true">${esc(initialsOf(member.name))}</span>
     <div class="person-body">
-      <div class="person-name">${esc(member.name)}${member.role ? `<span class="role">${esc(member.role)}</span>` : ""}</div>
+      <div class="person-name">${esc(member.name)}</div>
       ${meta.length ? `<div class="person-meta">${meta.join("")}</div>` : ""}
     </div>
     ${ADMIN_MODE ? `<div class="person-actions">
@@ -789,15 +787,15 @@ function readShiftTeam(dateKey) {
     const morning = Array.isArray(day.morning) ? day.morning : [];
     morning.forEach((id, index) => {
       const name = nameOf(id);
-      if (name) list.push({ name, role: "Radyolog", shift: "08–16", note: SHIFT_DEVICES[index] || "" });
+      if (name) list.push({ name, shift: "08–16", note: SHIFT_DEVICES[index] || "" });
     });
     (Array.isArray(day.evening) ? day.evening : []).forEach((id) => {
       const name = nameOf(id);
-      if (name) list.push({ name, role: "Radyolog", shift: "16–24", note: "Akşam" });
+      if (name) list.push({ name, shift: "16–24", note: "Akşam" });
     });
     (Array.isArray(day.night) ? day.night : []).forEach((id) => {
       const name = nameOf(id);
-      if (name) list.push({ name, role: "Radyolog", shift: "24–08", note: "Gece" });
+      if (name) list.push({ name, shift: "24–08", note: "Gece" });
     });
     return list.length ? list : null;
   } catch (error) {
@@ -817,7 +815,7 @@ function importShiftTeam() {
   for (const person of list) {
     const exists = day.team.some((member) => member.name === person.name && member.shift === person.shift);
     if (exists) continue;
-    day.team.push({ id: uid(), name: person.name, role: person.role, shift: person.shift, phone: "", note: person.note });
+    day.team.push({ id: uid(), name: person.name, shift: person.shift, phone: "", note: person.note });
     added += 1;
   }
   if (!added) {
@@ -839,7 +837,7 @@ function buildShareText() {
   const team = sortTeam(day.team);
   if (team.length) {
     for (const member of team) {
-      const extras = [member.role, member.phone ? `tel: ${member.phone}` : "", member.note].filter(Boolean).join(" · ");
+      const extras = [member.phone ? `tel: ${member.phone}` : "", member.note].filter(Boolean).join(" · ");
       lines.push(`• ${member.shift || "—"} · ${member.name}${extras ? ` (${extras})` : ""}`);
     }
   } else {
@@ -891,7 +889,7 @@ function buildShareLink() {
   const payload = {
     v: 1,
     date: selected,
-    team: day.team.map((member) => ({ name: member.name, role: member.role, shift: member.shift, phone: member.phone, note: member.note })),
+    team: day.team.map((member) => ({ name: member.name, shift: member.shift, phone: member.phone, note: member.note })),
     meal: day.meal.text,
     notes: state.notes
       .slice()
@@ -1535,7 +1533,7 @@ function addParsedMember(groups, dateKey, member) {
   const list = groups.get(dateKey) || [];
   const exists = list.some((item) => item.name === member.name && item.shift === member.shift);
   if (!exists) {
-    list.push({ name: member.name, role: member.role || "", shift: member.shift || "", note: member.note || "" });
+    list.push({ name: member.name, shift: member.shift || "", note: member.note || "" });
     groups.set(dateKey, list);
   }
 }
@@ -1979,7 +1977,7 @@ function applyImport() {
       let touched = false;
       for (const member of groups.get(date)) {
         if (day.team.some((item) => item.name === member.name && item.shift === member.shift)) continue;
-        day.team.push({ id: uid(), name: member.name, role: member.role, shift: member.shift, phone: "", note: member.note });
+        day.team.push({ id: uid(), name: member.name, shift: member.shift, phone: "", note: member.note });
         added += 1;
         touched = true;
       }
@@ -2307,7 +2305,6 @@ function openMemberDialog(memberId) {
   const member = memberId ? getDay(selected).team.find((item) => item.id === memberId) : null;
   el("member-title").textContent = member ? "Ekip üyesini düzenle" : "Ekip üyesi ekle";
   el("m-name").value = member ? member.name : "";
-  el("m-role").value = member && member.role ? member.role : ROLES[0];
   el("m-shift").value = member && member.shift ? member.shift : SHIFTS[0];
   el("m-phone").value = member ? member.phone : "";
   el("m-note").value = member ? member.note : "";
@@ -2476,7 +2473,6 @@ function bindEvents() {
     const member = {
       id: editingMemberId || uid(),
       name,
-      role: el("m-role").value,
       shift: el("m-shift").value,
       phone: el("m-phone").value.trim(),
       note: el("m-note").value.trim(),
@@ -2761,7 +2757,6 @@ function applyTheme(theme) {
 /* ---------- Başlangıç ---------- */
 async function init() {
   applyMode();
-  fillSelect(el("m-role"), ROLES);
   fillSelect(el("m-shift"), SHIFTS);
   applyTheme(document.documentElement.dataset.theme);
   el("note-author").value = authorName;

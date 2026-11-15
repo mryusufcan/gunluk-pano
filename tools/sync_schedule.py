@@ -165,7 +165,6 @@ def build_team(day, members, previous):
         team.append({
             "id": old.get("id") if old and old.get("id") else f"sheet-{day}-{index}",
             "name": person["name"],
-            "role": (old or {}).get("role") or "Teknisyen",
             "shift": person["shift"],
             "phone": (old or {}).get("phone", ""),
             "note": person.get("note", ""),

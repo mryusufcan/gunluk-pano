@@ -23,7 +23,7 @@ Yönetici (telefon)                      GitHub                        Ekip (tel
 
 ## Özellikler
 
-- **Günün ekibi:** vardiyaya göre gruplu liste (08–16, 16–24, 24–08, icap, idari, izinli), görev etiketi, telefon/dahili için `tel:` bağlantısı, kişi notu.
+- **Günün ekibi:** vardiyaya göre gruplu liste (08–16, 16–24, 24–08, icap, idari, izinli), telefon/dahili için `tel:` bağlantısı, kişi notu.
 - **Günün yemeği:** çok satırlı menü; dünkü menüyü kopyalama.
 - **Notlar:** yazar, saat, sabitleme, tamamlandı işareti, Tümü / Bugün / Sabitlenen / Açık filtreleri.
 - **Hızlı erişim:** PACS, RIS veya ekip grubu bağlantıları.

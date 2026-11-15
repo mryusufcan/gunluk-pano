@@ -141,6 +141,7 @@ async function main() {
   check("vardiya grubu", doc.querySelectorAll("#team-list .group-label").length === 2);
   check("telefon bağlantısı", Boolean(q(doc, '#team-list a[href^="tel:"]')));
   check("ekip düzenleme düğmesi yok", doc.querySelectorAll("#team-list [data-edit-member]").length === 0);
+  check("görev rozeti yok", doc.querySelectorAll("#team-list .role").length === 0);
   check("ekip ekle düğmesi gizli", doc.getElementById("add-member").hidden);
   check("not formu gizli", doc.getElementById("note-form").hidden);
   check("not işlem düğmesi yok", doc.querySelectorAll("#note-list .note-actions").length === 0);
@@ -209,7 +210,6 @@ async function main() {
   doc.getElementById("add-member").click();
   check("üye diyaloğu açıldı", doc.getElementById("member-dialog").hasAttribute("open"));
   doc.getElementById("m-name").value = "Yeni Teknisyen";
-  doc.getElementById("m-role").value = "Teknisyen";
   doc.getElementById("m-shift").value = "24–08";
   doc.getElementById("member-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
   await wait(40);
