@@ -1,6 +1,6 @@
 /* Günün Panosu — çevrimdışı desteği.
    Dosyaları değiştirdiğinizde CACHE adındaki sürümü artırın (v1 → v2). */
-const CACHE = "gunluk-pano-v1";
+const CACHE = "gunluk-pano-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -38,6 +38,12 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // İçerik her zaman ağdan gelir; önbelleğe alınmaz.
+  if (url.pathname.endsWith("/content.json")) {
+    event.respondWith(fetch(request, { cache: "no-store" }));
+    return;
+  }
+
   // Sayfa açılışı: önce ağ (güncel sürüm), çevrimdışıysa önbellek.
   if (request.mode === "navigate") {
     event.respondWith(
@@ -54,15 +60,14 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Statik dosyalar: önbellekten, yoksa ağdan.
+  // Statik dosyalar: önce ağ (güncel sürüm), çevrimdışıysa önbellek.
   event.respondWith(
-    caches.match(request).then((hit) => {
-      if (hit) return hit;
-      return fetch(request).then((response) => {
+    fetch(request)
+      .then((response) => {
         const copy = response.clone();
         caches.open(CACHE).then((cache) => cache.put(request, copy));
         return response;
-      });
-    }),
+      })
+      .catch(() => caches.match(request)),
   );
 });

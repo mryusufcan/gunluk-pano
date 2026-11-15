@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "updatedAt": "",
+  "settings": {
+    "title": "Günün Panosu",
+    "dept": "Radyoloji"
+  },
+  "links": [
+    {
+      "id": "pacs",
+      "label": "PACS",
+      "url": ""
+    },
+    {
+      "id": "grup",
+      "label": "Ekip grubu",
+      "url": ""
+    }
+  ],
+  "days": {},
+  "notes": []
+}

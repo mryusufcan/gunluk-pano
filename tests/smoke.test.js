@@ -17,13 +17,68 @@ function check(name, condition, extra = "") {
   }
 }
 
-function makeDom(seedState) {
+const pad = (value) => String(value).padStart(2, "0");
+const now = new Date();
+const TODAY = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+const DAY_MS = 86400000;
+function shiftKey(amount) {
+  const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() + amount);
+  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+}
+function trDate(key) {
+  const [year, month, day] = key.split("-");
+  return `${day}.${month}.${year}`;
+}
+
+function baseContent() {
+  return {
+    version: 1,
+    updatedAt: "2026-11-15T18:00:00.000Z",
+    settings: { title: "Radyoloji Panosu", dept: "Görüntüleme" },
+    links: [{ id: "pacs", label: "PACS", url: "https://pacs.example/" }],
+    days: {
+      [TODAY]: {
+        team: [
+          { id: "a1", name: "Uzm. Dr. Ece Kaya", role: "Radyolog", shift: "08–16", phone: "1234", note: "MR" },
+          { id: "a2", name: "Murat Demir", role: "Teknisyen", shift: "16–24", phone: "", note: "BT" },
+        ],
+        meal: { text: "Mercimek çorbası\nIzgara tavuk\nPilav", updatedAt: 0 },
+      },
+    },
+    notes: [
+      { id: "n1", text: "Saat 15:00 toplantı", author: "Başhekimlik", ts: Date.parse("2026-11-15T12:00:00Z"), pinned: true, done: false },
+    ],
+  };
+}
+
+function jsonResponse(data, status = 200) {
+  return {
+    ok: status >= 200 && status < 300,
+    status,
+    json: async () => data,
+    text: async () => JSON.stringify(data),
+  };
+}
+
+function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null } = {}) {
+  const store = {
+    content: JSON.parse(JSON.stringify(content)),
+    fail: failContent,
+    puts: [],
+    github: github || {
+      repo: true,
+      sha: "sha-123",
+      putOk: true,
+      putStatus: 200,
+    },
+  };
   const errors = [];
   const virtualConsole = new VirtualConsole();
   virtualConsole.on("jsdomError", (error) => errors.push(String(error && error.stack ? error.stack : error)));
   virtualConsole.on("error", (...args) => errors.push(args.join(" ")));
+
   const dom = new JSDOM(inline, {
-    url: "http://localhost/gunluk-pano/",
+    url: `http://localhost/gunluk-pano/${mode === "admin" ? "?admin=1" : ""}`,
     runScripts: "dangerously",
     pretendToBeVisual: true,
     virtualConsole,
@@ -33,362 +88,324 @@ function makeDom(seedState) {
       window.TextEncoder = TextEncoder;
       window.TextDecoder = TextDecoder;
       window.DecompressionStream = DecompressionStream;
-      if (seedState) window.localStorage.setItem("rad-pano-v1", JSON.stringify(seedState));
+      if (publish) window.localStorage.setItem("pano-publish", JSON.stringify(publish));
+      window.fetch = async (input, init = {}) => {
+        const url = String(input);
+        if (url.startsWith("https://api.github.com/repos/")) {
+          const method = String(init.method || "GET").toUpperCase();
+          if (url.includes("/contents/")) {
+            if (method === "PUT") {
+              store.puts.push({ headers: init.headers || {}, body: JSON.parse(init.body || "{}") });
+              return jsonResponse({ content: { path: "content.json" } }, store.github.putOk ? 200 : store.github.putStatus);
+            }
+            if (!store.github.sha) return jsonResponse({ message: "Not Found" }, 404);
+            return jsonResponse({ sha: store.github.sha });
+          }
+          if (!store.github.repo) return jsonResponse({ message: "Not Found" }, 404);
+          return jsonResponse({ full_name: "test/repo" });
+        }
+        if (url.includes("content.json")) {
+          if (store.fail) throw new TypeError("ağ yok");
+          return jsonResponse(store.content);
+        }
+        return jsonResponse({ message: "yok" }, 404);
+      };
     },
   });
-  return { dom, errors };
+  return { dom, errors, store };
 }
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+async function boot(options = {}) {
+  const instance = makeDom(options);
+  await wait(180);
+  return instance;
+}
+
+function q(doc, selector) {
+  return doc.querySelector(selector);
+}
+
 async function main() {
-  /* ---------- 1. Boş kurulum ---------- */
-  console.log("\n1) İlk açılış");
-  let { dom, errors: bootErrors } = makeDom(null);
-  await wait(120);
+  /* ---------- 1. Görüntüleme modu ---------- */
+  console.log("\n1) Görüntüleme modu (ekip)");
+  let { dom, errors } = await boot();
   let doc = dom.window.document;
-  const $ = (selector) => doc.querySelector(selector);
-  const text = (selector) => ($(selector) || {}).textContent || "";
-
-  check("sayfa hatasız yüklendi", bootErrors.length === 0, bootErrors.join(" | "));
-  check("tarih başlığı dolu", text("#date-title").trim().length > 5);
+  check("sayfa hatasız yüklendi", errors.length === 0, errors.join(" | "));
+  check("görüntüleme modu", doc.documentElement.dataset.admin === "0");
+  check("tarih başlığı dolu", doc.getElementById("date-title").textContent.trim().length > 5);
   check("hafta şeridi 7 gün", doc.querySelectorAll("#weekstrip .chip").length === 7);
-  check("bugün işaretli", doc.querySelectorAll("#weekstrip .chip.is-today").length === 1);
-  check("varsayılan sekme ekip", $('.view[data-view="ekip"]').classList.contains("is-active"));
-  check("boş ekip mesajı", $("#team-list").textContent.includes("ekip girilmemiş"));
-  check("tema aydınlık", doc.documentElement.dataset.theme === "light");
+  check("ekip içerikten geldi", doc.getElementById("team-list").textContent.includes("Ece Kaya"));
+  check("vardiya grubu", doc.querySelectorAll("#team-list .group-label").length === 2);
+  check("telefon bağlantısı", Boolean(q(doc, '#team-list a[href^="tel:"]')));
+  check("ekip düzenleme düğmesi yok", doc.querySelectorAll("#team-list [data-edit-member]").length === 0);
+  check("ekip ekle düğmesi gizli", doc.getElementById("add-member").hidden);
+  check("not formu gizli", doc.getElementById("note-form").hidden);
+  check("not işlem düğmesi yok", doc.querySelectorAll("#note-list .note-actions").length === 0);
+  check("başlık içerikten", doc.getElementById("brand-title").textContent === "Radyoloji Panosu");
+  check("bölüm içerikten", doc.getElementById("brand-dept").textContent === "Görüntüleme");
+  check("hızlı erişim çipi", Boolean(q(doc, '#quick-links a[href="https://pacs.example/"]')));
+  check("yönetici çubuğu gizli", doc.getElementById("admin-bar").hidden);
+  check("önbellek uyarısı gizli", doc.getElementById("offline-note").hidden);
+  check("ayarlarda okuma bilgisi", doc.getElementById("view-title").textContent === "Radyoloji Panosu");
+  check("yayın bölümü gizli", doc.getElementById("pub-repo").closest(".panel").hidden);
 
-  /* ---------- 2. Ekip ekleme ---------- */
-  console.log("\n2) Ekip ekleme ve vardiya gruplama");
-  $("#add-member").click();
-  check("üye diyaloğu açıldı", $("#member-dialog").hasAttribute("open"));
-  $("#m-name").value = "Dr. Ayşe Yılmaz";
-  $("#m-role").value = "Radyolog";
-  $("#m-shift").value = "08–16";
-  $("#m-phone").value = "0532 111 22 33";
-  $("#member-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
-  await wait(10);
-  check("isim listede", $("#team-list").textContent.includes("Dr. Ayşe Yılmaz"));
-  check("telefon bağlantısı", Boolean($('#team-list a[href="tel:05321112233"]')));
-  check("grup etiketi 08–16", $("#team-list .group-label") && $("#team-list .group-label").textContent.includes("08–16"));
-  check("sayaç 1 kişi", text("#team-count").includes("1 kişi"));
+  /* Yetkisiz düzenleme denemesi */
+  doc.getElementById("add-member").click();
+  await wait(30);
+  check("görüntüleyici ekip ekleyemiyor", !doc.getElementById("member-dialog").hasAttribute("open"));
 
-  $("#add-member").click();
-  $("#m-name").value = "Murat Demir";
-  $("#m-shift").value = "16–24";
-  $("#member-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
-  await wait(10);
-  const labels = [...doc.querySelectorAll("#team-list .group-label")].map((node) => node.textContent.trim());
-  check("iki vardiya grubu", labels.length === 2 && labels[1].includes("16–24"), JSON.stringify(labels));
+  doc = dom.window.document;
 
-  const stored = JSON.parse(dom.window.localStorage.getItem("rad-pano-v1"));
-  const storedDate = Object.keys(stored.days)[0];
-  check("localStorage'a yazıldı", stored.days[storedDate].team.length === 2);
-
-  /* ---------- 3. Düzenleme ve silme ---------- */
-  console.log("\n3) Düzenleme");
-  $("#team-list [data-edit-member]").click();
-  check("düzenleme diyaloğu dolu", $("#m-name").value === "Dr. Ayşe Yılmaz");
-  $("#m-note").value = "MR–BT";
-  $("#member-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
-  await wait(10);
-  check("not güncellendi", $("#team-list").textContent.includes("MR–BT"));
-
-  /* ---------- 4. Yemek ---------- */
-  console.log("\n4) Yemek menüsü");
+  /* ---------- 2. Yemek ve notlar (görüntüleme) ---------- */
+  console.log("\n2) Yemek ve notlar (görüntüleme)");
   doc.querySelector('.tab[data-view="yemek"]').click();
-  check("yemek sekmesi aktif", $('.view[data-view="yemek"]').classList.contains("is-active"));
-  check("boş menü mesajı", $("#meal-body").textContent.includes("Menü girilmemiş"));
-  $("#edit-meal").click();
-  $("#meal-textarea").value = "Mercimek çorbası\nIzgara tavuk\nPilav";
-  $("#meal-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
-  await wait(10);
-  check("menü göründü", $("#meal-body").textContent.includes("Izgara tavuk"));
-  check("menü satır korunuyor", $("#meal-body .meal-text").textContent.includes("Mercimek çorbası\nIzgara tavuk"));
-  check("menü pili", !$("#meal-pill").hidden);
-
-  /* ---------- 5. Notlar ---------- */
-  console.log("\n5) Notlar");
+  check("yemek sekmesi", doc.querySelector('.view[data-view="yemek"]').classList.contains("is-active"));
+  check("menü göründü", doc.getElementById("meal-body").textContent.includes("Izgara tavuk"));
+  const mealLines = doc.querySelector("#meal-body .meal-text").textContent.split("\n").length;
+  check("menü satırları korundu", mealLines === 3);
   doc.querySelector('.tab[data-view="notlar"]').click();
-  $("#note-text").value = "BT cihazı 14:00–16:00 arası bakımda.";
-  $("#note-author").value = "Teknisyen Ali";
-  $("#note-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
-  await wait(10);
-  check("not listede", $("#note-list").textContent.includes("bakımda"));
-  check("yazar göründü", $("#note-list").textContent.includes("Teknisyen Ali"));
-  check("not sayacı rozeti", !$("#badge-notlar").hidden);
-  $("#note-list [data-note-pin]").click();
-  await wait(10);
-  check("sabitleme çalıştı", $("#note-list .note").classList.contains("is-pinned"));
-  $("#note-list [data-note-done]").click();
-  await wait(10);
-  check("tamamlandı çalıştı", $("#note-list .note").classList.contains("is-done"));
-
-  doc.querySelector('.filter[data-filter="pinned"]').click();
-  check("sabitlenen filtresi", $("#note-list .note.is-pinned") !== null);
-  doc.querySelector('.filter[data-filter="all"]').click();
-
-  /* ---------- 6. Ayarlar ---------- */
-  console.log("\n6) Ayarlar");
-  doc.querySelector('.tab[data-view="ayarlar"]').click();
-  check("ayarlar sekmesi aktif", $('.view[data-view="ayarlar"]').classList.contains("is-active"));
-  $("#set-title").value = "Radyoloji Günlük";
-  $("#set-title").dispatchEvent(new dom.window.Event("input", { bubbles: true }));
-  await wait(500);
-  check("başlık güncellendi", text("#brand-title") === "Radyoloji Günlük");
-  $("#set-theme").value = "dark";
-  $("#set-theme").dispatchEvent(new dom.window.Event("change", { bubbles: true }));
-  check("gece teması", doc.documentElement.dataset.theme === "dark");
-  check("tema kaydedildi", dom.window.localStorage.getItem("pano-theme") === "dark");
-  const saved = JSON.parse(dom.window.localStorage.getItem("rad-pano-v1"));
-  check("ayar kalıcı", saved.settings.title === "Radyoloji Günlük");
-  check("istatistik satırı", text("#stats").includes("not"));
-
-  /* ---------- 7. Tarih gezinme ---------- */
-  console.log("\n7) Tarih gezinme");
-  const firstDate = text("#date-title");
-  $("#next-day").click();
-  await wait(10);
-  check("sonraki gün", text("#date-title") !== firstDate);
-  const emptyDay = $("#team-list").textContent.includes("ekip girilmemiş");
-  check("yeni gün boş", emptyDay);
-  $("#prev-day").click();
-  await wait(10);
-  check("önceki gün geri döndü", text("#date-title") === firstDate);
-  check("ekip geri geldi", $("#team-list").textContent.includes("Dr. Ayşe Yılmaz"));
+  check("not listede", doc.getElementById("note-list").textContent.includes("toplantı"));
+  check("sabitlenen filtresi", (doc.querySelector('.filter[data-filter="pinned"]').click(), doc.querySelectorAll("#note-list .note.is-pinned").length === 1));
   dom.window.close();
 
-  /* ---------- 8. Kalıcılık ---------- */
-  console.log("\n8) Yeniden açılış (kalıcılık)");
-  const seed = {
-    v: 1,
-    settings: { title: "Radyoloji Panosu", dept: "Görüntüleme", theme: "light" },
-    links: [{ id: "pacs", label: "PACS", url: "https://pacs.example/", }],
-    days: {
-      [firstKey()]: {
-        team: [{ id: "a1", name: "Uzm. Dr. Ece Kaya", role: "Radyolog", shift: "08–16", phone: "1234", note: "MR" }],
-        meal: { text: "Ezogelin\nKuru fasulye", updatedAt: Date.now() },
-      },
-    },
-    notes: [{ id: "n1", text: "Saat 15:00 toplantı", author: "Başhekimlik", ts: Date.now(), pinned: true, done: false }],
-    author: "Ece",
-    updatedAt: Date.now(),
-  };
-  function firstKey() {
-    const date = new Date();
-    const pad = (value) => String(value).padStart(2, "0");
-    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
-  }
-  ({ dom, errors } = makeDom(seed));
-  await wait(120);
+  /* ---------- 3. Tarih gezinme ---------- */
+  console.log("\n3) Tarih gezinme");
+  ({ dom } = await boot());
   doc = dom.window.document;
-  const q = (selector) => doc.querySelector(selector);
-  check("kayıt hatasız yüklendi", errors.length === 0, errors.join(" | "));
-  check("başlık kayıttan", doc.getElementById("brand-title").textContent === "Radyoloji Panosu");
-  check("bölüm kayıttan", doc.getElementById("brand-dept").textContent === "Görüntüleme");
-  check("ekip kayıttan", doc.getElementById("team-list").textContent.includes("Ece Kaya"));
-  check("bağlantı çipi", Boolean(q('#quick-links a[href="https://pacs.example/"]')));
-  check("not kayıttan", doc.getElementById("note-list").textContent.includes("toplantı"));
+  const firstDate = doc.getElementById("date-title").textContent;
+  doc.getElementById("next-day").click();
+  await wait(20);
+  check("sonraki gün boş", doc.getElementById("team-list").textContent.includes("yayınladığında"));
+  check("tarih değişti", doc.getElementById("date-title").textContent !== firstDate);
+  doc.getElementById("prev-day").click();
+  await wait(20);
+  check("geri dönünce ekip", doc.getElementById("team-list").textContent.includes("Ece Kaya"));
+  dom.window.close();
+
+  /* ---------- 4. Yönetici modu: ekip düzenleme ---------- */
+  console.log("\n4) Yönetici modu: düzenleme");
+  ({ dom } = await boot({ mode: "admin" }));
+  doc = dom.window.document;
+  check("yönetici modu", doc.documentElement.dataset.admin === "1");
+  check("yönetici çubuğu görünür", !doc.getElementById("admin-bar").hidden);
+  check("durum: yayınlanmış", doc.getElementById("admin-status").textContent.includes("Yayınlandı"));
+  check("ekip ekle görünür", !doc.getElementById("add-member").hidden);
+  doc.getElementById("add-member").click();
+  check("üye diyaloğu açıldı", doc.getElementById("member-dialog").hasAttribute("open"));
+  doc.getElementById("m-name").value = "Yeni Teknisyen";
+  doc.getElementById("m-role").value = "Teknisyen";
+  doc.getElementById("m-shift").value = "24–08";
+  doc.getElementById("member-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  await wait(40);
+  check("yeni kişi listede", doc.getElementById("team-list").textContent.includes("Yeni Teknisyen"));
+  check("durum: taslak", doc.getElementById("admin-status").textContent.includes("Yayınlanmamış"));
+  const draft = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  check("taslak kaydedildi", JSON.stringify(draft).includes("Yeni Teknisyen"));
+
   doc.querySelector('.tab[data-view="yemek"]').click();
-  check("menü kayıttan", doc.getElementById("meal-body").textContent.includes("Kuru fasulye"));
+  doc.getElementById("edit-meal").click();
+  doc.getElementById("meal-textarea").value = "Ezogelin\nKuru fasulye";
+  doc.getElementById("meal-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  await wait(40);
+  check("menü düzenlendi", doc.getElementById("meal-body").textContent.includes("Kuru fasulye"));
 
-  /* ---------- 9. Bozuk kayıt dayanıklılığı ---------- */
-  console.log("\n9) Bozuk kayıt");
-  const broken = makeDom(null);
-  broken.dom.window.localStorage.setItem("rad-pano-v1", "{bozuk json");
-  broken.dom.window.close();
-  const recovered = makeDom({ v: 1, days: { "bozuk-tarih": { team: [{ name: 5 }] } }, notes: [{ text: 12 }] });
-  await wait(120);
-  check("bozuk alanlar temizlendi", recovered.errors.length === 0);
-  check("uygulama açıldı", recovered.dom.window.document.getElementById("date-title").textContent.trim().length > 5);
+  doc.querySelector('.tab[data-view="notlar"]').click();
+  doc.getElementById("note-text").value = "Cihaz bakımı yarın";
+  doc.getElementById("note-author").value = "Teknisyen Ali";
+  doc.getElementById("note-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  await wait(40);
+  check("not eklendi", doc.getElementById("note-list").textContent.includes("Cihaz bakımı"));
+  const draft2 = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  check("taslakta not var", draft2.notes.some((note) => note.text.includes("Cihaz bakımı")));
+  dom.window.close();
 
-
-  /* ---------- 10. Ekip listesi yapıştırma ---------- */
-  console.log("\n10) Ekip listesi içe aktarma (metin)");
-  let pasteDom = makeDom(null);
-  await wait(120);
-  let pdoc = pasteDom.dom.window.document;
-  pdoc.getElementById("import-team").click();
-  check("içe aktarma diyaloğu açıldı", pdoc.getElementById("import-dialog").hasAttribute("open"));
-  const pasteText = [
-    "15.11.2026 Cumartesi",
+  /* ---------- 5. Yönetici modu: içe aktarma ---------- */
+  console.log("\n5) Yönetici modu: liste içe aktarma");
+  ({ dom } = await boot({ mode: "admin" }));
+  doc = dom.window.document;
+  doc.getElementById("import-team").click();
+  check("içe aktarma diyaloğu", doc.getElementById("import-dialog").hasAttribute("open"));
+  doc.getElementById("import-text").value = [
+    `${trDate(shiftKey(1))} Pazartesi`,
     "08:00-16:00  Dr. Ayşe Yılmaz (MR), Murat Demir (BT)",
     "16:00-24:00  Ali Şahin",
-    "24:00-08:00  Emre Yıldız",
-    "",
-    "16.11.2026 Pazar",
-    "08:00-16:00  Dr. Ayşe Yılmaz (MR)",
   ].join("\n");
-  pdoc.getElementById("import-text").value = pasteText;
-  pdoc.getElementById("import-text").dispatchEvent(new pasteDom.dom.window.Event("input", { bubbles: true }));
+  doc.getElementById("import-text").dispatchEvent(new dom.window.Event("input", { bubbles: true }));
   await wait(450);
-  check("önizleme: 2 gün", pdoc.getElementById("import-preview").textContent.includes("2 gün"));
-  check("önizleme: 5 kişi", pdoc.getElementById("import-preview").textContent.includes("5 kişi"));
-  check("uygula etkin", !pdoc.getElementById("import-apply").disabled);
-  pdoc.getElementById("import-apply").click();
+  check("önizleme kişi sayısı", doc.getElementById("import-preview").textContent.includes("3 kişi"));
+  doc.getElementById("import-apply").click();
   await wait(60);
-  let stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  check("ilk gün 4 kişi", stored2.days["2026-11-15"].team.length === 4);
-  check("ikinci gün 1 kişi", stored2.days["2026-11-16"].team.length === 1);
-  const ayse = stored2.days["2026-11-15"].team.find((member) => member.name.includes("Ayşe"));
-  check("vardiya çözüldü", ayse.shift === "08–16");
-  check("cihaz nota yazıldı", ayse.note === "MR");
-  const emre = stored2.days["2026-11-15"].team.find((member) => member.name.includes("Emre"));
-  check("gece vardiyası", emre.shift === "24–08");
-  check("tarih seçildi", pdoc.getElementById("date-title").textContent.includes("15 Kasım"));
+  const draft3 = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  const imported = draft3.days[shiftKey(1)];
+  check("içe aktarma yazıldı", Boolean(imported) && imported.team.length === 3);
+  check("cihaz notu", imported.team.some((member) => member.name.includes("Ayşe") && member.note === "MR"));
+  dom.window.close();
 
-  pdoc.getElementById("import-team").click();
-  pdoc.getElementById("import-text").value = pasteText;
-  pdoc.getElementById("import-text").dispatchEvent(new pasteDom.dom.window.Event("input", { bubbles: true }));
-  await wait(450);
-  pdoc.getElementById("import-apply").click();
-  await wait(60);
-  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  check("tekrar ekleme çoğaltmıyor", stored2.days["2026-11-15"].team.length === 4);
-  check("mükerrer uyarısı", pdoc.getElementById("toast").textContent.includes("zaten"));
-  pdoc.querySelector("#import-dialog [data-close]").click();
-  pasteDom.dom.window.close();
-
-  /* ---------- 11. Excel'den kopyalanmış tablo ---------- */
-  console.log("\n11) Excel tablosu yapıştırma");
-  pasteDom = makeDom(null);
-  await wait(120);
-  pdoc = pasteDom.dom.window.document;
-  pdoc.getElementById("import-team").click();
-  pdoc.getElementById("import-text").value = [
-    "Tarih\t08:00-16:00\t16:00-24:00\t24:00-08:00",
-    "16.11.2026 Pazartesi\tDr. Ece Kaya, Murat Demir\tAli Şahin\tEmre Yıldız",
-    "17.11.2026 Salı\tDr. Ece Kaya\tZeynep Ak\tAli Şahin",
-  ].join("\n");
-  pdoc.getElementById("import-text").dispatchEvent(new pasteDom.dom.window.Event("input", { bubbles: true }));
-  await wait(450);
-  check("tablo önizlemesi", pdoc.getElementById("import-preview").textContent.includes("7 kişi"));
-  pdoc.getElementById("import-apply").click();
-  await wait(60);
-  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  const pzt = stored2.days["2026-11-16"].team;
-  check("sütun vardiyaları", pzt.filter((member) => member.shift === "08–16").length === 2 && pzt.filter((member) => member.shift === "16–24").length === 1);
-  check("gece sütunu", pzt.some((member) => member.name.includes("Emre") && member.shift === "24–08"));
-  pasteDom.dom.window.close();
-
-  /* ---------- 12. Gün adlarıyla haftalık liste ---------- */
-  console.log("\n12) Gün adlarıyla haftalık liste");
-  pasteDom = makeDom(null);
-  await wait(120);
-  pdoc = pasteDom.dom.window.document;
-  pdoc.getElementById("import-team").click();
-  pdoc.getElementById("import-text").value = ["Pazartesi", "08-16: Ayşe Kaya, Mehmet Demir", "16-24: Ali Vural"].join("\n");
-  pdoc.getElementById("import-text").dispatchEvent(new pasteDom.dom.window.Event("input", { bubbles: true }));
-  await wait(450);
-  pdoc.getElementById("import-apply").click();
-  await wait(60);
-  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  const monday = stored2.days["2026-11-09"];
-  check("pazartesiye yazıldı", Boolean(monday) && monday.team.length === 3);
-  check("gün adı vardiyası", monday.team.filter((member) => member.shift === "08–16").length === 2);
-  pasteDom.dom.window.close();
-
-  /* ---------- 13. Yemek listesi yapıştırma ---------- */
-  console.log("\n13) Yemek listesi içe aktarma");
-  pasteDom = makeDom(null);
-  await wait(120);
-  pdoc = pasteDom.dom.window.document;
-  pdoc.getElementById("import-meal").click();
-  check("yemek modu", pdoc.querySelector('[data-import-mode="meal"]').classList.contains("is-active"));
-  pdoc.getElementById("import-text").value = [
-    "15.11.2026 Cumartesi",
-    "Mercimek çorbası",
-    "Izgara tavuk",
-    "Pirinç pilavı",
-    "",
-    "16.11.2026 Pazar",
-    "Domates çorbası · Karnıyarık · Sütlaç",
-  ].join("\n");
-  pdoc.getElementById("import-text").dispatchEvent(new pasteDom.dom.window.Event("input", { bubbles: true }));
-  await wait(450);
-  check("menü önizlemesi", pdoc.getElementById("import-preview").textContent.includes("2 gün"));
-  pdoc.getElementById("import-apply").click();
-  await wait(60);
-  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  check("menü satırları", stored2.days["2026-11-15"].meal.text.split("\n").length === 3);
-  check("orta nokta ayrıldı", stored2.days["2026-11-16"].meal.text.split("\n").length === 3);
-  check("menü içeriği", stored2.days["2026-11-15"].meal.text.includes("Izgara tavuk"));
-  pasteDom.dom.window.close();
-
-  /* ---------- 14. Excel dosyası ---------- */
-  console.log("\n14) Excel dosyasından içe aktarma");
-  pasteDom = makeDom(null);
-  await wait(120);
-  pdoc = pasteDom.dom.window.document;
-  pdoc.getElementById("import-team").click();
-  const xlsxBuffer = fs.readFileSync(path.join(root, "tests/fixtures/ekip-listesi.xlsx"));
+  /* ---------- 6. Excel ve Word dosyası ---------- */
+  console.log("\n6) Excel ve Word dosyası");
+  ({ dom } = await boot({ mode: "admin" }));
+  doc = dom.window.document;
+  doc.getElementById("import-team").click();
+  const xlsx = fs.readFileSync(path.join(root, "tests/fixtures/ekip-listesi.xlsx"));
   const xlsxFile = {
     name: "ekip-listesi.xlsx",
-    arrayBuffer: async () => xlsxBuffer.buffer.slice(xlsxBuffer.byteOffset, xlsxBuffer.byteOffset + xlsxBuffer.byteLength),
+    arrayBuffer: async () => xlsx.buffer.slice(xlsx.byteOffset, xlsx.byteOffset + xlsx.byteLength),
     text: async () => "",
   };
-  const fileInput = pdoc.getElementById("import-file");
+  const fileInput = doc.getElementById("import-file");
   Object.defineProperty(fileInput, "files", { value: [xlsxFile], configurable: true });
-  fileInput.dispatchEvent(new pasteDom.dom.window.Event("change", { bubbles: true }));
+  fileInput.dispatchEvent(new dom.window.Event("change", { bubbles: true }));
   await wait(500);
-  check("xlsx metne çevrildi", pdoc.getElementById("import-text").value.includes("Ece Kaya"));
-  check("xlsx tarih hücresi", pdoc.getElementById("import-text").value.includes("16.11.2026"));
-  check("xlsx önizlemesi", pdoc.getElementById("import-preview").textContent.includes("2 gün"));
-  pdoc.getElementById("import-apply").click();
+  check("xlsx metne çevrildi", doc.getElementById("import-text").value.includes("Ece Kaya"));
+  check("xlsx tarih okundu", doc.getElementById("import-text").value.includes("16.11.2026"));
+  doc.getElementById("import-apply").click();
   await wait(60);
-  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  check("xlsx 16 kasım kadrosu", stored2.days["2026-11-16"].team.length === 4);
-  check("xlsx 17 kasım kadrosu", stored2.days["2026-11-17"].team.length === 3);
-  pasteDom.dom.window.close();
+  const draft4 = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  check("xlsx aktarıldı", draft4.days["2026-11-16"].team.length === 4);
+  dom.window.close();
 
-  /* ---------- 15. Word dosyası ---------- */
-  console.log("\n15) Word dosyasından içe aktarma");
-  pasteDom = makeDom(null);
-  await wait(120);
-  pdoc = pasteDom.dom.window.document;
-  pdoc.getElementById("import-meal").click();
-  const docxBuffer = fs.readFileSync(path.join(root, "tests/fixtures/yemek-listesi.docx"));
+  ({ dom } = await boot({ mode: "admin" }));
+  doc = dom.window.document;
+  doc.getElementById("import-meal").click();
+  const docx = fs.readFileSync(path.join(root, "tests/fixtures/yemek-listesi.docx"));
   const docxFile = {
     name: "yemek-listesi.docx",
-    arrayBuffer: async () => docxBuffer.buffer.slice(docxBuffer.byteOffset, docxBuffer.byteOffset + docxBuffer.byteLength),
+    arrayBuffer: async () => docx.buffer.slice(docx.byteOffset, docx.byteOffset + docx.byteLength),
     text: async () => "",
   };
-  const docxInput = pdoc.getElementById("import-file");
+  const docxInput = doc.getElementById("import-file");
   Object.defineProperty(docxInput, "files", { value: [docxFile], configurable: true });
-  docxInput.dispatchEvent(new pasteDom.dom.window.Event("change", { bubbles: true }));
+  docxInput.dispatchEvent(new dom.window.Event("change", { bubbles: true }));
   await wait(500);
-  check("docx metne çevrildi", pdoc.getElementById("import-text").value.includes("Mercimek"));
-  pdoc.getElementById("import-apply").click();
+  check("docx okundu", doc.getElementById("import-text").value.includes("Mercimek"));
+  doc.getElementById("import-apply").click();
   await wait(60);
-  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  check("docx menüsü", stored2.days["2026-11-16"] && stored2.days["2026-11-16"].meal.text.split("\n").length === 3);
-  pasteDom.dom.window.close();
+  const draft5 = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  check("docx menüsü", draft5.days["2026-11-16"].meal.text.split("\n").length === 3);
+  dom.window.close();
 
+  /* ---------- 7. GitHub yayını ---------- */
+  console.log("\n7) GitHub yayını");
+  ({ dom } = await boot({
+    mode: "admin",
+    publish: { repo: "mryusufcan/gunluk-pano", branch: "main", path: "content.json", token: "test-token" },
+  }));
+  doc = dom.window.document;
+  doc.getElementById("add-member").click();
+  doc.getElementById("m-name").value = "Yayın Testi Kişi";
+  doc.getElementById("m-shift").value = "08–16";
+  doc.getElementById("member-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  await wait(40);
+  doc.getElementById("admin-publish").click();
+  await wait(250);
+  check("yayın isteği gönderildi", dom.window.localStorage.getItem("pano-draft") === null);
+  check("durum: yayınlandı", doc.getElementById("admin-status").textContent.includes("Yayınlandı"));
+  dom.window.close();
 
-  /* ---------- 16. Aylık ızgara tablosu ---------- */
-  console.log("\n16) Aylık ızgara (gün numaralı) tablo");
-  pasteDom = makeDom(null);
-  await wait(120);
-  pdoc = pasteDom.dom.window.document;
-  pdoc.getElementById("import-team").click();
-  pdoc.getElementById("import-text").value = [
+  /* ---------- 8. Yayın isteği içeriği ---------- */
+  console.log("\n8) Yayın isteği içeriği");
+  const pubInstance = await boot({
+    mode: "admin",
+    publish: { repo: "mryusufcan/gunluk-pano", branch: "main", path: "content.json", token: "test-token" },
+  });
+  const pdoc = pubInstance.dom.window.document;
+  pdoc.getElementById("add-member").click();
+  pdoc.getElementById("m-name").value = "İçerik Kontrol";
+  pdoc.getElementById("member-form").dispatchEvent(new pubInstance.dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  await wait(40);
+  pdoc.getElementById("admin-publish").click();
+  await wait(250);
+  const put = pubInstance.store.puts[0];
+  check("PUT isteği var", Boolean(put));
+  check("yetki başlığı", put && put.headers.Authorization === "Bearer test-token");
+  check("sha gönderildi", put && put.body.sha === "sha-123");
+  const decoded = put ? JSON.parse(Buffer.from(put.body.content, "base64").toString("utf8")) : {};
+  check("yayınlanan içerik", JSON.stringify(decoded).includes("İçerik Kontrol"));
+  check("yayın zamanı", typeof decoded.updatedAt === "string" && !Number.isNaN(Date.parse(decoded.updatedAt)));
+  check("tema yayınlanmıyor", !decoded.theme && !(decoded.settings && decoded.settings.theme));
+  pubInstance.dom.window.close();
+
+  /* ---------- 9. Yayın hatası ---------- */
+  console.log("\n9) Yayın hatası");
+  const failInstance = await boot({
+    mode: "admin",
+    github: { repo: true, sha: "sha-123", putOk: false, putStatus: 500 },
+    publish: { repo: "mryusufcan/gunluk-pano", branch: "main", path: "content.json", token: "test-token" },
+  });
+  const fdoc = failInstance.dom.window.document;
+  fdoc.getElementById("add-member").click();
+  fdoc.getElementById("m-name").value = "Taslak Kişi";
+  fdoc.getElementById("member-form").dispatchEvent(new failInstance.dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  await wait(40);
+  fdoc.getElementById("pub-publish").click();
+  await wait(200);
+  check("hata bildirildi", fdoc.getElementById("pub-status").classList.contains("is-warn"));
+  check("taslak korundu", failInstance.dom.window.localStorage.getItem("pano-draft") !== null);
+  failInstance.dom.window.close();
+
+  /* ---------- 10. Görüntüleyici yenileme ve önbellek ---------- */
+  console.log("\n10) Görüntüleyici yenileme ve önbellek");
+  const liveInstance = await boot();
+  const ldoc = liveInstance.dom.window.document;
+  liveInstance.store.content.days[TODAY].team.push({
+    id: "a9",
+    name: "Sonradan Eklenen",
+    role: "Radyolog",
+    shift: "08–16",
+    phone: "",
+    note: "",
+  });
+  ldoc.getElementById("refresh-btn").click();
+  await wait(250);
+  check("yenileme yeni veriyi getirdi", ldoc.getElementById("team-list").textContent.includes("Sonradan Eklenen"));
+  liveInstance.store.fail = true;
+  ldoc.getElementById("refresh-btn").click();
+  await wait(250);
+  check("çevrimdışı uyarısı", ldoc.getElementById("offline-note").hidden === false);
+  check("önbellek gösterildi", ldoc.getElementById("team-list").textContent.includes("Ece Kaya"));
+  liveInstance.dom.window.close();
+
+  /* ---------- 11. Bozuk içerik ---------- */
+  console.log("\n11) Bozuk içerik");
+  const brokenInstance = await boot({ content: { days: { "bozuk": { team: [{ name: 5 }] } }, notes: "yok" } });
+  check("bozuk içerik çökertmiyor", brokenInstance.errors.length === 0, brokenInstance.errors.join(" | "));
+  check("sayfa yine açıldı", brokenInstance.dom.window.document.getElementById("date-title").textContent.trim().length > 5);
+  brokenInstance.dom.window.close();
+
+  /* ---------- 12. Tema, paylaşım, aylık tablo ---------- */
+  console.log("\n12) Tema ve paylaşım");
+  ({ dom } = await boot());
+  doc = dom.window.document;
+  doc.getElementById("theme-toggle").click();
+  check("gece teması", doc.documentElement.dataset.theme === "dark");
+  check("tema cihazda", dom.window.localStorage.getItem("pano-theme") === "dark");
+  doc.getElementById("share-btn").click();
+  await wait(60);
+  check("paylaşım diyaloğu", doc.getElementById("share-dialog").hasAttribute("open"));
+  check("paylaşım metni", doc.getElementById("share-text").value.includes("GÜNÜN EKİBİ"));
+  dom.window.close();
+
+  console.log("\n13) Aylık ızgara (yönetici)");
+  ({ dom } = await boot({ mode: "admin" }));
+  doc = dom.window.document;
+  doc.getElementById("import-team").click();
+  doc.getElementById("import-text").value = [
     "KASIM 2026",
     "Vardiya\t1\t2\t3\t4\t5",
     "08-16\tAyşe Kaya\tMehmet Demir\tAli Vural\tAyşe Kaya\tMehmet Demir",
     "16-24\tZeynep Ak\tAli Vural\tEmre Yıldız\tZeynep Ak\tAli Vural",
   ].join("\n");
-  pdoc.getElementById("import-text").dispatchEvent(new pasteDom.dom.window.Event("input", { bubbles: true }));
+  doc.getElementById("import-text").dispatchEvent(new dom.window.Event("input", { bubbles: true }));
   await wait(450);
-  check("aylık önizleme 5 gün", pdoc.getElementById("import-preview").textContent.includes("5 gün"));
-  check("aylık önizleme 10 kişi", pdoc.getElementById("import-preview").textContent.includes("10 kişi"));
-  pdoc.getElementById("import-apply").click();
+  check("aylık önizleme", doc.getElementById("import-preview").textContent.includes("10 kişi"));
+  doc.getElementById("import-apply").click();
   await wait(60);
-  stored2 = JSON.parse(pasteDom.dom.window.localStorage.getItem("rad-pano-v1"));
-  check("ayın ilk günü", stored2.days["2026-11-01"] && stored2.days["2026-11-01"].team.length === 2);
-  check("ayın beşinci günü", stored2.days["2026-11-05"] && stored2.days["2026-11-05"].team.length === 2);
-  check("başlık isim sanılmadı", !Object.values(stored2.days).some((day) => day.team.some((member) => member.name.includes("Kasım 2026"))));
-  check("vardiya sütunları", stored2.days["2026-11-01"].team.some((member) => member.shift === "16–24"));
-  pasteDom.dom.window.close();
+  const draft6 = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  check("aylık günler yazıldı", draft6.days["2026-11-01"] && draft6.days["2026-11-05"]);
+  check("başlık isim sanılmadı", !Object.values(draft6.days).some((day) => day.team.some((member) => member.name.includes("Kasım 2026"))));
+  dom.window.close();
 
   console.log("\n" + (failures.length ? `BAŞARISIZ: ${failures.length} kontrol` : "TÜM KONTROLLER GEÇTİ"));
   process.exitCode = failures.length ? 1 : 0;

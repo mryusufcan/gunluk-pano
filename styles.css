@@ -20,6 +20,9 @@
   --topbar-bg: rgba(255, 255, 255, 0.92);
   --toast-bg: #101828;
   --toast-text: #f7f9fc;
+  --warn-bg: #fffaeb;
+  --warn-border: #f5d9a8;
+  --warn-text: #7a4a05;
   color-scheme: light;
 }
 
@@ -42,10 +45,18 @@
   --topbar-bg: rgba(16, 24, 32, 0.92);
   --toast-bg: #e6edf3;
   --toast-text: #101820;
+  --warn-bg: #2a2110;
+  --warn-border: #4a3a15;
+  --warn-text: #f2cf8a;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html[data-admin="0"] .admin-only,
+html[data-admin="1"] .viewer-only {
+  display: none !important;
 }
 
 [hidden] {
@@ -96,9 +107,11 @@ h3 {
 .app {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto minmax(0, 1fr) auto;
+  grid-template-rows: auto auto auto auto auto minmax(0, 1fr) auto;
   grid-template-areas:
     "top"
+    "admin"
+    "offline"
     "date"
     "week"
     "main"
@@ -116,6 +129,14 @@ h3 {
 
 .datebar {
   grid-area: date;
+}
+
+#admin-bar {
+  grid-area: admin;
+}
+
+#offline-note {
+  grid-area: offline;
 }
 
 .weekstrip {
@@ -197,6 +218,64 @@ main {
 [data-theme="dark"] .icon-sun,
 [data-theme="light"] .icon-moon {
   display: none;
+}
+
+/* ---------- Yönetici ve çevrimdışı şerit ---------- */
+.admin-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--accent-weak);
+}
+
+.admin-status {
+  font-size: 0.74rem;
+  font-weight: 650;
+  color: var(--accent);
+}
+
+.admin-status.is-draft {
+  color: var(--danger);
+}
+
+.btn.small {
+  min-height: 34px;
+  padding: 6px 12px;
+  font-size: 0.77rem;
+}
+
+.offline-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-bottom: 1px solid var(--warn-border);
+  background: var(--warn-bg);
+  color: var(--warn-text);
+  font-size: 0.74rem;
+  font-weight: 600;
+}
+
+.publish-help summary {
+  margin-top: 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.publish-help .tips {
+  margin-top: 8px;
+}
+
+code {
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: var(--surface-2);
+  font-size: 0.86em;
 }
 
 /* ---------- Tarih ---------- */
@@ -1258,9 +1337,11 @@ main {
     max-width: 1120px;
     margin: 22px auto;
     height: calc(100dvh - 44px);
-    grid-template-rows: auto auto auto auto minmax(0, 1fr);
+    grid-template-rows: auto auto auto auto auto auto minmax(0, 1fr);
     grid-template-areas:
       "top"
+      "admin"
+      "offline"
       "date"
       "week"
       "nav"

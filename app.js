@@ -1,9 +1,14 @@
 /* Günün Panosu — radyoloji günlük pano.
-   Bağımlılıksız, tek sayfa; tüm veri tarayıcının localStorage alanında kalır. */
+   İçerik content.json dosyasından okunur; ekip sadece görüntüler.
+   Yönetici ?admin=1 adresinden düzenler ve GitHub'a yayınlar. */
 "use strict";
 
 /* ---------- Sabitler ---------- */
-const KEY = "rad-pano-v1";
+const CONTENT_URL = "content.json";
+const CACHE_KEY = "pano-cache";
+const DRAFT_KEY = "pano-draft";
+const PUBLISH_KEY = "pano-publish";
+const AUTHOR_KEY = "pano-author";
 const THEME_KEY = "pano-theme";
 const VIEW_KEY = "pano-view";
 const SHIFT_KEY = "nobet-listesi-static-v1";
@@ -97,17 +102,25 @@ function telOf(phone) {
 }
 
 /* ---------- Durum ---------- */
+const ADMIN_MODE = (() => {
+  try {
+    const params = new URLSearchParams(location.search);
+    return params.has("admin") || location.hash === "#admin";
+  } catch (error) {
+    return false;
+  }
+})();
+
 function blankState() {
   return {
     v: 1,
-    settings: { title: "Günün Panosu", dept: "Radyoloji", theme: "light" },
+    settings: { title: "Günün Panosu", dept: "Radyoloji" },
     links: [
       { id: "pacs", label: "PACS", url: "" },
       { id: "grup", label: "Ekip grubu", url: "" },
     ],
     days: {},
     notes: [],
-    author: "",
     updatedAt: 0,
   };
 }
@@ -169,9 +182,7 @@ function normalizeState(raw) {
   if (raw.settings && typeof raw.settings === "object") {
     state.settings.title = str(raw.settings.title, state.settings.title, 40).trim() || "Günün Panosu";
     state.settings.dept = str(raw.settings.dept, state.settings.dept, 40).trim();
-    if (raw.settings.theme === "dark" || raw.settings.theme === "light") state.settings.theme = raw.settings.theme;
   }
-  state.author = str(raw.author, "", 40).trim();
 
   if (Array.isArray(raw.links)) {
     state.links = raw.links.map(normalizeLink).filter(Boolean).slice(0, 12);
@@ -193,17 +204,19 @@ function normalizeState(raw) {
   return state;
 }
 
-function loadState() {
-  try {
-    const raw = localStorage.getItem(KEY);
-    if (!raw) return blankState();
-    return normalizeState(JSON.parse(raw));
-  } catch (error) {
-    return blankState();
-  }
+/* Yalnızca yayınlanacak alanlar; tema ve yazar cihazda kalır. */
+function contentPayload() {
+  return {
+    version: 1,
+    updatedAt: new Date().toISOString(),
+    settings: state.settings,
+    links: state.links,
+    days: state.days,
+    notes: state.notes,
+  };
 }
 
-const state = loadState();
+let state = blankState();
 let selected = todayKey();
 try {
   const savedDate = sessionStorage.getItem("pano-date");
@@ -213,8 +226,104 @@ try {
 }
 let noteFilter = "all";
 let editingMemberId = null;
-let saveTimer = null;
+let publishedAt = 0;
+let isDraft = false;
+let offlineMode = false;
+let lastLoadedAt = 0;
+let authorName = "";
 
+try {
+  authorName = localStorage.getItem(AUTHOR_KEY) || "";
+} catch (error) {
+  authorName = "";
+}
+
+function readCache() {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    return parsed && parsed.data ? parsed : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function writeCache(data) {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify({ savedAt: Date.now(), data }));
+  } catch (error) {
+    /* depolama kapalıysa önbellek yok */
+  }
+}
+
+function readDraft() {
+  try {
+    const raw = localStorage.getItem(DRAFT_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function writeDraft() {
+  try {
+    localStorage.setItem(DRAFT_KEY, JSON.stringify(state));
+  } catch (error) {
+    toast("Taslak kaydedilemedi: tarayıcı depolaması dolu ya da kapalı.", true);
+  }
+}
+
+function clearDraft() {
+  try {
+    localStorage.removeItem(DRAFT_KEY);
+  } catch (error) {
+    /* yoksay */
+  }
+}
+
+async function fetchContent() {
+  const url = new URL(CONTENT_URL, location.href);
+  url.searchParams.set("v", String(Date.now()));
+  const response = await fetch(url.toString(), { cache: "no-store" });
+  if (!response.ok) throw new Error("content.json okunamadı");
+  return response.json();
+}
+
+async function loadContent({ quiet = false } = {}) {
+  offlineMode = false;
+  try {
+    const data = await fetchContent();
+    state = normalizeState(data);
+    publishedAt = Date.parse(data.updatedAt) || 0;
+    writeCache(data);
+    isDraft = false;
+    if (ADMIN_MODE) {
+      const draft = readDraft();
+      if (draft && Number(draft.updatedAt) > publishedAt) {
+        state = normalizeState(draft);
+        isDraft = true;
+      }
+    }
+  } catch (error) {
+    const cached = readCache();
+    if (cached) {
+      state = normalizeState(cached.data);
+      publishedAt = Date.parse(cached.data.updatedAt) || cached.savedAt || 0;
+      offlineMode = true;
+    } else {
+      state = blankState();
+    }
+    if (!quiet) {
+      toast(offlineMode ? "Bağlantı yok; son önbellek gösteriliyor." : "İçerik yüklenemedi. Bağlantıyı kontrol edin.", true);
+    }
+  }
+  lastLoadedAt = Date.now();
+  render();
+  updateChrome();
+}
+
+let stateTimer = null;
 function prune() {
   for (const [date, day] of Object.entries(state.days)) {
     const empty = !day.team.length && !day.meal.text.trim();
@@ -223,18 +332,17 @@ function prune() {
 }
 
 function save() {
+  if (!ADMIN_MODE) return;
   state.updatedAt = Date.now();
   prune();
-  try {
-    localStorage.setItem(KEY, JSON.stringify(state));
-  } catch (error) {
-    toast("Kayıt yapılamadı: tarayıcı depolaması dolu ya da kapalı.", true);
-  }
+  isDraft = true;
+  writeDraft();
+  updateChrome();
 }
 
 function saveSoon() {
-  clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
+  clearTimeout(stateTimer);
+  stateTimer = setTimeout(() => {
     save();
     renderSettings();
   }, 450);
@@ -359,9 +467,9 @@ function personHtml(member) {
       <div class="person-name">${esc(member.name)}${member.role ? `<span class="role">${esc(member.role)}</span>` : ""}</div>
       ${meta.length ? `<div class="person-meta">${meta.join("")}</div>` : ""}
     </div>
-    <div class="person-actions">
+    ${ADMIN_MODE ? `<div class="person-actions">
       <button class="mini-btn" type="button" data-edit-member="${esc(member.id)}" aria-label="${esc(member.name)} bilgilerini düzenle" title="Düzenle">${ICON_EDIT}</button>
-    </div>
+    </div>` : ""}
   </article>`;
 }
 
@@ -381,7 +489,11 @@ function renderTeam() {
   count.textContent = team.length ? `${team.length} kişi` : "";
 
   if (!team.length) {
-    el("team-list").innerHTML = `<div class="empty"><strong>Bugün için ekip girilmemiş</strong>Vardiyadaki isimleri ekleyin; ertesi gün tek tuşla kopyalayabilirsiniz.</div>`;
+    el("team-list").innerHTML = `<div class="empty"><strong>Bu gün için ekip girilmemiş</strong>${
+      ADMIN_MODE
+        ? "Vardiyadaki isimleri ekleyin, listeden içe aktarın ya da dünkü ekibi kopyalayın."
+        : "Yönetici bu gün için kadro yayınladığında burada görünür."
+    }</div>`;
   } else {
     const parts = [];
     let lastShift = null;
@@ -395,9 +507,9 @@ function renderTeam() {
     el("team-list").innerHTML = parts.join("");
   }
 
-  el("sync-shift").hidden = !readShiftTeam(selected);
-  el("forward-team").hidden = !team.length;
-  el("copy-team").hidden = team.length > 0;
+  el("sync-shift").hidden = !ADMIN_MODE || !readShiftTeam(selected);
+  el("forward-team").hidden = !ADMIN_MODE || !team.length;
+  el("copy-team").hidden = !ADMIN_MODE || team.length > 0;
 }
 
 function renderMeal() {
@@ -405,10 +517,14 @@ function renderMeal() {
   const text = day.meal.text.trim();
   el("meal-pill").hidden = !text;
   el("meal-pill").textContent = text ? "Girildi" : "";
-  el("copy-meal").hidden = Boolean(text);
+  el("copy-meal").hidden = !ADMIN_MODE || Boolean(text);
   el("meal-body").innerHTML = text
     ? `<p class="meal-text">${esc(text)}</p>${day.meal.updatedAt ? `<p class="meal-updated">Son güncelleme: ${esc(formatStamp(day.meal.updatedAt))}</p>` : ""}`
-    : `<div class="empty"><strong>Menü girilmemiş</strong>Yemekhanenin menüsünü yazın; dünkü menüyü tek tuşla kopyalayabilirsiniz.</div>`;
+    : `<div class="empty"><strong>Menü girilmemiş</strong>${
+        ADMIN_MODE
+          ? "Yemekhanenin menüsünü yazın, listeden içe aktarın ya da dünkü menüyü kopyalayın."
+          : "Yönetici menüyü yayınladığında burada görünür."
+      }</div>`;
 }
 
 function visibleNotes() {
@@ -431,11 +547,11 @@ function noteHtml(note) {
       <span class="note-time">${esc(formatStamp(note.ts))}</span>
     </div>
     <div class="note-text">${esc(note.text)}</div>
-    <div class="note-actions">
+    ${ADMIN_MODE ? `<div class="note-actions">
       <button class="mini-btn${note.pinned ? " is-on" : ""}" type="button" data-note-pin="${esc(note.id)}" aria-label="${note.pinned ? "Sabitlemeyi kaldır" : "Sabitle"}" title="${note.pinned ? "Sabitlemeyi kaldır" : "Sabitle"}" aria-pressed="${note.pinned}">${ICON_PIN}</button>
       <button class="mini-btn${note.done ? " is-on" : ""}" type="button" data-note-done="${esc(note.id)}" aria-label="${note.done ? "Açık olarak işaretle" : "Tamamlandı olarak işaretle"}" title="${note.done ? "Açık olarak işaretle" : "Tamamlandı"}" aria-pressed="${note.done}">${ICON_CHECK}</button>
       <button class="mini-btn" type="button" data-note-delete="${esc(note.id)}" aria-label="Notu sil" title="Sil">${ICON_TRASH}</button>
-    </div>
+    </div>` : ""}
   </article>`;
 }
 
@@ -472,7 +588,10 @@ function renderLinks() {
       </a>`,
     )
     .join("");
-  el("quick-links").innerHTML = chips + `<button class="link-chip is-empty" type="button" data-goto="ayarlar">+ Bağlantı ekle</button>`;
+  const addChip = ADMIN_MODE
+    ? `<button class="link-chip is-empty" type="button" data-goto="ayarlar">+ Bağlantı ekle</button>`
+    : links.length ? "" : `<span class="import-empty">Bağlantı yok.</span>`;
+  el("quick-links").innerHTML = chips + addChip;
 }
 
 function renderLinkEditor() {
@@ -487,15 +606,51 @@ function renderLinkEditor() {
     .join("");
 }
 
+function applyMode() {
+  document.documentElement.dataset.admin = ADMIN_MODE ? "1" : "0";
+  document.querySelectorAll(".admin-only").forEach((node) => {
+    if (node.id === "admin-bar") return;
+    node.hidden = !ADMIN_MODE;
+  });
+  document.querySelectorAll(".viewer-only").forEach((node) => {
+    node.hidden = ADMIN_MODE;
+  });
+  const bar = el("admin-bar");
+  if (bar) bar.hidden = !ADMIN_MODE;
+}
+
+function updateChrome() {
+  const bar = el("admin-bar");
+  if (bar) bar.hidden = !ADMIN_MODE;
+  if (ADMIN_MODE) {
+    const status = el("admin-status");
+    status.classList.toggle("is-draft", isDraft || !publishedAt);
+    status.textContent = isDraft
+      ? "Yayınlanmamış değişiklikler var"
+      : publishedAt
+        ? `Yayınlandı · ${formatStamp(publishedAt)}`
+        : "Henüz yayınlanmadı";
+  }
+  const offline = el("offline-note");
+  if (offline) offline.hidden = ADMIN_MODE || !offlineMode;
+}
+
 function renderSettings() {
-  const titleInput = el("set-title");
-  const deptInput = el("set-dept");
-  if (document.activeElement !== titleInput) titleInput.value = state.settings.title;
-  if (document.activeElement !== deptInput) deptInput.value = state.settings.dept;
+  if (ADMIN_MODE) {
+    const titleInput = el("set-title");
+    const deptInput = el("set-dept");
+    if (document.activeElement !== titleInput) titleInput.value = state.settings.title;
+    if (document.activeElement !== deptInput) deptInput.value = state.settings.dept;
+  } else {
+    el("view-title").textContent = state.settings.title;
+    el("view-dept").textContent = state.settings.dept;
+  }
   el("set-theme").value = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
   renderStats();
-  const saved = state.updatedAt ? new Date(state.updatedAt) : null;
-  el("version-note").textContent = saved ? `Son kayıt: ${formatStamp(state.updatedAt)} · Sürüm 1.1` : "Sürüm 1.1 · Henüz kayıt yok";
+  const updated = state.updatedAt || publishedAt;
+  el("version-note").textContent = updated
+    ? `${offlineMode ? "Önbellek" : "Son güncelleme"}: ${formatStamp(updated)} · Sürüm 2.0`
+    : "Sürüm 2.0 · Henüz içerik yayınlanmadı";
   el("badge-ekip").hidden = !getDay(selected).team.length;
   el("badge-ekip").textContent = String(getDay(selected).team.length);
 }
@@ -607,6 +762,7 @@ function readShiftTeam(dateKey) {
 }
 
 function importShiftTeam() {
+  if (!ADMIN_MODE) return;
   const list = readShiftTeam(selected);
   if (!list || !list.length) {
     toast("Bu tarih için nöbet listesi bulunamadı.", true);
@@ -682,6 +838,7 @@ function b64decode(text) {
 }
 
 function buildShareLink() {
+  if (!ADMIN_MODE) return "";
   if (!/^https?:$/.test(location.protocol)) return "";
   const day = getDay(selected);
   const payload = {
@@ -740,6 +897,10 @@ async function applySharedHash() {
   const shared = readSharedHash();
   if (!shared) return;
   if (history.replaceState) history.replaceState(null, "", location.pathname + location.search);
+  if (!ADMIN_MODE) {
+    toast("Paylaşılan bağlantı yalnızca yönetici modunda uygulanır.", true);
+    return;
+  }
   const team = Array.isArray(shared.team) ? shared.team.length : 0;
   const ok = await askConfirm({
     title: "Paylaşılan pano",
@@ -766,6 +927,241 @@ async function applySharedHash() {
   save();
   setDate(shared.date);
   toast("Paylaşılan pano eklendi.");
+}
+
+/* ---------- GitHub yayını ---------- */
+const DEFAULT_PUBLISH = { repo: "", branch: "main", path: "content.json", token: "" };
+
+function base64Utf8(text) {
+  const bytes = new TextEncoder().encode(text);
+  let binary = "";
+  const chunk = 0x8000;
+  for (let index = 0; index < bytes.length; index += chunk) {
+    binary += String.fromCharCode.apply(null, bytes.subarray(index, index + chunk));
+  }
+  return btoa(binary);
+}
+
+function ghHeaders(token, extra = {}) {
+  return {
+    Authorization: `Bearer ${token}`,
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    ...extra,
+  };
+}
+
+function readPublishConfig() {
+  try {
+    const raw = localStorage.getItem(PUBLISH_KEY);
+    return raw ? { ...DEFAULT_PUBLISH, ...JSON.parse(raw) } : { ...DEFAULT_PUBLISH };
+  } catch (error) {
+    return { ...DEFAULT_PUBLISH };
+  }
+}
+
+function writePublishConfig(config) {
+  try {
+    localStorage.setItem(PUBLISH_KEY, JSON.stringify(config));
+    return true;
+  } catch (error) {
+    toast("Yayın ayarları kaydedilemedi.", true);
+    return false;
+  }
+}
+
+function publishFields() {
+  return {
+    repo: el("pub-repo").value.trim(),
+    branch: el("pub-branch").value.trim() || "main",
+    path: el("pub-path").value.trim() || "content.json",
+    token: el("pub-token").value.trim(),
+  };
+}
+
+function setPublishStatus(message, warn = false) {
+  const box = el("pub-status");
+  if (!box) return;
+  box.textContent = message;
+  box.classList.toggle("is-warn", Boolean(warn));
+}
+
+function fillPublishFields() {
+  const config = readPublishConfig();
+  el("pub-repo").value = config.repo;
+  el("pub-branch").value = config.branch;
+  el("pub-path").value = config.path;
+  el("pub-token").value = config.token;
+  setPublishStatus(config.repo ? "Ayarlar kayıtlı." : "Henüz yapılandırılmadı.");
+}
+
+function repoParts(repo) {
+  const [owner, name] = String(repo || "").split("/").map((part) => part.trim());
+  return owner && name ? { owner, name } : null;
+}
+
+async function currentSha(api, config) {
+  const response = await fetch(`${api}?ref=${encodeURIComponent(config.branch)}`, {
+    headers: ghHeaders(config.token),
+    cache: "no-store",
+  });
+  if (response.status === 404) return "";
+  if (!response.ok) {
+    throw new Error(
+      response.status === 401 || response.status === 403
+        ? "Anahtar geçersiz ya da yetkisi yok."
+        : `Dosya okunamadı (${response.status}).`,
+    );
+  }
+  const data = await response.json();
+  return data.sha || "";
+}
+
+async function putContent(api, config, text, sha) {
+  return fetch(api, {
+    method: "PUT",
+    headers: ghHeaders(config.token, { "Content-Type": "application/json" }),
+    body: JSON.stringify({
+      message: `Pano güncellendi · ${new Date().toLocaleString("tr-TR")}`,
+      content: base64Utf8(text),
+      branch: config.branch,
+      ...(sha ? { sha } : {}),
+    }),
+  });
+}
+
+async function testPublishConnection() {
+  const config = publishFields();
+  const parts = repoParts(config.repo);
+  if (!parts) {
+    setPublishStatus("Depo adı 'kullanıcı/depo' biçiminde olmalı.", true);
+    return false;
+  }
+  if (!config.token) {
+    setPublishStatus("GitHub anahtarı gerekli.", true);
+    return false;
+  }
+  setPublishStatus("Bağlanılıyor…");
+  try {
+    const response = await fetch(`https://api.github.com/repos/${parts.owner}/${parts.name}`, {
+      headers: ghHeaders(config.token),
+      cache: "no-store",
+    });
+    if (!response.ok) {
+      throw new Error(
+        response.status === 401
+          ? "Anahtar geçersiz."
+          : response.status === 404
+            ? "Depo bulunamadı ya da anahtarın erişimi yok."
+            : `GitHub hatası (${response.status}).`,
+      );
+    }
+    writePublishConfig(config);
+    setPublishStatus("Bağlantı tamam. Yayınlayabilirsiniz.");
+    return true;
+  } catch (error) {
+    setPublishStatus(String(error.message || error), true);
+    return false;
+  }
+}
+
+async function publishContent() {
+  if (!ADMIN_MODE) return;
+  const config = publishFields();
+  const parts = repoParts(config.repo);
+  if (!parts) {
+    setPublishStatus("Önce depo adını girin.", true);
+    switchView("ayarlar");
+    return;
+  }
+  if (!config.token) {
+    setPublishStatus("Önce GitHub anahtarını girin.", true);
+    switchView("ayarlar");
+    return;
+  }
+
+  const button = el("admin-publish");
+  const settingsButton = el("pub-publish");
+  button.disabled = true;
+  settingsButton.disabled = true;
+  setPublishStatus("Yayınlanıyor…");
+
+  const text = JSON.stringify(contentPayload(), null, 2);
+  const api = `https://api.github.com/repos/${parts.owner}/${parts.name}/contents/${config.path}`;
+
+  try {
+    let ok = false;
+    let lastError = "";
+    for (let attempt = 0; attempt < 2 && !ok; attempt += 1) {
+      const sha = await currentSha(api, config);
+      const response = await putContent(api, config, text, sha);
+      if (response.ok) {
+        ok = true;
+        break;
+      }
+      const body = await response.json().catch(() => ({}));
+      lastError = body.message || `GitHub hatası (${response.status}).`;
+      if (response.status !== 409) break;
+    }
+    if (!ok) throw new Error(lastError);
+
+    writePublishConfig(config);
+    clearDraft();
+    isDraft = false;
+    state.updatedAt = Date.now();
+    publishedAt = Date.now();
+    writeCache(contentPayload());
+    setPublishStatus(`Yayınlandı · ${formatStamp(Date.now())}. GitHub Pages 1-2 dakikada günceller.`);
+    updateChrome();
+    toast("Yayınlandı. Ekip sayfayı yenileyince görür.");
+  } catch (error) {
+    setPublishStatus(String(error.message || error), true);
+    toast("Yayınlanamadı; ayarları kontrol edin.", true);
+  } finally {
+    button.disabled = false;
+    settingsButton.disabled = false;
+  }
+}
+
+function contentJsonText() {
+  return JSON.stringify(contentPayload(), null, 2);
+}
+
+function downloadContentFile() {
+  const blob = new Blob([contentJsonText()], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = "content.json";
+  document.body.append(anchor);
+  anchor.click();
+  anchor.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+  toast("content.json indirildi; GitHub'da bu dosyayı güncelleyin.");
+}
+
+async function copyContentJson() {
+  const ok = await copyText(contentJsonText());
+  toast(ok ? "content.json panoya kopyalandı." : "Kopyalanamadı; dosyayı indirin.", !ok);
+}
+
+async function refreshContent() {
+  await loadContent({ quiet: true });
+  toast(offlineMode ? "Bağlantı yok; önbellek gösteriliyor." : "Veriler yenilendi.", offlineMode);
+}
+
+function bindAdminEvents() {
+  el("admin-publish").addEventListener("click", publishContent);
+  el("pub-save").addEventListener("click", () => {
+    if (writePublishConfig(publishFields())) {
+      setPublishStatus("Ayarlar kaydedildi. Bağlantıyı deneyin.");
+      toast("Yayın ayarları kaydedildi.");
+    }
+  });
+  el("pub-test").addEventListener("click", testPublishConnection);
+  el("pub-publish").addEventListener("click", publishContent);
+  el("download-content").addEventListener("click", downloadContentFile);
+  el("copy-content").addEventListener("click", copyContentJson);
 }
 
 /* ---------- Liste içe aktarma ---------- */
@@ -1402,6 +1798,7 @@ function updateImportModeUi() {
 }
 
 function openImport(mode) {
+  if (!ADMIN_MODE) return;
   importMode = mode === "meal" ? "meal" : "team";
   importResult = null;
   el("import-text").value = "";
@@ -1477,7 +1874,7 @@ function renderImportPreview() {
 }
 
 function applyImport() {
-  if (!importResult) return;
+  if (!ADMIN_MODE || !importResult) return;
   const { mode, groups } = importResult;
   const replace = el("import-replace").checked;
   const dates = [...groups.keys()].sort();
@@ -1817,6 +2214,7 @@ function fillSelect(select, values) {
 }
 
 function openMemberDialog(memberId) {
+  if (!ADMIN_MODE) return;
   editingMemberId = memberId || null;
   const member = memberId ? getDay(selected).team.find((item) => item.id === memberId) : null;
   el("member-title").textContent = member ? "Ekip üyesini düzenle" : "Ekip üyesi ekle";
@@ -1832,6 +2230,7 @@ function openMemberDialog(memberId) {
 }
 
 function openMealDialog() {
+  if (!ADMIN_MODE) return;
   el("meal-textarea").value = getDay(selected).meal.text;
   openDialog(el("meal-dialog"));
   setTimeout(() => el("meal-textarea").focus(), 60);
@@ -1839,6 +2238,27 @@ function openMealDialog() {
 
 /* ---------- Olaylar ---------- */
 function bindEvents() {
+  document.addEventListener(
+    "click",
+    (event) => {
+      if (ADMIN_MODE) return;
+      if (event.target.closest(".admin-only")) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    },
+    true,
+  );
+
+  el("refresh-btn").addEventListener("click", refreshContent);
+  el("offline-retry").addEventListener("click", refreshContent);
+
+  document.addEventListener("visibilitychange", () => {
+    if (ADMIN_MODE || document.visibilityState !== "visible") return;
+    if (Date.now() - lastLoadedAt < 120000) return;
+    loadContent({ quiet: true });
+  });
+
   el("prev-day").addEventListener("click", () => changeDay(-1));
   el("next-day").addEventListener("click", () => changeDay(1));
   el("date-input").addEventListener("change", (event) => {
@@ -2003,7 +2423,12 @@ function bindEvents() {
     const text = el("note-text").value.trim();
     if (!text) return;
     const author = el("note-author").value.trim();
-    state.author = author;
+    authorName = author;
+    try {
+      localStorage.setItem(AUTHOR_KEY, author);
+    } catch (error) {
+      /* yoksay */
+    }
     state.notes.push({ id: uid(), text, author, ts: Date.now(), pinned: el("note-pin").checked, done: false });
     el("note-text").value = "";
     el("note-pin").checked = false;
@@ -2013,8 +2438,12 @@ function bindEvents() {
   });
 
   el("note-author").addEventListener("input", () => {
-    state.author = el("note-author").value.trim();
-    saveSoon();
+    authorName = el("note-author").value.trim();
+    try {
+      localStorage.setItem(AUTHOR_KEY, authorName);
+    } catch (error) {
+      /* yoksay */
+    }
   });
 
   el("note-filters").addEventListener("click", (event) => {
@@ -2087,7 +2516,7 @@ function bindEvents() {
     if (parsed.settings && (parsed.settings.theme === "dark" || parsed.settings.theme === "light")) {
       applyTheme(parsed.settings.theme);
     }
-    el("note-author").value = state.author || "";
+    el("note-author").value = authorName;
     save();
     renderLinkEditor();
     render();
@@ -2192,7 +2621,7 @@ function bindEvents() {
       switchView(VIEWS[Number(event.key) - 1]);
       return;
     }
-    if (event.key.toLowerCase() === "n") {
+    if (event.key.toLowerCase() === "n" && ADMIN_MODE) {
       switchView("notlar");
       setTimeout(() => el("note-text").focus(), 40);
       return;
@@ -2210,7 +2639,6 @@ function bindEvents() {
 function applyTheme(theme) {
   const value = theme === "dark" ? "dark" : "light";
   document.documentElement.dataset.theme = value;
-  state.settings.theme = value;
   try {
     localStorage.setItem(THEME_KEY, value);
   } catch (error) {
@@ -2221,15 +2649,21 @@ function applyTheme(theme) {
 }
 
 /* ---------- Başlangıç ---------- */
-function init() {
+async function init() {
+  applyMode();
   fillSelect(el("m-role"), ROLES);
   fillSelect(el("m-shift"), SHIFTS);
   applyTheme(document.documentElement.dataset.theme);
-  el("note-author").value = state.author || "";
-  renderLinkEditor();
+  el("note-author").value = authorName;
+  if (ADMIN_MODE) {
+    renderLinkEditor();
+    fillPublishFields();
+  }
   bindEvents();
+  if (ADMIN_MODE) bindAdminEvents();
   switchView(currentView);
   render();
+  await loadContent();
   applySharedHash();
 
   if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
