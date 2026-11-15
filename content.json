@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T21:35:13+03:00",
+  "updatedAt": "2026-11-15T21:56:47+03:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -19,84 +19,704 @@
   ],
   "days": {
     "2026-11-11": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-11-0",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-11-1",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-11-2",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-11-3",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-11-4",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-11-5",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-11-6",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "TAVUKSUYU ÇORBASI\nKARIŞIK KURU DOLMA\nPORTAKALLI KEREVİZ\nELMA\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + YOĞURT",
         "updatedAt": 1794767704392
       }
     },
     "2026-11-12": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-12-0",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-12-1",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-12-2",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-12-3",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-12-4",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-12-5",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-12-6",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "ERİŞTELİ YEŞİL MERCİMEKLİ ÇORBASI\nPİLİÇ PİRZOLA AYVA DİLİM PATATES EŞLİĞİNDE\nDOMATESLİ PİRİNÇ PİLAVI\nTİRAMİSU\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + NOHUT SALATASI",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-13": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-13-0",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-13-1",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-13-2",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-13-3",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-13-4",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-13-5",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-13-6",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "SÜTLÜ HAVUÇ ÇORBA\nHÜNKAR BEĞENDİ\nSEBZELİ BULGUR PİLAVI\nPORTAKAL\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + ISPANAK BORANİ",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-14": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-14-0",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-14-1",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-14-2",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-14-3",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-14-4",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-14-5",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-14-6",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "DOMATES ÇORBASI\nÇİN USULÜ ACILI-TATLI TAVUK SOTE\nPESTO SOSLU MAKARNA\nKARIŞIK MEYVE\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + AYVALI KEREVİZ",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-15": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-15-0",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-15-1",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-15-2",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "DÜĞÜN ÇORBA\nGÜVEÇTE KIYMALI ISPANAK KAŞARLI\nPATATESLİ TEPSİ BÖREĞİ\nMANDALİNA\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + HAYDARİ",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-16": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-16-0",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-16-1",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-16-2",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-16-3",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-16-4",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-16-5",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-16-6",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "SEBZE ÇORBA\nKÖFTE HAMBURGER\nPARMAK PATATES KIZARTMASI KETÇAP MAYONEZ İLE\nCOLA / FANTA / AYRAN\nHAVUÇ - GÖBEK - KIRMIZI LAHANA + SEBZE BUKETİ",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-17": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-17-0",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-17-1",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-17-2",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-17-3",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-17-4",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-17-5",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-17-6",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "KÖYLÜ ÇORBA\nPÜRELİ ROSTO KÖFTE SEBZE BUKETİ İLE\nARPA ŞEHRİYE PİLAVI\nPORTAKAL\nHAVUÇ + YEŞİL SALATA + GAVURDAĞI SALATA + ŞAKŞUKA",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-18": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-18-0",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-18-1",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-18-2",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-18-3",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-18-4",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-18-5",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-18-6",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "MERCİMEK ÇORBASI\nÇITIR TAVUK / ELMA DİLİM PATATES İLE\nPENNE MAKARNA\nAYRAN\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + ZEYTİNYAĞLI PIRASA",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-19": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-19-0",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-19-1",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-19-2",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-19-3",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-19-4",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-19-5",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-19-6",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "MAHLUTA ÇORBA\nKARIŞIK DOLMA\nPATATESLİ BÖREK\nAYVA TATLISI\nHAVUÇ + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + YOĞURT",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-20": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-20-0",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-20-1",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-20-2",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-20-3",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-20-4",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-20-5",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-20-6",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "NANELİ YOĞURT ÇORBASI\nETLİ NOHUT\nŞEHRİYELİ PİRİNÇ PİLAV\nMANDALİNA\nHAVUÇ + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + TURŞU",
         "updatedAt": 1794767704393
       }
     },
     "2026-11-21": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-21-0",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-21-1",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-21-2",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-21-3",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-21-4",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-21-5",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-21-6",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "DOMATES ÇORBASI\nPİZZA / PARMAK PATATES\nZEYTİNYAĞLI KEREVİZ\nCOLA / FANTA\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + YOĞURTLU SEMİZOTU",
         "updatedAt": 1794767704394
       }
     },
     "2026-11-22": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-22-0",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-22-1",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-22-2",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "EZOGELİN ÇORBA\nKIYMALI MANTI\nFIRINDA SEBZE BUKETİ\nARMUT\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + ZEYTİNYAĞLI PORTAKALLI KEREVİZ",
         "updatedAt": 1794767704394
@@ -163,6 +783,382 @@
       "meal": {
         "text": "MERCİMEK ÇORBASI\nETSİZ TÜRLÜ\nKIYMALI İÇLİ KÖFTE\nARMUT\nHAVUÇ + YEŞİL SALATA + YOĞURT + HAVUÇ TARATOR",
         "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-05": {
+      "team": [
+        {
+          "id": "sheet-2026-11-05-0",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-05-1",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-05-2",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-05-3",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-05-4",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-05-5",
+          "name": "Kutay Hoş",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-05-6",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-05-7",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-06": {
+      "team": [
+        {
+          "id": "sheet-2026-11-06-0",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-06-1",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-06-2",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-06-3",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-06-4",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-06-5",
+          "name": "Kutay Hoş",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-06-6",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-06-7",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-07": {
+      "team": [
+        {
+          "id": "sheet-2026-11-07-0",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-07-1",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-07-2",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-07-3",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-07-4",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-07-5",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-07-6",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-07-7",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-08": {
+      "team": [
+        {
+          "id": "sheet-2026-11-08-0",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-08-1",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-08-2",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-09": {
+      "team": [
+        {
+          "id": "sheet-2026-11-09-0",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-09-1",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-09-2",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-09-3",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-09-4",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-09-5",
+          "name": "Hazal Kaşıkcı",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-09-6",
+          "name": "Yusuf Can Özdemir",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-10": {
+      "team": [
+        {
+          "id": "sheet-2026-11-10-0",
+          "name": "Ercan Kurt",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-10-1",
+          "name": "Mert Aslan",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-10-2",
+          "name": "Sedanur Demir",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-10-3",
+          "name": "Bahar Yarenoğlu",
+          "role": "Teknisyen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-10-4",
+          "name": "Damlanur Köksalan",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-10-5",
+          "name": "Fatih Karabulut",
+          "role": "Teknisyen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-10-6",
+          "name": "Abdullah Tecen",
+          "role": "Teknisyen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
       }
     }
   },
