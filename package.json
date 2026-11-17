@@ -1,0 +1,12 @@
+{
+  "name": "gunluk-pano",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Radyoloji departmanı için merkezî günlük pano: günün ekibi, yemek menüsü ve notlar. Ekip görüntüler, yönetici yayınlar.",
+  "scripts": {
+    "test": "node tests/smoke.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}

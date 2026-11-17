@@ -1,0 +1,45 @@
+name: Çizelgeyi senkronla
+
+on:
+  schedule:
+    # Her pazar 21:00 (Türkiye, UTC+3) = 18:00 UTC
+    # Liste cumartesi günü kesinleştiği için haftada bir yeterli.
+    - cron: "0 18 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-schedule
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Bağımlılık
+        run: pip install openpyxl
+
+      - name: Ekip listesini çek
+        run: python3 tools/sync_schedule.py
+
+      - name: Değişiklik varsa kaydet
+        run: |
+          if git diff --quiet -- content.json; then
+            echo "Değişiklik yok."
+            exit 0
+          fi
+          git config user.name "pano-bot"
+          git config user.email "pano-bot@users.noreply.github.com"
+          git add content.json
+          git commit -m "Çizelgeden ekip güncellendi"
+          # Yönetici aynı anda yayınladıysa önce onun commit'ini al.
+          git pull --rebase --autostash origin "$(git rev-parse --abbrev-ref HEAD)"
+          git push

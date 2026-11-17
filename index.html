@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Günün Panosu · Radyoloji</title>
+    <meta name="description" content="Radyoloji departmanının günlük panosu: günün ekibi, yemek menüsü, notlar ve telefon rehberi. Ekip görüntüler, yönetici yayınlar." />
+    <link rel="canonical" href="https://mryusufcan.github.io/gunluk-pano/" />
+    <meta name="theme-color" content="#0f6f66" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Bağlantı önizlemesi (WhatsApp, Telegram, X, LinkedIn, Slack, Discord) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Günün Panosu" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:url" content="https://mryusufcan.github.io/gunluk-pano/" />
+    <meta property="og:title" content="Günün Panosu · Radyoloji" />
+    <meta property="og:description" content="Günün ekibi, yemek menüsü, notlar ve telefon rehberi tek ekranda. Ekip görüntüler, yönetici yayınlar." />
+    <meta property="og:image" content="https://mryusufcan.github.io/gunluk-pano/assets/onizleme.png?v=2" />
+    <meta property="og:image:secure_url" content="https://mryusufcan.github.io/gunluk-pano/assets/onizleme.png?v=2" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Günün Panosu: radyoloji günlük pano ekranı — ekip, yemek ve notlar" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Günün Panosu · Radyoloji" />
+    <meta name="twitter:description" content="Günün ekibi, yemek menüsü, notlar ve telefon rehberi tek ekranda." />
+    <meta name="twitter:image" content="https://mryusufcan.github.io/gunluk-pano/assets/onizleme.png?v=2" />
+    <meta name="twitter:image:alt" content="Günün Panosu: radyoloji günlük pano ekranı" />
+
+    <link rel="icon" href="./assets/ikon.svg" type="image/svg+xml" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/ikon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/ikon-180.png" />
+    <meta name="pano-repo" content="mryusufcan/gunluk-pano" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./assets/inter.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      // Tema ve yönetici modu ilk boyamadan önce uygulanır.
+      try {
+        var saved = localStorage.getItem("pano-theme");
+        var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = saved === "dark" || saved === "light" ? saved : dark ? "dark" : "light";
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+      try {
+        var adminParams = new URLSearchParams(location.search);
+        document.documentElement.dataset.admin = adminParams.has("admin") || location.hash === "#admin" ? "1" : "0";
+      } catch (error) {
+        document.documentElement.dataset.admin = "0";
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p style="margin: 16px; font-family: system-ui, sans-serif">
+        Bu pano JavaScript ile çalışır. Lütfen tarayıcınızda JavaScript'i açın.
+      </p>
+    </noscript>
+
+<div class="app">
+      <header class="hero">
+        <div class="hero-top">
+          <span class="hero-eyebrow" id="hero-brand">
+            <span id="brand-dept">Radyoloji</span>
+            <span class="sep" aria-hidden="true">·</span>
+            <span id="brand-title">Günün Panosu</span>
+          </span>
+          <span class="hero-eyebrow" id="hero-eyebrow" hidden></span>
+          <div class="hero-tools">
+            <button id="refresh-btn" class="icon-btn viewer-only" type="button" aria-label="Verileri yenile" title="Yenile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 6.4M20 5v6h-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </button>
+            <button id="share-btn" class="icon-btn" type="button" aria-label="Panoyu paylaş" title="Panoyu paylaş">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M8 7l4-4 4 4M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </button>
+            <button id="theme-toggle" class="icon-btn" type="button" aria-label="Temayı değiştir" title="Tema">
+              <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+              <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-main">
+          <button id="prev-day" class="day-nav" type="button" aria-label="Önceki gün" title="Önceki gün">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+          <div class="hero-heading">
+            <h1 class="hero-title" id="date-title">—</h1>
+            <span class="hero-sub" id="date-sub"></span>
+            <input id="date-input" class="date-input" type="date" aria-label="Tarih seç" />
+          </div>
+          <button id="next-day" class="day-nav" type="button" aria-label="Sonraki gün" title="Sonraki gün">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+        </div>
+
+        <div class="hero-meta">
+          <span class="pill on-dark" id="team-count" hidden></span>
+          <span class="pill on-dark" id="notes-count" hidden></span>
+          <span class="hero-updated" id="updated-line" hidden></span>
+        </div>
+
+        <label class="hero-search" id="hero-search" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2" /><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+          <input id="directory-search" type="search" placeholder="Ara: isim, birim veya numara" autocomplete="off" aria-label="Rehberde ara" />
+        </label>
+      </header>
+
+      <div id="admin-bar" class="admin-bar admin-only" hidden>
+        <span class="admin-status" id="admin-status">Yönetici modu</span>
+        <span class="spacer"></span>
+        <button id="admin-retry" class="btn small secondary" type="button" hidden>Yeniden dene</button>
+        <a class="btn small secondary" href="./index.html">Görüntüle</a>
+        <button id="admin-publish" class="btn small" type="button">Yayınla</button>
+      </div>
+
+      <div id="offline-note" class="offline-note viewer-only" hidden>
+        <span id="offline-text">Son kayıtlı veriler gösteriliyor; internet gelince yenileyin.</span>
+        <button id="offline-retry" class="link-btn" type="button">Yeniden dene</button>
+      </div>
+
+      <div id="notice" class="notice" role="status" hidden>
+        <span class="notice-icon" aria-hidden="true">!</span>
+        <span class="notice-text" id="notice-text"></span>
+        <button id="notice-edit" class="link-btn admin-only" type="button">Düzenle</button>
+      </div>
+
+      <main id="main">
+        <section class="view is-active" data-view="ekip" aria-label="Günün ekibi">
+          <div class="view-col">
+            <div class="section-head">
+              <h2>Günün ekibi</h2>
+              <span class="section-note" id="team-hint">Vardiyaya göre kimler var?</span>
+            </div>
+            <div id="team-list" class="shift-list"></div>
+            <div class="panel-actions admin-only" id="team-actions">
+              <button id="add-member" class="btn" type="button">Ekip üyesi ekle</button>
+              <button id="import-team" class="btn secondary" type="button">Listeden içe aktar</button>
+              <button id="copy-team" class="btn secondary" type="button">Dünkü ekibi kopyala</button>
+              <button id="forward-team" class="btn secondary" type="button" hidden>Yarına aktar</button>
+              <button id="sync-shift" class="btn secondary" type="button" hidden>Nöbet listesinden al</button>
+            </div>
+          </div>
+
+          <div class="view-col">
+            <div class="section-head">
+              <h2>Günün yemeği</h2>
+              <span class="pill soft" id="meal-pill" hidden></span>
+              <span class="section-note" id="meal-hint">Yemekhane</span>
+            </div>
+            <div class="panel meal-panel">
+              <div id="meal-body" class="meal-body"></div>
+              <div class="panel-actions">
+                <button id="edit-meal" class="btn secondary admin-only" type="button">Menüyü düzenle</button>
+                <button id="import-meal" class="btn secondary admin-only" type="button">Listeden içe aktar</button>
+                <button id="copy-meal" class="btn secondary admin-only" type="button">Dünkü menüyü kopyala</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" data-view="rehber" aria-label="Telefon rehberi">
+          <div class="section-head" id="favorites-head" hidden>
+            <h2>Sık kullanılanlar</h2>
+          </div>
+          <div id="favorites" class="fav-grid"></div>
+          <div class="section-head">
+            <h2>Sonuçlar</h2>
+            <span class="section-note" id="directory-count" hidden></span>
+          </div>
+          <div id="directory-chips" class="import-chips" role="group" aria-label="Rehber kategorileri"></div>
+          <div id="directory-list" class="directory-list"></div>
+        </section>
+
+        <section class="view" data-view="notlar" aria-label="Notlar">
+          <details class="composer admin-only">
+            <summary>Not ekle</summary>
+            <form id="note-form" autocomplete="off">
+              <label class="field">
+                <span>Not</span>
+                <textarea id="note-text" rows="3" maxlength="1200" placeholder="Örn. BT cihazı 14:00–16:00 arası bakımda." required></textarea>
+              </label>
+              <div class="note-meta-row">
+                <label class="field">
+                  <span>Kim yazıyor?</span>
+                  <input id="note-author" type="text" maxlength="40" placeholder="Adınız" />
+                </label>
+                <label class="field">
+                  <span>Etiket</span>
+                  <select id="note-tag">
+                    <option value="">Not</option>
+                    <option value="sabit">Sabit</option>
+                    <option value="ariza">Arıza</option>
+                    <option value="duyuru">Duyuru</option>
+                    <option value="hatirlatma">Hatırlatma</option>
+                  </select>
+                </label>
+              </div>
+              <div class="panel-actions">
+                <button class="btn" type="submit">Notu ekle</button>
+              </div>
+            </form>
+          </details>
+
+          <div class="notes-main">
+            <div class="filters" id="note-filters" role="group" aria-label="Not filtresi">
+              <button class="filter is-active" type="button" data-filter="all">Tümü</button>
+              <button class="filter" type="button" data-filter="today">Bugün</button>
+              <button class="filter" type="button" data-filter="pinned">Sabit</button>
+              <button class="filter" type="button" data-filter="open">Açık</button>
+            </div>
+            <div id="note-list"></div>
+          </div>
+        </section>
+
+        <section class="view" data-view="ayarlar" aria-label="Ayarlar">
+          <div class="panel">
+            <div class="panel-head"><div><h2>Pano bilgileri</h2><p class="panel-hint">Üst başlıkta görünür.</p></div></div>
+            <div class="admin-only">
+              <label class="field"><span>Pano adı</span><input id="set-title" type="text" maxlength="40" /></label>
+              <label class="field"><span>Hastane / bölüm</span><input id="set-dept" type="text" maxlength="40" /></label>
+            </div>
+            <div class="viewer-only">
+              <p class="text-block"><strong id="view-title">Günün Panosu</strong><br /><span id="view-dept">Radyoloji</span></p>
+            </div>
+            <label class="field">
+              <span>Tema</span>
+              <select id="set-theme">
+                <option value="light">Aydınlık</option>
+                <option value="dark">Gece</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="panel admin-only">
+            <div class="panel-head"><div><h2>Telefon rehberi</h2><p class="panel-hint">Ad zorunlu; numara ve birim isteğe bağlı. Yıldızla sık kullanılanlara ekleyin.</p></div></div>
+            <label class="search-field">
+              <input id="directory-edit-search" type="search" placeholder="Düzenlenecek kişiyi ara" autocomplete="off" aria-label="Rehberde düzenlenecek kişiyi ara" />
+            </label>
+            <div id="directory-editor"></div>
+            <div class="panel-actions">
+              <button id="add-directory" class="btn secondary" type="button">Satır ekle</button>
+            </div>
+          </div>
+
+          <div class="panel admin-only">
+            <div class="panel-head">
+              <div>
+                <h2>Duyuru şeridi</h2>
+                <p class="panel-hint">Üstte bant olarak görünür. Boş bırakırsanız gizlenir.</p>
+              </div>
+            </div>
+            <label class="field">
+              <span>Duyuru metni</span>
+              <textarea id="notice-input" rows="2" maxlength="200" placeholder="Örn. BT cihazı 14:00–16:00 arası bakımda."></textarea>
+            </label>
+            <label class="field">
+              <span>Tür</span>
+              <select id="notice-tone">
+                <option value="info">Bilgi (sakin)</option>
+                <option value="warn">Uyarı (dikkat çekici)</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="panel admin-only">
+            <div class="panel-head">
+              <div>
+                <h2>GitHub yayını</h2>
+                <p class="panel-hint">Değişiklikler GitHub'daki <code>content.json</code> dosyasına yazılır; GitHub Pages 1-2 dakikada günceller.</p>
+              </div>
+            </div>
+            <label class="field"><span>Depo (kullanıcı/ad)</span><input id="pub-repo" type="text" autocomplete="off" placeholder="mryusufcan/gunluk-pano" /></label>
+            <div class="field-row">
+              <label class="field"><span>Dal</span><input id="pub-branch" type="text" autocomplete="off" placeholder="main" /></label>
+              <label class="field"><span>Dosya</span><input id="pub-path" type="text" autocomplete="off" placeholder="content.json" /></label>
+            </div>
+            <label class="field"><span>GitHub anahtarı (Contents: Read and write)</span><input id="pub-token" type="password" autocomplete="off" placeholder="github_pat_…" /></label>
+            <p class="panel-hint" style="margin: 0 0 10px">
+              Anahtarınız yoksa:
+              <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub'da anahtar oluştur</a> →
+              Repository access: <em>Only select repositories</em> (gunluk-pano) → Permissions: <em>Contents: Read and write</em> → Generate.
+            </p>
+            <div class="panel-actions">
+              <button id="pub-save" class="btn secondary" type="button">Ayarları kaydet</button>
+              <button id="pub-test" class="btn secondary" type="button">Bağlantıyı dene</button>
+              <button id="pub-publish" class="btn" type="button">Yayınla</button>
+              <button id="pub-check" class="btn secondary" type="button">Canlıyı kontrol et</button>
+            </div>
+            <p id="pub-status" class="panel-hint"></p>
+            <p class="panel-hint" style="margin-top: 8px">
+              Anahtar oluşturmadan da yayınlayabilirsiniz:
+              <a id="pub-github-edit" href="https://github.com/mryusufcan/gunluk-pano/edit/main/content.json" target="_blank" rel="noopener">GitHub'da content.json'u düzenle</a> →
+              <strong>content.json kopyala</strong> ile aldığınız metni yapıştırıp commit edin.
+            </p>
+            <details class="publish-help">
+              <summary>Nasıl kurulur?</summary>
+              <ol class="tips">
+                <li>GitHub'da depoyu oluşturun ve bu klasörü yükleyin; Settings → Pages → Source: <em>GitHub Actions</em>.</li>
+                <li>GitHub → Settings → Developer settings → <em>Fine-grained tokens</em> → yeni anahtar: yalnızca bu depo, izin <em>Contents: Read and write</em>.</li>
+                <li>Anahtarı buraya yapıştırın, <strong>Ayarları kaydet</strong> ve <strong>Bağlantıyı dene</strong>.</li>
+                <li>Her düzenlemeden sonra <strong>Yayınla</strong>. Ekip sayfayı yenilediğinde yeni hâli görür.</li>
+              </ol>
+            </details>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head"><div><h2>Veri</h2><p class="panel-hint" id="stats"></p></div></div>
+            <div class="panel-actions">
+              <button id="export-data" class="btn secondary" type="button">Yedek al</button>
+              <button id="download-content" class="btn secondary admin-only" type="button">content.json indir</button>
+              <button id="copy-content" class="btn secondary admin-only" type="button">content.json kopyala</button>
+              <label class="btn secondary file-label admin-only">
+                Yedeği yükle
+                <input id="import-data" type="file" accept="application/json,.json" hidden />
+              </label>
+              <button id="clear-board" class="btn danger admin-only" type="button">Tüm verileri sil</button>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head"><div><h2>Nasıl çalışır?</h2></div></div>
+            <p class="text-block viewer-only">
+              Bu sayfa salt görüntüleme içindir. İçerik yönetici tarafından <strong>content.json</strong> dosyasına yayınlanır; siz sayfayı açtığınızda son sürüm gelir. Güncelleme gelmediyse üstteki <strong>yenile</strong> düğmesine dokunun.
+            </p>
+            <p class="text-block admin-only">
+              Yönetici modundasınız. Değişiklikler önce bu cihazda <strong>taslak</strong> olarak tutulur, <strong>Yayınla</strong> ile GitHub'a yazılır. Ekip sayfayı yenilediğinde yeni hâli görür.
+            </p>
+            <p class="text-block admin-only">
+              Ekip ve yemek listelerini elle yazmak zorunda değilsiniz: <strong>Listeden içe aktar</strong> ile Excel, Word veya WhatsApp metnini yapıştırın ya da <strong>.xlsx / .docx</strong> dosyası seçin.
+            </p>
+            <p class="text-block">
+              Günün özetini ekip grubuna göndermek için üstteki <strong>paylaş</strong> düğmesini kullanın.
+            </p>
+            <h3 class="sub-title">Ana ekrana ekle (isteğe bağlı)</h3>
+            <ul class="tips">
+              <li><strong>iPhone:</strong> Safari → Paylaş → <em>Ana Ekrana Ekle</em>.</li>
+              <li><strong>Android:</strong> Chrome → ⋮ → <em>Ana ekrana ekle</em>.</li>
+              <li>Simge eklenince site uygulama gibi tam ekran açılır.</li>
+            </ul>
+            <p class="footnote" id="version-note"></p>
+            <p class="footnote viewer-only"><a href="./?admin=1">Yönetici girişi</a></p>
+          </div>
+        </section>
+      </main>
+
+      <nav class="tabbar" aria-label="Bölümler">
+        <button class="tab is-active" type="button" data-view="ekip">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="2" /><path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /><circle cx="17.2" cy="8.6" r="2.6" fill="none" stroke="currentColor" stroke-width="2" /><path d="M15.8 14.4c2.6.2 4.3 2 4.7 4.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+          <span>Ekip</span>
+        </button>
+        <button class="tab" type="button" data-view="rehber">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h2.6l1.5 4-1.9 1.4a11 11 0 0 0 6.4 6.4l1.4-1.9 4 1.5v2.6a2.5 2.5 0 0 1-2.7 2.5A16.5 16.5 0 0 1 4 6.2 2.5 2.5 0 0 1 6.5 3.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          <span>Rehber</span>
+        </button>
+        <button class="tab" type="button" data-view="notlar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2" /><path d="M8 9h8M8 13h8M8 17h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+          <span>Notlar</span>
+          <span class="tab-badge" id="badge-notlar" hidden></span>
+        </button>
+        <button class="tab admin-only" type="button" data-view="ayarlar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10M4 12h6M14 12h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /><circle cx="16" cy="7" r="1.8" fill="var(--surface)" stroke="currentColor" stroke-width="2" /><circle cx="8" cy="17" r="1.8" fill="var(--surface)" stroke="currentColor" stroke-width="2" /><circle cx="12" cy="12" r="1.8" fill="var(--surface)" stroke="currentColor" stroke-width="2" /></svg>
+          <span>Ayarlar</span>
+        </button>
+      </nav>
+    </div>
+    </div>
+
+    <dialog id="member-dialog" class="dialog" aria-labelledby="member-title">
+      <form id="member-form" method="dialog" novalidate>
+        <h2 id="member-title">Ekip üyesi</h2>
+        <label class="field">
+          <span>Ad soyad</span>
+          <input id="m-name" type="text" maxlength="60" required placeholder="Dr. Ayşe Yılmaz" />
+        </label>
+        <label class="field"><span>Vardiya</span><select id="m-shift"></select></label>
+        <label class="field">
+          <span>Telefon / dahili</span>
+          <input id="m-phone" type="tel" inputmode="tel" maxlength="30" placeholder="0532 000 00 00 veya 1234" />
+        </label>
+        <label class="field">
+          <span>Not</span>
+          <input id="m-note" type="text" maxlength="80" placeholder="Örn. MR–BT, 12:00 sonrası izinli" />
+        </label>
+        <p class="form-error" id="m-error" hidden></p>
+        <div class="dialog-actions">
+          <button type="button" id="m-delete" class="btn ghost" hidden>Sil</button>
+          <span class="spacer"></span>
+          <button type="button" class="btn secondary" data-close>Vazgeç</button>
+          <button type="submit" class="btn">Kaydet</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="meal-dialog" class="dialog" aria-labelledby="meal-title">
+      <form id="meal-form" method="dialog">
+        <h2 id="meal-title">Menüyü düzenle</h2>
+        <label class="field">
+          <span>Menü (her satır bir yemek)</span>
+          <textarea id="meal-textarea" rows="6" maxlength="600" placeholder="Mercimek çorbası&#10;Izgara tavuk&#10;Pirinç pilavı&#10;Mevsim salata"></textarea>
+        </label>
+        <div class="dialog-actions">
+          <span class="spacer"></span>
+          <button type="button" class="btn secondary" data-close>Vazgeç</button>
+          <button type="submit" class="btn">Kaydet</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="import-dialog" class="dialog import-dialog" aria-labelledby="import-title">
+      <div class="dialog-body">
+        <h2 id="import-title">Listeden içe aktar</h2>
+        <div class="segmented" role="group" aria-label="İçe aktarma türü">
+          <button type="button" class="seg is-active" data-import-mode="team">Ekip listesi</button>
+          <button type="button" class="seg" data-import-mode="meal">Yemek listesi</button>
+        </div>
+        <p class="panel-hint" id="import-hint"></p>
+        <label class="field">
+          <span>Liste metni</span>
+          <textarea id="import-text" rows="7" placeholder="Listeyi buraya yapıştırın (Excel, Word, WhatsApp…)" spellcheck="false"></textarea>
+        </label>
+        <div class="import-tools">
+          <label class="btn secondary file-label">
+            Dosya seç
+            <input id="import-file" type="file" accept=".txt,.csv,.tsv,.md,.xlsx,.docx,text/plain,text/csv" hidden />
+          </label>
+          <button id="import-example" class="link-btn" type="button">Örnek doldur</button>
+          <label class="import-week-label">
+            Gün adları
+            <select id="import-week">
+              <option value="0">Bu hafta</option>
+              <option value="1">Gelecek hafta</option>
+              <option value="-1">Geçen hafta</option>
+            </select>
+          </label>
+        </div>
+        <label class="check">
+          <input id="import-replace" type="checkbox" />
+          <span id="import-replace-label">Bu günlerdeki mevcut ekibi sil</span>
+        </label>
+        <div id="import-preview" class="import-preview"></div>
+        <div class="dialog-actions">
+          <span class="spacer"></span>
+          <button type="button" class="btn secondary" data-close>Vazgeç</button>
+          <button type="button" class="btn" id="import-apply" disabled>İçe aktar</button>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="confirm-dialog" class="dialog small" aria-labelledby="confirm-title">
+      <div class="dialog-body">
+        <h2 id="confirm-title">Emin misiniz?</h2>
+        <p id="confirm-text"></p>
+        <div class="dialog-actions">
+          <span class="spacer"></span>
+          <button type="button" class="btn secondary" data-close>Vazgeç</button>
+          <button type="button" class="btn danger" id="confirm-ok">Sil</button>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="share-dialog" class="dialog" aria-labelledby="share-title">
+      <div class="dialog-body">
+        <h2 id="share-title">Panoyu paylaş</h2>
+        <p class="text-block">Panoya erişilemediyse metni seçip kopyalayın.</p>
+        <textarea id="share-text" rows="9" readonly aria-label="Paylaşılacak metin"></textarea>
+        <div class="dialog-actions">
+          <span class="spacer"></span>
+          <button type="button" class="btn secondary" data-close>Kapat</button>
+          <button type="button" class="btn" id="share-copy">Kopyala</button>
+        </div>
+      </div>
+    </dialog>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

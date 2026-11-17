@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Günün Panosu">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12806c" />
+      <stop offset="1" stop-color="#0b5a53" />
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="21" fill="url(#g)" />
+  <rect x="26" y="24" width="44" height="49" rx="6" fill="#ffffff" />
+  <rect x="40" y="19" width="16" height="10" rx="3" fill="#ffffff" />
+  <rect x="43" y="22" width="10" height="5" rx="2" fill="#12806c" />
+  <rect x="34" y="39" width="28" height="4" rx="2" fill="#0f6f66" />
+  <rect x="34" y="48" width="28" height="4" rx="2" fill="#0f6f66" />
+  <rect x="34" y="57" width="18" height="4" rx="2" fill="#0f6f66" />
+  <circle cx="59" cy="64" r="4" fill="#f0ad4e" />
+</svg>

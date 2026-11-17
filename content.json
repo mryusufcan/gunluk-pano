@@ -1,0 +1,3932 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-17T11:25:15.438Z",
+  "settings": {
+    "title": "Günün Panosu",
+    "dept": "Radyoloji"
+  },
+  "days": {
+    "2026-11-11": {
+      "team": [
+        {
+          "id": "sheet-2026-11-11-0",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-11-1",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-11-2",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-11-3",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-11-4",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-11-5",
+          "name": "Sedanur Demir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-11-6",
+          "name": "Fatih Karabulut",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "TAVUKSUYU ÇORBASI\nKARIŞIK KURU DOLMA\nPORTAKALLI KEREVİZ\nELMA\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + YOĞURT",
+        "updatedAt": 1794767704392
+      }
+    },
+    "2026-11-12": {
+      "team": [
+        {
+          "id": "sheet-2026-11-12-0",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-12-1",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-12-2",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-12-3",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-12-4",
+          "name": "Ercan Kurt",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-12-5",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-12-6",
+          "name": "Sedanur Demir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "ERİŞTELİ YEŞİL MERCİMEKLİ ÇORBASI\nPİLİÇ PİRZOLA AYVA DİLİM PATATES EŞLİĞİNDE\nDOMATESLİ PİRİNÇ PİLAVI\nTİRAMİSU\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + NOHUT SALATASI",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-13": {
+      "team": [
+        {
+          "id": "sheet-2026-11-13-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-13-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-13-2",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-13-3",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-13-4",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-13-5",
+          "name": "Hazal Kaşıkcı",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-13-6",
+          "name": "Ercan Kurt",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "SÜTLÜ HAVUÇ ÇORBA\nHÜNKAR BEĞENDİ\nSEBZELİ BULGUR PİLAVI\nPORTAKAL\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + ISPANAK BORANİ",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-14": {
+      "team": [
+        {
+          "id": "sheet-2026-11-14-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-14-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-14-2",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-14-3",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-14-4",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-14-5",
+          "name": "Yusuf Can Özdemir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-14-6",
+          "name": "Damlanur Köksalan",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "DOMATES ÇORBASI\nÇİN USULÜ ACILI-TATLI TAVUK SOTE\nPESTO SOSLU MAKARNA\nKARIŞIK MEYVE\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + AYVALI KEREVİZ",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-15": {
+      "team": [
+        {
+          "id": "sheet-2026-11-15-0",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-15-1",
+          "name": "Yusuf Can Özdemir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-15-2",
+          "name": "Abdullah Tecen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "DÜĞÜN ÇORBA\nGÜVEÇTE KIYMALI ISPANAK KAŞARLI\nPATATESLİ TEPSİ BÖREĞİ\nMANDALİNA\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + HAYDARİ",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-16": {
+      "team": [
+        {
+          "id": "sheet-2026-11-16-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-16-1",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-16-2",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-16-3",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-16-4",
+          "name": "Yusuf Can Özdemir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-16-5",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-16-6",
+          "name": "Hazal Kaşıkcı",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "SEBZE ÇORBA\nKÖFTE HAMBURGER\nPARMAK PATATES KIZARTMASI KETÇAP MAYONEZ İLE\nCOLA / FANTA / AYRAN\nHAVUÇ - GÖBEK - KIRMIZI LAHANA + SEBZE BUKETİ",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-17": {
+      "team": [
+        {
+          "id": "sheet-2026-11-17-0",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-17-1",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-17-2",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-17-3",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-17-4",
+          "name": "Damlanur Köksalan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-17-5",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-17-6",
+          "name": "Yusuf Can Özdemir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "KÖYLÜ ÇORBA\nPÜRELİ ROSTO KÖFTE SEBZE BUKETİ İLE\nARPA ŞEHRİYE PİLAVI\nPORTAKAL\nHAVUÇ + YEŞİL SALATA + GAVURDAĞI SALATA + ŞAKŞUKA",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-18": {
+      "team": [
+        {
+          "id": "sheet-2026-11-18-0",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-18-1",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-18-2",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-18-3",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-18-4",
+          "name": "Fatih Karabulut",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-18-5",
+          "name": "Ercan Kurt",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-18-6",
+          "name": "Damlanur Köksalan",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "MERCİMEK ÇORBASI\nÇITIR TAVUK / ELMA DİLİM PATATES İLE\nPENNE MAKARNA\nAYRAN\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + ZEYTİNYAĞLI PIRASA",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-19": {
+      "team": [
+        {
+          "id": "sheet-2026-11-19-0",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-19-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-19-2",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-19-3",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-19-4",
+          "name": "Abdullah Tecen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-19-5",
+          "name": "Ercan Kurt",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-19-6",
+          "name": "Fatih Karabulut",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "MAHLUTA ÇORBA\nKARIŞIK DOLMA\nPATATESLİ BÖREK\nAYVA TATLISI\nHAVUÇ + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + YOĞURT",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-20": {
+      "team": [
+        {
+          "id": "sheet-2026-11-20-0",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-20-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-20-2",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-20-3",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-20-4",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-20-5",
+          "name": "Sedanur Demir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-20-6",
+          "name": "Abdullah Tecen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "NANELİ YOĞURT ÇORBASI\nETLİ NOHUT\nŞEHRİYELİ PİRİNÇ PİLAV\nMANDALİNA\nHAVUÇ + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + TURŞU",
+        "updatedAt": 1794767704393
+      }
+    },
+    "2026-11-21": {
+      "team": [
+        {
+          "id": "sheet-2026-11-21-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-21-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-21-2",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-21-3",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-21-4",
+          "name": "Hazal Kaşıkcı",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-21-5",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-21-6",
+          "name": "Sedanur Demir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "DOMATES ÇORBASI\nPİZZA / PARMAK PATATES\nZEYTİNYAĞLI KEREVİZ\nCOLA / FANTA\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + YOĞURTLU SEMİZOTU",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-22": {
+      "team": [
+        {
+          "id": "sheet-2026-11-22-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-22-1",
+          "name": "Abdullah Tecen",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-22-2",
+          "name": "Ercan Kurt",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "EZOGELİN ÇORBA\nKIYMALI MANTI\nFIRINDA SEBZE BUKETİ\nARMUT\nGÖBEK + HAVUÇ + KIRMIZI LAHANA + ZEYTİNYAĞLI PORTAKALLI KEREVİZ",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-23": {
+      "team": [],
+      "meal": {
+        "text": "KAZDAĞI ÇORBA\nETLİ ALİ NAZİK\nZERDAÇALLI PİLAV\nSICAK İRMİK HELVASI\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + KÖZ PATLICAN SALATASI",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-24": {
+      "team": [],
+      "meal": {
+        "text": "TAVUKSUYU ÇORBA (KIRMIZI)\nEKŞİLİ ETLİ NOHUTLU PATLICAN YEMEĞİ\nBULGUR PİLAVI\nTRİLİÇE\nGÖBEK + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + HAVUÇ TARATOR",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-25": {
+      "team": [],
+      "meal": {
+        "text": "SÜTLÜ KEREVİZ ÇORBASI\nTAVUK BURGER / PATATES\nCOLA / FANTA / AYRAN\nKEŞKÜL\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + PORTAKALLI PIRASA",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-26": {
+      "team": [],
+      "meal": {
+        "text": "MERCİMEK ÇORBA\nADANA KEBAP (ACISIZ) / LAVAŞ\nMEYHANE BURGUR PİLAVI\nAYRAN\nELMALI ROKA SALATA + HAVUÇ + DOMATES SALATALIK BİBER SÖĞÜŞ + ACILI EZME",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-27": {
+      "team": [],
+      "meal": {
+        "text": "DÜĞÜN ÇORBASI\nBEŞAMEL SOSLU SEBZE GRATEN\nZERDEÇALLI PİRİNÇ PİLAVI\nBİSKÜVİLİ PASTA\nHAVUÇ + KIRMIZI LAHANA + PANCAR SALATASI",
+        "updatedAt": 1794767713648
+      }
+    },
+    "2026-11-28": {
+      "team": [],
+      "meal": {
+        "text": "EZOGELİN ÇORBA\nPİLİÇ FLORENTİN\nDOMATES SOSLU MAKARNA\nFIRIN SÜTLAÇ\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + ZEYTİNYAĞLI PIRASA",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-29": {
+      "team": [],
+      "meal": {
+        "text": "YAYLA ÇORBASI\nKIYMALI YUFKADA PAŞA KEBABI\nSEBZELİ ARPA ŞEHRİYE PİLAVI\nARMUT\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + HAYDARİ",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-30": {
+      "team": [],
+      "meal": {
+        "text": "EZOGELİN ÇORBA\nET İSKENDER\nMELEK PİLAVI\nMANDALİNA\nHAVUÇ + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + YOĞURT",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-12-06": {
+      "team": [],
+      "meal": {
+        "text": "MERCİMEK ÇORBASI\nETSİZ TÜRLÜ\nKIYMALI İÇLİ KÖFTE\nARMUT\nHAVUÇ + YEŞİL SALATA + YOĞURT + HAVUÇ TARATOR",
+        "updatedAt": 1794767704394
+      }
+    },
+    "2026-11-05": {
+      "team": [
+        {
+          "id": "sheet-2026-11-05-0",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-05-1",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-05-2",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-05-3",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-05-4",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-05-5",
+          "name": "Kutay Hoş",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-05-6",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-05-7",
+          "name": "Yusuf Can Özdemir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-06": {
+      "team": [
+        {
+          "id": "sheet-2026-11-06-0",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-06-1",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-06-2",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-06-3",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-06-4",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-06-5",
+          "name": "Kutay Hoş",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-06-6",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-06-7",
+          "name": "Abdullah Tecen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-07": {
+      "team": [
+        {
+          "id": "sheet-2026-11-07-0",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-07-1",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-07-2",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-07-3",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-07-4",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-07-5",
+          "name": "Hazal Kaşıkcı",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-07-6",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-07-7",
+          "name": "Sedanur Demir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-08": {
+      "team": [
+        {
+          "id": "sheet-2026-11-08-0",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-08-1",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-08-2",
+          "name": "Fatih Karabulut",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-09": {
+      "team": [
+        {
+          "id": "sheet-2026-11-09-0",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-09-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-09-2",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-09-3",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-09-4",
+          "name": "Damlanur Köksalan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-09-5",
+          "name": "Hazal Kaşıkcı",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-09-6",
+          "name": "Yusuf Can Özdemir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-10": {
+      "team": [
+        {
+          "id": "sheet-2026-11-10-0",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-10-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-10-2",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-10-3",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-10-4",
+          "name": "Damlanur Köksalan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-10-5",
+          "name": "Fatih Karabulut",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-10-6",
+          "name": "Abdullah Tecen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    }
+  },
+  "notes": [],
+  "directory": [
+    {
+      "id": "d1",
+      "name": "A (VİP) BANKO",
+      "phone": "8279",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d2",
+      "name": "A BANKO",
+      "phone": "8148",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d3",
+      "name": "A BANKO",
+      "phone": "8149",
+      "unit": "MİSAFİR HİZMETLERİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d4",
+      "name": "A BANKO",
+      "phone": "8541-8542",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d5",
+      "name": "ABDULLAH KUZU",
+      "phone": "0506 140 35 63",
+      "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d6",
+      "name": "ABDULLAH KUZU",
+      "phone": "6901",
+      "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d7",
+      "name": "ACİL AMBULANS",
+      "phone": "8502-8514",
+      "unit": "EKİP LİDERİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d8",
+      "name": "ACİL CPR ODASI",
+      "phone": "8503",
+      "unit": "EKİP LİDERİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d9",
+      "name": "ACİL MÜŞAHADE",
+      "phone": "8511-8512-8513",
+      "unit": "EKİP LİDERİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d10",
+      "name": "ACİL SERVİS SORUMLU HASTA BAKIM HİZM. ODASI",
+      "phone": "8507",
+      "unit": "EKİP LİDERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d11",
+      "name": "ADEM TURNA",
+      "phone": "0530 173 06 51",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ UZMANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d12",
+      "name": "ADİL TANIK",
+      "phone": "0530 174 41 17",
+      "unit": "GRUP TIBBİ KOORDİNATÖR",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d13",
+      "name": "AİNEL",
+      "phone": "0530 173 07 51",
+      "unit": "YURT DIŞI ANLAŞMALI KURUMLAR UZMANI",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d14",
+      "name": "ALEX MAİTRE",
+      "phone": "0530 510 73 83",
+      "unit": "FRANSIZCA - İNGİLİZCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d15",
+      "name": "AMELİYATHANE BANKO",
+      "phone": "8336-8337",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d16",
+      "name": "AMELİYATHANE DOKTOR ODASI",
+      "phone": "8339",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d17",
+      "name": "ANA DEPO",
+      "phone": "8472",
+      "unit": "B5. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d18",
+      "name": "ANESTEZİ GÖRÜŞME ODASI",
+      "phone": "8346",
+      "unit": "ANESTEZİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d19",
+      "name": "ANIL EMRE YARAR",
+      "phone": "0554 280 31 34",
+      "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d20",
+      "name": "ANIL EMRE YARAR",
+      "phone": "6901",
+      "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d21",
+      "name": "ANJİO İŞLEM ODASI",
+      "phone": "5412",
+      "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d22",
+      "name": "ANJİO LABORATUVARI",
+      "phone": "8629",
+      "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d23",
+      "name": "AREZOU PAKMEHR",
+      "phone": "0530 174 34 38",
+      "unit": "İNGİLİZCE - FARSÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d24",
+      "name": "ARŞİV",
+      "phone": "8364",
+      "unit": "1. KAT İDARİ OFİSLER",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d25",
+      "name": "ATAKAN MEHMET ÇOBAN",
+      "phone": "0530 510 68 32",
+      "unit": "BİLGİ SİSTEMLERİ UZMANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d26",
+      "name": "AYŞEGÜL BAYRAM",
+      "phone": "0542 783 54 25",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d27",
+      "name": "AYŞENUR GÜLER ÇOŞKUN",
+      "phone": "0530 510 64 28",
+      "unit": "İNSAN KAYNAKLARI UZMANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d28",
+      "name": "AĞIZ VE DİŞ SAĞLIĞI DECK",
+      "phone": "5413",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d29",
+      "name": "B BANKO",
+      "phone": "8137",
+      "unit": "MİSAFİR HİZMETLERİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d30",
+      "name": "B BANKO",
+      "phone": "8138",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d31",
+      "name": "B BANKO",
+      "phone": "8294",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d32",
+      "name": "B BANKO",
+      "phone": "8330",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d33",
+      "name": "B BANKO",
+      "phone": "8331",
+      "unit": "MİSAFİR HİZMETLERİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d34",
+      "name": "B BANKO",
+      "phone": "8537-8538-8539",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d35",
+      "name": "B2 DR. ALEV ÖZSARI TOPLANTI SALONU",
+      "phone": "8486",
+      "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d36",
+      "name": "B2 TOPLANTI ODASI",
+      "phone": "8497",
+      "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d37",
+      "name": "BANKO",
+      "phone": "8199",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d38",
+      "name": "BANKO",
+      "phone": "8360-8361",
+      "unit": "GENEL YOĞUN BAKIM HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d39",
+      "name": "BARIŞ ALPER",
+      "phone": "0531 862 55 34",
+      "unit": "ANA DEPO SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d40",
+      "name": "BATUHAN AYDIN",
+      "phone": "0553 306 26 05",
+      "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d41",
+      "name": "BEBEK ODASI",
+      "phone": "8531",
+      "unit": "ZEMİN KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d42",
+      "name": "BELLBOY",
+      "phone": "8200",
+      "unit": "2. KAT GİRİŞ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d43",
+      "name": "BİLGİSAYARLI MR - 2",
+      "phone": "5404",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d44",
+      "name": "BİLGİSAYARLI TOMOGRAFİ - MR",
+      "phone": "8520",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d45",
+      "name": "BÜŞRA KARABULUT",
+      "phone": "0537 236 13 74",
+      "unit": "ZEMİN KAT KADIN DOĞUM SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d46",
+      "name": "BÜŞRA TEKİN",
+      "phone": "0538 035 92 38",
+      "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d47",
+      "name": "C BANKO",
+      "phone": "8139",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d48",
+      "name": "C BANKO",
+      "phone": "8332",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d49",
+      "name": "C BANKO",
+      "phone": "8333",
+      "unit": "MİSAFİR HİZMETLERİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d50",
+      "name": "C BANKO",
+      "phone": "8543",
+      "unit": "HASTA BAKIM HİZMETLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d51",
+      "name": "CANAN SARI",
+      "phone": "0530 174 41 30",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d53",
+      "name": "CANSU PAYZA",
+      "phone": "0541 923 61 99",
+      "unit": "MİSAFİR HİZMETLERİ AYAKTAN SORUMLU",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d54",
+      "name": "CHECK-UP NUMUNE ALMA",
+      "phone": "8374",
+      "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d55",
+      "name": "CİHAN YARENOĞLU",
+      "phone": "0530 948 27 87",
+      "unit": "ULAŞIM · TÜRKÇE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d56",
+      "name": "CİHAN YARENOĞLU",
+      "phone": "0530 948 27 87",
+      "unit": "UHM TRANSFER SORUMLUSU",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d57",
+      "name": "CLAUDİA ALİNA AŞAR",
+      "phone": "0530 171 58 77",
+      "unit": "ROMANYA (2 KİŞİ) · ROMENCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d58",
+      "name": "CLAUDİA ALİNA AŞAR",
+      "phone": "0530 171 58 77",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ROMENCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d59",
+      "name": "DANIŞMA-BİYOPSİ BANKO",
+      "phone": "8440",
+      "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d60",
+      "name": "DENİZ ÇAMKAYA",
+      "phone": "8225",
+      "unit": "FİYAT VERME HİZMETLERİ OFİSİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d61",
+      "name": "DILINUR BAIJANOVA",
+      "phone": "0533 928 98 46",
+      "unit": "ÇİNCE, ÖZBEKÇE, RUSÇA, TÜRKMENCE, KAZAKÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d62",
+      "name": "DİNARA MİRASSOVA",
+      "phone": "0530 174 33 44",
+      "unit": "KAZAKÇA - RUSÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d63",
+      "name": "DİDEM CEREN ŞİŞMAN",
+      "phone": "0553 871 25 72",
+      "unit": "MİSAFİR HİZMETLERİ EĞİTİM SORUMLUSU",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d64",
+      "name": "DİLA ALTIN",
+      "phone": "5400",
+      "unit": "YATIŞ HİZMETLERİ PROVİZYON",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d65",
+      "name": "DİLARA SARIKAYA",
+      "phone": "0537 748 14 74",
+      "unit": "KURUMSAL FATURALAMA AK SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d66",
+      "name": "DOĞUMHANE",
+      "phone": "8399",
+      "unit": "ZEMİN KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d67",
+      "name": "DR. ADEM UÇAR",
+      "phone": "8469",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d68",
+      "name": "DR. AHMET CEM DURAL",
+      "phone": "8432",
+      "unit": "ENDOKRİN CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d69",
+      "name": "DR. AHMET SEVENCAN",
+      "phone": "8475-8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d70",
+      "name": "DR. AHMET ÖZKARA",
+      "phone": "8409",
+      "unit": "KALP VE DAMAR CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d71",
+      "name": "DR. AHMET ÖZSOY",
+      "phone": "8173",
+      "unit": "DAMAR CERRAHİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d72",
+      "name": "DR. ALİ BARAN BUDAK",
+      "phone": "8276",
+      "unit": "KALP VE DAMAR CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d73",
+      "name": "DR. ATİLLA SORAN",
+      "phone": "8441",
+      "unit": "GENEL CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d74",
+      "name": "DR. AYHAN SUCAK",
+      "phone": "8516",
+      "unit": "PERİNOTOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d75",
+      "name": "DR. AYŞİN PURBAGER",
+      "phone": "8469",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d76",
+      "name": "DR. BARIŞ GÜVEN",
+      "phone": "8273",
+      "unit": "KARDİYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d77",
+      "name": "DR. BERİL UĞURNAL",
+      "phone": "8195",
+      "unit": "LABORATUVAR",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d78",
+      "name": "DR. BİNNUR PINARBAŞI",
+      "phone": "8356",
+      "unit": "GASTROENTEROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d79",
+      "name": "DR. CANSU EKİNCİ ASLANOĞLU",
+      "phone": "8184",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d80",
+      "name": "DR. CENGİZ KARA",
+      "phone": "1920",
+      "unit": "ÇOCUK ENDOKRİNOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d81",
+      "name": "DR. DEMET YETKİN",
+      "phone": "8497",
+      "unit": "ENDOKRİNOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d82",
+      "name": "DR. DİLEK ABUL",
+      "phone": "8194",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d83",
+      "name": "DR. DUYGU DERİN",
+      "phone": "8453",
+      "unit": "ONKOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d84",
+      "name": "DR. EMRE MERDAN FAYDA",
+      "phone": "8425",
+      "unit": "RADYASYON ONKOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d85",
+      "name": "DR. ERKAN ÇAKIR",
+      "phone": "8521",
+      "unit": "ÇOCUK GÖĞÜS HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d86",
+      "name": "DR. EVRİM DUMAN",
+      "phone": "8426",
+      "unit": "RADYASYON ONKOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d87",
+      "name": "DR. FATİH YANAR",
+      "phone": "8247",
+      "unit": "GENEL CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d88",
+      "name": "DR. GÖKÇE AYLAZ",
+      "phone": "8247",
+      "unit": "GENEL CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d89",
+      "name": "DR. GÜLŞEN KÖSE",
+      "phone": "8259",
+      "unit": "ÇOCUK NÖROLOJİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d90",
+      "name": "DR. HAKAN TEOMAN YANAR",
+      "phone": "8441",
+      "unit": "GENEL CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d92",
+      "name": "DR. HASRET AYYILDIZ CİVAN",
+      "phone": "8258",
+      "unit": "ÇOCUK GASTROENTEROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d93",
+      "name": "DR. İREM ERDİL",
+      "phone": "8469",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d94",
+      "name": "DR. İRFAN KORUK",
+      "phone": "8351",
+      "unit": "GASTROENTEROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d95",
+      "name": "DR. K. DOĞA SEÇKİN",
+      "phone": "8421",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM IVF",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d96",
+      "name": "DR. KADER KESKİNBORA",
+      "phone": "8255",
+      "unit": "ALGOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d97",
+      "name": "DR. KADRİYE KILIÇKESMEZ",
+      "phone": "8221",
+      "unit": "KARDİYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d98",
+      "name": "DR. KEMAL KARA",
+      "phone": "8469",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d99",
+      "name": "DR. LALE BEATRİCE ÖKTEM",
+      "phone": "8192",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d100",
+      "name": "DR. LEVHİ AKIN",
+      "phone": "8250",
+      "unit": "GENEL CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d101",
+      "name": "DR. MEHMET AYDOĞAN",
+      "phone": "8261",
+      "unit": "GÖĞÜS HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d102",
+      "name": "DR. MEHMET HİLMİ DOĞU",
+      "phone": "8455",
+      "unit": "HEMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d103",
+      "name": "DR. MEHMET MURAT ÖNCEL",
+      "phone": "8191",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d104",
+      "name": "DR. MEHMET TEKİN AKPOLAT",
+      "phone": "8271",
+      "unit": "NEFROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d105",
+      "name": "DR. MEKİ BİLİCİ",
+      "phone": "8521",
+      "unit": "ÇOCUK KARDİYOLOJİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d106",
+      "name": "DR. MELTEM TOPALGÖKÇELİ SELAM",
+      "phone": "8454",
+      "unit": "ONKOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d107",
+      "name": "DR. MUSTAFA ALPER KARALÖK",
+      "phone": "8234",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d108",
+      "name": "DR. NEBİL YILDIZ",
+      "phone": "8244",
+      "unit": "NÖROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d109",
+      "name": "DR. NİMET DÖRTCAN",
+      "phone": "8256",
+      "unit": "NÖROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d110",
+      "name": "DR. ORHAN TANRIVERDİ",
+      "phone": "8180",
+      "unit": "ÜROONKOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d111",
+      "name": "DR. OSMAN MURAT UYAR",
+      "phone": "8192",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d112",
+      "name": "DR. SELAMİ SÖZÜBİR",
+      "phone": "8524",
+      "unit": "ÇOCUK CERRRAHİSİ VE ÜROLOJİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d113",
+      "name": "DR. SERDAR KAHRAMAN",
+      "phone": "8411",
+      "unit": "BEYİN VE SİNİR CERRAHİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d114",
+      "name": "DR. SİBEL MALKOÇ",
+      "phone": "8235",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d115",
+      "name": "DR. TAMER SÖZEN",
+      "phone": "8233",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d116",
+      "name": "DR. UĞUR BOYLU",
+      "phone": "8179",
+      "unit": "ÜROONKOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d117",
+      "name": "DR. VEDAT KAYA",
+      "phone": "8192",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d118",
+      "name": "DR. YELİZ KÖMÜRCÜ",
+      "phone": "8198",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d119",
+      "name": "DR. ZEHRA ÇAĞLA KARAKOÇ",
+      "phone": "8355",
+      "unit": "ENFEKSİYON HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d120",
+      "name": "DR. ZİNNET ÖYKÜ ALTAY",
+      "phone": "8226",
+      "unit": "BESLENME VE DİYET",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d121",
+      "name": "DR. ÖZGENAZ KAZAN",
+      "phone": "8605",
+      "unit": "BESLENME VE DİYET",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d122",
+      "name": "DR. ŞENCAY YILDIZ ŞAHİN",
+      "phone": "8474",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d123",
+      "name": "DR. ŞENOL KOBAK",
+      "phone": "8242",
+      "unit": "ROMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d124",
+      "name": "DR. ABDULKADİR ÖZGÜR",
+      "phone": "8189",
+      "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d125",
+      "name": "DR. ALİHAN ORAL",
+      "phone": "8174",
+      "unit": "BESLENME VE DİYET",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d126",
+      "name": "DR. ASLI DATLI",
+      "phone": "8260",
+      "unit": "PLASTİK VE REKONSTRÜKTİF CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d127",
+      "name": "DR. AYŞE DENİZ AKKAYA",
+      "phone": "8486",
+      "unit": "DERMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d128",
+      "name": "DR. BETÜL TUĞCU",
+      "phone": "8190",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d129",
+      "name": "DR. ELİF GÖKNUR TOPÇU",
+      "phone": "8235",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d130",
+      "name": "DR. EMEL CEYLAN",
+      "phone": "8436-8437",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d131",
+      "name": "DR. EMRE ACAR",
+      "phone": "8505",
+      "unit": "ACİL DOKTOR ODASI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d133",
+      "name": "DR. ERDAL KARAÖZ",
+      "phone": "8402",
+      "unit": "KÖK HÜCRE",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d134",
+      "name": "DR. ERDEN ERTÜRER",
+      "phone": "8475-8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d135",
+      "name": "DR. FATMA GÜLÇİN ÖZALP",
+      "phone": "8254",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d136",
+      "name": "DR. FERAH ECE",
+      "phone": "8410",
+      "unit": "GÖĞÜS HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d137",
+      "name": "DR. FERİT ARĞUN",
+      "phone": "8175",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d138",
+      "name": "DR. GAMZE KESKİN",
+      "phone": "8278",
+      "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d139",
+      "name": "DR. GİZEM GÜVENER",
+      "phone": "8523",
+      "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d140",
+      "name": "DR. GÖKHAN ERTAŞ",
+      "phone": "8459",
+      "unit": "KARDİYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d141",
+      "name": "DR. GÖKHAN KÜRŞAT KARA",
+      "phone": "8475-8476",
+      "unit": "OMURGA CERRAHİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d142",
+      "name": "DR. GÜRKAN GÜMÜŞSUYU",
+      "phone": "8475-8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d143",
+      "name": "DR. HAMDİ LEVENT DOĞANAY",
+      "phone": "8444",
+      "unit": "GASTROENTEROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d144",
+      "name": "DR. İLTERİŞ OĞUZ",
+      "phone": "8492",
+      "unit": "DERMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d145",
+      "name": "DR. İSMAİL TUGAY YAĞCI",
+      "phone": "8475-8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d146",
+      "name": "DR. KADİR ABUL",
+      "phone": "8448",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d147",
+      "name": "DR. KENAN TEMİZ",
+      "phone": "8547",
+      "unit": "PSİKİYATRİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d148",
+      "name": "DR. KORAY ACARLI",
+      "phone": "8248",
+      "unit": "GENEL CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d149",
+      "name": "DR. KÜBRA KARAKOLCU",
+      "phone": "8382",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d150",
+      "name": "DR. MEHMET ALPAY ÇAL",
+      "phone": "8274",
+      "unit": "BEYİN VE SİNİR CERRAHİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d151",
+      "name": "DR. MERAL GÜNALDI",
+      "phone": "8415",
+      "unit": "ONKOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d152",
+      "name": "DR. MİRAÇ ÖZALP",
+      "phone": "8281",
+      "unit": "KADIN HAST VE DOĞUM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d153",
+      "name": "DR. MUHAMMET ALİ VARKAL",
+      "phone": "8522",
+      "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d154",
+      "name": "DR. MUHİTTİN EMRE ALTUNRENDE",
+      "phone": "8411",
+      "unit": "BEYİN VE SİNİR CERRAHİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d155",
+      "name": "DR. MUSTAFA TAŞTAN",
+      "phone": "8343",
+      "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d156",
+      "name": "DR. NAZLI CAF",
+      "phone": "8397",
+      "unit": "DERMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d157",
+      "name": "DR. NUR ACAR GÖÇGİL",
+      "phone": "8192",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d158",
+      "name": "DR. OSMAN KARLI",
+      "phone": "8526",
+      "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d159",
+      "name": "DR. RIFAT RASİER",
+      "phone": "8190",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d160",
+      "name": "DR. SEDA TURGUT",
+      "phone": "8144",
+      "unit": "ENDOKRİNOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d161",
+      "name": "DR. SELDA KORKMAZ YAKAR",
+      "phone": "8249",
+      "unit": "NÖROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d162",
+      "name": "DR. SELİN ÇETİNKAL",
+      "phone": "8236",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d163",
+      "name": "DR. SELMAN EMİROĞLU",
+      "phone": "8432",
+      "unit": "MEME CERRAHİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d164",
+      "name": "DR. TAHİR KARADENİZ",
+      "phone": "8141",
+      "unit": "ÜROLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d165",
+      "name": "DR. TAMER ÜNVER",
+      "phone": "8525",
+      "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d166",
+      "name": "DR. TUBA EFE",
+      "phone": "8183",
+      "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d167",
+      "name": "DR. UĞUR HAKLAR",
+      "phone": "8418",
+      "unit": "DİZ CERRAHİSİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d168",
+      "name": "DR. YAVUZ ÖZTÜRKER",
+      "phone": "8430",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d169",
+      "name": "DR. YELİZ ZIHLI KIZAK",
+      "phone": "8150",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d170",
+      "name": "DR. YILDIZ GONCA DOĞRU",
+      "phone": "8412",
+      "unit": "FİZİKSEL TIP VE REHABİLİTASYON",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d171",
+      "name": "DR. ÖMER GEZDUR",
+      "phone": "8486",
+      "unit": "DERMATOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d172",
+      "name": "DR. ÖZENÇ MİNARECİ",
+      "phone": "8418",
+      "unit": "NÖRORADYOLOJİ",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d173",
+      "name": "DT. AYDAN GÜRCAN",
+      "phone": "5413",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d174",
+      "name": "DT. BEGÜM ASLAN",
+      "phone": "5413",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d175",
+      "name": "DT. ECEM AYTUNA YARDIM",
+      "phone": "5413",
+      "unit": "ENDODONTİ UZMANI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d176",
+      "name": "DT. MELİSA ALBAYRAK",
+      "phone": "5413",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d177",
+      "name": "DT. OZAN KARAKAŞ",
+      "phone": "5413",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d178",
+      "name": "ECEM KANBER",
+      "phone": "0530 174 33 05",
+      "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d179",
+      "name": "ECZANE SORUMLUSU",
+      "phone": "8460-1919",
+      "unit": "B4. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d180",
+      "name": "ELEKTROTERAPİ ODASI-FİZYOTERAPİ SEANS ODALARI",
+      "phone": "8446",
+      "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d181",
+      "name": "ELİF CAN CEYLAN",
+      "phone": "0544 397 52 94",
+      "unit": "BAŞHEKİM ASİSTANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d182",
+      "name": "ELMİRA KALKAN",
+      "phone": "0530 510 77 96",
+      "unit": "ÖZBEKİSTAN (3 KİŞİ) · RUSÇA- ÖZBEKÇE- K",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d183",
+      "name": "EMEL GÜRSOY",
+      "phone": "0530 174 33 74",
+      "unit": "RAPORTÖR - BAŞHEKİMLİK",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d184",
+      "name": "EMEL NAMOĞLU",
+      "phone": "0536 633 25 95",
+      "unit": "DİYABET EĞİTİM VE İŞYERİ HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d185",
+      "name": "EMEL YANIK",
+      "phone": "0532 207 60 70",
+      "unit": "ACİL SERVİS SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d186",
+      "name": "ESRA AKDENİZ",
+      "phone": "0531 796 65 01",
+      "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d187",
+      "name": "ESRA AKDENİZ",
+      "phone": "8491",
+      "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d188",
+      "name": "FATİH SAKA",
+      "phone": "0538 291 53 11",
+      "unit": "MALİ İŞLER MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d189",
+      "name": "FATMAGÜL BİRSİN",
+      "phone": "0543 919 77 94",
+      "unit": "PEDATRİ SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d190",
+      "name": "FERİDE TÜRKMEN",
+      "phone": "8178",
+      "unit": "KARDİYOLOJİ & KVC KOORDİNATÖRÜ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d191",
+      "name": "FIRAT EVELEK",
+      "phone": "0530 642 20 75",
+      "unit": "FİYATLANDIRMA GRUP MÜDÜRÜ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d192",
+      "name": "FIRAT KÜRŞAD RASTGELE",
+      "phone": "0530 174 33 76",
+      "unit": "HAKEDİŞ SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d193",
+      "name": "FİZİK PLANLAMA ODASI",
+      "phone": "8427",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d194",
+      "name": "FTR EGZERSİZ ODASI",
+      "phone": "8446",
+      "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d195",
+      "name": "GAMA ODASI-SİNTİGRAFİ",
+      "phone": "8620",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d196",
+      "name": "GAMZE KESKİN",
+      "phone": "0554 923 42 55",
+      "unit": "BAŞHEKİM",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d197",
+      "name": "GAMZE ŞAHİNKOVAN",
+      "phone": "0536 323 71 33",
+      "unit": "YENİDOĞAN SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d198",
+      "name": "GENEL YOĞUN BAKIM",
+      "phone": "8360",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d199",
+      "name": "GENEL YOĞUN BAKIM DOKTOR ODASI",
+      "phone": "5407",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d200",
+      "name": "GONCA ULAMAN",
+      "phone": "0506 947 72 37",
+      "unit": "POLİKLİNİK SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d201",
+      "name": "GUVANCH JORAYEV",
+      "phone": "0542 546 68 40",
+      "unit": "TÜRKMENCE - RUSÇA - İNGİLİZCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d202",
+      "name": "GÜLER ÖZÇELİK",
+      "phone": "0542 652 22 16",
+      "unit": "STERİLİZASYON SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d203",
+      "name": "HALİL HÜZMELİ",
+      "phone": "0532 391 22 44",
+      "unit": "BAŞHEKİM YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d204",
+      "name": "HALİL İBRAHİM ABATAY",
+      "phone": "0530 171 58 93",
+      "unit": "UHM SORUMLUSU · İNGİLİZCE - İSPANYOLCA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d205",
+      "name": "HARUN BAŞODA",
+      "phone": "0505 208 30 91",
+      "unit": "TEDARİK ZİNCİRİ SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d206",
+      "name": "HASTA BAKIM HİZMETLERİ BANKO",
+      "phone": "8442",
+      "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d207",
+      "name": "HASTA BAKIM HİZMETLERİ BANKO",
+      "phone": "8456",
+      "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d208",
+      "name": "HASTA BAKIM HİZMETLERİ BANKO (ENDOSKOPİ İŞLEM)",
+      "phone": "8393",
+      "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d209",
+      "name": "HASTA KABUL -VEZNE",
+      "phone": "8536-8529",
+      "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d210",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "5404-8518",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d211",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8178",
+      "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d212",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8181",
+      "unit": "ÜROLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d213",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8182-8366",
+      "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d214",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8188",
+      "unit": "KULAK BURUN BOĞAZ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d215",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8194",
+      "unit": "GÖZ HASTALIKLARI",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d216",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8230-8231",
+      "unit": "KADIN HASTALIKLARI VE DOĞUM",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d217",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8240",
+      "unit": "TÜP BEBEK-IVF",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d218",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8244",
+      "unit": "NÖROLOJİ - GÖĞÜS HASTALIKLARI",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d219",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8245",
+      "unit": "GENEL CERRAHİ-PSİKOLOJİ-GENETİK",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d220",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8251-8252",
+      "unit": "3",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d221",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8252",
+      "unit": "AĞIZ VE DİŞ SAĞLIĞI",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d222",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8257",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d223",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8263-8262",
+      "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d224",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8268",
+      "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d225",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8268-8335",
+      "unit": "CHECK-UP VE SAĞLIKLI YAŞAM",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d226",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8349-8350",
+      "unit": "GASTROENTEROLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d227",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8405-8435",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d228",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8418-8419",
+      "unit": "DERMATOLOJİ - NÖRO RADYOLOJİ - BEYİN VE",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d229",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8420",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d230",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8428",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d231",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8445",
+      "unit": "DERMATOLOJİ - MEDİKAL ESTETİK",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d232",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8446",
+      "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d233",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8451-8452",
+      "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d234",
+      "name": "HASTA KABUL-VEZNE",
+      "phone": "8502-8514",
+      "unit": "ACİL SERVİS",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d235",
+      "name": "HAVVANUR GÜVEN AYDIN",
+      "phone": "0530 926 63 44",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ SORUMLU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d236",
+      "name": "HEMŞİRE BANKO",
+      "phone": "8272",
+      "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d237",
+      "name": "HEPŞEN ALİ",
+      "phone": "0536 994 65 29",
+      "unit": "BULGARİSTAN (3 KİŞİ) · BULGARCA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d238",
+      "name": "HEPŞEN ALİ",
+      "phone": "0536 994 65 29",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d239",
+      "name": "HÜLYA YAYLA",
+      "phone": "0533 730 72 08",
+      "unit": "LABORATUVAR SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d240",
+      "name": "HÜLYA YAYLA",
+      "phone": "5422",
+      "unit": "LABORATUVAR SORUMLU TEKNİKERİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d241",
+      "name": "HÜSEYİN ARIKAN",
+      "phone": "0544 532 56 82",
+      "unit": "TIBBİ GÖRÜNTÜLEME SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d242",
+      "name": "HÜSEYİN DEMİRCİ",
+      "phone": "0530 510 64 06",
+      "unit": "BİYOMEDİKAL MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d243",
+      "name": "İNGA TOZKOPARAN",
+      "phone": "0530 172 96 86",
+      "unit": "ROMENCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d244",
+      "name": "ISHAG",
+      "phone": "0530 174 34 66",
+      "unit": "YURTDIŞI ANLAŞMALI KURUMLAR",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d245",
+      "name": "ISS OFİS B2",
+      "phone": "8477",
+      "unit": "B5. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d246",
+      "name": "İBRAHİM YAVUZ",
+      "phone": "0554 871 02 19",
+      "unit": "TEKNİK HİZMETLER SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d247",
+      "name": "İBRAHİM YAVUZ",
+      "phone": "8296",
+      "unit": "TEKNİK HİZMETLER MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d248",
+      "name": "İLAYDA KURŞUN",
+      "phone": "0530 510 70 11",
+      "unit": "İNGİLİZCE - İSPANYOLCA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d249",
+      "name": "İLKE BURÇAK ÖZ",
+      "phone": "8440",
+      "unit": "ANJİO BANKO (KORONER ANJİO,KALP PİLİ)",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d250",
+      "name": "İSMAİL AKTAŞ",
+      "phone": "0531 767 86 05",
+      "unit": "VIP TEMSİLCİSİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d251",
+      "name": "İYOT ODASI",
+      "phone": "8135",
+      "unit": "1. KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d252",
+      "name": "İYOT ODASI",
+      "phone": "8136",
+      "unit": "1. KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d253",
+      "name": "KAAN TOKAT",
+      "phone": "0538 857 87 10",
+      "unit": "TEDARİK ZİNCİRİ UZMANI",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d254",
+      "name": "KAMİL BİLGİLİ",
+      "phone": "0532 546 97 50",
+      "unit": "İNSAN KAYNAKLARI UZMAN YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d255",
+      "name": "KAN BANKASI",
+      "phone": "8510",
+      "unit": "EKİP LİDERİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d256",
+      "name": "KİRPİ CAFE",
+      "phone": "8461",
+      "unit": "2. KAT GİRİŞ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d257",
+      "name": "KVC YOĞUN BAKIM",
+      "phone": "8353",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d258",
+      "name": "KVC YOĞUN BAKIM DOKTOR ODASI",
+      "phone": "5414",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d259",
+      "name": "KÖK HÜCRE LAB.",
+      "phone": "8624",
+      "unit": "İÇ HASTALIKLARI",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d260",
+      "name": "LABORATUVAR SEKRETERLİĞİ",
+      "phone": "8197",
+      "unit": "BİYOKİMYA LABORATUVARI",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d261",
+      "name": "LİV SAÇ TASARIM (KUAFÖR)",
+      "phone": "8363",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d262",
+      "name": "MAHMUT SELİM GÜLER",
+      "phone": "0530 663 92 05",
+      "unit": "İNSAN KAYNAKLARI MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d263",
+      "name": "MARIKA KVRIVISHVILI",
+      "phone": "0537 268 51 57",
+      "unit": "GÜRCİSTAN 2 KİŞİ · GÜRCÜCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d264",
+      "name": "MEGİ BİRKADZE GURDAL",
+      "phone": "0537 739 66 98",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d265",
+      "name": "MEHMET AYDOĞAN",
+      "phone": "0542 505 17 42",
+      "unit": "BAŞHEKİM YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d266",
+      "name": "MEHMET MERT EKMEKCİ",
+      "phone": "0532 325 46 31",
+      "unit": "GECE İŞLETME SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d267",
+      "name": "MELEK KARTAL",
+      "phone": "0542 596 53 76",
+      "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d268",
+      "name": "MELTEM BOZKURT",
+      "phone": "0530 173 06 50",
+      "unit": "BİREYSEL PAZARLAMA UZMANI (KÖK HÜCRE)",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d269",
+      "name": "MELTEM HAZLIPINAR",
+      "phone": "8347",
+      "unit": "ANESTEZİ BANKO",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d270",
+      "name": "MERVE CANBEK",
+      "phone": "0543 254 45 45",
+      "unit": "AMELİYATHANE SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d271",
+      "name": "MERVE GENEL",
+      "phone": "8348",
+      "unit": "GENEL YOĞUN BAKIM MİSAFİR HİZMETLERİ BAN",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d272",
+      "name": "MERVE GÜREL ŞEKER",
+      "phone": "0530 473 83 17",
+      "unit": "KURUMSAL İLETİŞİM UZMANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d273",
+      "name": "MERVE ÇALIK SERT",
+      "phone": "0507 798 29 70",
+      "unit": "GÜNÜBİRLİK ALAN SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d274",
+      "name": "MERYEM DİKMEN",
+      "phone": "0543 678 94 49",
+      "unit": "EĞİTİM VE GELİŞİM SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d275",
+      "name": "MİRAY ÖZTÜRK",
+      "phone": "0530 242 22 12",
+      "unit": "ARNAVUTÇA -BOŞNAKÇA - SIRPÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d276",
+      "name": "MİKROBİYOLOJİ LABORATUVARI",
+      "phone": "8196",
+      "unit": "BİYOKİMYA LABORATUVARI",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d277",
+      "name": "MİRAY ÖZTÜRK",
+      "phone": "0530 242 22 12",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d278",
+      "name": "MUHAMMED ABDULLAH",
+      "phone": "0554 871 04 14",
+      "unit": "ARAPÇA - İNGİLİZCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d279",
+      "name": "MUHAMMED ELSALEH",
+      "phone": "0537 760 75 65",
+      "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d280",
+      "name": "MURAT GÜNDÜZ",
+      "phone": "0530 203 62 91",
+      "unit": "ARNAVUTÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d281",
+      "name": "MURAT UYAR",
+      "phone": "0555 705 85 35",
+      "unit": "VIP TEMSİLCİSİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d282",
+      "name": "MÜKREMİN MUSLU",
+      "phone": "0530 510 64 98",
+      "unit": "EVDE BAKIM HİZM. SUPERVİSOR",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d283",
+      "name": "NEDRET NEZHDET GÜLER",
+      "phone": "0530 526 28 16",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d284",
+      "name": "NEDRET NEZHDET GÜLER",
+      "phone": "0530 526 28 16",
+      "unit": "BULGARCA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d285",
+      "name": "NELİ KAYIKÇI",
+      "phone": "0539 810 81 80",
+      "unit": "BULGARCA - İSPANYOLCA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d286",
+      "name": "NİLUFARKHON MİNBAEVA",
+      "phone": "0530 510 70 11",
+      "unit": "ÖZBEKÇE -RUSÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d287",
+      "name": "NİHAN YAVUZ",
+      "phone": "0538 219 13 06",
+      "unit": "3. KAT CERRAHİ KATI SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d288",
+      "name": "NUMUNE ALMA-HEMŞİRE",
+      "phone": "8205",
+      "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d289",
+      "name": "NUR KOÇ",
+      "phone": "0530 474 88 90",
+      "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ ORTADOĞ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d290",
+      "name": "NURSEL ARSLANTÜRK",
+      "phone": "0533 760 17 62",
+      "unit": "GENEL MÜDÜR ASİSTANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d291",
+      "name": "NURSEL ARSLANTÜRK",
+      "phone": "8416",
+      "unit": "GENEL MÜDÜR ASİSTANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d292",
+      "name": "NÜKLEER TIP ÇEKİM ODASI VE TEKNİKER",
+      "phone": "8438",
+      "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d293",
+      "name": "ODYOMETRİ",
+      "phone": "8187",
+      "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d294",
+      "name": "OLCAY BULUT",
+      "phone": "0532 245 89 50",
+      "unit": "AMELİYATHANE DEPO UZMANI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d295",
+      "name": "ORTOPEDİ ASİSTAN BANKO",
+      "phone": "8475-8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d296",
+      "name": "ORTOPEDİ EKİBİ DANIŞMANI",
+      "phone": "DECK 8476",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d297",
+      "name": "OSMAN MERT KADIOĞLU",
+      "phone": "0530 510 71 40",
+      "unit": "NÖBETÇİ SUPERVİSOR",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d298",
+      "name": "OĞUZHAN BEKTAŞ",
+      "phone": "0530 510 73 49",
+      "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d299",
+      "name": "OĞUZHAN BEKTAŞ",
+      "phone": "8293",
+      "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d300",
+      "name": "DR. ALP BURAK ÇATAKOĞLU",
+      "phone": "8417",
+      "unit": "PANSUMAN - ALÇI ODASI",
+      "fav": false,
+      "group": "Doktorlar"
+    },
+    {
+      "id": "d301",
+      "name": "PATOLOJİ",
+      "phone": "8344",
+      "unit": "B3. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d302",
+      "name": "PEDİATRİ KAN ALMA",
+      "phone": "8527",
+      "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d303",
+      "name": "PINAR SARIÇİNEM",
+      "phone": "0541 317 02 30",
+      "unit": "ANESTEZİ SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d304",
+      "name": "RADYOLOJİ RAPOR ODASI",
+      "phone": "8470",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d305",
+      "name": "RADYOLOJİ SORUMLU ODASI",
+      "phone": "8466",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d306",
+      "name": "RADYOTERAPİ TEKNİKER ODASI",
+      "phone": "8429",
+      "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d307",
+      "name": "RAMA ALSANİ",
+      "phone": "0554 569 76 77",
+      "unit": "ARAPÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d308",
+      "name": "RAMİLA KÜLAK",
+      "phone": "0530 173 06 36",
+      "unit": "ANA DANIŞMA · RUSÇA - AZERİCE - İNGİLİZC",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d309",
+      "name": "RAZİYE HASBAŞ",
+      "phone": "0507 026 65 52",
+      "unit": "GENEL YOĞUN BAKIM SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d310",
+      "name": "RAZİYE HASBAŞ",
+      "phone": "DECT 5421",
+      "unit": "GENEL YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SO",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d311",
+      "name": "RESEPSİYON",
+      "phone": "8200",
+      "unit": "2. KAT GİRİŞ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d312",
+      "name": "RIZA KORKMAZ",
+      "phone": "0534 878 57 41",
+      "unit": "MİSAFİR HİZMETLERİ YATAN SORUMLU",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d313",
+      "name": "RÖNTGEN-MAMOGRAFİ",
+      "phone": "8520",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d314",
+      "name": "SAADET NEHİR TAYLAN",
+      "phone": "0530 203 63 75",
+      "unit": "İNSAN KAYNAKLARI SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d315",
+      "name": "SALİH HARİBİ",
+      "phone": "0530 662 79 31",
+      "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d316",
+      "name": "SAMAYA BUNYATZADE",
+      "phone": "0530 174 21 84",
+      "unit": "AVRUPA (3) · RUSÇA - TÜRKMENCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d317",
+      "name": "SAMİD SHUKUROV",
+      "phone": "0530 510 78 12",
+      "unit": "AZERBAYCAN (1 KİŞİ) · AZERİCE RUSÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d318",
+      "name": "SAMİD SHUKUROV",
+      "phone": "0530 510 78 12",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU -AZERİCE-R",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d319",
+      "name": "SEBAHATTİN EVİN",
+      "phone": "0530 510 65 47",
+      "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d320",
+      "name": "SEDA KARANLI",
+      "phone": "0543 504 95 24",
+      "unit": "ENFEKSİYON SORUMLU HEMŞİRESİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d321",
+      "name": "SEHER MERVE BOLAT/ELİF BAŞAK KARA",
+      "phone": "8213-8219",
+      "unit": "YATIŞ HİZMETLERİ OFİSİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d322",
+      "name": "SERKAN SAKALLI",
+      "phone": "0530 915 40 19",
+      "unit": "CCTV OTOMASYON GÜVENLİK MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d323",
+      "name": "SERKAN ÖZCAN",
+      "phone": "0535 589 56 23",
+      "unit": "YURTİÇİ ULAŞTIRMA SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d324",
+      "name": "SVETLANA KABA",
+      "phone": "0530 510 74 86",
+      "unit": "RUSÇA UKRAYNACA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d325",
+      "name": "SÜLEYMAN YILDIZ - SONER ÇAKMAK- GÖKHAN BAŞALAN",
+      "phone": "0530 174 34 28",
+      "unit": "CCTV OTOMASYON GÜVENLİK AMİRİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d326",
+      "name": "TABURCULUK HİZMETLERİ OFİSİ",
+      "phone": "8224",
+      "unit": "ZEMİN KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d327",
+      "name": "TABURCULUK HİZMETLERİ OFİSİ",
+      "phone": "DECK 8146",
+      "unit": "3. KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d328",
+      "name": "TATİANA URUM",
+      "phone": "0539 927 96 92",
+      "unit": "RUSÇA- İNGİLİZCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d329",
+      "name": "TATİANA URUM",
+      "phone": "0539 927 96 92",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - RUSCA -",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d330",
+      "name": "TEKNİK SERVİS",
+      "phone": "8626",
+      "unit": "B5. KAT",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d331",
+      "name": "TETYANA KULAK",
+      "phone": "0530 172 96 98",
+      "unit": "RUSÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d332",
+      "name": "TIBBİ YÜRÜTME KURULU ODASI",
+      "phone": "8359-8496",
+      "unit": "4. KAT YÖNETİM",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d333",
+      "name": "TURGUT SARAÇ",
+      "phone": "0554 871 03 85",
+      "unit": "KURUMSAL TANITIM GRUP MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d334",
+      "name": "TÜP BEBEK-IVF HASTA BAKIM HİZMETLERİ ODASI",
+      "phone": "8238",
+      "unit": "TÜP BEBEK-IVF",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d335",
+      "name": "TÜP BEBEK-IVF-EMBRİYO LABORATUVARI",
+      "phone": "8404",
+      "unit": "AMELİYATHANE DEPO",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d336",
+      "name": "ULTRASON BANKOSU",
+      "phone": "8519",
+      "unit": "RADYOLOJİ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d337",
+      "name": "UMUT KÜTÜK",
+      "phone": "0539 819 62 05",
+      "unit": "TIBBI DOKUMANTASYON VE ARŞİV GÖREVLİSİ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d338",
+      "name": "UYANDIRMA ODASI - POST OP",
+      "phone": "8612",
+      "unit": "ANESTEZİ",
+      "fav": false,
+      "group": "Görüntüleme & Lab"
+    },
+    {
+      "id": "d339",
+      "name": "UYKU ODASI",
+      "phone": "8325",
+      "unit": "3. KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d340",
+      "name": "BURCU ÖZCAN",
+      "phone": "8603",
+      "unit": "UZM. KLİNİK PSİKOLOG",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d341",
+      "name": "UĞUR GÜMÜŞ",
+      "phone": "0530 172 96 94",
+      "unit": "TEKNİK HİZMETLER MEKANİK SORUMLU TEKNİSY",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d342",
+      "name": "VALE",
+      "phone": "8171",
+      "unit": "2. KAT GİRİŞ",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d343",
+      "name": "YADİGAR GÜNDOĞDU",
+      "phone": "0530 174 33 38",
+      "unit": "MİSAFİR İLİŞKİLERİ GRUP MÜDÜRÜ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d344",
+      "name": "YADİGAR GÜNDOĞDU",
+      "phone": "DECT 8292",
+      "unit": "MİSAFİR İLİŞKİLERİ MÜDÜRÜ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d345",
+      "name": "YAHYA ZÜVEKLİ",
+      "phone": "0530 662 76 87",
+      "unit": "UHM MDR YARDIMCISI · ARAPÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d346",
+      "name": "YAHYA ZÜVEKLİ",
+      "phone": "0530 174 47 39",
+      "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ OPERASY",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d347",
+      "name": "YENİDOĞAN YOĞUN BAKIM (NİCU)",
+      "phone": "8533-8534-8535",
+      "unit": "ZEMİN KAT YATAN HASTA",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d348",
+      "name": "YUNUS ÇOLAK",
+      "phone": "0530 510 71 26",
+      "unit": "GENEL MÜDÜR YARDIMCISI (SÜREÇLERDEN SORU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d349",
+      "name": "YURTDIŞI PAZARLAMA",
+      "phone": "8397",
+      "unit": "B1 YÖNETİM OFİSLERİ",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d350",
+      "name": "ZEHRA TAŞDEMİR",
+      "phone": "0530 174 27 28",
+      "unit": "AZERİCE - RUSÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d351",
+      "name": "ZEYNEP YÜCEKAYA",
+      "phone": "0534 594 36 99",
+      "unit": "GÜRCÜCE",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d352",
+      "name": "ZEYNEP YÜCEKAYA",
+      "phone": "0530 510 71 34",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d353",
+      "name": "ZUHAL SÖYLEMEZ",
+      "phone": "0530 173 07 37",
+      "unit": "İŞ GELİŞTİRME GRUP MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d354",
+      "name": "ÇİĞDEM TELMAN",
+      "phone": "0544 614 21 37",
+      "unit": "ECZANE MESUL MÜDÜRÜ",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d355",
+      "name": "ÇİĞDEM TELMAN",
+      "phone": "8459-1919",
+      "unit": "ECZANE / ECZACI",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d356",
+      "name": "ÖMER ERDUR",
+      "phone": "8189",
+      "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
+      "fav": false,
+      "group": "Poliklinikler"
+    },
+    {
+      "id": "d357",
+      "name": "ÖMER ÖZKAHYA",
+      "phone": "0530 510 72 24",
+      "unit": "MENA AFRİKA (6 KİŞİ) · ARAPÇA",
+      "fav": false,
+      "group": "Misafir & VIP"
+    },
+    {
+      "id": "d358",
+      "name": "ÖNDER OSMAN SEVİMLİ",
+      "phone": "0532 713 71 24",
+      "unit": "KVC YOĞUN BAKIM VE ANGİO SORUMLU HEMŞİRE",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d359",
+      "name": "ÖNDER OSMAN SEVİMLİ",
+      "phone": "DECT 5414",
+      "unit": "KVC YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SORU",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d360",
+      "name": "ÖRNEK KABUL",
+      "phone": "8286-8287",
+      "unit": "BİYOKİMYA LABORATUVARI",
+      "fav": false,
+      "group": "Hemşirelik & Yatan"
+    },
+    {
+      "id": "d361",
+      "name": "ÖZGÜR KAAN YELER",
+      "phone": "0530 174 42 94",
+      "unit": "GENEL MÜDÜR",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d362",
+      "name": "ÖZKAN BAYRAKTAR",
+      "phone": "0544 382 75 08",
+      "unit": "GECE İŞLETME SORUMLUSU",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d363",
+      "name": "ŞELALE ŞEKER",
+      "phone": "0535 813 77 76",
+      "unit": "KALİTE MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    },
+    {
+      "id": "d364",
+      "name": "ŞELALE ŞEKER",
+      "phone": "8426",
+      "unit": "KALİTE MÜDÜR YARDIMCISI",
+      "fav": false,
+      "group": "Yönetim & İdari"
+    }
+  ],
+  "notice": {
+    "text": "",
+    "tone": "warn",
+    "updatedAt": 1794914251285
+  }
+}
