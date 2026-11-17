@@ -2178,3 +2178,61 @@ main {
     transition: none;
   }
 }
+
+/* =========================================================
+   Rafine (Sakin Klinik iyileştirmesi) — önizleme onaylı
+   ========================================================= */
+
+/* Hero: gradient yumuşa, ferahla */
+.hero {
+  background:
+    radial-gradient(120% 90% at 85% -10%, rgba(255,255,255,0.14), transparent 50%),
+    linear-gradient(150deg, #167b70 0%, var(--accent) 55%, #0b5a53 100%);
+}
+.hero-title { font-size: 1.9rem; font-weight: 720; letter-spacing: -0.025em; }
+.hero-sub { font-size: 0.78rem; margin-top: 5px; }
+.hero-eyebrow { font-size: 0.62rem; letter-spacing: 0.14em; }
+.hero-meta { margin-top: 14px; }
+
+/* Vardiya kartları: sert border yerine yumuşak gölge */
+.shift {
+  border: 1px solid transparent;
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 1px 2px rgba(22, 48, 45, 0.05), 0 8px 20px -16px rgba(22, 48, 45, 0.35);
+  overflow: hidden;
+}
+.shift-head { min-height: 50px; padding: 8px 14px; }
+.shift[open] .shift-head { border-bottom: 1px solid var(--line); }
+.shift-people { padding: 2px 14px 6px; }
+
+/* Person satırları: kart içinde ince ayraç */
+.person {
+  border-top: 1px solid var(--line);
+  padding: 11px 0;
+}
+.person:first-child { border-top: 0; }
+.person:hover { background: transparent; }
+
+/* Tipografi rafine */
+.section-head h2 { font-size: 1.02rem; letter-spacing: -0.015em; }
+.panel h2 { font-size: 1.02rem; }
+.shift-time { font-size: 0.95rem; }
+
+/* Radius birleştir */
+.btn, .tab.is-active, .filter.is-active { border-radius: 999px; }
+.panel, .note, .composer { border-radius: 16px; }
+
+/* Sessiz mikro-etkileşim */
+.btn:not(:active) { transition: transform 0.12s ease, background 0.12s ease; }
+.btn:hover { transform: translateY(-1px); }
+.icon-btn, .day-nav { transition: background 0.12s ease, transform 0.12s ease; }
+.icon-btn:hover, .day-nav:hover { transform: translateY(-1px); }
+
+/* Ayarlar panelleri: iç ferahlık */
+.panel { padding: 18px; }
+
+/* Gece teması: yumuşak gölge koyu zemine uyarlanır */
+[data-theme="dark"] .shift {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 24px -18px rgba(0, 0, 0, 0.8);
+}
