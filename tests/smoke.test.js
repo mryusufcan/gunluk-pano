@@ -479,7 +479,7 @@ async function main() {
 
   /* ---------- 12. Tema, paylaşım, aylık tablo ---------- */
   console.log("\n12) Tema ve paylaşım");
-  ({ dom } = await boot());
+  ({ dom } = await boot({ hour: 12 })); // öğlen: otomatik gece teması karışmasın
   doc = dom.window.document;
   doc.getElementById("theme-toggle").click();
   check("gece teması", doc.documentElement.dataset.theme === "dark");
