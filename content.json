@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T17:43:22.806146+00:00",
+  "updatedAt": "2026-11-20T17:52:43.921544+00:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1039,6 +1039,7 @@
       "id": "d1",
       "name": "A (VİP) BANKO",
       "phone": "8279",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1047,6 +1048,7 @@
       "id": "d2",
       "name": "A BANKO",
       "phone": "8148",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1055,6 +1057,7 @@
       "id": "d3",
       "name": "A BANKO",
       "phone": "8149",
+      "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -1063,6 +1066,7 @@
       "id": "d4",
       "name": "A BANKO",
       "phone": "8541-8542",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1071,6 +1075,7 @@
       "id": "d5",
       "name": "ABDULLAH KUZU",
       "phone": "6901",
+      "phone2": "",
       "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
       "group": "Misafir & VIP",
       "fav": false
@@ -1079,6 +1084,7 @@
       "id": "d7",
       "name": "ACİL AMBULANS",
       "phone": "8502-8514",
+      "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1087,6 +1093,7 @@
       "id": "d8",
       "name": "ACİL CPR ODASI",
       "phone": "8503",
+      "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1095,6 +1102,7 @@
       "id": "d9",
       "name": "ACİL MÜŞAHADE",
       "phone": "8511-8512-8513",
+      "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1103,6 +1111,7 @@
       "id": "d10",
       "name": "ACİL SERVİS SORUMLU HASTA BAKIM HİZM. ODASI",
       "phone": "8507",
+      "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1111,6 +1120,7 @@
       "id": "d11",
       "name": "ADEM TURNA",
       "phone": "",
+      "phone2": "",
       "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ UZMANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1119,6 +1129,7 @@
       "id": "d12",
       "name": "ADİL TANIK",
       "phone": "",
+      "phone2": "",
       "unit": "GRUP TIBBİ KOORDİNATÖR",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1127,6 +1138,7 @@
       "id": "d13",
       "name": "AİNEL",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI ANLAŞMALI KURUMLAR UZMANI",
       "group": "Misafir & VIP",
       "fav": false
@@ -1135,6 +1147,7 @@
       "id": "d14",
       "name": "ALEX MAİTRE",
       "phone": "",
+      "phone2": "",
       "unit": "FRANSIZCA - İNGİLİZCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -1143,6 +1156,7 @@
       "id": "d15",
       "name": "AMELİYATHANE BANKO",
       "phone": "8336-8337",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1151,6 +1165,7 @@
       "id": "d16",
       "name": "AMELİYATHANE DOKTOR ODASI",
       "phone": "8339",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1159,6 +1174,7 @@
       "id": "d17",
       "name": "ANA DEPO",
       "phone": "8472",
+      "phone2": "",
       "unit": "B5. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1167,6 +1183,7 @@
       "id": "d18",
       "name": "ANESTEZİ GÖRÜŞME ODASI",
       "phone": "8346",
+      "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -1175,6 +1192,7 @@
       "id": "d19",
       "name": "ANIL EMRE YARAR",
       "phone": "6901",
+      "phone2": "",
       "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
       "group": "Misafir & VIP",
       "fav": false
@@ -1183,6 +1201,7 @@
       "id": "d21",
       "name": "ANJİO İŞLEM ODASI",
       "phone": "5412",
+      "phone2": "",
       "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -1191,6 +1210,7 @@
       "id": "d22",
       "name": "ANJİO LABORATUVARI",
       "phone": "8629",
+      "phone2": "",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1199,6 +1219,7 @@
       "id": "d23",
       "name": "AREZOU PAKMEHR",
       "phone": "",
+      "phone2": "",
       "unit": "İNGİLİZCE - FARSÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -1207,6 +1228,7 @@
       "id": "d24",
       "name": "ARŞİV",
       "phone": "8364",
+      "phone2": "",
       "unit": "1. KAT İDARİ OFİSLER",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1215,6 +1237,7 @@
       "id": "d25",
       "name": "ATAKAN MEHMET ÇOBAN",
       "phone": "",
+      "phone2": "",
       "unit": "BİLGİ SİSTEMLERİ UZMANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1223,6 +1246,7 @@
       "id": "d26",
       "name": "AYŞEGÜL BAYRAM",
       "phone": "",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ YARDIMCISI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1231,6 +1255,7 @@
       "id": "d27",
       "name": "AYŞENUR GÜLER ÇOŞKUN",
       "phone": "",
+      "phone2": "",
       "unit": "İNSAN KAYNAKLARI UZMANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1239,6 +1264,7 @@
       "id": "d28",
       "name": "AĞIZ VE DİŞ SAĞLIĞI DECK",
       "phone": "5413",
+      "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Poliklinikler",
       "fav": false
@@ -1247,6 +1273,7 @@
       "id": "d29",
       "name": "B BANKO",
       "phone": "8137",
+      "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -1255,6 +1282,7 @@
       "id": "d30",
       "name": "B BANKO",
       "phone": "8138",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1263,6 +1291,7 @@
       "id": "d31",
       "name": "B BANKO",
       "phone": "8294",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1271,6 +1300,7 @@
       "id": "d32",
       "name": "B BANKO",
       "phone": "8330",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1279,6 +1309,7 @@
       "id": "d33",
       "name": "B BANKO",
       "phone": "8331",
+      "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -1287,6 +1318,7 @@
       "id": "d34",
       "name": "B BANKO",
       "phone": "8537-8538-8539",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1295,6 +1327,7 @@
       "id": "d35",
       "name": "B2 DR. ALEV ÖZSARI TOPLANTI SALONU",
       "phone": "8486",
+      "phone2": "",
       "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
       "group": "Poliklinikler",
       "fav": false
@@ -1303,6 +1336,7 @@
       "id": "d36",
       "name": "B2 TOPLANTI ODASI",
       "phone": "8497",
+      "phone2": "",
       "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
       "group": "Misafir & VIP",
       "fav": false
@@ -1311,6 +1345,7 @@
       "id": "d37",
       "name": "BANKO",
       "phone": "8199",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1319,6 +1354,7 @@
       "id": "d38",
       "name": "BANKO",
       "phone": "8360-8361",
+      "phone2": "",
       "unit": "GENEL YOĞUN BAKIM HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1327,6 +1363,7 @@
       "id": "d39",
       "name": "BARIŞ ALPER",
       "phone": "",
+      "phone2": "",
       "unit": "ANA DEPO SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1335,6 +1372,7 @@
       "id": "d40",
       "name": "BATUHAN AYDIN",
       "phone": "",
+      "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
       "group": "Misafir & VIP",
       "fav": false
@@ -1343,6 +1381,7 @@
       "id": "d41",
       "name": "BEBEK ODASI",
       "phone": "8531",
+      "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1351,6 +1390,7 @@
       "id": "d42",
       "name": "BELLBOY",
       "phone": "8200",
+      "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1359,6 +1399,7 @@
       "id": "d43",
       "name": "BİLGİSAYARLI MR - 2",
       "phone": "5404",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -1367,6 +1408,7 @@
       "id": "d44",
       "name": "BİLGİSAYARLI TOMOGRAFİ - MR",
       "phone": "8520",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -1375,6 +1417,7 @@
       "id": "d45",
       "name": "BÜŞRA KARABULUT",
       "phone": "",
+      "phone2": "",
       "unit": "ZEMİN KAT KADIN DOĞUM SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1383,6 +1426,7 @@
       "id": "d46",
       "name": "BÜŞRA TEKİN",
       "phone": "",
+      "phone2": "",
       "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1391,6 +1435,7 @@
       "id": "d47",
       "name": "C BANKO",
       "phone": "8139",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1399,6 +1444,7 @@
       "id": "d48",
       "name": "C BANKO",
       "phone": "8332",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1407,6 +1453,7 @@
       "id": "d49",
       "name": "C BANKO",
       "phone": "8333",
+      "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -1415,6 +1462,7 @@
       "id": "d50",
       "name": "C BANKO",
       "phone": "8543",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1423,6 +1471,7 @@
       "id": "d51",
       "name": "CANAN SARI",
       "phone": "",
+      "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1431,6 +1480,7 @@
       "id": "d53",
       "name": "CANSU PAYZA",
       "phone": "",
+      "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ AYAKTAN SORUMLU",
       "group": "Misafir & VIP",
       "fav": false
@@ -1439,6 +1489,7 @@
       "id": "d54",
       "name": "CHECK-UP NUMUNE ALMA",
       "phone": "8374",
+      "phone2": "",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
       "group": "Poliklinikler",
       "fav": false
@@ -1447,6 +1498,7 @@
       "id": "d55",
       "name": "CİHAN YARENOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "ULAŞIM · TÜRKÇE",
       "group": "Misafir & VIP",
       "fav": false
@@ -1455,6 +1507,7 @@
       "id": "d56",
       "name": "CİHAN YARENOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "UHM TRANSFER SORUMLUSU",
       "group": "Misafir & VIP",
       "fav": false
@@ -1463,6 +1516,7 @@
       "id": "d57",
       "name": "CLAUDİA ALİNA AŞAR",
       "phone": "",
+      "phone2": "",
       "unit": "ROMANYA (2 KİŞİ) · ROMENCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -1471,6 +1525,7 @@
       "id": "d58",
       "name": "CLAUDİA ALİNA AŞAR",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ROMENCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -1479,6 +1534,7 @@
       "id": "d59",
       "name": "DANIŞMA-BİYOPSİ BANKO",
       "phone": "8440",
+      "phone2": "",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1487,6 +1543,7 @@
       "id": "d60",
       "name": "DENİZ ÇAMKAYA",
       "phone": "8225",
+      "phone2": "",
       "unit": "FİYAT VERME HİZMETLERİ OFİSİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1495,6 +1552,7 @@
       "id": "d61",
       "name": "DILINUR BAIJANOVA",
       "phone": "",
+      "phone2": "",
       "unit": "ÇİNCE, ÖZBEKÇE, RUSÇA, TÜRKMENCE, KAZAKÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -1503,6 +1561,7 @@
       "id": "d62",
       "name": "DİNARA MİRASSOVA",
       "phone": "",
+      "phone2": "",
       "unit": "KAZAKÇA - RUSÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -1511,6 +1570,7 @@
       "id": "d63",
       "name": "DİDEM CEREN ŞİŞMAN",
       "phone": "",
+      "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ EĞİTİM SORUMLUSU",
       "group": "Misafir & VIP",
       "fav": false
@@ -1519,6 +1579,7 @@
       "id": "d64",
       "name": "DİLA ALTIN",
       "phone": "5400",
+      "phone2": "",
       "unit": "YATIŞ HİZMETLERİ PROVİZYON",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1527,6 +1588,7 @@
       "id": "d65",
       "name": "DİLARA SARIKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "KURUMSAL FATURALAMA AK SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1535,6 +1597,7 @@
       "id": "d66",
       "name": "DOĞUMHANE",
       "phone": "8399",
+      "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -1543,6 +1606,7 @@
       "id": "d367",
       "name": "ADEM UÇAR",
       "phone": "8469",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1551,6 +1615,7 @@
       "id": "d68",
       "name": "DR. AHMET CEM DURAL",
       "phone": "8432",
+      "phone2": "",
       "unit": "ENDOKRİN CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -1559,6 +1624,7 @@
       "id": "d69",
       "name": "DR. AHMET SEVENCAN",
       "phone": "8475-8476",
+      "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1567,6 +1633,7 @@
       "id": "d70",
       "name": "DR. AHMET ÖZKARA",
       "phone": "8409",
+      "phone2": "",
       "unit": "KALP VE DAMAR CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -1575,6 +1642,7 @@
       "id": "d71",
       "name": "DR. AHMET ÖZSOY",
       "phone": "8173",
+      "phone2": "",
       "unit": "DAMAR CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -1583,6 +1651,7 @@
       "id": "d371",
       "name": "ALİ BARAN BUDAK",
       "phone": "8276",
+      "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -1591,6 +1660,7 @@
       "id": "d73",
       "name": "DR. ATİLLA SORAN",
       "phone": "8441",
+      "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -1599,6 +1669,7 @@
       "id": "d74",
       "name": "DR. AYHAN SUCAK",
       "phone": "8516",
+      "phone2": "",
       "unit": "PERİNOTOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1607,6 +1678,7 @@
       "id": "d75",
       "name": "DR. AYŞİN PURBAGER",
       "phone": "8469",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1615,6 +1687,7 @@
       "id": "d76",
       "name": "DR. BARIŞ GÜVEN",
       "phone": "8273",
+      "phone2": "",
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1623,6 +1696,7 @@
       "id": "d77",
       "name": "DR. BERİL UĞURNAL",
       "phone": "8195",
+      "phone2": "",
       "unit": "LABORATUVAR",
       "group": "Doktorlar",
       "fav": false
@@ -1631,6 +1705,7 @@
       "id": "d78",
       "name": "DR. BİNNUR PINARBAŞI",
       "phone": "8356",
+      "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1639,6 +1714,7 @@
       "id": "d79",
       "name": "DR. CANSU EKİNCİ ASLANOĞLU",
       "phone": "8184",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1647,6 +1723,7 @@
       "id": "d80",
       "name": "DR. CENGİZ KARA",
       "phone": "1920",
+      "phone2": "",
       "unit": "ÇOCUK ENDOKRİNOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1655,6 +1732,7 @@
       "id": "d81",
       "name": "DR. DEMET YETKİN",
       "phone": "8497",
+      "phone2": "",
       "unit": "ENDOKRİNOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1663,6 +1741,7 @@
       "id": "d82",
       "name": "DR. DİLEK ABUL",
       "phone": "8194",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1671,6 +1750,7 @@
       "id": "d83",
       "name": "DR. DUYGU DERİN",
       "phone": "8453",
+      "phone2": "",
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1679,6 +1759,7 @@
       "id": "d84",
       "name": "DR. EMRE MERDAN FAYDA",
       "phone": "8425",
+      "phone2": "",
       "unit": "RADYASYON ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1687,6 +1768,7 @@
       "id": "d85",
       "name": "DR. ERKAN ÇAKIR",
       "phone": "8521",
+      "phone2": "",
       "unit": "ÇOCUK GÖĞÜS HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1695,6 +1777,7 @@
       "id": "d86",
       "name": "DR. EVRİM DUMAN",
       "phone": "8426",
+      "phone2": "",
       "unit": "RADYASYON ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1703,6 +1786,7 @@
       "id": "d87",
       "name": "DR. FATİH YANAR",
       "phone": "8247",
+      "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -1711,6 +1795,7 @@
       "id": "d88",
       "name": "DR. GÖKÇE AYLAZ",
       "phone": "8247",
+      "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -1719,6 +1804,7 @@
       "id": "d89",
       "name": "DR. GÜLŞEN KÖSE",
       "phone": "8259",
+      "phone2": "",
       "unit": "ÇOCUK NÖROLOJİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -1727,6 +1813,7 @@
       "id": "d90",
       "name": "DR. HAKAN TEOMAN YANAR",
       "phone": "8441",
+      "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -1735,6 +1822,7 @@
       "id": "d92",
       "name": "DR. HASRET AYYILDIZ CİVAN",
       "phone": "8258",
+      "phone2": "",
       "unit": "ÇOCUK GASTROENTEROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1743,6 +1831,7 @@
       "id": "d93",
       "name": "DR. İREM ERDİL",
       "phone": "8469",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1751,6 +1840,7 @@
       "id": "d94",
       "name": "DR. İRFAN KORUK",
       "phone": "8351",
+      "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1759,6 +1849,7 @@
       "id": "d95",
       "name": "DR. K. DOĞA SEÇKİN",
       "phone": "8421",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM IVF",
       "group": "Doktorlar",
       "fav": false
@@ -1767,6 +1858,7 @@
       "id": "d96",
       "name": "DR. KADER KESKİNBORA",
       "phone": "8255",
+      "phone2": "",
       "unit": "ALGOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1775,6 +1867,7 @@
       "id": "d97",
       "name": "DR. KADRİYE KILIÇKESMEZ",
       "phone": "8221",
+      "phone2": "",
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1783,6 +1876,7 @@
       "id": "d518",
       "name": "KEMAL KARA",
       "phone": "8469",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1791,6 +1885,7 @@
       "id": "d99",
       "name": "DR. LALE BEATRİCE ÖKTEM",
       "phone": "8192",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1799,6 +1894,7 @@
       "id": "d100",
       "name": "DR. LEVHİ AKIN",
       "phone": "8250",
+      "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -1807,6 +1903,7 @@
       "id": "d265",
       "name": "MEHMET AYDOĞAN",
       "phone": "8261",
+      "phone2": "",
       "unit": "BAŞHEKİM YARDIMCISI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -1815,6 +1912,7 @@
       "id": "d102",
       "name": "DR. MEHMET HİLMİ DOĞU",
       "phone": "8455",
+      "phone2": "",
       "unit": "HEMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1823,6 +1921,7 @@
       "id": "d103",
       "name": "DR. MEHMET MURAT ÖNCEL",
       "phone": "8191",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1831,6 +1930,7 @@
       "id": "d104",
       "name": "DR. MEHMET TEKİN AKPOLAT",
       "phone": "8271",
+      "phone2": "",
       "unit": "NEFROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1839,6 +1939,7 @@
       "id": "d105",
       "name": "DR. MEKİ BİLİCİ",
       "phone": "8521",
+      "phone2": "",
       "unit": "ÇOCUK KARDİYOLOJİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -1847,6 +1948,7 @@
       "id": "d106",
       "name": "DR. MELTEM TOPALGÖKÇELİ SELAM",
       "phone": "8454",
+      "phone2": "",
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1855,6 +1957,7 @@
       "id": "d107",
       "name": "DR. MUSTAFA ALPER KARALÖK",
       "phone": "8234",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false
@@ -1863,6 +1966,7 @@
       "id": "d108",
       "name": "DR. NEBİL YILDIZ",
       "phone": "8244",
+      "phone2": "",
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1871,6 +1975,7 @@
       "id": "d109",
       "name": "DR. NİMET DÖRTCAN",
       "phone": "8256",
+      "phone2": "",
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1879,6 +1984,7 @@
       "id": "d110",
       "name": "DR. ORHAN TANRIVERDİ",
       "phone": "8180",
+      "phone2": "",
       "unit": "ÜROONKOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1887,6 +1993,7 @@
       "id": "d111",
       "name": "DR. OSMAN MURAT UYAR",
       "phone": "8192",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1895,6 +2002,7 @@
       "id": "d112",
       "name": "DR. SELAMİ SÖZÜBİR",
       "phone": "8524",
+      "phone2": "",
       "unit": "ÇOCUK CERRRAHİSİ VE ÜROLOJİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -1903,6 +2011,7 @@
       "id": "d113",
       "name": "DR. SERDAR KAHRAMAN",
       "phone": "8411",
+      "phone2": "",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -1911,6 +2020,7 @@
       "id": "d114",
       "name": "DR. SİBEL MALKOÇ",
       "phone": "8235",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false
@@ -1919,6 +2029,7 @@
       "id": "d115",
       "name": "DR. TAMER SÖZEN",
       "phone": "8233",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false
@@ -1927,6 +2038,7 @@
       "id": "d116",
       "name": "DR. UĞUR BOYLU",
       "phone": "8179",
+      "phone2": "",
       "unit": "ÜROONKOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1935,6 +2047,7 @@
       "id": "d117",
       "name": "DR. VEDAT KAYA",
       "phone": "8192",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1943,6 +2056,7 @@
       "id": "d118",
       "name": "DR. YELİZ KÖMÜRCÜ",
       "phone": "8198",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1951,6 +2065,7 @@
       "id": "d119",
       "name": "DR. ZEHRA ÇAĞLA KARAKOÇ",
       "phone": "8355",
+      "phone2": "",
       "unit": "ENFEKSİYON HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1959,6 +2074,7 @@
       "id": "d120",
       "name": "DR. ZİNNET ÖYKÜ ALTAY",
       "phone": "8226",
+      "phone2": "",
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
       "fav": false
@@ -1967,6 +2083,7 @@
       "id": "d121",
       "name": "DR. ÖZGENAZ KAZAN",
       "phone": "8605",
+      "phone2": "",
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
       "fav": false
@@ -1975,6 +2092,7 @@
       "id": "d122",
       "name": "DR. ŞENCAY YILDIZ ŞAHİN",
       "phone": "8474",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1983,6 +2101,7 @@
       "id": "d123",
       "name": "DR. ŞENOL KOBAK",
       "phone": "8242",
+      "phone2": "",
       "unit": "ROMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -1991,6 +2110,7 @@
       "id": "d124",
       "name": "DR. ABDULKADİR ÖZGÜR",
       "phone": "8189",
+      "phone2": "",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -1999,6 +2119,7 @@
       "id": "d125",
       "name": "DR. ALİHAN ORAL",
       "phone": "8174",
+      "phone2": "",
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
       "fav": false
@@ -2007,6 +2128,7 @@
       "id": "d126",
       "name": "DR. ASLI DATLI",
       "phone": "8260",
+      "phone2": "",
       "unit": "PLASTİK VE REKONSTRÜKTİF CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -2015,6 +2137,7 @@
       "id": "d127",
       "name": "DR. AYŞE DENİZ AKKAYA",
       "phone": "8486",
+      "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2023,6 +2146,7 @@
       "id": "d128",
       "name": "DR. BETÜL TUĞCU",
       "phone": "8190",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2031,6 +2155,7 @@
       "id": "d129",
       "name": "DR. ELİF GÖKNUR TOPÇU",
       "phone": "8235",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false
@@ -2039,6 +2164,7 @@
       "id": "d130",
       "name": "DR. EMEL CEYLAN",
       "phone": "8436-8437",
+      "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Doktorlar",
       "fav": false
@@ -2047,6 +2173,7 @@
       "id": "d131",
       "name": "DR. EMRE ACAR",
       "phone": "8505",
+      "phone2": "",
       "unit": "ACİL DOKTOR ODASI",
       "group": "Doktorlar",
       "fav": false
@@ -2055,6 +2182,7 @@
       "id": "d133",
       "name": "DR. ERDAL KARAÖZ",
       "phone": "8402",
+      "phone2": "",
       "unit": "KÖK HÜCRE",
       "group": "Doktorlar",
       "fav": false
@@ -2063,6 +2191,7 @@
       "id": "d134",
       "name": "DR. ERDEN ERTÜRER",
       "phone": "8475-8476",
+      "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2071,6 +2200,7 @@
       "id": "d135",
       "name": "DR. FATMA GÜLÇİN ÖZALP",
       "phone": "8254",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2079,6 +2209,7 @@
       "id": "d464",
       "name": "FERAH ECE",
       "phone": "8410",
+      "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -2087,6 +2218,7 @@
       "id": "d137",
       "name": "DR. FERİT ARĞUN",
       "phone": "8175",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2095,6 +2227,7 @@
       "id": "d196",
       "name": "GAMZE KESKİN",
       "phone": "8278",
+      "phone2": "",
       "unit": "BAŞHEKİM",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2103,6 +2236,7 @@
       "id": "d139",
       "name": "DR. GİZEM GÜVENER",
       "phone": "8523",
+      "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2111,6 +2245,7 @@
       "id": "d140",
       "name": "DR. GÖKHAN ERTAŞ",
       "phone": "8459",
+      "phone2": "",
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2119,6 +2254,7 @@
       "id": "d141",
       "name": "DR. GÖKHAN KÜRŞAT KARA",
       "phone": "8475-8476",
+      "phone2": "",
       "unit": "OMURGA CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -2127,6 +2263,7 @@
       "id": "d142",
       "name": "DR. GÜRKAN GÜMÜŞSUYU",
       "phone": "8475-8476",
+      "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2135,6 +2272,7 @@
       "id": "d143",
       "name": "DR. HAMDİ LEVENT DOĞANAY",
       "phone": "8444",
+      "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2143,6 +2281,7 @@
       "id": "d144",
       "name": "DR. İLTERİŞ OĞUZ",
       "phone": "8492",
+      "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2151,6 +2290,7 @@
       "id": "d145",
       "name": "DR. İSMAİL TUGAY YAĞCI",
       "phone": "8475-8476",
+      "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2159,6 +2299,7 @@
       "id": "d511",
       "name": "KADİR ABUL",
       "phone": "8448",
+      "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -2167,6 +2308,7 @@
       "id": "d147",
       "name": "DR. KENAN TEMİZ",
       "phone": "8547",
+      "phone2": "",
       "unit": "PSİKİYATRİ",
       "group": "Doktorlar",
       "fav": false
@@ -2175,6 +2317,7 @@
       "id": "d148",
       "name": "DR. KORAY ACARLI",
       "phone": "8248",
+      "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -2183,6 +2326,7 @@
       "id": "d149",
       "name": "DR. KÜBRA KARAKOLCU",
       "phone": "8382",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false
@@ -2191,6 +2335,7 @@
       "id": "d150",
       "name": "DR. MEHMET ALPAY ÇAL",
       "phone": "8274",
+      "phone2": "",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -2199,6 +2344,7 @@
       "id": "d151",
       "name": "DR. MERAL GÜNALDI",
       "phone": "8415",
+      "phone2": "",
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2207,6 +2353,7 @@
       "id": "d152",
       "name": "DR. MİRAÇ ÖZALP",
       "phone": "8281",
+      "phone2": "",
       "unit": "KADIN HAST VE DOĞUM",
       "group": "Doktorlar",
       "fav": false
@@ -2215,6 +2362,7 @@
       "id": "d153",
       "name": "DR. MUHAMMET ALİ VARKAL",
       "phone": "8522",
+      "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2223,6 +2371,7 @@
       "id": "d154",
       "name": "DR. MUHİTTİN EMRE ALTUNRENDE",
       "phone": "8411",
+      "phone2": "",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -2231,6 +2380,7 @@
       "id": "d155",
       "name": "DR. MUSTAFA TAŞTAN",
       "phone": "8343",
+      "phone2": "",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2239,6 +2389,7 @@
       "id": "d156",
       "name": "DR. NAZLI CAF",
       "phone": "8397",
+      "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2247,6 +2398,7 @@
       "id": "d157",
       "name": "DR. NUR ACAR GÖÇGİL",
       "phone": "8192",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2255,6 +2407,7 @@
       "id": "d158",
       "name": "DR. OSMAN KARLI",
       "phone": "8526",
+      "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2263,6 +2416,7 @@
       "id": "d159",
       "name": "DR. RIFAT RASİER",
       "phone": "8190",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2271,6 +2425,7 @@
       "id": "d160",
       "name": "DR. SEDA TURGUT",
       "phone": "8144",
+      "phone2": "",
       "unit": "ENDOKRİNOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2279,6 +2434,7 @@
       "id": "d161",
       "name": "DR. SELDA KORKMAZ YAKAR",
       "phone": "8249",
+      "phone2": "",
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2287,6 +2443,7 @@
       "id": "d162",
       "name": "DR. SELİN ÇETİNKAL",
       "phone": "8236",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false
@@ -2295,6 +2452,7 @@
       "id": "d163",
       "name": "DR. SELMAN EMİROĞLU",
       "phone": "8432",
+      "phone2": "",
       "unit": "MEME CERRAHİ",
       "group": "Doktorlar",
       "fav": false
@@ -2303,6 +2461,7 @@
       "id": "d164",
       "name": "DR. TAHİR KARADENİZ",
       "phone": "8141",
+      "phone2": "",
       "unit": "ÜROLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2311,6 +2470,7 @@
       "id": "d165",
       "name": "DR. TAMER ÜNVER",
       "phone": "8525",
+      "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2319,6 +2479,7 @@
       "id": "d166",
       "name": "DR. TUBA EFE",
       "phone": "8183",
+      "phone2": "",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Doktorlar",
       "fav": false
@@ -2327,6 +2488,7 @@
       "id": "d167",
       "name": "DR. UĞUR HAKLAR",
       "phone": "8418",
+      "phone2": "",
       "unit": "DİZ CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false
@@ -2335,6 +2497,7 @@
       "id": "d168",
       "name": "DR. YAVUZ ÖZTÜRKER",
       "phone": "8430",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2343,6 +2506,7 @@
       "id": "d169",
       "name": "DR. YELİZ ZIHLI KIZAK",
       "phone": "8150",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false
@@ -2351,6 +2515,7 @@
       "id": "d170",
       "name": "DR. YILDIZ GONCA DOĞRU",
       "phone": "8412",
+      "phone2": "",
       "unit": "FİZİKSEL TIP VE REHABİLİTASYON",
       "group": "Doktorlar",
       "fav": false
@@ -2359,6 +2524,7 @@
       "id": "d171",
       "name": "DR. ÖMER GEZDUR",
       "phone": "8486",
+      "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2367,6 +2533,7 @@
       "id": "d172",
       "name": "DR. ÖZENÇ MİNARECİ",
       "phone": "8418",
+      "phone2": "",
       "unit": "NÖRORADYOLOJİ",
       "group": "Doktorlar",
       "fav": false
@@ -2375,6 +2542,7 @@
       "id": "d173",
       "name": "DT. AYDAN GÜRCAN",
       "phone": "5413",
+      "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
       "fav": false
@@ -2383,6 +2551,7 @@
       "id": "d174",
       "name": "DT. BEGÜM ASLAN",
       "phone": "5413",
+      "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
       "fav": false
@@ -2391,6 +2560,7 @@
       "id": "d175",
       "name": "DT. ECEM AYTUNA YARDIM",
       "phone": "5413",
+      "phone2": "",
       "unit": "ENDODONTİ UZMANI",
       "group": "Doktorlar",
       "fav": false
@@ -2399,6 +2569,7 @@
       "id": "d176",
       "name": "DT. MELİSA ALBAYRAK",
       "phone": "5413",
+      "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
       "fav": false
@@ -2407,6 +2578,7 @@
       "id": "d177",
       "name": "DT. OZAN KARAKAŞ",
       "phone": "5413",
+      "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
       "fav": false
@@ -2415,6 +2587,7 @@
       "id": "d178",
       "name": "ECEM KANBER",
       "phone": "",
+      "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
       "group": "Misafir & VIP",
       "fav": false
@@ -2423,6 +2596,7 @@
       "id": "d179",
       "name": "ECZANE SORUMLUSU",
       "phone": "8460-1919",
+      "phone2": "",
       "unit": "B4. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2431,6 +2605,7 @@
       "id": "d180",
       "name": "ELEKTROTERAPİ ODASI-FİZYOTERAPİ SEANS ODALARI",
       "phone": "8446",
+      "phone2": "",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
       "group": "Poliklinikler",
       "fav": false
@@ -2439,6 +2614,7 @@
       "id": "d181",
       "name": "ELİF CAN CEYLAN",
       "phone": "",
+      "phone2": "",
       "unit": "BAŞHEKİM ASİSTANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2447,6 +2623,7 @@
       "id": "d182",
       "name": "ELMİRA KALKAN",
       "phone": "",
+      "phone2": "",
       "unit": "ÖZBEKİSTAN (3 KİŞİ) · RUSÇA- ÖZBEKÇE- K",
       "group": "Misafir & VIP",
       "fav": false
@@ -2455,6 +2632,7 @@
       "id": "d183",
       "name": "EMEL GÜRSOY",
       "phone": "",
+      "phone2": "",
       "unit": "RAPORTÖR - BAŞHEKİMLİK",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2463,6 +2641,7 @@
       "id": "d184",
       "name": "EMEL NAMOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "DİYABET EĞİTİM VE İŞYERİ HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2471,6 +2650,7 @@
       "id": "d185",
       "name": "EMEL YANIK",
       "phone": "",
+      "phone2": "",
       "unit": "ACİL SERVİS SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2479,6 +2659,7 @@
       "id": "d186",
       "name": "ESRA AKDENİZ",
       "phone": "8491",
+      "phone2": "",
       "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2487,6 +2668,7 @@
       "id": "d188",
       "name": "FATİH SAKA",
       "phone": "",
+      "phone2": "",
       "unit": "MALİ İŞLER MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2495,6 +2677,7 @@
       "id": "d189",
       "name": "FATMAGÜL BİRSİN",
       "phone": "",
+      "phone2": "",
       "unit": "PEDATRİ SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2503,6 +2686,7 @@
       "id": "d190",
       "name": "FERİDE TÜRKMEN",
       "phone": "8178",
+      "phone2": "",
       "unit": "KARDİYOLOJİ & KVC KOORDİNATÖRÜ",
       "group": "Misafir & VIP",
       "fav": false
@@ -2511,6 +2695,7 @@
       "id": "d191",
       "name": "FIRAT EVELEK",
       "phone": "",
+      "phone2": "",
       "unit": "FİYATLANDIRMA GRUP MÜDÜRÜ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2519,6 +2704,7 @@
       "id": "d192",
       "name": "FIRAT KÜRŞAD RASTGELE",
       "phone": "",
+      "phone2": "",
       "unit": "HAKEDİŞ SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2527,6 +2713,7 @@
       "id": "d193",
       "name": "FİZİK PLANLAMA ODASI",
       "phone": "8427",
+      "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -2535,6 +2722,7 @@
       "id": "d194",
       "name": "FTR EGZERSİZ ODASI",
       "phone": "8446",
+      "phone2": "",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
       "group": "Poliklinikler",
       "fav": false
@@ -2543,6 +2731,7 @@
       "id": "d195",
       "name": "GAMA ODASI-SİNTİGRAFİ",
       "phone": "8620",
+      "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -2551,6 +2740,7 @@
       "id": "d197",
       "name": "GAMZE ŞAHİNKOVAN",
       "phone": "",
+      "phone2": "",
       "unit": "YENİDOĞAN SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2559,6 +2749,7 @@
       "id": "d198",
       "name": "GENEL YOĞUN BAKIM",
       "phone": "8360",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2567,6 +2758,7 @@
       "id": "d199",
       "name": "GENEL YOĞUN BAKIM DOKTOR ODASI",
       "phone": "5407",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2575,6 +2767,7 @@
       "id": "d200",
       "name": "GONCA ULAMAN",
       "phone": "",
+      "phone2": "",
       "unit": "POLİKLİNİK SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2583,6 +2776,7 @@
       "id": "d201",
       "name": "GUVANCH JORAYEV",
       "phone": "",
+      "phone2": "",
       "unit": "TÜRKMENCE - RUSÇA - İNGİLİZCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -2591,6 +2785,7 @@
       "id": "d202",
       "name": "GÜLER ÖZÇELİK",
       "phone": "",
+      "phone2": "",
       "unit": "STERİLİZASYON SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2599,6 +2794,7 @@
       "id": "d203",
       "name": "HALİL HÜZMELİ",
       "phone": "",
+      "phone2": "",
       "unit": "BAŞHEKİM YARDIMCISI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2607,6 +2803,7 @@
       "id": "d204",
       "name": "HALİL İBRAHİM ABATAY",
       "phone": "",
+      "phone2": "",
       "unit": "UHM SORUMLUSU · İNGİLİZCE - İSPANYOLCA",
       "group": "Misafir & VIP",
       "fav": false
@@ -2615,6 +2812,7 @@
       "id": "d205",
       "name": "HARUN BAŞODA",
       "phone": "",
+      "phone2": "",
       "unit": "TEDARİK ZİNCİRİ SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2623,6 +2821,7 @@
       "id": "d206",
       "name": "HASTA BAKIM HİZMETLERİ BANKO",
       "phone": "8442",
+      "phone2": "",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2631,6 +2830,7 @@
       "id": "d207",
       "name": "HASTA BAKIM HİZMETLERİ BANKO",
       "phone": "8456",
+      "phone2": "",
       "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2639,6 +2839,7 @@
       "id": "d208",
       "name": "HASTA BAKIM HİZMETLERİ BANKO (ENDOSKOPİ İŞLEM)",
       "phone": "8393",
+      "phone2": "",
       "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -2647,6 +2848,7 @@
       "id": "d209",
       "name": "HASTA KABUL -VEZNE",
       "phone": "8536-8529",
+      "phone2": "",
       "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2655,6 +2857,7 @@
       "id": "d210",
       "name": "HASTA KABUL-VEZNE",
       "phone": "5404-8518",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2663,6 +2866,7 @@
       "id": "d211",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8178",
+      "phone2": "",
       "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2671,6 +2875,7 @@
       "id": "d212",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8181",
+      "phone2": "",
       "unit": "ÜROLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2679,6 +2884,7 @@
       "id": "d213",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8182-8366",
+      "phone2": "",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Misafir & VIP",
       "fav": false
@@ -2687,6 +2893,7 @@
       "id": "d214",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8188",
+      "phone2": "",
       "unit": "KULAK BURUN BOĞAZ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2695,6 +2902,7 @@
       "id": "d215",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8194",
+      "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2703,6 +2911,7 @@
       "id": "d216",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8230-8231",
+      "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2711,6 +2920,7 @@
       "id": "d217",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8240",
+      "phone2": "",
       "unit": "TÜP BEBEK-IVF",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2719,6 +2929,7 @@
       "id": "d218",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8244",
+      "phone2": "",
       "unit": "NÖROLOJİ - GÖĞÜS HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2727,6 +2938,7 @@
       "id": "d219",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8245",
+      "phone2": "",
       "unit": "GENEL CERRAHİ-PSİKOLOJİ-GENETİK",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2735,6 +2947,7 @@
       "id": "d220",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8251-8252",
+      "phone2": "",
       "unit": "3",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2743,6 +2956,7 @@
       "id": "d221",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8252",
+      "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2751,6 +2965,7 @@
       "id": "d222",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8257",
+      "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2759,6 +2974,7 @@
       "id": "d223",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8263-8262",
+      "phone2": "",
       "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2767,6 +2983,7 @@
       "id": "d224",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8268",
+      "phone2": "",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2775,6 +2992,7 @@
       "id": "d225",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8268-8335",
+      "phone2": "",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2783,6 +3001,7 @@
       "id": "d226",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8349-8350",
+      "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2791,6 +3010,7 @@
       "id": "d227",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8405-8435",
+      "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2799,6 +3019,7 @@
       "id": "d228",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8418-8419",
+      "phone2": "",
       "unit": "DERMATOLOJİ - NÖRO RADYOLOJİ - BEYİN VE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2807,6 +3028,7 @@
       "id": "d229",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8420",
+      "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2815,6 +3037,7 @@
       "id": "d230",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8428",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2823,6 +3046,7 @@
       "id": "d231",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8445",
+      "phone2": "",
       "unit": "DERMATOLOJİ - MEDİKAL ESTETİK",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2831,6 +3055,7 @@
       "id": "d232",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8446",
+      "phone2": "",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2839,6 +3064,7 @@
       "id": "d233",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8451-8452",
+      "phone2": "",
       "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2847,6 +3073,7 @@
       "id": "d234",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8502-8514",
+      "phone2": "",
       "unit": "ACİL SERVİS",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2855,6 +3082,7 @@
       "id": "d235",
       "name": "HAVVANUR GÜVEN AYDIN",
       "phone": "",
+      "phone2": "",
       "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ SORUMLU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2863,6 +3091,7 @@
       "id": "d236",
       "name": "HEMŞİRE BANKO",
       "phone": "8272",
+      "phone2": "",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Misafir & VIP",
       "fav": false
@@ -2871,6 +3100,7 @@
       "id": "d237",
       "name": "HEPŞEN ALİ",
       "phone": "",
+      "phone2": "",
       "unit": "BULGARİSTAN (3 KİŞİ) · BULGARCA",
       "group": "Misafir & VIP",
       "fav": false
@@ -2879,6 +3109,7 @@
       "id": "d238",
       "name": "HEPŞEN ALİ",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -2887,6 +3118,7 @@
       "id": "d239",
       "name": "HÜLYA YAYLA",
       "phone": "5422",
+      "phone2": "",
       "unit": "LABORATUVAR SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2895,6 +3127,7 @@
       "id": "d241",
       "name": "HÜSEYİN ARIKAN",
       "phone": "",
+      "phone2": "",
       "unit": "TIBBİ GÖRÜNTÜLEME SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2903,6 +3136,7 @@
       "id": "d242",
       "name": "HÜSEYİN DEMİRCİ",
       "phone": "",
+      "phone2": "",
       "unit": "BİYOMEDİKAL MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2911,6 +3145,7 @@
       "id": "d243",
       "name": "İNGA TOZKOPARAN",
       "phone": "",
+      "phone2": "",
       "unit": "ROMENCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -2919,6 +3154,7 @@
       "id": "d244",
       "name": "ISHAG",
       "phone": "",
+      "phone2": "",
       "unit": "YURTDIŞI ANLAŞMALI KURUMLAR",
       "group": "Misafir & VIP",
       "fav": false
@@ -2927,6 +3163,7 @@
       "id": "d245",
       "name": "ISS OFİS B2",
       "phone": "8477",
+      "phone2": "",
       "unit": "B5. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2935,6 +3172,7 @@
       "id": "d246",
       "name": "İBRAHİM YAVUZ",
       "phone": "8296",
+      "phone2": "",
       "unit": "TEKNİK HİZMETLER SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2943,6 +3181,7 @@
       "id": "d248",
       "name": "İLAYDA KURŞUN",
       "phone": "",
+      "phone2": "",
       "unit": "İNGİLİZCE - İSPANYOLCA",
       "group": "Misafir & VIP",
       "fav": false
@@ -2951,6 +3190,7 @@
       "id": "d249",
       "name": "İLKE BURÇAK ÖZ",
       "phone": "8440",
+      "phone2": "",
       "unit": "ANJİO BANKO (KORONER ANJİO,KALP PİLİ)",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2959,6 +3199,7 @@
       "id": "d250",
       "name": "İSMAİL AKTAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "VIP TEMSİLCİSİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -2967,6 +3208,7 @@
       "id": "d251",
       "name": "İYOT ODASI",
       "phone": "8135",
+      "phone2": "",
       "unit": "1. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2975,6 +3217,7 @@
       "id": "d252",
       "name": "İYOT ODASI",
       "phone": "8136",
+      "phone2": "",
       "unit": "1. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2983,6 +3226,7 @@
       "id": "d253",
       "name": "KAAN TOKAT",
       "phone": "",
+      "phone2": "",
       "unit": "TEDARİK ZİNCİRİ UZMANI",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -2991,6 +3235,7 @@
       "id": "d254",
       "name": "KAMİL BİLGİLİ",
       "phone": "",
+      "phone2": "",
       "unit": "İNSAN KAYNAKLARI UZMAN YARDIMCISI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -2999,6 +3244,7 @@
       "id": "d255",
       "name": "KAN BANKASI",
       "phone": "8510",
+      "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3007,6 +3253,7 @@
       "id": "d256",
       "name": "KİRPİ CAFE",
       "phone": "8461",
+      "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3015,6 +3262,7 @@
       "id": "d257",
       "name": "KVC YOĞUN BAKIM",
       "phone": "8353",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3023,6 +3271,7 @@
       "id": "d258",
       "name": "KVC YOĞUN BAKIM DOKTOR ODASI",
       "phone": "5414",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3031,6 +3280,7 @@
       "id": "d259",
       "name": "KÖK HÜCRE LAB.",
       "phone": "8624",
+      "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3039,6 +3289,7 @@
       "id": "d260",
       "name": "LABORATUVAR SEKRETERLİĞİ",
       "phone": "8197",
+      "phone2": "",
       "unit": "BİYOKİMYA LABORATUVARI",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3047,6 +3298,7 @@
       "id": "d261",
       "name": "LİV SAÇ TASARIM (KUAFÖR)",
       "phone": "8363",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3055,6 +3307,7 @@
       "id": "d262",
       "name": "MAHMUT SELİM GÜLER",
       "phone": "",
+      "phone2": "",
       "unit": "İNSAN KAYNAKLARI MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3063,6 +3316,7 @@
       "id": "d263",
       "name": "MARIKA KVRIVISHVILI",
       "phone": "",
+      "phone2": "",
       "unit": "GÜRCİSTAN 2 KİŞİ · GÜRCÜCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -3071,6 +3325,7 @@
       "id": "d264",
       "name": "MEGİ BİRKADZE GURDAL",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3079,6 +3334,7 @@
       "id": "d266",
       "name": "MEHMET MERT EKMEKCİ",
       "phone": "",
+      "phone2": "",
       "unit": "GECE İŞLETME SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3087,6 +3343,7 @@
       "id": "d267",
       "name": "MELEK KARTAL",
       "phone": "",
+      "phone2": "",
       "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3095,6 +3352,7 @@
       "id": "d268",
       "name": "MELTEM BOZKURT",
       "phone": "",
+      "phone2": "",
       "unit": "BİREYSEL PAZARLAMA UZMANI (KÖK HÜCRE)",
       "group": "Misafir & VIP",
       "fav": false
@@ -3103,6 +3361,7 @@
       "id": "d269",
       "name": "MELTEM HAZLIPINAR",
       "phone": "8347",
+      "phone2": "",
       "unit": "ANESTEZİ BANKO",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3111,6 +3370,7 @@
       "id": "d270",
       "name": "MERVE CANBEK",
       "phone": "",
+      "phone2": "",
       "unit": "AMELİYATHANE SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3119,6 +3379,7 @@
       "id": "d271",
       "name": "MERVE GENEL",
       "phone": "8348",
+      "phone2": "",
       "unit": "GENEL YOĞUN BAKIM MİSAFİR HİZMETLERİ BAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -3127,6 +3388,7 @@
       "id": "d272",
       "name": "MERVE GÜREL ŞEKER",
       "phone": "",
+      "phone2": "",
       "unit": "KURUMSAL İLETİŞİM UZMANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3135,6 +3397,7 @@
       "id": "d273",
       "name": "MERVE ÇALIK SERT",
       "phone": "",
+      "phone2": "",
       "unit": "GÜNÜBİRLİK ALAN SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3143,6 +3406,7 @@
       "id": "d274",
       "name": "MERYEM DİKMEN",
       "phone": "",
+      "phone2": "",
       "unit": "EĞİTİM VE GELİŞİM SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3151,6 +3415,7 @@
       "id": "d275",
       "name": "MİRAY ÖZTÜRK",
       "phone": "",
+      "phone2": "",
       "unit": "ARNAVUTÇA -BOŞNAKÇA - SIRPÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3159,6 +3424,7 @@
       "id": "d277",
       "name": "MİRAY ÖZTÜRK",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
       "group": "Misafir & VIP",
       "fav": false
@@ -3167,6 +3433,7 @@
       "id": "d276",
       "name": "MİKROBİYOLOJİ LABORATUVARI",
       "phone": "8196",
+      "phone2": "",
       "unit": "BİYOKİMYA LABORATUVARI",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3175,6 +3442,7 @@
       "id": "d278",
       "name": "MUHAMMED ABDULLAH",
       "phone": "",
+      "phone2": "",
       "unit": "ARAPÇA - İNGİLİZCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -3183,6 +3451,7 @@
       "id": "d279",
       "name": "MUHAMMED ELSALEH",
       "phone": "",
+      "phone2": "",
       "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
       "group": "Misafir & VIP",
       "fav": false
@@ -3191,6 +3460,7 @@
       "id": "d280",
       "name": "MURAT GÜNDÜZ",
       "phone": "",
+      "phone2": "",
       "unit": "ARNAVUTÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3199,6 +3469,7 @@
       "id": "d281",
       "name": "MURAT UYAR",
       "phone": "",
+      "phone2": "",
       "unit": "VIP TEMSİLCİSİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -3207,6 +3478,7 @@
       "id": "d282",
       "name": "MÜKREMİN MUSLU",
       "phone": "",
+      "phone2": "",
       "unit": "EVDE BAKIM HİZM. SUPERVİSOR",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3215,6 +3487,7 @@
       "id": "d283",
       "name": "NEDRET NEZHDET GÜLER",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -3223,6 +3496,7 @@
       "id": "d284",
       "name": "NEDRET NEZHDET GÜLER",
       "phone": "",
+      "phone2": "",
       "unit": "BULGARCA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3231,6 +3505,7 @@
       "id": "d285",
       "name": "NELİ KAYIKÇI",
       "phone": "",
+      "phone2": "",
       "unit": "BULGARCA - İSPANYOLCA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3239,6 +3514,7 @@
       "id": "d286",
       "name": "NİLUFARKHON MİNBAEVA",
       "phone": "",
+      "phone2": "",
       "unit": "ÖZBEKÇE -RUSÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3247,6 +3523,7 @@
       "id": "d287",
       "name": "NİHAN YAVUZ",
       "phone": "",
+      "phone2": "",
       "unit": "3. KAT CERRAHİ KATI SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3255,6 +3532,7 @@
       "id": "d288",
       "name": "NUMUNE ALMA-HEMŞİRE",
       "phone": "8205",
+      "phone2": "",
       "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3263,6 +3541,7 @@
       "id": "d289",
       "name": "NUR KOÇ",
       "phone": "",
+      "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ ORTADOĞ",
       "group": "Misafir & VIP",
       "fav": false
@@ -3271,6 +3550,7 @@
       "id": "d290",
       "name": "NURSEL ARSLANTÜRK",
       "phone": "8416",
+      "phone2": "",
       "unit": "GENEL MÜDÜR ASİSTANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3279,6 +3559,7 @@
       "id": "d292",
       "name": "NÜKLEER TIP ÇEKİM ODASI VE TEKNİKER",
       "phone": "8438",
+      "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3287,6 +3568,7 @@
       "id": "d293",
       "name": "ODYOMETRİ",
       "phone": "8187",
+      "phone2": "",
       "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
       "group": "Misafir & VIP",
       "fav": false
@@ -3295,6 +3577,7 @@
       "id": "d294",
       "name": "OLCAY BULUT",
       "phone": "",
+      "phone2": "",
       "unit": "AMELİYATHANE DEPO UZMANI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3303,6 +3586,7 @@
       "id": "d295",
       "name": "ORTOPEDİ ASİSTAN BANKO",
       "phone": "8475-8476",
+      "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3311,6 +3595,7 @@
       "id": "d296",
       "name": "ORTOPEDİ EKİBİ DANIŞMANI",
       "phone": "DECK 8476",
+      "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3319,6 +3604,7 @@
       "id": "d297",
       "name": "OSMAN MERT KADIOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "NÖBETÇİ SUPERVİSOR",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3327,6 +3613,7 @@
       "id": "d298",
       "name": "OĞUZHAN BEKTAŞ",
       "phone": "8293",
+      "phone2": "",
       "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3335,6 +3622,7 @@
       "id": "d300",
       "name": "DR. ALP BURAK ÇATAKOĞLU",
       "phone": "8417",
+      "phone2": "",
       "unit": "PANSUMAN - ALÇI ODASI",
       "group": "Doktorlar",
       "fav": false
@@ -3343,6 +3631,7 @@
       "id": "d301",
       "name": "PATOLOJİ",
       "phone": "8344",
+      "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3351,6 +3640,7 @@
       "id": "d302",
       "name": "PEDİATRİ KAN ALMA",
       "phone": "8527",
+      "phone2": "",
       "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3359,6 +3649,7 @@
       "id": "d303",
       "name": "PINAR SARIÇİNEM",
       "phone": "",
+      "phone2": "",
       "unit": "ANESTEZİ SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3367,6 +3658,7 @@
       "id": "d304",
       "name": "RADYOLOJİ RAPOR ODASI",
       "phone": "8470",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3375,6 +3667,7 @@
       "id": "d305",
       "name": "RADYOLOJİ SORUMLU ODASI",
       "phone": "8466",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3383,6 +3676,7 @@
       "id": "d306",
       "name": "RADYOTERAPİ TEKNİKER ODASI",
       "phone": "8429",
+      "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3391,6 +3685,7 @@
       "id": "d307",
       "name": "RAMA ALSANİ",
       "phone": "",
+      "phone2": "",
       "unit": "ARAPÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3399,6 +3694,7 @@
       "id": "d308",
       "name": "RAMİLA KÜLAK",
       "phone": "",
+      "phone2": "",
       "unit": "ANA DANIŞMA · RUSÇA - AZERİCE - İNGİLİZC",
       "group": "Misafir & VIP",
       "fav": false
@@ -3407,6 +3703,7 @@
       "id": "d309",
       "name": "RAZİYE HASBAŞ",
       "phone": "DECT 5421",
+      "phone2": "",
       "unit": "GENEL YOĞUN BAKIM SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3415,6 +3712,7 @@
       "id": "d311",
       "name": "RESEPSİYON",
       "phone": "8200",
+      "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3423,6 +3721,7 @@
       "id": "d312",
       "name": "RIZA KORKMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ YATAN SORUMLU",
       "group": "Misafir & VIP",
       "fav": false
@@ -3431,6 +3730,7 @@
       "id": "d313",
       "name": "RÖNTGEN-MAMOGRAFİ",
       "phone": "8520",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3439,6 +3739,7 @@
       "id": "d314",
       "name": "SAADET NEHİR TAYLAN",
       "phone": "",
+      "phone2": "",
       "unit": "İNSAN KAYNAKLARI SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3447,6 +3748,7 @@
       "id": "d315",
       "name": "SALİH HARİBİ",
       "phone": "",
+      "phone2": "",
       "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
       "group": "Misafir & VIP",
       "fav": false
@@ -3455,6 +3757,7 @@
       "id": "d316",
       "name": "SAMAYA BUNYATZADE",
       "phone": "",
+      "phone2": "",
       "unit": "AVRUPA (3) · RUSÇA - TÜRKMENCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -3463,6 +3766,7 @@
       "id": "d317",
       "name": "SAMİD SHUKUROV",
       "phone": "",
+      "phone2": "",
       "unit": "AZERBAYCAN (1 KİŞİ) · AZERİCE RUSÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3471,6 +3775,7 @@
       "id": "d318",
       "name": "SAMİD SHUKUROV",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU -AZERİCE-R",
       "group": "Misafir & VIP",
       "fav": false
@@ -3479,6 +3784,7 @@
       "id": "d319",
       "name": "SEBAHATTİN EVİN",
       "phone": "",
+      "phone2": "",
       "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3487,6 +3793,7 @@
       "id": "d320",
       "name": "SEDA KARANLI",
       "phone": "",
+      "phone2": "",
       "unit": "ENFEKSİYON SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3495,6 +3802,7 @@
       "id": "d321",
       "name": "SEHER MERVE BOLAT/ELİF BAŞAK KARA",
       "phone": "8213-8219",
+      "phone2": "",
       "unit": "YATIŞ HİZMETLERİ OFİSİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3503,6 +3811,7 @@
       "id": "d322",
       "name": "SERKAN SAKALLI",
       "phone": "",
+      "phone2": "",
       "unit": "CCTV OTOMASYON GÜVENLİK MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3511,6 +3820,7 @@
       "id": "d323",
       "name": "SERKAN ÖZCAN",
       "phone": "",
+      "phone2": "",
       "unit": "YURTİÇİ ULAŞTIRMA SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3519,6 +3829,7 @@
       "id": "d324",
       "name": "SVETLANA KABA",
       "phone": "",
+      "phone2": "",
       "unit": "RUSÇA UKRAYNACA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3527,6 +3838,7 @@
       "id": "d325",
       "name": "SÜLEYMAN YILDIZ - SONER ÇAKMAK- GÖKHAN BAŞALAN",
       "phone": "",
+      "phone2": "",
       "unit": "CCTV OTOMASYON GÜVENLİK AMİRİ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3535,6 +3847,7 @@
       "id": "d326",
       "name": "TABURCULUK HİZMETLERİ OFİSİ",
       "phone": "8224",
+      "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3543,6 +3856,7 @@
       "id": "d327",
       "name": "TABURCULUK HİZMETLERİ OFİSİ",
       "phone": "DECK 8146",
+      "phone2": "",
       "unit": "3. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3551,6 +3865,7 @@
       "id": "d328",
       "name": "TATİANA URUM",
       "phone": "",
+      "phone2": "",
       "unit": "RUSÇA- İNGİLİZCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -3559,6 +3874,7 @@
       "id": "d329",
       "name": "TATİANA URUM",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - RUSCA -",
       "group": "Misafir & VIP",
       "fav": false
@@ -3567,6 +3883,7 @@
       "id": "d330",
       "name": "TEKNİK SERVİS",
       "phone": "8626",
+      "phone2": "",
       "unit": "B5. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3575,6 +3892,7 @@
       "id": "d331",
       "name": "TETYANA KULAK",
       "phone": "",
+      "phone2": "",
       "unit": "RUSÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3583,6 +3901,7 @@
       "id": "d332",
       "name": "TIBBİ YÜRÜTME KURULU ODASI",
       "phone": "8359-8496",
+      "phone2": "",
       "unit": "4. KAT YÖNETİM",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3591,6 +3910,7 @@
       "id": "d333",
       "name": "TURGUT SARAÇ",
       "phone": "",
+      "phone2": "",
       "unit": "KURUMSAL TANITIM GRUP MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3599,6 +3919,7 @@
       "id": "d334",
       "name": "TÜP BEBEK-IVF HASTA BAKIM HİZMETLERİ ODASI",
       "phone": "8238",
+      "phone2": "",
       "unit": "TÜP BEBEK-IVF",
       "group": "Poliklinikler",
       "fav": false
@@ -3607,6 +3928,7 @@
       "id": "d335",
       "name": "TÜP BEBEK-IVF-EMBRİYO LABORATUVARI",
       "phone": "8404",
+      "phone2": "",
       "unit": "AMELİYATHANE DEPO",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3615,6 +3937,7 @@
       "id": "d336",
       "name": "ULTRASON BANKOSU",
       "phone": "8519",
+      "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3623,6 +3946,7 @@
       "id": "d337",
       "name": "UMUT KÜTÜK",
       "phone": "",
+      "phone2": "",
       "unit": "TIBBI DOKUMANTASYON VE ARŞİV GÖREVLİSİ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3631,6 +3955,7 @@
       "id": "d338",
       "name": "UYANDIRMA ODASI - POST OP",
       "phone": "8612",
+      "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -3639,6 +3964,7 @@
       "id": "d339",
       "name": "UYKU ODASI",
       "phone": "8325",
+      "phone2": "",
       "unit": "3. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3647,6 +3973,7 @@
       "id": "d340",
       "name": "BURCU ÖZCAN",
       "phone": "8603",
+      "phone2": "",
       "unit": "UZM. KLİNİK PSİKOLOG",
       "group": "Poliklinikler",
       "fav": false
@@ -3655,6 +3982,7 @@
       "id": "d341",
       "name": "UĞUR GÜMÜŞ",
       "phone": "",
+      "phone2": "",
       "unit": "TEKNİK HİZMETLER MEKANİK SORUMLU TEKNİSY",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3663,6 +3991,7 @@
       "id": "d342",
       "name": "VALE",
       "phone": "8171",
+      "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3671,6 +4000,7 @@
       "id": "d343",
       "name": "YADİGAR GÜNDOĞDU",
       "phone": "DECT 8292",
+      "phone2": "",
       "unit": "MİSAFİR İLİŞKİLERİ GRUP MÜDÜRÜ",
       "group": "Misafir & VIP",
       "fav": false
@@ -3679,6 +4009,7 @@
       "id": "d345",
       "name": "YAHYA ZÜVEKLİ",
       "phone": "",
+      "phone2": "",
       "unit": "UHM MDR YARDIMCISI · ARAPÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3687,6 +4018,7 @@
       "id": "d346",
       "name": "YAHYA ZÜVEKLİ",
       "phone": "",
+      "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ OPERASY",
       "group": "Misafir & VIP",
       "fav": false
@@ -3695,6 +4027,7 @@
       "id": "d347",
       "name": "YENİDOĞAN YOĞUN BAKIM (NİCU)",
       "phone": "8533-8534-8535",
+      "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3703,6 +4036,7 @@
       "id": "d348",
       "name": "YUNUS ÇOLAK",
       "phone": "",
+      "phone2": "",
       "unit": "GENEL MÜDÜR YARDIMCISI (SÜREÇLERDEN SORU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3711,6 +4045,7 @@
       "id": "d349",
       "name": "YURTDIŞI PAZARLAMA",
       "phone": "8397",
+      "phone2": "",
       "unit": "B1 YÖNETİM OFİSLERİ",
       "group": "Misafir & VIP",
       "fav": false
@@ -3719,6 +4054,7 @@
       "id": "d350",
       "name": "ZEHRA TAŞDEMİR",
       "phone": "",
+      "phone2": "",
       "unit": "AZERİCE - RUSÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3727,6 +4063,7 @@
       "id": "d351",
       "name": "ZEYNEP YÜCEKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "GÜRCÜCE",
       "group": "Misafir & VIP",
       "fav": false
@@ -3735,6 +4072,7 @@
       "id": "d352",
       "name": "ZEYNEP YÜCEKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3743,6 +4081,7 @@
       "id": "d353",
       "name": "ZUHAL SÖYLEMEZ",
       "phone": "",
+      "phone2": "",
       "unit": "İŞ GELİŞTİRME GRUP MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3751,15 +4090,16 @@
       "id": "d354",
       "name": "ÇİĞDEM TELMAN",
       "phone": "",
+      "phone2": "8459-1919",
       "unit": "ECZANE MESUL MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false,
-      "phone2": "8459-1919"
+      "fav": false
     },
     {
       "id": "d356",
       "name": "ÖMER ERDUR",
       "phone": "8189",
+      "phone2": "",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Poliklinikler",
       "fav": false
@@ -3768,6 +4108,7 @@
       "id": "d357",
       "name": "ÖMER ÖZKAHYA",
       "phone": "",
+      "phone2": "",
       "unit": "MENA AFRİKA (6 KİŞİ) · ARAPÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -3776,6 +4117,7 @@
       "id": "d358",
       "name": "ÖNDER OSMAN SEVİMLİ",
       "phone": "DECT 5414",
+      "phone2": "",
       "unit": "KVC YOĞUN BAKIM VE ANGİO SORUMLU HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3784,6 +4126,7 @@
       "id": "d360",
       "name": "ÖRNEK KABUL",
       "phone": "8286-8287",
+      "phone2": "",
       "unit": "BİYOKİMYA LABORATUVARI",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3792,6 +4135,7 @@
       "id": "d361",
       "name": "ÖZGÜR KAAN YELER",
       "phone": "",
+      "phone2": "",
       "unit": "GENEL MÜDÜR",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3800,6 +4144,7 @@
       "id": "d362",
       "name": "ÖZKAN BAYRAKTAR",
       "phone": "",
+      "phone2": "",
       "unit": "GECE İŞLETME SORUMLUSU",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3808,6 +4153,7 @@
       "id": "d363",
       "name": "ŞELALE ŞEKER",
       "phone": "8426",
+      "phone2": "",
       "unit": "KALİTE MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
       "fav": false
@@ -3816,6 +4162,7 @@
       "id": "d365",
       "name": "ABDULLAH KAĞIT",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3824,6 +4171,7 @@
       "id": "d366",
       "name": "ABDULLAH TECEN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3832,6 +4180,7 @@
       "id": "d368",
       "name": "AHSEN ŞEVVAL TEKER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3840,6 +4189,7 @@
       "id": "d369",
       "name": "ALAATTİN ÜRKÜT",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3848,6 +4198,7 @@
       "id": "d370",
       "name": "ALEX DJİBRIL NGAYABA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3856,6 +4207,7 @@
       "id": "d372",
       "name": "ALİNA CLAUDİA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3864,6 +4216,7 @@
       "id": "d374",
       "name": "ARZUV BABANİYAZOV",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3872,6 +4225,7 @@
       "id": "d375",
       "name": "ASYA NİLGÜN GİDER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3880,6 +4234,7 @@
       "id": "d376",
       "name": "AYÇA AYYILDIZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3888,6 +4243,7 @@
       "id": "d377",
       "name": "AYÇA GÜLLENCİ",
       "phone": "",
+      "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -3896,6 +4252,7 @@
       "id": "d378",
       "name": "AYMAN AJAM",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3904,22 +4261,16 @@
       "id": "d379",
       "name": "AYNUR SUNKUR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
-    },
-    {
-      "id": "d380",
-      "name": "AYNUR YILMAZ",
-      "phone": "",
-      "unit": "RADYOLOJİ BANKO",
-      "group": "Hemşirelik & Yatan",
       "fav": false
     },
     {
       "id": "d381",
       "name": "AYŞE ŞİMŞEK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3928,6 +4279,7 @@
       "id": "d382",
       "name": "BAHADIR YENİCİ",
       "phone": "",
+      "phone2": "",
       "unit": "BANKO",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3936,6 +4288,7 @@
       "id": "d383",
       "name": "BAHAR CESUR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3944,6 +4297,7 @@
       "id": "d384",
       "name": "BAKHTYGUL KİMSON",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3952,6 +4306,7 @@
       "id": "d385",
       "name": "BAŞAR ÖZGÜN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3960,6 +4315,7 @@
       "id": "d386",
       "name": "BATIKAN ŞENGÜL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3968,6 +4324,7 @@
       "id": "d387",
       "name": "BAYRAM YAVUZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3976,6 +4333,7 @@
       "id": "d388",
       "name": "BERKAY LORT",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -3984,6 +4342,7 @@
       "id": "d389",
       "name": "BERNA BAYRAK KÖKALP",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -3992,6 +4351,7 @@
       "id": "d390",
       "name": "BERRİN ARSLANOĞLU BAKAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4000,6 +4360,7 @@
       "id": "d391",
       "name": "BETÜL GÜLÜSTAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4008,6 +4369,7 @@
       "id": "d392",
       "name": "BEYZA UYGUN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4016,6 +4378,7 @@
       "id": "d393",
       "name": "BEYZANUR AYGÜN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4024,6 +4387,7 @@
       "id": "d394",
       "name": "BİLAL ÇELİK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4032,6 +4396,7 @@
       "id": "d395",
       "name": "BİLGE NAZ DURSUN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4040,6 +4405,7 @@
       "id": "d396",
       "name": "BURAK BADUR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4048,6 +4414,7 @@
       "id": "d397",
       "name": "BURAK GÜRLEYEN",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -4056,6 +4423,7 @@
       "id": "d398",
       "name": "BURAK İLKİM YÜKSEL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4064,6 +4432,7 @@
       "id": "d399",
       "name": "BURAK KULAKSIZ",
       "phone": "",
+      "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
       "fav": false
@@ -4072,6 +4441,7 @@
       "id": "d400",
       "name": "BURAK DOLANBAY",
       "phone": "",
+      "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -4080,6 +4450,7 @@
       "id": "d401",
       "name": "BURAK PERK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4088,6 +4459,7 @@
       "id": "d402",
       "name": "BURÇAK MERİÇ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4096,6 +4468,7 @@
       "id": "d403",
       "name": "BURCU DAMARYOLU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4104,6 +4477,7 @@
       "id": "d404",
       "name": "BURHAN BARIŞ",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
       "fav": false
@@ -4112,6 +4486,7 @@
       "id": "d405",
       "name": "BUSE GÜNER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4120,6 +4495,7 @@
       "id": "d406",
       "name": "BUSE SEVİNÇ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4128,6 +4504,7 @@
       "id": "d407",
       "name": "BUSE USUL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4136,6 +4513,7 @@
       "id": "d408",
       "name": "BÜŞRA AYDOĞDU",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4144,6 +4522,7 @@
       "id": "d409",
       "name": "BÜŞRA BEKCİ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4152,6 +4531,7 @@
       "id": "d410",
       "name": "BÜŞRA KANDEMİR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4160,6 +4540,7 @@
       "id": "d411",
       "name": "BÜŞRA TOYGAR",
       "phone": "",
+      "phone2": "",
       "unit": "3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4168,6 +4549,7 @@
       "id": "d412",
       "name": "CABİR ATAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4176,6 +4558,7 @@
       "id": "d413",
       "name": "CANER PALUT",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4184,6 +4567,7 @@
       "id": "d414",
       "name": "CEM ATASEVER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4192,6 +4576,7 @@
       "id": "d415",
       "name": "CEMRE GÜL ALICI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4200,6 +4585,7 @@
       "id": "d416",
       "name": "DAMLA ÇELİK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4208,6 +4594,7 @@
       "id": "d417",
       "name": "DAMLA GÜNDOĞDU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4216,6 +4603,7 @@
       "id": "d418",
       "name": "DAMLA NUR KÖKSALAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4224,6 +4612,7 @@
       "id": "d419",
       "name": "DEMİRHAN YÜCEPUR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4232,6 +4621,7 @@
       "id": "d420",
       "name": "DENİZ ÇAMKAYA ŞEN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4240,6 +4630,7 @@
       "id": "d421",
       "name": "DENİZ ÇİLİNGER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4248,6 +4639,7 @@
       "id": "d422",
       "name": "DENİZ DALAYMAN",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
       "fav": false
@@ -4256,6 +4648,7 @@
       "id": "d423",
       "name": "DERYA GÜRSES",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4264,6 +4657,7 @@
       "id": "d424",
       "name": "DİLARA UZUN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4272,6 +4666,7 @@
       "id": "d425",
       "name": "DİLAY KANLICA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4280,6 +4675,7 @@
       "id": "d426",
       "name": "DİLEK ALTUNKIRAN",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4288,6 +4684,7 @@
       "id": "d427",
       "name": "DİLYA BAYJANOVA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4296,6 +4693,7 @@
       "id": "d428",
       "name": "DİNARA TALİPOVA",
       "phone": "",
+      "phone2": "",
       "unit": "RUSÇA TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -4304,6 +4702,7 @@
       "id": "d429",
       "name": "DİYAR JORAYEV",
       "phone": "",
+      "phone2": "",
       "unit": "RUSÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -4312,6 +4711,7 @@
       "id": "d430",
       "name": "DOÇ DR AYDIN BORA",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
       "fav": false
@@ -4320,6 +4720,7 @@
       "id": "d431",
       "name": "DOĞUŞ EREZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4328,6 +4729,7 @@
       "id": "d432",
       "name": "DR. AHMET BAŞEL",
       "phone": "",
+      "phone2": "",
       "unit": "GYB",
       "group": "Doktorlar",
       "fav": false
@@ -4336,6 +4738,7 @@
       "id": "d433",
       "name": "DR. KÜRŞAT KARA",
       "phone": "",
+      "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -4344,6 +4747,7 @@
       "id": "d434",
       "name": "DR. ÖZGE ARPAÇ",
       "phone": "",
+      "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -4352,6 +4756,7 @@
       "id": "d435",
       "name": "EBRU ŞAHİN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4360,6 +4765,7 @@
       "id": "d436",
       "name": "ECE ERÇOBAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4368,6 +4774,7 @@
       "id": "d437",
       "name": "ECE KORKMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "ACİL BANKO",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4376,6 +4783,7 @@
       "id": "d438",
       "name": "ECE YILMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4384,6 +4792,7 @@
       "id": "d439",
       "name": "ECEM COŞKUN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4392,6 +4801,7 @@
       "id": "d440",
       "name": "EDA AKDOĞAN",
       "phone": "",
+      "phone2": "",
       "unit": "POLİKLİNİK ÜRODİNAMİ HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4400,6 +4810,7 @@
       "id": "d441",
       "name": "EDA APAK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4408,6 +4819,7 @@
       "id": "d442",
       "name": "EDA KAHVECİ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4416,6 +4828,7 @@
       "id": "d443",
       "name": "ELDAR VALİYEV",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Doktorlar",
       "fav": false
@@ -4424,6 +4837,7 @@
       "id": "d444",
       "name": "ELİF ARSLANOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4432,6 +4846,7 @@
       "id": "d445",
       "name": "ELİF SOYSAL ÖZKAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4440,6 +4855,7 @@
       "id": "d446",
       "name": "ELZEM AĞTAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "ANESTEZİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -4448,6 +4864,7 @@
       "id": "d447",
       "name": "EMİLJANA SULAJ",
       "phone": "",
+      "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -4456,6 +4873,7 @@
       "id": "d448",
       "name": "EMİNE GÜLAY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4464,6 +4882,7 @@
       "id": "d449",
       "name": "EMİNE VARLI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4472,6 +4891,7 @@
       "id": "d450",
       "name": "EMRAH DANKIR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4480,6 +4900,7 @@
       "id": "d451",
       "name": "EMRE COŞKUN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4488,6 +4909,7 @@
       "id": "d452",
       "name": "EMRE KAPLAN",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -4496,6 +4918,7 @@
       "id": "d453",
       "name": "EMRE SARTAKAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4504,6 +4927,7 @@
       "id": "d454",
       "name": "ERCAN KURT",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4512,6 +4936,7 @@
       "id": "d455",
       "name": "ERDİNÇ BEDER",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4520,6 +4945,7 @@
       "id": "d456",
       "name": "ESMA AYDIN",
       "phone": "",
+      "phone2": "",
       "unit": "ORTOPEDİ",
       "group": "Poliklinikler",
       "fav": false
@@ -4528,6 +4954,7 @@
       "id": "d457",
       "name": "EZGİ ACAR",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4536,6 +4963,7 @@
       "id": "d458",
       "name": "EZGİSU TAÇALAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4544,6 +4972,7 @@
       "id": "d459",
       "name": "FAISAL SAYED SABIR",
       "phone": "",
+      "phone2": "",
       "unit": "ARAPÇA TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -4552,6 +4981,7 @@
       "id": "d460",
       "name": "FATİH KARABULUT",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4560,6 +4990,7 @@
       "id": "d461",
       "name": "FATİH KOÇ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4568,6 +4999,7 @@
       "id": "d462",
       "name": "FATMA ŞAZİYE ŞENGÜL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4576,6 +5008,7 @@
       "id": "d463",
       "name": "FATMANUR KARA",
       "phone": "",
+      "phone2": "",
       "unit": "GYB",
       "group": "Poliklinikler",
       "fav": false
@@ -4584,6 +5017,7 @@
       "id": "d465",
       "name": "FERHAT TEMİZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4592,6 +5026,7 @@
       "id": "d466",
       "name": "FİLİZ AKKUŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4600,6 +5035,7 @@
       "id": "d467",
       "name": "FUMİKO JAPONCA",
       "phone": "",
+      "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -4608,6 +5044,7 @@
       "id": "d468",
       "name": "FURKAN KABADAYI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4616,6 +5053,7 @@
       "id": "d469",
       "name": "GANİ TAMER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4624,6 +5062,7 @@
       "id": "d470",
       "name": "GİZEM KARATAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "SUPERVİSOR HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4632,6 +5071,7 @@
       "id": "d471",
       "name": "GÖZDE SERTKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4640,6 +5080,7 @@
       "id": "d472",
       "name": "GÜLŞAH ERTUK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4648,6 +5089,7 @@
       "id": "d473",
       "name": "GÜLSEREN BAYRAKTAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4656,6 +5098,7 @@
       "id": "d474",
       "name": "GÜLSÜN SARIKAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4664,6 +5107,7 @@
       "id": "d475",
       "name": "GÜNGÖR ÜZÜM",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4672,6 +5116,7 @@
       "id": "d476",
       "name": "HACER BAYRAKTAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4680,6 +5125,7 @@
       "id": "d477",
       "name": "HAKAN YILDIRIM",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4688,6 +5134,7 @@
       "id": "d478",
       "name": "HALE ŞAHİN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4696,6 +5143,7 @@
       "id": "d479",
       "name": "HANDAN ARSLAN GÜNDEYER",
       "phone": "",
+      "phone2": "",
       "unit": "ORTOPEDİ ASİSTAN",
       "group": "Yönetim & İdari",
       "fav": false
@@ -4704,6 +5152,7 @@
       "id": "d480",
       "name": "HANİFE ÇARPAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4712,6 +5161,7 @@
       "id": "d481",
       "name": "HARUN ÇAKIROĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4720,6 +5170,7 @@
       "id": "d482",
       "name": "HARUN MEKİKLİ",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -4728,6 +5179,7 @@
       "id": "d483",
       "name": "HASAN ERBAY",
       "phone": "",
+      "phone2": "",
       "unit": "ELEKTRİK TEKNİSYENİ",
       "group": "Poliklinikler",
       "fav": false
@@ -4736,6 +5188,7 @@
       "id": "d484",
       "name": "HASAN SARIKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Misafir & VIP",
       "fav": false
@@ -4744,6 +5197,7 @@
       "id": "d485",
       "name": "HATİCE YILDIRIM",
       "phone": "",
+      "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
       "fav": false
@@ -4752,6 +5206,7 @@
       "id": "d486",
       "name": "HAYRİ ÇİÇEK",
       "phone": "",
+      "phone2": "",
       "unit": "ŞOFÖR",
       "group": "Misafir & VIP",
       "fav": false
@@ -4760,6 +5215,7 @@
       "id": "d487",
       "name": "HAZAL BAĞCI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4768,6 +5224,7 @@
       "id": "d488",
       "name": "HİLAL KARA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4776,6 +5233,7 @@
       "id": "d489",
       "name": "HİLAL TURGAY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4784,6 +5242,7 @@
       "id": "d490",
       "name": "HÜLYA DOKUR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4792,6 +5251,7 @@
       "id": "d491",
       "name": "HÜMAY NUR SÜLEYMANOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4800,6 +5260,7 @@
       "id": "d492",
       "name": "HÜSEYİN DURMUŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4808,6 +5269,7 @@
       "id": "d493",
       "name": "HÜSEYİN YAŞAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4816,6 +5278,7 @@
       "id": "d494",
       "name": "İBRAHİM BULĞAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4824,6 +5287,7 @@
       "id": "d495",
       "name": "İBRAHİM ONUR CAN",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4832,6 +5296,7 @@
       "id": "d496",
       "name": "İBRAHİM VEYSEL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4840,6 +5305,7 @@
       "id": "d497",
       "name": "İLAYDA ANKUN",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4848,6 +5314,7 @@
       "id": "d498",
       "name": "İLAYDA YETENEL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4856,6 +5323,7 @@
       "id": "d499",
       "name": "İREM BATTAL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4864,6 +5332,7 @@
       "id": "d500",
       "name": "İREM CEYLAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4872,6 +5341,7 @@
       "id": "d501",
       "name": "İREM NUR DUMAN",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -4880,6 +5350,7 @@
       "id": "d502",
       "name": "İREM OKAY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4888,6 +5359,7 @@
       "id": "d503",
       "name": "İREMNUR HACISALİHOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "LABORATUVAR",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -4896,6 +5368,7 @@
       "id": "d504",
       "name": "IŞIL KALE",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4904,6 +5377,7 @@
       "id": "d505",
       "name": "İSMİNUR DAKAK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4912,6 +5386,7 @@
       "id": "d506",
       "name": "İSS LİV",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4920,6 +5395,7 @@
       "id": "d507",
       "name": "İZZETTİN ARTUT",
       "phone": "",
+      "phone2": "",
       "unit": "GÖZ",
       "group": "Poliklinikler",
       "fav": false
@@ -4928,6 +5404,7 @@
       "id": "d508",
       "name": "KADER DEMİR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4936,6 +5413,7 @@
       "id": "d509",
       "name": "KADER YEMEN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4944,6 +5422,7 @@
       "id": "d510",
       "name": "KADİR ABUL ASİSTAN",
       "phone": "",
+      "phone2": "",
       "unit": "ASİSTAN",
       "group": "Yönetim & İdari",
       "fav": false
@@ -4952,6 +5431,7 @@
       "id": "d512",
       "name": "KADİR CEYHAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4960,6 +5440,7 @@
       "id": "d513",
       "name": "KADİR YAVUZ",
       "phone": "",
+      "phone2": "",
       "unit": "BİYOMEDİKAL",
       "group": "Poliklinikler",
       "fav": false
@@ -4968,6 +5449,7 @@
       "id": "d514",
       "name": "KAMER FUNDA YAĞAN",
       "phone": "",
+      "phone2": "",
       "unit": "DAHİLİYE HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -4976,6 +5458,7 @@
       "id": "d515",
       "name": "KARDELEN ACAY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4984,6 +5467,7 @@
       "id": "d516",
       "name": "KASIM DEMİRKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -4992,6 +5476,7 @@
       "id": "d517",
       "name": "KATERİNA ÖZKARA",
       "phone": "",
+      "phone2": "",
       "unit": "RUSÇA TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -5000,6 +5485,7 @@
       "id": "d519",
       "name": "KEREM KURTULUŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5008,6 +5494,7 @@
       "id": "d520",
       "name": "KEVSER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5016,6 +5503,7 @@
       "id": "d521",
       "name": "KÜBRA ELMAS",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5024,6 +5512,7 @@
       "id": "d522",
       "name": "KÜBRA KOÇ",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5032,6 +5521,7 @@
       "id": "d523",
       "name": "KÜBRA SAVAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5040,6 +5530,7 @@
       "id": "d524",
       "name": "KUTAY HOŞ",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -5048,6 +5539,7 @@
       "id": "d525",
       "name": "LİV CHECKUP HEMŞİRE BEDRİYE",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5056,6 +5548,7 @@
       "id": "d526",
       "name": "LİV ULUS",
       "phone": "902129998213902129998514902129",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5064,6 +5557,7 @@
       "id": "d527",
       "name": "MAKBULE EKER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5072,6 +5566,7 @@
       "id": "d528",
       "name": "MEHMET ANTEPLİ",
       "phone": "",
+      "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -5080,6 +5575,7 @@
       "id": "d529",
       "name": "MEHMET HOCA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5088,6 +5584,7 @@
       "id": "d530",
       "name": "MELİS KAYA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5096,6 +5593,7 @@
       "id": "d531",
       "name": "MERDAN FAYDA",
       "phone": "",
+      "phone2": "",
       "unit": "PROF DR",
       "group": "Poliklinikler",
       "fav": false
@@ -5104,6 +5602,7 @@
       "id": "d532",
       "name": "MERİ İSTİROTİ",
       "phone": "",
+      "phone2": "",
       "unit": "KOORDİNATOR",
       "group": "Poliklinikler",
       "fav": false
@@ -5112,6 +5611,7 @@
       "id": "d533",
       "name": "MERT ARSLAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5120,6 +5620,7 @@
       "id": "d534",
       "name": "MERT ŞEN",
       "phone": "",
+      "phone2": "",
       "unit": "STAJYER",
       "group": "Poliklinikler",
       "fav": false
@@ -5128,6 +5629,7 @@
       "id": "d535",
       "name": "MERT YOLCU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5136,6 +5638,7 @@
       "id": "d536",
       "name": "MERVE AY",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOJİ BANKO",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5144,6 +5647,7 @@
       "id": "d537",
       "name": "MERVE DEMİRTAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5152,6 +5656,7 @@
       "id": "d538",
       "name": "MERVE GÖKSÜ",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5160,6 +5665,7 @@
       "id": "d539",
       "name": "MERVE KADI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5168,6 +5674,7 @@
       "id": "d540",
       "name": "MERVE KIRAÇ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5176,6 +5683,7 @@
       "id": "d541",
       "name": "MERVE YILMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5184,6 +5692,7 @@
       "id": "d542",
       "name": "MERYEM BAYIR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5192,6 +5701,7 @@
       "id": "d543",
       "name": "MEVLÜDE ÇALIK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5200,6 +5710,7 @@
       "id": "d544",
       "name": "MİTHAT ÖNDER",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5208,6 +5719,7 @@
       "id": "d545",
       "name": "MUHARREM ŞAHİN",
       "phone": "",
+      "phone2": "",
       "unit": "ŞOFÖR",
       "group": "Poliklinikler",
       "fav": false
@@ -5216,6 +5728,7 @@
       "id": "d546",
       "name": "MUHİDDİN KUGUOGLU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5224,6 +5737,7 @@
       "id": "d547",
       "name": "MURAT BEY",
       "phone": "",
+      "phone2": "",
       "unit": "TERCÜMAN ARNAVUTÇA",
       "group": "Misafir & VIP",
       "fav": false
@@ -5232,6 +5746,7 @@
       "id": "d548",
       "name": "MUSTAFA AKSOY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5240,6 +5755,7 @@
       "id": "d549",
       "name": "NAZMİYE BÜŞRA DEMİRBAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5248,6 +5764,7 @@
       "id": "d550",
       "name": "NEBAHAT ŞENOL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5256,6 +5773,7 @@
       "id": "d551",
       "name": "NECDET DALGIÇ",
       "phone": "",
+      "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
       "fav": false
@@ -5264,6 +5782,7 @@
       "id": "d552",
       "name": "NEDRET GÜLER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5272,6 +5791,7 @@
       "id": "d553",
       "name": "NEHİR AYTUĞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5280,6 +5800,7 @@
       "id": "d554",
       "name": "NESLİHAN HANIM",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5288,6 +5809,7 @@
       "id": "d555",
       "name": "NESRİN KÖPRÜLÜ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5296,6 +5818,7 @@
       "id": "d556",
       "name": "NİHAL GOKBÜRİ",
       "phone": "",
+      "phone2": "",
       "unit": "ZEMİN KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5304,6 +5827,7 @@
       "id": "d557",
       "name": "NİLAY YILMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "NİCU",
       "group": "Poliklinikler",
       "fav": false
@@ -5312,6 +5836,7 @@
       "id": "d558",
       "name": "NİLGÜN ERDİVAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5320,6 +5845,7 @@
       "id": "d559",
       "name": "NUR KAVLAK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5328,6 +5854,7 @@
       "id": "d560",
       "name": "NUR ÖZŞAHİN",
       "phone": "",
+      "phone2": "",
       "unit": "DR",
       "group": "Poliklinikler",
       "fav": false
@@ -5336,6 +5863,7 @@
       "id": "d561",
       "name": "NUR SENA GÜNEL",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5344,6 +5872,7 @@
       "id": "d562",
       "name": "NURAGHA KHALİLOV",
       "phone": "",
+      "phone2": "",
       "unit": "RUSCA",
       "group": "Poliklinikler",
       "fav": false
@@ -5352,6 +5881,7 @@
       "id": "d563",
       "name": "NURAN AKAY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5360,6 +5890,7 @@
       "id": "d564",
       "name": "NURAN GARİPCAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5368,6 +5899,7 @@
       "id": "d565",
       "name": "NURSEN SEYİTOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5376,6 +5908,7 @@
       "id": "d566",
       "name": "NURULLAH ÇIKMA",
       "phone": "",
+      "phone2": "",
       "unit": "ACİL",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -5384,6 +5917,7 @@
       "id": "d567",
       "name": "OĞUZ KAYA",
       "phone": "",
+      "phone2": "",
       "unit": "MÜDÜR",
       "group": "Yönetim & İdari",
       "fav": false
@@ -5392,6 +5926,7 @@
       "id": "d568",
       "name": "OĞUZHAN DESTİRECİ",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5400,6 +5935,7 @@
       "id": "d569",
       "name": "OĞUZHAN KİBAR",
       "phone": "",
+      "phone2": "",
       "unit": "3. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5408,6 +5944,7 @@
       "id": "d570",
       "name": "OKAN SARAY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5416,6 +5953,7 @@
       "id": "d571",
       "name": "ONURCAN CINBIZ",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -5424,6 +5962,7 @@
       "id": "d572",
       "name": "OSMAN BİLİCİLER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5432,6 +5971,7 @@
       "id": "d573",
       "name": "OSMAN NURİ BAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5440,6 +5980,7 @@
       "id": "d574",
       "name": "ÖZGÜN DENİZ AKŞAHİN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5448,6 +5989,7 @@
       "id": "d575",
       "name": "ÖZLEM DEMİRALAY",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5456,6 +5998,7 @@
       "id": "d576",
       "name": "PEMBE ÇALIK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5464,6 +6007,7 @@
       "id": "d577",
       "name": "PERİZADE YILMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5472,6 +6016,7 @@
       "id": "d578",
       "name": "RADYOLOG BURCU YETİMOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
       "fav": false
@@ -5480,6 +6025,7 @@
       "id": "d579",
       "name": "RAMA TERCÜMAN",
       "phone": "",
+      "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -5488,6 +6034,7 @@
       "id": "d580",
       "name": "RAMAZAN ASLAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5496,6 +6043,7 @@
       "id": "d581",
       "name": "RAOUİA FATMA ZOHRA MADANİ",
       "phone": "",
+      "phone2": "",
       "unit": "FRANSIZCA TERCÜMAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -5504,6 +6052,7 @@
       "id": "d582",
       "name": "RUÇHAN HİLMİ CÜNİ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5512,6 +6061,7 @@
       "id": "d583",
       "name": "RÜMEYSA KARAKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "YATIŞ",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5520,6 +6070,7 @@
       "id": "d584",
       "name": "SABAHATTİN EVİN",
       "phone": "",
+      "phone2": "",
       "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
       "group": "Yönetim & İdari",
       "fav": false
@@ -5528,6 +6079,7 @@
       "id": "d585",
       "name": "SABRİYE OZCAN",
       "phone": "",
+      "phone2": "",
       "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false
@@ -5536,6 +6088,7 @@
       "id": "d586",
       "name": "SADIK ÖNAL",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5544,6 +6097,7 @@
       "id": "d587",
       "name": "SAMAYA RASULOVA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5552,6 +6106,7 @@
       "id": "d588",
       "name": "SAMİR TERCUMAN",
       "phone": "",
+      "phone2": "",
       "unit": "İNGİLİZCE, FRANSIZCA",
       "group": "Misafir & VIP",
       "fav": false
@@ -5560,6 +6115,7 @@
       "id": "d589",
       "name": "SARE DURAK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5568,6 +6124,7 @@
       "id": "d590",
       "name": "SAYİT COŞGUN",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -5576,6 +6133,7 @@
       "id": "d591",
       "name": "SEÇİL BELLİ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5584,6 +6142,7 @@
       "id": "d592",
       "name": "SEDANUR DEMİR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5592,6 +6151,7 @@
       "id": "d593",
       "name": "SEDEF ÇÖRTÜK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5600,6 +6160,7 @@
       "id": "d594",
       "name": "SEFA BÜYÜKKAYIKÇI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5608,6 +6169,7 @@
       "id": "d595",
       "name": "ŞEHİDDİN BULUT",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5616,6 +6178,7 @@
       "id": "d596",
       "name": "SELMA ÇELENK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5624,6 +6187,7 @@
       "id": "d597",
       "name": "SEMİH ÜSTÜN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5632,6 +6196,7 @@
       "id": "d598",
       "name": "SEMRA KURTULDU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5640,6 +6205,7 @@
       "id": "d599",
       "name": "SENA HAYAR",
       "phone": "",
+      "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -5648,6 +6214,7 @@
       "id": "d600",
       "name": "SENA TEKİN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5656,6 +6223,7 @@
       "id": "d601",
       "name": "SERCAN TAŞHAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5664,6 +6232,7 @@
       "id": "d602",
       "name": "SERDAR VALE",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5672,6 +6241,7 @@
       "id": "d603",
       "name": "SERHAT GÜLER",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5680,6 +6250,7 @@
       "id": "d604",
       "name": "SERKAN EROL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5688,6 +6259,7 @@
       "id": "d605",
       "name": "SEVAL ÇAPAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5696,6 +6268,7 @@
       "id": "d606",
       "name": "SEVGİ KAZANÇ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5704,6 +6277,7 @@
       "id": "d607",
       "name": "SEVGİ YAĞLI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5712,6 +6286,7 @@
       "id": "d608",
       "name": "ŞEVVAL NAS",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5720,6 +6295,7 @@
       "id": "d609",
       "name": "ŞEYDA ÇATAK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5728,6 +6304,7 @@
       "id": "d610",
       "name": "SİBEL SONGUR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5736,6 +6313,7 @@
       "id": "d611",
       "name": "SİNEM AĞCA",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -5744,6 +6322,7 @@
       "id": "d612",
       "name": "ŞİRİN TAŞKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5752,6 +6331,7 @@
       "id": "d613",
       "name": "SILA KARDEŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5760,6 +6340,7 @@
       "id": "d614",
       "name": "SILA TOKLUCU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5768,6 +6349,7 @@
       "id": "d615",
       "name": "SONGÜL İNEL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5776,6 +6358,7 @@
       "id": "d616",
       "name": "ŞÜKRAN CANSU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5784,6 +6367,7 @@
       "id": "d617",
       "name": "ŞURA NUR TAŞGIN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5792,6 +6376,7 @@
       "id": "d618",
       "name": "TAHA ABDULLAH UÇAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5800,6 +6385,7 @@
       "id": "d619",
       "name": "TALHA TEZCAN",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5808,6 +6394,7 @@
       "id": "d620",
       "name": "TALHA UZUN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5816,6 +6403,7 @@
       "id": "d621",
       "name": "TANSU TURAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5824,6 +6412,7 @@
       "id": "d622",
       "name": "TAYFUN ATAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5832,6 +6421,7 @@
       "id": "d623",
       "name": "UĞUR HAKLAR ASİSTAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Yönetim & İdari",
       "fav": false
@@ -5840,6 +6430,7 @@
       "id": "d624",
       "name": "ÜLKER SALİ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5848,6 +6439,7 @@
       "id": "d625",
       "name": "ULUS GECE MÜDÜRÜ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Yönetim & İdari",
       "fav": false
@@ -5856,6 +6448,7 @@
       "id": "d626",
       "name": "UMAY TİKTAŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5864,6 +6457,7 @@
       "id": "d627",
       "name": "UMUT BUÇUKCU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5872,6 +6466,7 @@
       "id": "d628",
       "name": "UMUT KAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5880,6 +6475,7 @@
       "id": "d629",
       "name": "UMUT KOCAMIZRAK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5888,6 +6484,7 @@
       "id": "d630",
       "name": "UMUT TEKNİK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5896,6 +6493,7 @@
       "id": "d631",
       "name": "UTKU KARAALP",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5904,6 +6502,7 @@
       "id": "d632",
       "name": "VALERİ BAHAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5912,6 +6511,7 @@
       "id": "d633",
       "name": "VEDAT EROL",
       "phone": "",
+      "phone2": "",
       "unit": "ŞOFÖR",
       "group": "Misafir & VIP",
       "fav": false
@@ -5920,6 +6520,7 @@
       "id": "d634",
       "name": "VOLKAN KİŞİN",
       "phone": "",
+      "phone2": "",
       "unit": "MUHABERAT DEPO",
       "group": "Yönetim & İdari",
       "fav": false
@@ -5928,6 +6529,7 @@
       "id": "d635",
       "name": "VOLKAN ŞANLI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5936,6 +6538,7 @@
       "id": "d636",
       "name": "VOLKAN YILMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Misafir & VIP",
       "fav": false
@@ -5944,6 +6547,7 @@
       "id": "d637",
       "name": "YAĞMUR ARSLAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5952,6 +6556,7 @@
       "id": "d638",
       "name": "YAĞMUR MELEK SARI",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -5960,6 +6565,7 @@
       "id": "d639",
       "name": "YAKUP SÖKMEN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5968,6 +6574,7 @@
       "id": "d640",
       "name": "YASEMİN ÇINAR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5976,6 +6583,7 @@
       "id": "d641",
       "name": "YASEMİN HEMŞİRE",
       "phone": "",
+      "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false
@@ -5984,6 +6592,7 @@
       "id": "d642",
       "name": "YASEMİN KATRANCI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -5992,6 +6601,7 @@
       "id": "d643",
       "name": "YASİN AYDIN",
       "phone": "",
+      "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
       "fav": false
@@ -6000,6 +6610,7 @@
       "id": "d644",
       "name": "YASİN KARAKUŞ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6008,6 +6619,7 @@
       "id": "d645",
       "name": "YEKTA TEMEL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6016,6 +6628,7 @@
       "id": "d646",
       "name": "YENER İNCE",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6024,6 +6637,7 @@
       "id": "d647",
       "name": "YEŞER DORMAN",
       "phone": "",
+      "phone2": "",
       "unit": "GYB DOKTOR",
       "group": "Doktorlar",
       "fav": false
@@ -6032,6 +6646,7 @@
       "id": "d649",
       "name": "YUNUS KILIÇ",
       "phone": "",
+      "phone2": "",
       "unit": "TEKNİK",
       "group": "Poliklinikler",
       "fav": false
@@ -6040,6 +6655,7 @@
       "id": "d650",
       "name": "YÜSRA GÖKSEL",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6048,6 +6664,7 @@
       "id": "d651",
       "name": "YÜSRA YAZICI",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6056,6 +6673,7 @@
       "id": "d652",
       "name": "YUSUF KAPLAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6064,6 +6682,7 @@
       "id": "d653",
       "name": "YUSUFCAN ÖZDEMİR",
       "phone": "",
+      "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -6072,6 +6691,7 @@
       "id": "d654",
       "name": "ZAHİDE AYDIN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6080,6 +6700,7 @@
       "id": "d655",
       "name": "ZAHİDE YAPICIOĞLU",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6088,6 +6709,7 @@
       "id": "d656",
       "name": "ZEHRA LİV",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6096,6 +6718,7 @@
       "id": "d657",
       "name": "ZEHRA YILMAZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6104,6 +6727,7 @@
       "id": "d658",
       "name": "ZEKİYE ÇİÇEK",
       "phone": "",
+      "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
       "fav": false
@@ -6112,6 +6736,7 @@
       "id": "d659",
       "name": "ZERNİŞAN EKİZ",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6120,6 +6745,7 @@
       "id": "d660",
       "name": "ZEYNEP ARSLAN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6128,6 +6754,7 @@
       "id": "d661",
       "name": "ZEYNEP BALCI",
       "phone": "",
+      "phone2": "",
       "unit": "NÜKLEER TIP",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -6136,6 +6763,7 @@
       "id": "d662",
       "name": "ZEYNEP BEKTEMUR",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6144,6 +6772,7 @@
       "id": "d663",
       "name": "ZEYNEP APAYDIN",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
@@ -6152,6 +6781,7 @@
       "id": "d664",
       "name": "ZEYNEP KARAKAYA",
       "phone": "",
+      "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
       "fav": false
@@ -6160,6 +6790,7 @@
       "id": "d665",
       "name": "ZEYNEP YÜTÜK",
       "phone": "",
+      "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
       "fav": false
