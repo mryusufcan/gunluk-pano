@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T14:53:47.233Z",
+  "updatedAt": "2026-11-20T15:06:21.835Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -544,8 +544,8 @@
         }
       ],
       "meal": {
-        "text": "NANELİ YOĞURT ÇORBASI\nETLİ NOHUT\nŞEHRİYELİ PİRİNÇ PİLAV\nMANDALİNA\nHAVUÇ + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + TURŞU",
-        "updatedAt": 1794767704393
+        "text": "NANELİ YOĞURT ÇORBASI\nETLİ KURU FASULYE\nŞEHRİYELİ PİRİNÇ PİLAV\nMANDALİNA\nHAVUÇ + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + TURŞU",
+        "updatedAt": 1795187179655
       }
     },
     "2026-11-21": {
@@ -1463,12 +1463,28 @@
       "id": "d55",
       "name": "CİHAN YARENOĞLU",
       "phone": "0530 948 27 87",
+      "unit": "ULAŞIM · TÜRKÇE",
+      "group": "Misafir & VIP",
+      "fav": false
+    },
+    {
+      "id": "d56",
+      "name": "CİHAN YARENOĞLU",
+      "phone": "0530 948 27 87",
       "unit": "UHM TRANSFER SORUMLUSU",
       "group": "Misafir & VIP",
       "fav": false
     },
     {
       "id": "d57",
+      "name": "CLAUDİA ALİNA AŞAR",
+      "phone": "0530 171 58 77",
+      "unit": "ROMANYA (2 KİŞİ) · ROMENCE",
+      "group": "Misafir & VIP",
+      "fav": false
+    },
+    {
+      "id": "d58",
       "name": "CLAUDİA ALİNA AŞAR",
       "phone": "0530 171 58 77",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ROMENCE",
@@ -2887,6 +2903,14 @@
       "id": "d237",
       "name": "HEPŞEN ALİ",
       "phone": "0536 994 65 29",
+      "unit": "BULGARİSTAN (3 KİŞİ) · BULGARCA",
+      "group": "Misafir & VIP",
+      "fav": false
+    },
+    {
+      "id": "d238",
+      "name": "HEPŞEN ALİ",
+      "phone": "0536 994 65 29",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
       "group": "Misafir & VIP",
       "fav": false
@@ -3183,7 +3207,7 @@
       "id": "d275",
       "name": "MİRAY ÖZTÜRK",
       "phone": "0530 242 22 12",
-      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
+      "unit": "ARNAVUTÇA -BOŞNAKÇA - SIRPÇA",
       "group": "Misafir & VIP",
       "fav": false
     },
@@ -3193,6 +3217,14 @@
       "phone": "8196",
       "unit": "BİYOKİMYA LABORATUVARI",
       "group": "Görüntüleme & Lab",
+      "fav": false
+    },
+    {
+      "id": "d277",
+      "name": "MİRAY ÖZTÜRK",
+      "phone": "0530 242 22 12",
+      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
+      "group": "Misafir & VIP",
       "fav": false
     },
     {
@@ -3240,6 +3272,14 @@
       "name": "NEDRET NEZHDET GÜLER",
       "phone": "0530 526 28 16",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
+      "group": "Misafir & VIP",
+      "fav": false
+    },
+    {
+      "id": "d284",
+      "name": "NEDRET NEZHDET GÜLER",
+      "phone": "0530 526 28 16",
+      "unit": "BULGARCA",
       "group": "Misafir & VIP",
       "fav": false
     },
@@ -3503,6 +3543,14 @@
       "id": "d317",
       "name": "SAMİD SHUKUROV",
       "phone": "0530 510 78 12",
+      "unit": "AZERBAYCAN (1 KİŞİ) · AZERİCE RUSÇA",
+      "group": "Misafir & VIP",
+      "fav": false
+    },
+    {
+      "id": "d318",
+      "name": "SAMİD SHUKUROV",
+      "phone": "0530 510 78 12",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU -AZERİCE-R",
       "group": "Misafir & VIP",
       "fav": false
@@ -3581,6 +3629,14 @@
     },
     {
       "id": "d328",
+      "name": "TATİANA URUM",
+      "phone": "0539 927 96 92",
+      "unit": "RUSÇA- İNGİLİZCE",
+      "group": "Misafir & VIP",
+      "fav": false
+    },
+    {
+      "id": "d329",
       "name": "TATİANA URUM",
       "phone": "0539 927 96 92",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - RUSCA -",
