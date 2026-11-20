@@ -37,7 +37,7 @@ function baseContent() {
     settings: { title: "Radyoloji Panosu", dept: "Görüntüleme" },
     directory: [
       { id: "d1", name: "Radyoloji Sekreterliği", phone: "1234", unit: "Sekreterya" },
-      { id: "d2", name: "Uzm. Dr. Ece Kaya", phone: "0532 111 22 33", unit: "Radyoloji" },
+      { id: "d2", name: "Uzm. Dr. Ece Kaya", phone: "0532 111 22 33", phone2: "8278", unit: "Radyoloji" },
       { id: "d3", name: "dr.ayşe  yılmaz", phone: "+90 532 111 22 33", unit: "Radyoloji" },
     ],
     days: {
@@ -203,6 +203,13 @@ async function main() {
   check("rehber araması başlıkta", !doc.getElementById("hero-search").hidden);
   check("arama kutusu başlık içinde", Boolean(doc.querySelector(".hero #directory-search")));
   check("arama düğmesi sonuçta", Boolean(q(doc, "#directory-list .call-btn[href^='tel:']")));
+  const dirSearch = doc.getElementById("directory-search");
+  dirSearch.value = "kaya ece";
+  dirSearch.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  check("kelime kelime arama", doc.getElementById("directory-list").textContent.includes("ECE KAYA"));
+  dirSearch.value = "";
+  dirSearch.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  check("çift numara iki arama düğmesi", doc.querySelectorAll("#directory-list .directory-calls .call-btn").length >= 2);
   doc.querySelector('.tab[data-view="ekip"]').click();
   check("ekip sekmesi", doc.querySelector('.view[data-view="ekip"]').classList.contains("is-active"));
   check("menü ekip ekranında", doc.getElementById("meal-body").textContent.includes("Izgara tavuk"));

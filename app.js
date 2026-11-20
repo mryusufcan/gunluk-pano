@@ -226,6 +226,7 @@ function normalizeDirectory(raw) {
         id: str(item.id, uid(), 60),
         name,
         phone: formatPhone(item.phone).slice(0, 30),
+        phone2: item.phone2 ? formatPhone(item.phone2).slice(0, 30) : "",
         unit,
         group: groupOf({ name, unit, group: item.group }),
         fav: Boolean(item.fav),
@@ -774,20 +775,26 @@ function renderNotes() {
 function directoryMatches(item, query) {
   if (!query) return true;
   const search = lowerTr(query).trim();
+  if (!search) return true;
   const digits = search.replace(/[^\d+]/g, "");
-  if (lowerTr(item.name).includes(search)) return true;
-  if (lowerTr(item.unit).includes(search)) return true;
-  if (lowerTr(groupOf(item)).includes(search)) return true;
-  const phone = String(item.phone || "");
-  if (lowerTr(phone).includes(search)) return true;
-  if (digits && phone.replace(/[^\d+]/g, "").includes(digits)) return true;
-  return false;
+  if (digits && String(item.phone || "").replace(/[^\d+]/g, "").includes(digits)) return true;
+  const text = lowerTr(`${item.name} ${item.unit || ""} ${groupOf(item)}`);
+  const words = search.split(/\s+/).filter(Boolean);
+  // Tüm kelimeler geçiyorsa eşleşir: "ali kaya" hem "ALI KAYA"yı hem sıralı eşleşmeleri bulur.
+  return words.every((word) => text.includes(word));
 }
 
 function callHtml(item) {
   const tel = telOf(item.phone);
-  if (!tel) return `<span class="call-btn is-empty" aria-hidden="true">${ICON_PHONE}</span>`;
-  return `<a class="call-btn" href="tel:${esc(tel)}" aria-label="${esc(item.name)} ara">${ICON_PHONE}<span>${esc(item.phone)}</span></a>`;
+  if (!tel && !item.phone2) return `<span class="call-btn is-empty" aria-hidden="true">${ICON_PHONE}</span>`;
+  const main = tel
+    ? `<a class="call-btn" href="tel:${esc(tel)}" aria-label="${esc(item.name)} ara">${ICON_PHONE}<span>${esc(item.phone)}</span></a>`
+    : `<span class="call-btn is-empty" aria-hidden="true">${ICON_PHONE}</span>`;
+  const tel2 = telOf(item.phone2);
+  const second = tel2
+    ? `<a class="call-btn is-second" href="tel:${esc(tel2)}" aria-label="${esc(item.name)} ikinci numara ara">${ICON_PHONE}<span>${esc(item.phone2)}</span></a>`
+    : "";
+  return `<div class="directory-calls">${main}${second}</div>`;
 }
 
 function renderDirectory() {
@@ -800,7 +807,8 @@ function renderDirectory() {
   el("favorites").innerHTML = favorites
     .map((item) => {
       const tel = telOf(item.phone);
-      const body = `<span class="fav-name">${esc(item.name)}</span><span class="fav-phone">${esc(item.phone || item.unit || "—")}</span>`;
+      const label = [item.phone, item.phone2].filter(Boolean).join(" · ");
+      const body = `<span class="fav-name">${esc(item.name)}</span><span class="fav-phone">${esc(label || item.unit || "-")}</span>`;
       return tel ? `<a class="fav-tile" href="tel:${esc(tel)}">${body}</a>` : `<div class="fav-tile">${body}</div>`;
     })
     .join("");
@@ -879,6 +887,7 @@ function renderDirectoryEditor() {
         <button class="mini-btn${item.fav ? " is-on" : ""}" type="button" data-fav-directory="${esc(item.id)}" aria-label="Sık kullanılanlara ${item.fav ? "çıkarma" : "ekleme"}" title="Sık kullanılan" aria-pressed="${Boolean(item.fav)}">${ICON_STAR}</button>
         <input data-directory="name" type="text" maxlength="60" value="${esc(item.name)}" placeholder="Ad soyad" aria-label="Ad soyad" />
         <input data-directory="phone" type="text" maxlength="30" value="${esc(item.phone)}" placeholder="Dahili / telefon" aria-label="Telefon" inputmode="tel" />
+        ${item.phone2 ? `<input data-directory="phone2" type="text" maxlength="30" value="${esc(item.phone2)}" placeholder="İkinci numara" aria-label="İkinci numara" inputmode="tel" />` : ""}
         <input data-directory="unit" type="text" maxlength="60" value="${esc(item.unit)}" placeholder="Birim (isteğe bağlı)" aria-label="Birim" />
         <select data-directory="group" aria-label="Kategori">${DIRECTORY_GROUPS.map((group) => `<option${groupOf(item) === group ? " selected" : ""}>${esc(group)}</option>`).join("")}</select>
         <button class="mini-btn" type="button" data-delete-directory="${esc(item.id)}" aria-label="Satırı sil" title="Sil">${ICON_TRASH}</button>
@@ -1103,6 +1112,13 @@ function buildShareText() {
     }
   } else {
     lines.push("• Henüz girilmedi");
+  }
+  const nightTeam = team.filter((member) => member.shift === SHIFTS[2]);
+  if (nightTeam.length) {
+    const starts = addDays(selected, 1);
+    const when = starts === todayKey() ? "bugün" : starts === addDays(todayKey(), 1) ? "yarın" : longDate(starts);
+    lines.push("", `GECE NÖBETİ · ${when} 00:00-08:00`);
+    for (const member of nightTeam) lines.push(`  ${member.name}${member.note ? ` (${member.note})` : ""}`);
   }
   const meal = day.meal.text.trim();
   lines.push("", "GÜNÜN YEMEĞİ");
@@ -2893,7 +2909,7 @@ function bindEvents() {
     if (!row || !field) return;
     const entry = state.directory.find((item) => item.id === row.dataset.id);
     if (!entry) return;
-    entry[field] = event.target.value.slice(0, field === "name" ? 60 : field === "phone" ? 30 : 40);
+    entry[field] = event.target.value.slice(0, field === "name" ? 60 : field === "phone" || field === "phone2" ? 30 : 40);
     renderDirectory();
     saveSoon();
   });
@@ -3083,13 +3099,15 @@ function bindEvents() {
   });
 }
 
-function applyTheme(theme) {
+function applyTheme(theme, persist = true) {
   const value = theme === "dark" ? "dark" : "light";
   document.documentElement.dataset.theme = value;
-  try {
-    localStorage.setItem(THEME_KEY, value);
-  } catch (error) {
-    /* yoksay */
+  if (persist) {
+    try {
+      localStorage.setItem(THEME_KEY, value);
+    } catch (error) {
+      /* yoksay */
+    }
   }
   el("set-theme").value = value;
   el("theme-toggle").setAttribute("aria-label", value === "dark" ? "Aydınlık temaya geç" : "Gece temasına geç");
@@ -3099,7 +3117,7 @@ function applyTheme(theme) {
 async function init() {
   applyMode();
   fillSelect(el("m-shift"), SHIFTS);
-  applyTheme(document.documentElement.dataset.theme);
+  applyTheme(document.documentElement.dataset.theme, false);
   el("note-author").value = authorName;
   if (ADMIN_MODE) {
     renderDirectoryEditor();

@@ -43,7 +43,7 @@ def main():
     with io.open(args.csv_path, encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle):
             name = " ".join(part for part in (row["First Name"], row["Last Name"]) if part.strip()).strip()
-            raw_phone = (row["Phone 1 - Value"] or "").strip()
+            raw_phone = (row["Phone 1 - Value"] or row["Phone 2 - Value"] or row["Phone 3 - Value"] or "").strip()
             key = phone_key(raw_phone)
             if not name or not key:
                 continue

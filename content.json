@@ -1073,15 +1073,8 @@
       "phone": "0506 140 35 63",
       "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
       "group": "Misafir & VIP",
-      "fav": false
-    },
-    {
-      "id": "d6",
-      "name": "ABDULLAH KUZU",
-      "phone": "6901",
-      "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
-      "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "phone2": "6901"
     },
     {
       "id": "d7",
@@ -1185,15 +1178,8 @@
       "phone": "0554 280 31 34",
       "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
       "group": "Misafir & VIP",
-      "fav": false
-    },
-    {
-      "id": "d20",
-      "name": "ANIL EMRE YARAR",
-      "phone": "6901",
-      "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
-      "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "phone2": "6901"
     },
     {
       "id": "d21",
@@ -2497,15 +2483,8 @@
       "phone": "0531 796 65 01",
       "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
       "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
-      "id": "d187",
-      "name": "ESRA AKDENİZ",
-      "phone": "8491",
-      "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
-      "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "phone2": "8491"
     },
     {
       "id": "d188",
@@ -2921,15 +2900,8 @@
       "phone": "0533 730 72 08",
       "unit": "LABORATUVAR SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
-      "id": "d240",
-      "name": "HÜLYA YAYLA",
-      "phone": "5422",
-      "unit": "LABORATUVAR SORUMLU TEKNİKERİ",
-      "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "phone2": "5422"
     },
     {
       "id": "d241",
@@ -2977,15 +2949,8 @@
       "phone": "0554 871 02 19",
       "unit": "TEKNİK HİZMETLER SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
-      "id": "d247",
-      "name": "İBRAHİM YAVUZ",
-      "phone": "8296",
-      "unit": "TEKNİK HİZMETLER MÜDÜR YARDIMCISI",
-      "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "phone2": "8296"
     },
     {
       "id": "d248",
@@ -3329,15 +3294,8 @@
       "phone": "0533 760 17 62",
       "unit": "GENEL MÜDÜR ASİSTANI",
       "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
-      "id": "d291",
-      "name": "NURSEL ARSLANTÜRK",
-      "phone": "8416",
-      "unit": "GENEL MÜDÜR ASİSTANI",
-      "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "phone2": "8416"
     },
     {
       "id": "d292",
@@ -3393,15 +3351,8 @@
       "phone": "0530 510 73 49",
       "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
-      "id": "d299",
-      "name": "OĞUZHAN BEKTAŞ",
-      "phone": "8293",
-      "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
-      "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "phone2": "8293"
     },
     {
       "id": "d300",
@@ -3481,15 +3432,8 @@
       "phone": "0507 026 65 52",
       "unit": "GENEL YOĞUN BAKIM SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
-    },
-    {
-      "id": "d310",
-      "name": "RAZİYE HASBAŞ",
-      "phone": "DECT 5421",
-      "unit": "GENEL YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SO",
-      "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "phone2": "DECT 5421"
     },
     {
       "id": "d311",
@@ -3753,15 +3697,8 @@
       "phone": "0530 174 33 38",
       "unit": "MİSAFİR İLİŞKİLERİ GRUP MÜDÜRÜ",
       "group": "Misafir & VIP",
-      "fav": false
-    },
-    {
-      "id": "d344",
-      "name": "YADİGAR GÜNDOĞDU",
-      "phone": "DECT 8292",
-      "unit": "MİSAFİR İLİŞKİLERİ MÜDÜRÜ",
-      "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "phone2": "DECT 8292"
     },
     {
       "id": "d345",
@@ -3841,15 +3778,8 @@
       "phone": "0544 614 21 37",
       "unit": "ECZANE MESUL MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
-      "id": "d355",
-      "name": "ÇİĞDEM TELMAN",
-      "phone": "8459-1919",
-      "unit": "ECZANE / ECZACI",
-      "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "phone2": "8459-1919"
     },
     {
       "id": "d356",
@@ -3873,15 +3803,8 @@
       "phone": "0532 713 71 24",
       "unit": "KVC YOĞUN BAKIM VE ANGİO SORUMLU HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
-    },
-    {
-      "id": "d359",
-      "name": "ÖNDER OSMAN SEVİMLİ",
-      "phone": "DECT 5414",
-      "unit": "KVC YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SORU",
-      "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "phone2": "DECT 5414"
     },
     {
       "id": "d360",
@@ -3913,15 +3836,8 @@
       "phone": "0535 813 77 76",
       "unit": "KALİTE MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
-      "id": "d364",
-      "name": "ŞELALE ŞEKER",
-      "phone": "8426",
-      "unit": "KALİTE MÜDÜR YARDIMCISI",
-      "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "phone2": "8426"
     },
     {
       "id": "d365",

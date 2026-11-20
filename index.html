@@ -40,8 +40,14 @@
       // Tema ve yönetici modu ilk boyamadan önce uygulanır.
       try {
         var saved = localStorage.getItem("pano-theme");
-        var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        document.documentElement.dataset.theme = saved === "dark" || saved === "light" ? saved : dark ? "dark" : "light";
+      if (saved === "dark" || saved === "light") {
+        document.documentElement.dataset.theme = saved;
+      } else {
+        var hour = new Date().getHours();
+        var night = hour >= 20 || hour < 8;
+        var dark2 = night ? true : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = dark2 ? "dark" : "light";
+      }
       } catch (error) {
         document.documentElement.dataset.theme = "light";
       }

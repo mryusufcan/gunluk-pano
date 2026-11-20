@@ -2167,6 +2167,18 @@ main {
   color: var(--muted);
 }
 
+.directory-calls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+}
+
+.call-btn.is-second {
+  background: var(--surface-2);
+  color: var(--accent);
+}
+
 @media (min-width: 720px) {
   .fav-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
