@@ -46,7 +46,7 @@ jobs:
         run: |
           mkdir -p dist
           # Yalnızca yayınlanacak dosyalar; test, araç ve depo dosyaları pakete girmez.
-          cp -r index.html styles.css app.js sw.js content.json manifest.webmanifest assets onizleme sakin dist/
+          cp -r index.html styles.css app.js sw.js content.json phones.enc manifest.webmanifest assets onizleme sakin dist/
           # Önbellek adını commit ile eşle; elle sürüm artırmak gerekmez.
           sed -i "s/__CACHE_VERSION__/${GITHUB_SHA::7}/" dist/sw.js
 
