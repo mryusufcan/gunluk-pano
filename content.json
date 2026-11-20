@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T11:25:15.438Z",
+  "updatedAt": "2026-11-20T14:53:47.233Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1040,5296 +1040,5280 @@
       "name": "A (VİP) BANKO",
       "phone": "8279",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d2",
       "name": "A BANKO",
       "phone": "8148",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d3",
       "name": "A BANKO",
       "phone": "8149",
       "unit": "MİSAFİR HİZMETLERİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d4",
       "name": "A BANKO",
       "phone": "8541-8542",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d5",
       "name": "ABDULLAH KUZU",
       "phone": "0506 140 35 63",
       "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d6",
       "name": "ABDULLAH KUZU",
       "phone": "6901",
       "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d7",
       "name": "ACİL AMBULANS",
       "phone": "8502-8514",
       "unit": "EKİP LİDERİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d8",
       "name": "ACİL CPR ODASI",
       "phone": "8503",
       "unit": "EKİP LİDERİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d9",
       "name": "ACİL MÜŞAHADE",
       "phone": "8511-8512-8513",
       "unit": "EKİP LİDERİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d10",
       "name": "ACİL SERVİS SORUMLU HASTA BAKIM HİZM. ODASI",
       "phone": "8507",
       "unit": "EKİP LİDERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d11",
       "name": "ADEM TURNA",
       "phone": "0530 173 06 51",
       "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ UZMANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d12",
       "name": "ADİL TANIK",
       "phone": "0530 174 41 17",
       "unit": "GRUP TIBBİ KOORDİNATÖR",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d13",
       "name": "AİNEL",
       "phone": "0530 173 07 51",
       "unit": "YURT DIŞI ANLAŞMALI KURUMLAR UZMANI",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d14",
       "name": "ALEX MAİTRE",
       "phone": "0530 510 73 83",
       "unit": "FRANSIZCA - İNGİLİZCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d15",
       "name": "AMELİYATHANE BANKO",
       "phone": "8336-8337",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d16",
       "name": "AMELİYATHANE DOKTOR ODASI",
       "phone": "8339",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d17",
       "name": "ANA DEPO",
       "phone": "8472",
       "unit": "B5. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d18",
       "name": "ANESTEZİ GÖRÜŞME ODASI",
       "phone": "8346",
       "unit": "ANESTEZİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d19",
       "name": "ANIL EMRE YARAR",
       "phone": "0554 280 31 34",
       "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d20",
       "name": "ANIL EMRE YARAR",
       "phone": "6901",
       "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d21",
       "name": "ANJİO İŞLEM ODASI",
       "phone": "5412",
       "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d22",
       "name": "ANJİO LABORATUVARI",
       "phone": "8629",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d23",
       "name": "AREZOU PAKMEHR",
       "phone": "0530 174 34 38",
       "unit": "İNGİLİZCE - FARSÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d24",
       "name": "ARŞİV",
       "phone": "8364",
       "unit": "1. KAT İDARİ OFİSLER",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d25",
       "name": "ATAKAN MEHMET ÇOBAN",
       "phone": "0530 510 68 32",
       "unit": "BİLGİ SİSTEMLERİ UZMANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d26",
       "name": "AYŞEGÜL BAYRAM",
       "phone": "0542 783 54 25",
       "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d27",
       "name": "AYŞENUR GÜLER ÇOŞKUN",
       "phone": "0530 510 64 28",
       "unit": "İNSAN KAYNAKLARI UZMANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d28",
       "name": "AĞIZ VE DİŞ SAĞLIĞI DECK",
       "phone": "5413",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d29",
       "name": "B BANKO",
       "phone": "8137",
       "unit": "MİSAFİR HİZMETLERİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d30",
       "name": "B BANKO",
       "phone": "8138",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d31",
       "name": "B BANKO",
       "phone": "8294",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d32",
       "name": "B BANKO",
       "phone": "8330",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d33",
       "name": "B BANKO",
       "phone": "8331",
       "unit": "MİSAFİR HİZMETLERİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d34",
       "name": "B BANKO",
       "phone": "8537-8538-8539",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d35",
       "name": "B2 DR. ALEV ÖZSARI TOPLANTI SALONU",
       "phone": "8486",
       "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d36",
       "name": "B2 TOPLANTI ODASI",
       "phone": "8497",
       "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d37",
       "name": "BANKO",
       "phone": "8199",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d38",
       "name": "BANKO",
       "phone": "8360-8361",
       "unit": "GENEL YOĞUN BAKIM HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d39",
       "name": "BARIŞ ALPER",
       "phone": "0531 862 55 34",
       "unit": "ANA DEPO SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d40",
       "name": "BATUHAN AYDIN",
       "phone": "0553 306 26 05",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d41",
       "name": "BEBEK ODASI",
       "phone": "8531",
       "unit": "ZEMİN KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d42",
       "name": "BELLBOY",
       "phone": "8200",
       "unit": "2. KAT GİRİŞ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d43",
       "name": "BİLGİSAYARLI MR - 2",
       "phone": "5404",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d44",
       "name": "BİLGİSAYARLI TOMOGRAFİ - MR",
       "phone": "8520",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d45",
       "name": "BÜŞRA KARABULUT",
       "phone": "0537 236 13 74",
       "unit": "ZEMİN KAT KADIN DOĞUM SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d46",
       "name": "BÜŞRA TEKİN",
       "phone": "0538 035 92 38",
       "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d47",
       "name": "C BANKO",
       "phone": "8139",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d48",
       "name": "C BANKO",
       "phone": "8332",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d49",
       "name": "C BANKO",
       "phone": "8333",
       "unit": "MİSAFİR HİZMETLERİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d50",
       "name": "C BANKO",
       "phone": "8543",
       "unit": "HASTA BAKIM HİZMETLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d51",
       "name": "CANAN SARI",
       "phone": "0530 174 41 30",
       "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d53",
       "name": "CANSU PAYZA",
       "phone": "0541 923 61 99",
       "unit": "MİSAFİR HİZMETLERİ AYAKTAN SORUMLU",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d54",
       "name": "CHECK-UP NUMUNE ALMA",
       "phone": "8374",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d55",
       "name": "CİHAN YARENOĞLU",
       "phone": "0530 948 27 87",
       "unit": "ULAŞIM · TÜRKÇE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d56",
       "name": "CİHAN YARENOĞLU",
       "phone": "0530 948 27 87",
       "unit": "UHM TRANSFER SORUMLUSU",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d57",
       "name": "CLAUDİA ALİNA AŞAR",
       "phone": "0530 171 58 77",
       "unit": "ROMANYA (2 KİŞİ) · ROMENCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d58",
       "name": "CLAUDİA ALİNA AŞAR",
       "phone": "0530 171 58 77",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ROMENCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d59",
       "name": "DANIŞMA-BİYOPSİ BANKO",
       "phone": "8440",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d60",
       "name": "DENİZ ÇAMKAYA",
       "phone": "8225",
       "unit": "FİYAT VERME HİZMETLERİ OFİSİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d61",
       "name": "DILINUR BAIJANOVA",
       "phone": "0533 928 98 46",
       "unit": "ÇİNCE, ÖZBEKÇE, RUSÇA, TÜRKMENCE, KAZAKÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d62",
       "name": "DİNARA MİRASSOVA",
       "phone": "0530 174 33 44",
       "unit": "KAZAKÇA - RUSÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d63",
       "name": "DİDEM CEREN ŞİŞMAN",
       "phone": "0553 871 25 72",
       "unit": "MİSAFİR HİZMETLERİ EĞİTİM SORUMLUSU",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d64",
       "name": "DİLA ALTIN",
       "phone": "5400",
       "unit": "YATIŞ HİZMETLERİ PROVİZYON",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d65",
       "name": "DİLARA SARIKAYA",
       "phone": "0537 748 14 74",
       "unit": "KURUMSAL FATURALAMA AK SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d66",
       "name": "DOĞUMHANE",
       "phone": "8399",
       "unit": "ZEMİN KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d67",
       "name": "DR. ADEM UÇAR",
       "phone": "8469",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d68",
       "name": "DR. AHMET CEM DURAL",
       "phone": "8432",
       "unit": "ENDOKRİN CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d69",
       "name": "DR. AHMET SEVENCAN",
       "phone": "8475-8476",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d70",
       "name": "DR. AHMET ÖZKARA",
       "phone": "8409",
       "unit": "KALP VE DAMAR CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d71",
       "name": "DR. AHMET ÖZSOY",
       "phone": "8173",
       "unit": "DAMAR CERRAHİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d72",
       "name": "DR. ALİ BARAN BUDAK",
       "phone": "8276",
       "unit": "KALP VE DAMAR CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d73",
       "name": "DR. ATİLLA SORAN",
       "phone": "8441",
       "unit": "GENEL CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d74",
       "name": "DR. AYHAN SUCAK",
       "phone": "8516",
       "unit": "PERİNOTOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d75",
       "name": "DR. AYŞİN PURBAGER",
       "phone": "8469",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d76",
       "name": "DR. BARIŞ GÜVEN",
       "phone": "8273",
       "unit": "KARDİYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d77",
       "name": "DR. BERİL UĞURNAL",
       "phone": "8195",
       "unit": "LABORATUVAR",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d78",
       "name": "DR. BİNNUR PINARBAŞI",
       "phone": "8356",
       "unit": "GASTROENTEROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d79",
       "name": "DR. CANSU EKİNCİ ASLANOĞLU",
       "phone": "8184",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d80",
       "name": "DR. CENGİZ KARA",
       "phone": "1920",
       "unit": "ÇOCUK ENDOKRİNOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d81",
       "name": "DR. DEMET YETKİN",
       "phone": "8497",
       "unit": "ENDOKRİNOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d82",
       "name": "DR. DİLEK ABUL",
       "phone": "8194",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d83",
       "name": "DR. DUYGU DERİN",
       "phone": "8453",
       "unit": "ONKOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d84",
       "name": "DR. EMRE MERDAN FAYDA",
       "phone": "8425",
       "unit": "RADYASYON ONKOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d85",
       "name": "DR. ERKAN ÇAKIR",
       "phone": "8521",
       "unit": "ÇOCUK GÖĞÜS HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d86",
       "name": "DR. EVRİM DUMAN",
       "phone": "8426",
       "unit": "RADYASYON ONKOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d87",
       "name": "DR. FATİH YANAR",
       "phone": "8247",
       "unit": "GENEL CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d88",
       "name": "DR. GÖKÇE AYLAZ",
       "phone": "8247",
       "unit": "GENEL CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d89",
       "name": "DR. GÜLŞEN KÖSE",
       "phone": "8259",
       "unit": "ÇOCUK NÖROLOJİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d90",
       "name": "DR. HAKAN TEOMAN YANAR",
       "phone": "8441",
       "unit": "GENEL CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d92",
       "name": "DR. HASRET AYYILDIZ CİVAN",
       "phone": "8258",
       "unit": "ÇOCUK GASTROENTEROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d93",
       "name": "DR. İREM ERDİL",
       "phone": "8469",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d94",
       "name": "DR. İRFAN KORUK",
       "phone": "8351",
       "unit": "GASTROENTEROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d95",
       "name": "DR. K. DOĞA SEÇKİN",
       "phone": "8421",
       "unit": "KADIN HASTALIKLARI VE DOĞUM IVF",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d96",
       "name": "DR. KADER KESKİNBORA",
       "phone": "8255",
       "unit": "ALGOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d97",
       "name": "DR. KADRİYE KILIÇKESMEZ",
       "phone": "8221",
       "unit": "KARDİYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d98",
       "name": "DR. KEMAL KARA",
       "phone": "8469",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d99",
       "name": "DR. LALE BEATRİCE ÖKTEM",
       "phone": "8192",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d100",
       "name": "DR. LEVHİ AKIN",
       "phone": "8250",
       "unit": "GENEL CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d101",
       "name": "DR. MEHMET AYDOĞAN",
       "phone": "8261",
       "unit": "GÖĞÜS HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d102",
       "name": "DR. MEHMET HİLMİ DOĞU",
       "phone": "8455",
       "unit": "HEMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d103",
       "name": "DR. MEHMET MURAT ÖNCEL",
       "phone": "8191",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d104",
       "name": "DR. MEHMET TEKİN AKPOLAT",
       "phone": "8271",
       "unit": "NEFROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d105",
       "name": "DR. MEKİ BİLİCİ",
       "phone": "8521",
       "unit": "ÇOCUK KARDİYOLOJİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d106",
       "name": "DR. MELTEM TOPALGÖKÇELİ SELAM",
       "phone": "8454",
       "unit": "ONKOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d107",
       "name": "DR. MUSTAFA ALPER KARALÖK",
       "phone": "8234",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d108",
       "name": "DR. NEBİL YILDIZ",
       "phone": "8244",
       "unit": "NÖROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d109",
       "name": "DR. NİMET DÖRTCAN",
       "phone": "8256",
       "unit": "NÖROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d110",
       "name": "DR. ORHAN TANRIVERDİ",
       "phone": "8180",
       "unit": "ÜROONKOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d111",
       "name": "DR. OSMAN MURAT UYAR",
       "phone": "8192",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d112",
       "name": "DR. SELAMİ SÖZÜBİR",
       "phone": "8524",
       "unit": "ÇOCUK CERRRAHİSİ VE ÜROLOJİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d113",
       "name": "DR. SERDAR KAHRAMAN",
       "phone": "8411",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d114",
       "name": "DR. SİBEL MALKOÇ",
       "phone": "8235",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d115",
       "name": "DR. TAMER SÖZEN",
       "phone": "8233",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d116",
       "name": "DR. UĞUR BOYLU",
       "phone": "8179",
       "unit": "ÜROONKOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d117",
       "name": "DR. VEDAT KAYA",
       "phone": "8192",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d118",
       "name": "DR. YELİZ KÖMÜRCÜ",
       "phone": "8198",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d119",
       "name": "DR. ZEHRA ÇAĞLA KARAKOÇ",
       "phone": "8355",
       "unit": "ENFEKSİYON HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d120",
       "name": "DR. ZİNNET ÖYKÜ ALTAY",
       "phone": "8226",
       "unit": "BESLENME VE DİYET",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d121",
       "name": "DR. ÖZGENAZ KAZAN",
       "phone": "8605",
       "unit": "BESLENME VE DİYET",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d122",
       "name": "DR. ŞENCAY YILDIZ ŞAHİN",
       "phone": "8474",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d123",
       "name": "DR. ŞENOL KOBAK",
       "phone": "8242",
       "unit": "ROMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d124",
       "name": "DR. ABDULKADİR ÖZGÜR",
       "phone": "8189",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d125",
       "name": "DR. ALİHAN ORAL",
       "phone": "8174",
       "unit": "BESLENME VE DİYET",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d126",
       "name": "DR. ASLI DATLI",
       "phone": "8260",
       "unit": "PLASTİK VE REKONSTRÜKTİF CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d127",
       "name": "DR. AYŞE DENİZ AKKAYA",
       "phone": "8486",
       "unit": "DERMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d128",
       "name": "DR. BETÜL TUĞCU",
       "phone": "8190",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d129",
       "name": "DR. ELİF GÖKNUR TOPÇU",
       "phone": "8235",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d130",
       "name": "DR. EMEL CEYLAN",
       "phone": "8436-8437",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d131",
       "name": "DR. EMRE ACAR",
       "phone": "8505",
       "unit": "ACİL DOKTOR ODASI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d133",
       "name": "DR. ERDAL KARAÖZ",
       "phone": "8402",
       "unit": "KÖK HÜCRE",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d134",
       "name": "DR. ERDEN ERTÜRER",
       "phone": "8475-8476",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d135",
       "name": "DR. FATMA GÜLÇİN ÖZALP",
       "phone": "8254",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d136",
       "name": "DR. FERAH ECE",
       "phone": "8410",
       "unit": "GÖĞÜS HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d137",
       "name": "DR. FERİT ARĞUN",
       "phone": "8175",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d138",
       "name": "DR. GAMZE KESKİN",
       "phone": "8278",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d139",
       "name": "DR. GİZEM GÜVENER",
       "phone": "8523",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d140",
       "name": "DR. GÖKHAN ERTAŞ",
       "phone": "8459",
       "unit": "KARDİYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d141",
       "name": "DR. GÖKHAN KÜRŞAT KARA",
       "phone": "8475-8476",
       "unit": "OMURGA CERRAHİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d142",
       "name": "DR. GÜRKAN GÜMÜŞSUYU",
       "phone": "8475-8476",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d143",
       "name": "DR. HAMDİ LEVENT DOĞANAY",
       "phone": "8444",
       "unit": "GASTROENTEROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d144",
       "name": "DR. İLTERİŞ OĞUZ",
       "phone": "8492",
       "unit": "DERMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d145",
       "name": "DR. İSMAİL TUGAY YAĞCI",
       "phone": "8475-8476",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d146",
       "name": "DR. KADİR ABUL",
       "phone": "8448",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d147",
       "name": "DR. KENAN TEMİZ",
       "phone": "8547",
       "unit": "PSİKİYATRİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d148",
       "name": "DR. KORAY ACARLI",
       "phone": "8248",
       "unit": "GENEL CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d149",
       "name": "DR. KÜBRA KARAKOLCU",
       "phone": "8382",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d150",
       "name": "DR. MEHMET ALPAY ÇAL",
       "phone": "8274",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d151",
       "name": "DR. MERAL GÜNALDI",
       "phone": "8415",
       "unit": "ONKOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d152",
       "name": "DR. MİRAÇ ÖZALP",
       "phone": "8281",
       "unit": "KADIN HAST VE DOĞUM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d153",
       "name": "DR. MUHAMMET ALİ VARKAL",
       "phone": "8522",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d154",
       "name": "DR. MUHİTTİN EMRE ALTUNRENDE",
       "phone": "8411",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d155",
       "name": "DR. MUSTAFA TAŞTAN",
       "phone": "8343",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d156",
       "name": "DR. NAZLI CAF",
       "phone": "8397",
       "unit": "DERMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d157",
       "name": "DR. NUR ACAR GÖÇGİL",
       "phone": "8192",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d158",
       "name": "DR. OSMAN KARLI",
       "phone": "8526",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d159",
       "name": "DR. RIFAT RASİER",
       "phone": "8190",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d160",
       "name": "DR. SEDA TURGUT",
       "phone": "8144",
       "unit": "ENDOKRİNOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d161",
       "name": "DR. SELDA KORKMAZ YAKAR",
       "phone": "8249",
       "unit": "NÖROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d162",
       "name": "DR. SELİN ÇETİNKAL",
       "phone": "8236",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d163",
       "name": "DR. SELMAN EMİROĞLU",
       "phone": "8432",
       "unit": "MEME CERRAHİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d164",
       "name": "DR. TAHİR KARADENİZ",
       "phone": "8141",
       "unit": "ÜROLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d165",
       "name": "DR. TAMER ÜNVER",
       "phone": "8525",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d166",
       "name": "DR. TUBA EFE",
       "phone": "8183",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d167",
       "name": "DR. UĞUR HAKLAR",
       "phone": "8418",
       "unit": "DİZ CERRAHİSİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d168",
       "name": "DR. YAVUZ ÖZTÜRKER",
       "phone": "8430",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d169",
       "name": "DR. YELİZ ZIHLI KIZAK",
       "phone": "8150",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d170",
       "name": "DR. YILDIZ GONCA DOĞRU",
       "phone": "8412",
       "unit": "FİZİKSEL TIP VE REHABİLİTASYON",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d171",
       "name": "DR. ÖMER GEZDUR",
       "phone": "8486",
       "unit": "DERMATOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d172",
       "name": "DR. ÖZENÇ MİNARECİ",
       "phone": "8418",
       "unit": "NÖRORADYOLOJİ",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d173",
       "name": "DT. AYDAN GÜRCAN",
       "phone": "5413",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d174",
       "name": "DT. BEGÜM ASLAN",
       "phone": "5413",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d175",
       "name": "DT. ECEM AYTUNA YARDIM",
       "phone": "5413",
       "unit": "ENDODONTİ UZMANI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d176",
       "name": "DT. MELİSA ALBAYRAK",
       "phone": "5413",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d177",
       "name": "DT. OZAN KARAKAŞ",
       "phone": "5413",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d178",
       "name": "ECEM KANBER",
       "phone": "0530 174 33 05",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d179",
       "name": "ECZANE SORUMLUSU",
       "phone": "8460-1919",
       "unit": "B4. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d180",
       "name": "ELEKTROTERAPİ ODASI-FİZYOTERAPİ SEANS ODALARI",
       "phone": "8446",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d181",
       "name": "ELİF CAN CEYLAN",
       "phone": "0544 397 52 94",
       "unit": "BAŞHEKİM ASİSTANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d182",
       "name": "ELMİRA KALKAN",
       "phone": "0530 510 77 96",
       "unit": "ÖZBEKİSTAN (3 KİŞİ) · RUSÇA- ÖZBEKÇE- K",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d183",
       "name": "EMEL GÜRSOY",
       "phone": "0530 174 33 74",
       "unit": "RAPORTÖR - BAŞHEKİMLİK",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d184",
       "name": "EMEL NAMOĞLU",
       "phone": "0536 633 25 95",
       "unit": "DİYABET EĞİTİM VE İŞYERİ HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d185",
       "name": "EMEL YANIK",
       "phone": "0532 207 60 70",
       "unit": "ACİL SERVİS SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d186",
       "name": "ESRA AKDENİZ",
       "phone": "0531 796 65 01",
       "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d187",
       "name": "ESRA AKDENİZ",
       "phone": "8491",
       "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d188",
       "name": "FATİH SAKA",
       "phone": "0538 291 53 11",
       "unit": "MALİ İŞLER MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d189",
       "name": "FATMAGÜL BİRSİN",
       "phone": "0543 919 77 94",
       "unit": "PEDATRİ SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d190",
       "name": "FERİDE TÜRKMEN",
       "phone": "8178",
       "unit": "KARDİYOLOJİ & KVC KOORDİNATÖRÜ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d191",
       "name": "FIRAT EVELEK",
       "phone": "0530 642 20 75",
       "unit": "FİYATLANDIRMA GRUP MÜDÜRÜ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d192",
       "name": "FIRAT KÜRŞAD RASTGELE",
       "phone": "0530 174 33 76",
       "unit": "HAKEDİŞ SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d193",
       "name": "FİZİK PLANLAMA ODASI",
       "phone": "8427",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d194",
       "name": "FTR EGZERSİZ ODASI",
       "phone": "8446",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d195",
       "name": "GAMA ODASI-SİNTİGRAFİ",
       "phone": "8620",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d196",
       "name": "GAMZE KESKİN",
       "phone": "0554 923 42 55",
       "unit": "BAŞHEKİM",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d197",
       "name": "GAMZE ŞAHİNKOVAN",
       "phone": "0536 323 71 33",
       "unit": "YENİDOĞAN SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d198",
       "name": "GENEL YOĞUN BAKIM",
       "phone": "8360",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d199",
       "name": "GENEL YOĞUN BAKIM DOKTOR ODASI",
       "phone": "5407",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d200",
       "name": "GONCA ULAMAN",
       "phone": "0506 947 72 37",
       "unit": "POLİKLİNİK SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d201",
       "name": "GUVANCH JORAYEV",
       "phone": "0542 546 68 40",
       "unit": "TÜRKMENCE - RUSÇA - İNGİLİZCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d202",
       "name": "GÜLER ÖZÇELİK",
       "phone": "0542 652 22 16",
       "unit": "STERİLİZASYON SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d203",
       "name": "HALİL HÜZMELİ",
       "phone": "0532 391 22 44",
       "unit": "BAŞHEKİM YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d204",
       "name": "HALİL İBRAHİM ABATAY",
       "phone": "0530 171 58 93",
       "unit": "UHM SORUMLUSU · İNGİLİZCE - İSPANYOLCA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d205",
       "name": "HARUN BAŞODA",
       "phone": "0505 208 30 91",
       "unit": "TEDARİK ZİNCİRİ SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d206",
       "name": "HASTA BAKIM HİZMETLERİ BANKO",
       "phone": "8442",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d207",
       "name": "HASTA BAKIM HİZMETLERİ BANKO",
       "phone": "8456",
       "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d208",
       "name": "HASTA BAKIM HİZMETLERİ BANKO (ENDOSKOPİ İŞLEM)",
       "phone": "8393",
       "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d209",
       "name": "HASTA KABUL -VEZNE",
       "phone": "8536-8529",
       "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d210",
       "name": "HASTA KABUL-VEZNE",
       "phone": "5404-8518",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d211",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8178",
       "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d212",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8181",
       "unit": "ÜROLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d213",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8182-8366",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d214",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8188",
       "unit": "KULAK BURUN BOĞAZ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d215",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8194",
       "unit": "GÖZ HASTALIKLARI",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d216",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8230-8231",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d217",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8240",
       "unit": "TÜP BEBEK-IVF",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d218",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8244",
       "unit": "NÖROLOJİ - GÖĞÜS HASTALIKLARI",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d219",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8245",
       "unit": "GENEL CERRAHİ-PSİKOLOJİ-GENETİK",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d220",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8251-8252",
       "unit": "3",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d221",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8252",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d222",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8257",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d223",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8263-8262",
       "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d224",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8268",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d225",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8268-8335",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d226",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8349-8350",
       "unit": "GASTROENTEROLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d227",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8405-8435",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d228",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8418-8419",
       "unit": "DERMATOLOJİ - NÖRO RADYOLOJİ - BEYİN VE",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d229",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8420",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d230",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8428",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d231",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8445",
       "unit": "DERMATOLOJİ - MEDİKAL ESTETİK",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d232",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8446",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d233",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8451-8452",
       "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d234",
       "name": "HASTA KABUL-VEZNE",
       "phone": "8502-8514",
       "unit": "ACİL SERVİS",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d235",
       "name": "HAVVANUR GÜVEN AYDIN",
       "phone": "0530 926 63 44",
       "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ SORUMLU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d236",
       "name": "HEMŞİRE BANKO",
       "phone": "8272",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d237",
       "name": "HEPŞEN ALİ",
       "phone": "0536 994 65 29",
       "unit": "BULGARİSTAN (3 KİŞİ) · BULGARCA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d238",
       "name": "HEPŞEN ALİ",
       "phone": "0536 994 65 29",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d239",
       "name": "HÜLYA YAYLA",
       "phone": "0533 730 72 08",
       "unit": "LABORATUVAR SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d240",
       "name": "HÜLYA YAYLA",
       "phone": "5422",
       "unit": "LABORATUVAR SORUMLU TEKNİKERİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d241",
       "name": "HÜSEYİN ARIKAN",
       "phone": "0544 532 56 82",
       "unit": "TIBBİ GÖRÜNTÜLEME SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d242",
       "name": "HÜSEYİN DEMİRCİ",
       "phone": "0530 510 64 06",
       "unit": "BİYOMEDİKAL MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d243",
       "name": "İNGA TOZKOPARAN",
       "phone": "0530 172 96 86",
       "unit": "ROMENCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d244",
       "name": "ISHAG",
       "phone": "0530 174 34 66",
       "unit": "YURTDIŞI ANLAŞMALI KURUMLAR",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d245",
       "name": "ISS OFİS B2",
       "phone": "8477",
       "unit": "B5. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d246",
       "name": "İBRAHİM YAVUZ",
       "phone": "0554 871 02 19",
       "unit": "TEKNİK HİZMETLER SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d247",
       "name": "İBRAHİM YAVUZ",
       "phone": "8296",
       "unit": "TEKNİK HİZMETLER MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d248",
       "name": "İLAYDA KURŞUN",
       "phone": "0530 510 70 11",
       "unit": "İNGİLİZCE - İSPANYOLCA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d249",
       "name": "İLKE BURÇAK ÖZ",
       "phone": "8440",
       "unit": "ANJİO BANKO (KORONER ANJİO,KALP PİLİ)",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d250",
       "name": "İSMAİL AKTAŞ",
       "phone": "0531 767 86 05",
       "unit": "VIP TEMSİLCİSİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d251",
       "name": "İYOT ODASI",
       "phone": "8135",
       "unit": "1. KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d252",
       "name": "İYOT ODASI",
       "phone": "8136",
       "unit": "1. KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d253",
       "name": "KAAN TOKAT",
       "phone": "0538 857 87 10",
       "unit": "TEDARİK ZİNCİRİ UZMANI",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d254",
       "name": "KAMİL BİLGİLİ",
       "phone": "0532 546 97 50",
       "unit": "İNSAN KAYNAKLARI UZMAN YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d255",
       "name": "KAN BANKASI",
       "phone": "8510",
       "unit": "EKİP LİDERİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d256",
       "name": "KİRPİ CAFE",
       "phone": "8461",
       "unit": "2. KAT GİRİŞ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d257",
       "name": "KVC YOĞUN BAKIM",
       "phone": "8353",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d258",
       "name": "KVC YOĞUN BAKIM DOKTOR ODASI",
       "phone": "5414",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d259",
       "name": "KÖK HÜCRE LAB.",
       "phone": "8624",
       "unit": "İÇ HASTALIKLARI",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d260",
       "name": "LABORATUVAR SEKRETERLİĞİ",
       "phone": "8197",
       "unit": "BİYOKİMYA LABORATUVARI",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d261",
       "name": "LİV SAÇ TASARIM (KUAFÖR)",
       "phone": "8363",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d262",
       "name": "MAHMUT SELİM GÜLER",
       "phone": "0530 663 92 05",
       "unit": "İNSAN KAYNAKLARI MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d263",
       "name": "MARIKA KVRIVISHVILI",
       "phone": "0537 268 51 57",
       "unit": "GÜRCİSTAN 2 KİŞİ · GÜRCÜCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d264",
       "name": "MEGİ BİRKADZE GURDAL",
       "phone": "0537 739 66 98",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d265",
       "name": "MEHMET AYDOĞAN",
       "phone": "0542 505 17 42",
       "unit": "BAŞHEKİM YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d266",
       "name": "MEHMET MERT EKMEKCİ",
       "phone": "0532 325 46 31",
       "unit": "GECE İŞLETME SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d267",
       "name": "MELEK KARTAL",
       "phone": "0542 596 53 76",
       "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d268",
       "name": "MELTEM BOZKURT",
       "phone": "0530 173 06 50",
       "unit": "BİREYSEL PAZARLAMA UZMANI (KÖK HÜCRE)",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d269",
       "name": "MELTEM HAZLIPINAR",
       "phone": "8347",
       "unit": "ANESTEZİ BANKO",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d270",
       "name": "MERVE CANBEK",
       "phone": "0543 254 45 45",
       "unit": "AMELİYATHANE SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d271",
       "name": "MERVE GENEL",
       "phone": "8348",
       "unit": "GENEL YOĞUN BAKIM MİSAFİR HİZMETLERİ BAN",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d272",
       "name": "MERVE GÜREL ŞEKER",
       "phone": "0530 473 83 17",
       "unit": "KURUMSAL İLETİŞİM UZMANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d273",
       "name": "MERVE ÇALIK SERT",
       "phone": "0507 798 29 70",
       "unit": "GÜNÜBİRLİK ALAN SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d274",
       "name": "MERYEM DİKMEN",
       "phone": "0543 678 94 49",
       "unit": "EĞİTİM VE GELİŞİM SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d275",
       "name": "MİRAY ÖZTÜRK",
       "phone": "0530 242 22 12",
       "unit": "ARNAVUTÇA -BOŞNAKÇA - SIRPÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d276",
       "name": "MİKROBİYOLOJİ LABORATUVARI",
       "phone": "8196",
       "unit": "BİYOKİMYA LABORATUVARI",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d277",
       "name": "MİRAY ÖZTÜRK",
       "phone": "0530 242 22 12",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d278",
       "name": "MUHAMMED ABDULLAH",
       "phone": "0554 871 04 14",
       "unit": "ARAPÇA - İNGİLİZCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d279",
       "name": "MUHAMMED ELSALEH",
       "phone": "0537 760 75 65",
       "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d280",
       "name": "MURAT GÜNDÜZ",
       "phone": "0530 203 62 91",
       "unit": "ARNAVUTÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d281",
       "name": "MURAT UYAR",
       "phone": "0555 705 85 35",
       "unit": "VIP TEMSİLCİSİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d282",
       "name": "MÜKREMİN MUSLU",
       "phone": "0530 510 64 98",
       "unit": "EVDE BAKIM HİZM. SUPERVİSOR",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d283",
       "name": "NEDRET NEZHDET GÜLER",
       "phone": "0530 526 28 16",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d284",
       "name": "NEDRET NEZHDET GÜLER",
       "phone": "0530 526 28 16",
       "unit": "BULGARCA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d285",
       "name": "NELİ KAYIKÇI",
       "phone": "0539 810 81 80",
       "unit": "BULGARCA - İSPANYOLCA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d286",
       "name": "NİLUFARKHON MİNBAEVA",
       "phone": "0530 510 70 11",
       "unit": "ÖZBEKÇE -RUSÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d287",
       "name": "NİHAN YAVUZ",
       "phone": "0538 219 13 06",
       "unit": "3. KAT CERRAHİ KATI SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d288",
       "name": "NUMUNE ALMA-HEMŞİRE",
       "phone": "8205",
       "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d289",
       "name": "NUR KOÇ",
       "phone": "0530 474 88 90",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ ORTADOĞ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d290",
       "name": "NURSEL ARSLANTÜRK",
       "phone": "0533 760 17 62",
       "unit": "GENEL MÜDÜR ASİSTANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d291",
       "name": "NURSEL ARSLANTÜRK",
       "phone": "8416",
       "unit": "GENEL MÜDÜR ASİSTANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d292",
       "name": "NÜKLEER TIP ÇEKİM ODASI VE TEKNİKER",
       "phone": "8438",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d293",
       "name": "ODYOMETRİ",
       "phone": "8187",
       "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d294",
       "name": "OLCAY BULUT",
       "phone": "0532 245 89 50",
       "unit": "AMELİYATHANE DEPO UZMANI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d295",
       "name": "ORTOPEDİ ASİSTAN BANKO",
       "phone": "8475-8476",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d296",
       "name": "ORTOPEDİ EKİBİ DANIŞMANI",
       "phone": "DECK 8476",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d297",
       "name": "OSMAN MERT KADIOĞLU",
       "phone": "0530 510 71 40",
       "unit": "NÖBETÇİ SUPERVİSOR",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d298",
       "name": "OĞUZHAN BEKTAŞ",
       "phone": "0530 510 73 49",
       "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d299",
       "name": "OĞUZHAN BEKTAŞ",
       "phone": "8293",
       "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d300",
       "name": "DR. ALP BURAK ÇATAKOĞLU",
       "phone": "8417",
       "unit": "PANSUMAN - ALÇI ODASI",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d301",
       "name": "PATOLOJİ",
       "phone": "8344",
       "unit": "B3. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d302",
       "name": "PEDİATRİ KAN ALMA",
       "phone": "8527",
       "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d303",
       "name": "PINAR SARIÇİNEM",
       "phone": "0541 317 02 30",
       "unit": "ANESTEZİ SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d304",
       "name": "RADYOLOJİ RAPOR ODASI",
       "phone": "8470",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d305",
       "name": "RADYOLOJİ SORUMLU ODASI",
       "phone": "8466",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d306",
       "name": "RADYOTERAPİ TEKNİKER ODASI",
       "phone": "8429",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d307",
       "name": "RAMA ALSANİ",
       "phone": "0554 569 76 77",
       "unit": "ARAPÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d308",
       "name": "RAMİLA KÜLAK",
       "phone": "0530 173 06 36",
       "unit": "ANA DANIŞMA · RUSÇA - AZERİCE - İNGİLİZC",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d309",
       "name": "RAZİYE HASBAŞ",
       "phone": "0507 026 65 52",
       "unit": "GENEL YOĞUN BAKIM SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d310",
       "name": "RAZİYE HASBAŞ",
       "phone": "DECT 5421",
       "unit": "GENEL YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SO",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d311",
       "name": "RESEPSİYON",
       "phone": "8200",
       "unit": "2. KAT GİRİŞ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d312",
       "name": "RIZA KORKMAZ",
       "phone": "0534 878 57 41",
       "unit": "MİSAFİR HİZMETLERİ YATAN SORUMLU",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d313",
       "name": "RÖNTGEN-MAMOGRAFİ",
       "phone": "8520",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d314",
       "name": "SAADET NEHİR TAYLAN",
       "phone": "0530 203 63 75",
       "unit": "İNSAN KAYNAKLARI SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d315",
       "name": "SALİH HARİBİ",
       "phone": "0530 662 79 31",
       "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d316",
       "name": "SAMAYA BUNYATZADE",
       "phone": "0530 174 21 84",
       "unit": "AVRUPA (3) · RUSÇA - TÜRKMENCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d317",
       "name": "SAMİD SHUKUROV",
       "phone": "0530 510 78 12",
       "unit": "AZERBAYCAN (1 KİŞİ) · AZERİCE RUSÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d318",
       "name": "SAMİD SHUKUROV",
       "phone": "0530 510 78 12",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU -AZERİCE-R",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d319",
       "name": "SEBAHATTİN EVİN",
       "phone": "0530 510 65 47",
       "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d320",
       "name": "SEDA KARANLI",
       "phone": "0543 504 95 24",
       "unit": "ENFEKSİYON SORUMLU HEMŞİRESİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d321",
       "name": "SEHER MERVE BOLAT/ELİF BAŞAK KARA",
       "phone": "8213-8219",
       "unit": "YATIŞ HİZMETLERİ OFİSİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d322",
       "name": "SERKAN SAKALLI",
       "phone": "0530 915 40 19",
       "unit": "CCTV OTOMASYON GÜVENLİK MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d323",
       "name": "SERKAN ÖZCAN",
       "phone": "0535 589 56 23",
       "unit": "YURTİÇİ ULAŞTIRMA SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d324",
       "name": "SVETLANA KABA",
       "phone": "0530 510 74 86",
       "unit": "RUSÇA UKRAYNACA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d325",
       "name": "SÜLEYMAN YILDIZ - SONER ÇAKMAK- GÖKHAN BAŞALAN",
       "phone": "0530 174 34 28",
       "unit": "CCTV OTOMASYON GÜVENLİK AMİRİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d326",
       "name": "TABURCULUK HİZMETLERİ OFİSİ",
       "phone": "8224",
       "unit": "ZEMİN KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d327",
       "name": "TABURCULUK HİZMETLERİ OFİSİ",
       "phone": "DECK 8146",
       "unit": "3. KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d328",
       "name": "TATİANA URUM",
       "phone": "0539 927 96 92",
       "unit": "RUSÇA- İNGİLİZCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d329",
       "name": "TATİANA URUM",
       "phone": "0539 927 96 92",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - RUSCA -",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d330",
       "name": "TEKNİK SERVİS",
       "phone": "8626",
       "unit": "B5. KAT",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d331",
       "name": "TETYANA KULAK",
       "phone": "0530 172 96 98",
       "unit": "RUSÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d332",
       "name": "TIBBİ YÜRÜTME KURULU ODASI",
       "phone": "8359-8496",
       "unit": "4. KAT YÖNETİM",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d333",
       "name": "TURGUT SARAÇ",
       "phone": "0554 871 03 85",
       "unit": "KURUMSAL TANITIM GRUP MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d334",
       "name": "TÜP BEBEK-IVF HASTA BAKIM HİZMETLERİ ODASI",
       "phone": "8238",
       "unit": "TÜP BEBEK-IVF",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d335",
       "name": "TÜP BEBEK-IVF-EMBRİYO LABORATUVARI",
       "phone": "8404",
       "unit": "AMELİYATHANE DEPO",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d336",
       "name": "ULTRASON BANKOSU",
       "phone": "8519",
       "unit": "RADYOLOJİ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d337",
       "name": "UMUT KÜTÜK",
       "phone": "0539 819 62 05",
       "unit": "TIBBI DOKUMANTASYON VE ARŞİV GÖREVLİSİ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d338",
       "name": "UYANDIRMA ODASI - POST OP",
       "phone": "8612",
       "unit": "ANESTEZİ",
-      "fav": false,
-      "group": "Görüntüleme & Lab"
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d339",
       "name": "UYKU ODASI",
       "phone": "8325",
       "unit": "3. KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d340",
       "name": "BURCU ÖZCAN",
       "phone": "8603",
       "unit": "UZM. KLİNİK PSİKOLOG",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d341",
       "name": "UĞUR GÜMÜŞ",
       "phone": "0530 172 96 94",
       "unit": "TEKNİK HİZMETLER MEKANİK SORUMLU TEKNİSY",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d342",
       "name": "VALE",
       "phone": "8171",
       "unit": "2. KAT GİRİŞ",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d343",
       "name": "YADİGAR GÜNDOĞDU",
       "phone": "0530 174 33 38",
       "unit": "MİSAFİR İLİŞKİLERİ GRUP MÜDÜRÜ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d344",
       "name": "YADİGAR GÜNDOĞDU",
       "phone": "DECT 8292",
       "unit": "MİSAFİR İLİŞKİLERİ MÜDÜRÜ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d345",
       "name": "YAHYA ZÜVEKLİ",
       "phone": "0530 662 76 87",
       "unit": "UHM MDR YARDIMCISI · ARAPÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d346",
       "name": "YAHYA ZÜVEKLİ",
       "phone": "0530 174 47 39",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ OPERASY",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d347",
       "name": "YENİDOĞAN YOĞUN BAKIM (NİCU)",
       "phone": "8533-8534-8535",
       "unit": "ZEMİN KAT YATAN HASTA",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d348",
       "name": "YUNUS ÇOLAK",
       "phone": "0530 510 71 26",
       "unit": "GENEL MÜDÜR YARDIMCISI (SÜREÇLERDEN SORU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d349",
       "name": "YURTDIŞI PAZARLAMA",
       "phone": "8397",
       "unit": "B1 YÖNETİM OFİSLERİ",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d350",
       "name": "ZEHRA TAŞDEMİR",
       "phone": "0530 174 27 28",
       "unit": "AZERİCE - RUSÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d351",
       "name": "ZEYNEP YÜCEKAYA",
       "phone": "0534 594 36 99",
       "unit": "GÜRCÜCE",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d352",
       "name": "ZEYNEP YÜCEKAYA",
       "phone": "0530 510 71 34",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d353",
       "name": "ZUHAL SÖYLEMEZ",
       "phone": "0530 173 07 37",
       "unit": "İŞ GELİŞTİRME GRUP MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d354",
       "name": "ÇİĞDEM TELMAN",
       "phone": "0544 614 21 37",
       "unit": "ECZANE MESUL MÜDÜRÜ",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d355",
       "name": "ÇİĞDEM TELMAN",
       "phone": "8459-1919",
       "unit": "ECZANE / ECZACI",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d356",
       "name": "ÖMER ERDUR",
       "phone": "8189",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
-      "fav": false,
-      "group": "Poliklinikler"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d357",
       "name": "ÖMER ÖZKAHYA",
       "phone": "0530 510 72 24",
       "unit": "MENA AFRİKA (6 KİŞİ) · ARAPÇA",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d358",
       "name": "ÖNDER OSMAN SEVİMLİ",
       "phone": "0532 713 71 24",
       "unit": "KVC YOĞUN BAKIM VE ANGİO SORUMLU HEMŞİRE",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d359",
       "name": "ÖNDER OSMAN SEVİMLİ",
       "phone": "DECT 5414",
       "unit": "KVC YOĞUN BAKIM ÜNİTESİ HASTA BAKIM SORU",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d360",
       "name": "ÖRNEK KABUL",
       "phone": "8286-8287",
       "unit": "BİYOKİMYA LABORATUVARI",
-      "fav": false,
-      "group": "Hemşirelik & Yatan"
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d361",
       "name": "ÖZGÜR KAAN YELER",
       "phone": "0530 174 42 94",
       "unit": "GENEL MÜDÜR",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d362",
       "name": "ÖZKAN BAYRAKTAR",
       "phone": "0544 382 75 08",
       "unit": "GECE İŞLETME SORUMLUSU",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d363",
       "name": "ŞELALE ŞEKER",
       "phone": "0535 813 77 76",
       "unit": "KALİTE MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d364",
       "name": "ŞELALE ŞEKER",
       "phone": "8426",
       "unit": "KALİTE MÜDÜR YARDIMCISI",
-      "fav": false,
-      "group": "Yönetim & İdari"
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d365",
-      "name": "Abdullah Kağıt",
-      "phone": "+90 541 504 30 61",
+      "name": "ABDULLAH KAĞIT",
+      "phone": "0541 504 30 61",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d366",
-      "name": "Abdullah Tecen",
-      "phone": "+905052528505",
+      "name": "ABDULLAH TECEN",
+      "phone": "0505 252 85 05",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d367",
-      "name": "Adem Uçar",
-      "phone": "+90 535 292 64 24",
+      "name": "ADEM UÇAR",
+      "phone": "0535 292 64 24",
       "unit": "",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d368",
-      "name": "Ahsen Şevval Teker",
-      "phone": "+90 552 877 87 49",
+      "name": "AHSEN ŞEVVAL TEKER",
+      "phone": "0552 877 87 49",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d369",
-      "name": "Alaattin Ürküt",
+      "name": "ALAATTİN ÜRKÜT",
       "phone": "0534 866 50 74",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d370",
-      "name": "Alex  Djibrıl Ngayaba",
+      "name": "ALEX DJİBRIL NGAYABA",
       "phone": "0531 666 06 39",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d371",
-      "name": "Ali Baran Budak",
-      "phone": "+90 541 202 10 00",
-      "unit": "Doktor",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "ALİ BARAN BUDAK",
+      "phone": "0541 202 10 00",
+      "unit": "DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d372",
-      "name": "Alina Claudia",
+      "name": "ALİNA CLAUDİA",
       "phone": "0534 489 36 49",
       "unit": "",
-      "fav": false,
-      "group": ""
-    },
-    {
-      "id": "d373",
-      "name": "Anıl Hoca",
-      "phone": "+90 546 671 40 13",
-      "unit": "",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d374",
-      "name": "Arzuv Babaniyazov",
-      "phone": "+90 538 787 12 29",
+      "name": "ARZUV BABANİYAZOV",
+      "phone": "0538 787 12 29",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d375",
-      "name": "Asya Nilgün Gider",
-      "phone": "+90 538 058 97 07",
+      "name": "ASYA NİLGÜN GİDER",
+      "phone": "0538 058 97 07",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d376",
-      "name": "Ayça Ayyıldız",
-      "phone": "905393451189",
+      "name": "AYÇA AYYILDIZ",
+      "phone": "0539 345 11 89",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d377",
-      "name": "Ayça Güllenci",
-      "phone": "+90 534 593 30 63",
-      "unit": "Doktor",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "AYÇA GÜLLENCİ",
+      "phone": "0534 593 30 63",
+      "unit": "DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d378",
-      "name": "Ayman Ajam",
+      "name": "AYMAN AJAM",
       "phone": "0546 766 47 32",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d379",
-      "name": "Aynur Sunkur",
-      "phone": "+905013276193",
+      "name": "AYNUR SUNKUR",
+      "phone": "0501 327 61 93",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d380",
-      "name": "Aynur Yılmaz",
-      "phone": "+90 544 607 76 98",
-      "unit": "Radyoloji Banko",
-      "fav": false,
-      "group": ""
+      "name": "AYNUR YILMAZ",
+      "phone": "0544 607 76 98",
+      "unit": "RADYOLOJİ BANKO",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d381",
-      "name": "Ayşe Şimşek",
-      "phone": "+905439417555",
+      "name": "AYŞE ŞİMŞEK",
+      "phone": "0543 941 75 55",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d382",
-      "name": "Bahadır  Yenici",
-      "phone": "+90 534 359 76 13",
-      "unit": "Banko",
-      "fav": false,
-      "group": ""
+      "name": "BAHADIR YENİCİ",
+      "phone": "0534 359 76 13",
+      "unit": "BANKO",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d383",
-      "name": "Bahar Cesur",
-      "phone": "+905384785596",
+      "name": "BAHAR CESUR",
+      "phone": "0538 478 55 96",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d384",
-      "name": "Bakhtygul Kimson",
-      "phone": "+90 553 646 76 43",
+      "name": "BAKHTYGUL KİMSON",
+      "phone": "0553 646 76 43",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d385",
-      "name": "Başar Özgün",
-      "phone": "+90 545 429 32 11",
+      "name": "BAŞAR ÖZGÜN",
+      "phone": "0545 429 32 11",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d386",
-      "name": "Batıkan Şengül",
-      "phone": "+905427415566",
+      "name": "BATIKAN ŞENGÜL",
+      "phone": "0542 741 55 66",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d387",
-      "name": "Bayram  Yavuz",
-      "phone": "+90 535 599 63 05",
+      "name": "BAYRAM YAVUZ",
+      "phone": "0535 599 63 05",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d388",
-      "name": "Berkay Lort",
-      "phone": "+90 543 564 40 97",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "BERKAY LORT",
+      "phone": "0543 564 40 97",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d389",
-      "name": "Berna BAYRAK KÖKALP",
-      "phone": "905426299907",
+      "name": "BERNA BAYRAK KÖKALP",
+      "phone": "0542 629 99 07",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d390",
-      "name": "Berrin Arslanoğlu Bakan",
-      "phone": "905300138523",
+      "name": "BERRİN ARSLANOĞLU BAKAN",
+      "phone": "0530 013 85 23",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d391",
-      "name": "Betül Gülüstan",
-      "phone": "+905536270700",
+      "name": "BETÜL GÜLÜSTAN",
+      "phone": "0553 627 07 00",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d392",
-      "name": "Beyza Uygun",
-      "phone": "905356166394",
+      "name": "BEYZA UYGUN",
+      "phone": "0535 616 63 94",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d393",
-      "name": "Beyzanur Aygün",
-      "phone": "+90 536 265 25 42",
+      "name": "BEYZANUR AYGÜN",
+      "phone": "0536 265 25 42",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d394",
-      "name": "Bilal Çelik",
+      "name": "BİLAL ÇELİK",
       "phone": "0534 632 59 69",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d395",
-      "name": "Bilge Naz Dursun",
-      "phone": "+905062468360",
+      "name": "BİLGE NAZ DURSUN",
+      "phone": "0506 246 83 60",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d396",
-      "name": "Burak Badur",
-      "phone": "+90 542 770 64 69",
+      "name": "BURAK BADUR",
+      "phone": "0542 770 64 69",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d397",
-      "name": "Burak Gürleyen",
-      "phone": "+905313080245",
-      "unit": "Radyoterapi",
-      "fav": false,
-      "group": ""
+      "name": "BURAK GÜRLEYEN",
+      "phone": "0531 308 02 45",
+      "unit": "RADYOTERAPİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d398",
-      "name": "Burak İlkim Yüksel",
-      "phone": "905545172222",
+      "name": "BURAK İLKİM YÜKSEL",
+      "phone": "0554 517 22 22",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d399",
-      "name": "Burak Kulaksız",
+      "name": "BURAK KULAKSIZ",
       "phone": "0535 327 09 60",
       "unit": "YSP",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d400",
-      "name": "Burak Dolanbay",
-      "phone": "+90 543 815 14 30",
-      "unit": "Doktor",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "BURAK DOLANBAY",
+      "phone": "0543 815 14 30",
+      "unit": "DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d401",
-      "name": "Burak Perk",
-      "phone": "+90 532 642 25 94",
+      "name": "BURAK PERK",
+      "phone": "0532 642 25 94",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d402",
-      "name": "Burçak Meriç",
-      "phone": "905314917868",
+      "name": "BURÇAK MERİÇ",
+      "phone": "0531 491 78 68",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d403",
-      "name": "Burcu Damaryolu",
-      "phone": "+90 544 900 34 10",
+      "name": "BURCU DAMARYOLU",
+      "phone": "0544 900 34 10",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d404",
-      "name": "Burhan Barış",
-      "phone": "+90 530 458 52 30",
-      "unit": "Radyolog",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "BURHAN BARIŞ",
+      "phone": "0530 458 52 30",
+      "unit": "RADYOLOG",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d405",
-      "name": "Buse Güner",
-      "phone": "+90 539 421 83 22",
+      "name": "BUSE GÜNER",
+      "phone": "0539 421 83 22",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d406",
-      "name": "Buse Sevinç",
-      "phone": "905534719691",
+      "name": "BUSE SEVİNÇ",
+      "phone": "0553 471 96 91",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d407",
-      "name": "Buse Usul",
-      "phone": "+90 501 581 34 28",
+      "name": "BUSE USUL",
+      "phone": "0501 581 34 28",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d408",
-      "name": "Büşra Aydoğdu",
-      "phone": "+90 541 786 14 92",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "BÜŞRA AYDOĞDU",
+      "phone": "0541 786 14 92",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d409",
-      "name": "Büşra Bekci",
-      "phone": "+905536231278",
+      "name": "BÜŞRA BEKCİ",
+      "phone": "0553 623 12 78",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d410",
-      "name": "Büşra  Kandemir",
-      "phone": "+90 541 579 30 04",
+      "name": "BÜŞRA KANDEMİR",
+      "phone": "0541 579 30 04",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d411",
-      "name": "Büşra Toygar",
-      "phone": "05455445024",
-      "unit": "3.Kat",
-      "fav": false,
-      "group": ""
+      "name": "BÜŞRA TOYGAR",
+      "phone": "0545 544 50 24",
+      "unit": "3. KAT",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d412",
-      "name": "Cabir Atar",
-      "phone": "+90 531 339 39 27",
+      "name": "CABİR ATAR",
+      "phone": "0531 339 39 27",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d413",
-      "name": "Caner Palut",
-      "phone": "+90 507 567 64 24",
+      "name": "CANER PALUT",
+      "phone": "0507 567 64 24",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d414",
-      "name": "Cem Atasever",
-      "phone": "+90 538 056 41 31",
+      "name": "CEM ATASEVER",
+      "phone": "0538 056 41 31",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d415",
-      "name": "Cemre Gül Alıcı",
-      "phone": "+90 541 135 26 03",
+      "name": "CEMRE GÜL ALICI",
+      "phone": "0541 135 26 03",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d416",
-      "name": "Damla Çelik",
-      "phone": "+90 530 018 02 67",
+      "name": "DAMLA ÇELİK",
+      "phone": "0530 018 02 67",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d417",
-      "name": "Damla gündoğdu",
-      "phone": "905058832973",
+      "name": "DAMLA GÜNDOĞDU",
+      "phone": "0505 883 29 73",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d418",
-      "name": "Damla Nur Köksalan",
-      "phone": "+905538025953",
+      "name": "DAMLA NUR KÖKSALAN",
+      "phone": "0553 802 59 53",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d419",
-      "name": "Demirhan Yücepur",
-      "phone": "+905315540058",
+      "name": "DEMİRHAN YÜCEPUR",
+      "phone": "0531 554 00 58",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d420",
-      "name": "Deniz  Çamkaya Şen",
-      "phone": "+90 537 482 75 36",
+      "name": "DENİZ ÇAMKAYA ŞEN",
+      "phone": "0537 482 75 36",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d421",
-      "name": "Deniz Çilinger",
-      "phone": "905545037021",
+      "name": "DENİZ ÇİLİNGER",
+      "phone": "0554 503 70 21",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d422",
-      "name": "Deniz Dalayman",
+      "name": "DENİZ DALAYMAN",
       "phone": "0530 346 32 17",
-      "unit": "Radyolog",
-      "fav": false,
-      "group": "Doktorlar"
+      "unit": "RADYOLOG",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d423",
-      "name": "Derya Gürses",
-      "phone": "905332574814",
+      "name": "DERYA GÜRSES",
+      "phone": "0533 257 48 14",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d424",
-      "name": "Dilara Uzun",
-      "phone": "+90 541 581 79 09",
+      "name": "DİLARA UZUN",
+      "phone": "0541 581 79 09",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d425",
-      "name": "Dilay Kanlıca",
-      "phone": "+90 539 509 03 58",
+      "name": "DİLAY KANLICA",
+      "phone": "0539 509 03 58",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d426",
-      "name": "Dilek Altunkıran",
+      "name": "DİLEK ALTUNKIRAN",
       "phone": "0553 544 13 32",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d427",
-      "name": "Dilya Bayjanova",
-      "phone": "+90 506 771 81 86",
+      "name": "DİLYA BAYJANOVA",
+      "phone": "0506 771 81 86",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d428",
-      "name": "Dinara Talipova",
+      "name": "DİNARA TALİPOVA",
       "phone": "0552 791 43 32",
-      "unit": "Rusça Tercüman",
-      "fav": false,
-      "group": ""
+      "unit": "RUSÇA TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d429",
-      "name": "Diyar Jorayev",
+      "name": "DİYAR JORAYEV",
       "phone": "0546 725 10 75",
-      "unit": "Rusça",
-      "fav": false,
-      "group": ""
+      "unit": "RUSÇA",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d430",
-      "name": "Doç Dr Aydın BORA",
-      "phone": "+90 553 166 42 23",
-      "unit": "Radyolog",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "DOÇ DR AYDIN BORA",
+      "phone": "0553 166 42 23",
+      "unit": "RADYOLOG",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d431",
-      "name": "Doğuş Erez",
-      "phone": "+905346795301",
+      "name": "DOĞUŞ EREZ",
+      "phone": "0534 679 53 01",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d432",
-      "name": "Dr. Ahmet Başel",
-      "phone": "+905052526819",
+      "name": "DR. AHMET BAŞEL",
+      "phone": "0505 252 68 19",
       "unit": "GYB",
-      "fav": false,
-      "group": ""
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d433",
-      "name": "Dr. Kürşat Kara",
-      "phone": "+905323760162",
-      "unit": "Doktor",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "DR. KÜRŞAT KARA",
+      "phone": "0532 376 01 62",
+      "unit": "DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d434",
-      "name": "Dr. Özge Arpaç",
-      "phone": "+90 532 546 74 95",
-      "unit": "Doktor",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "DR. ÖZGE ARPAÇ",
+      "phone": "0532 546 74 95",
+      "unit": "DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d435",
-      "name": "Ebru Şahin",
-      "phone": "905369781415",
+      "name": "EBRU ŞAHİN",
+      "phone": "0536 978 14 15",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d436",
-      "name": "Ece Erçoban",
-      "phone": "+90 553 322 54 66",
+      "name": "ECE ERÇOBAN",
+      "phone": "0553 322 54 66",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d437",
-      "name": "Ece Korkmaz",
-      "phone": "+90 553 578 12 02",
-      "unit": "Acil Banko",
-      "fav": false,
-      "group": ""
+      "name": "ECE KORKMAZ",
+      "phone": "0553 578 12 02",
+      "unit": "ACİL BANKO",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d438",
-      "name": "Ece Yılmaz",
+      "name": "ECE YILMAZ",
       "phone": "0539 540 81 46",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d439",
-      "name": "Ecem Coşkun",
-      "phone": "905079128730",
+      "name": "ECEM COŞKUN",
+      "phone": "0507 912 87 30",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d440",
-      "name": "Eda Akdoğan",
-      "phone": "+90 553 575 45 87",
-      "unit": "Poliklinik Ürodinami Hemşiresi",
-      "fav": false,
-      "group": ""
+      "name": "EDA AKDOĞAN",
+      "phone": "0553 575 45 87",
+      "unit": "POLİKLİNİK ÜRODİNAMİ HEMŞİRESİ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d441",
-      "name": "Eda Apak",
-      "phone": "+90 545 957 61 21",
+      "name": "EDA APAK",
+      "phone": "0545 957 61 21",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d442",
-      "name": "Eda Kahveci",
-      "phone": "+905306431291",
+      "name": "EDA KAHVECİ",
+      "phone": "0530 643 12 91",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d443",
-      "name": "Eldar Valiyev",
-      "phone": "+90 552 170 91 91",
+      "name": "ELDAR VALİYEV",
+      "phone": "0552 170 91 91",
       "unit": "",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d444",
-      "name": "Elif Arslanoğlu",
-      "phone": "905452053703",
+      "name": "ELİF ARSLANOĞLU",
+      "phone": "0545 205 37 03",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d445",
-      "name": "Elif Soysal Özkan",
-      "phone": "+90 532 614 99 11",
+      "name": "ELİF SOYSAL ÖZKAN",
+      "phone": "0532 614 99 11",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d446",
-      "name": "Elzem Ağtaş",
-      "phone": "+90 539 891 33 13",
-      "unit": "Anestezi Teknikeri",
-      "fav": false,
-      "group": ""
+      "name": "ELZEM AĞTAŞ",
+      "phone": "0539 891 33 13",
+      "unit": "ANESTEZİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d447",
-      "name": "Emiljana Sulaj",
+      "name": "EMİLJANA SULAJ",
       "phone": "0538 058 10 90",
-      "unit": "Tercüman",
-      "fav": false,
-      "group": ""
+      "unit": "TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d448",
-      "name": "Emine Gülay",
-      "phone": "905469719841",
+      "name": "EMİNE GÜLAY",
+      "phone": "0546 971 98 41",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d449",
-      "name": "Emine Varlı",
-      "phone": "+90 533 593 01 08",
+      "name": "EMİNE VARLI",
+      "phone": "0533 593 01 08",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d450",
-      "name": "Emrah Dankır",
-      "phone": "+905353805416",
+      "name": "EMRAH DANKIR",
+      "phone": "0535 380 54 16",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d451",
-      "name": "Emre Coşkun",
-      "phone": "+90 545 363 93 64",
+      "name": "EMRE COŞKUN",
+      "phone": "0545 363 93 64",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d452",
-      "name": "Emre Kaplan",
-      "phone": "+90 505 046 37 37",
-      "unit": "Radyoloji Teknikeri",
-      "fav": false,
-      "group": ""
+      "name": "EMRE KAPLAN",
+      "phone": "0505 046 37 37",
+      "unit": "RADYOLOJİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d453",
-      "name": "Emre Sartakan",
-      "phone": "+90 537 282 92 21",
+      "name": "EMRE SARTAKAN",
+      "phone": "0537 282 92 21",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d454",
-      "name": "Ercan Kurt",
-      "phone": "+90 544 884 02 80",
+      "name": "ERCAN KURT",
+      "phone": "0544 884 02 80",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d455",
-      "name": "Erdinç Beder",
-      "phone": "+90 542 525 94 61",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "ERDİNÇ BEDER",
+      "phone": "0542 525 94 61",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d456",
-      "name": "Esma Aydın",
-      "phone": "+90 537 064 02 44",
-      "unit": "Ortopedi",
-      "fav": false,
-      "group": ""
+      "name": "ESMA AYDIN",
+      "phone": "0537 064 02 44",
+      "unit": "ORTOPEDİ",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d457",
-      "name": "Ezgi Acar",
-      "phone": "+90 542 844 07 14",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "EZGİ ACAR",
+      "phone": "0542 844 07 14",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d458",
-      "name": "Ezgisu Taçalan",
-      "phone": "905357771223",
+      "name": "EZGİSU TAÇALAN",
+      "phone": "0535 777 12 23",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d459",
-      "name": "Faısal Sayed Sabır",
+      "name": "FAISAL SAYED SABIR",
       "phone": "0554 192 69 92",
-      "unit": "Arapça Tercüman",
-      "fav": false,
-      "group": ""
+      "unit": "ARAPÇA TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d460",
-      "name": "Fatih Karabulut",
-      "phone": "+90 530 407 23 00",
+      "name": "FATİH KARABULUT",
+      "phone": "0530 407 23 00",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d461",
-      "name": "Fatih Koç",
-      "phone": "+90 531 976 34 10",
+      "name": "FATİH KOÇ",
+      "phone": "0531 976 34 10",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d462",
-      "name": "Fatma Şaziye Şengül",
-      "phone": "+90 532 741 21 41",
+      "name": "FATMA ŞAZİYE ŞENGÜL",
+      "phone": "0532 741 21 41",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d463",
-      "name": "Fatmanur  Kara",
-      "phone": "+90 535 412 54 86",
-      "unit": "Gyb",
-      "fav": false,
-      "group": ""
+      "name": "FATMANUR KARA",
+      "phone": "0535 412 54 86",
+      "unit": "GYB",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d464",
-      "name": "Ferah Ece",
-      "phone": "+90 542 473 66 33",
-      "unit": "Doktor",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "FERAH ECE",
+      "phone": "0542 473 66 33",
+      "unit": "DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d465",
-      "name": "Ferhat Temiz",
-      "phone": "+90 549 430 34 60",
+      "name": "FERHAT TEMİZ",
+      "phone": "0549 430 34 60",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d466",
-      "name": "Filiz Akkuş",
+      "name": "FİLİZ AKKUŞ",
       "phone": "0507 064 37 68",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d467",
-      "name": "Fumiko Japonca",
+      "name": "FUMİKO JAPONCA",
       "phone": "0530 939 42 40",
-      "unit": "Tercüman",
-      "fav": false,
-      "group": ""
+      "unit": "TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d468",
-      "name": "Furkan  Kabadayı",
-      "phone": "+90 541 903 17 69",
+      "name": "FURKAN KABADAYI",
+      "phone": "0541 903 17 69",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d469",
-      "name": "Gani Tamer",
+      "name": "GANİ TAMER",
       "phone": "0534 257 76 74",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d470",
-      "name": "Gizem Karataş",
-      "phone": "+90 531 423 67 62",
-      "unit": "Supervisor Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "GİZEM KARATAŞ",
+      "phone": "0531 423 67 62",
+      "unit": "SUPERVİSOR HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d471",
-      "name": "Gözde Sertkaya",
+      "name": "GÖZDE SERTKAYA",
       "phone": "0541 923 77 52",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d472",
-      "name": "Gülşah Ertuk",
-      "phone": "905301729602",
+      "name": "GÜLŞAH ERTUK",
+      "phone": "0530 172 96 02",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d473",
-      "name": "Gülseren Bayraktar",
-      "phone": "05465752213",
+      "name": "GÜLSEREN BAYRAKTAR",
+      "phone": "0546 575 22 13",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d474",
-      "name": "Gülsün Sarıkan",
-      "phone": "905531647708",
+      "name": "GÜLSÜN SARIKAN",
+      "phone": "0553 164 77 08",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d475",
-      "name": "Güngör ÜZÜM",
-      "phone": "905373333366",
+      "name": "GÜNGÖR ÜZÜM",
+      "phone": "0537 333 33 66",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d476",
-      "name": "Hacer Bayraktar",
-      "phone": "905435261487",
+      "name": "HACER BAYRAKTAR",
+      "phone": "0543 526 14 87",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d477",
-      "name": "Hakan Yıldırım",
-      "phone": "+90 544 396 39 06",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "HAKAN YILDIRIM",
+      "phone": "0544 396 39 06",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d478",
-      "name": "Hale ŞAHİN",
-      "phone": "+90 541 452 72 36",
+      "name": "HALE ŞAHİN",
+      "phone": "0541 452 72 36",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d479",
-      "name": "Handan Arslan Gündeyer",
-      "phone": "+90 530 047 49 82",
-      "unit": "Ortopedi Asistan",
-      "fav": false,
-      "group": ""
+      "name": "HANDAN ARSLAN GÜNDEYER",
+      "phone": "0530 047 49 82",
+      "unit": "ORTOPEDİ ASİSTAN",
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d480",
-      "name": "Hanife Çarpar",
-      "phone": "905376289934",
+      "name": "HANİFE ÇARPAR",
+      "phone": "0537 628 99 34",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d481",
-      "name": "Harun Çakıroğlu",
-      "phone": "905534917479",
+      "name": "HARUN ÇAKIROĞLU",
+      "phone": "0553 491 74 79",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d482",
-      "name": "Harun Mekikli",
-      "phone": "+90 541 855 44 10",
-      "unit": "Radyoloji Teknikeri",
-      "fav": false,
-      "group": ""
+      "name": "HARUN MEKİKLİ",
+      "phone": "0541 855 44 10",
+      "unit": "RADYOLOJİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d483",
-      "name": "Hasan ERBAY",
-      "phone": "905456347870",
-      "unit": "Elektrik Teknisyeni",
-      "fav": false,
-      "group": ""
+      "name": "HASAN ERBAY",
+      "phone": "0545 634 78 70",
+      "unit": "ELEKTRİK TEKNİSYENİ",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d484",
-      "name": "Hasan Sarıkaya",
-      "phone": "+90 535 620 05 31",
+      "name": "HASAN SARIKAYA",
+      "phone": "0535 620 05 31",
       "unit": "",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d485",
-      "name": "Hatice Yıldırım",
-      "phone": "+90 531 261 36 12",
-      "unit": "Ysp",
-      "fav": false,
-      "group": ""
+      "name": "HATİCE YILDIRIM",
+      "phone": "0531 261 36 12",
+      "unit": "YSP",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d486",
-      "name": "Hayri Çiçek",
-      "phone": "+90 532 506 77 97",
-      "unit": "Şoför",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "name": "HAYRİ ÇİÇEK",
+      "phone": "0532 506 77 97",
+      "unit": "ŞOFÖR",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d487",
-      "name": "Hazal Bağcı",
-      "phone": "+905345463610",
+      "name": "HAZAL BAĞCI",
+      "phone": "0534 546 36 10",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d488",
-      "name": "Hilal Kara",
-      "phone": "+905072299307",
+      "name": "HİLAL KARA",
+      "phone": "0507 229 93 07",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d489",
-      "name": "Hilal Turgay",
-      "phone": "+90 538 813 96 91",
+      "name": "HİLAL TURGAY",
+      "phone": "0538 813 96 91",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d490",
-      "name": "Hülya Dokur",
-      "phone": "+90 541 529 55 52",
+      "name": "HÜLYA DOKUR",
+      "phone": "0541 529 55 52",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d491",
-      "name": "Hümay Nur Süleymanoğlu",
-      "phone": "905334662748",
+      "name": "HÜMAY NUR SÜLEYMANOĞLU",
+      "phone": "0533 466 27 48",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d492",
-      "name": "Hüseyin DURMUŞ",
-      "phone": "+90 549 637 34 34",
+      "name": "HÜSEYİN DURMUŞ",
+      "phone": "0549 637 34 34",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d493",
-      "name": "Hüseyin Yaşar",
-      "phone": "+90 546 216 67 81",
+      "name": "HÜSEYİN YAŞAR",
+      "phone": "0546 216 67 81",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d494",
-      "name": "İbrahim Bulğan",
+      "name": "İBRAHİM BULĞAN",
       "phone": "0501 373 96 65",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d495",
-      "name": "İbrahim Onur Can",
-      "phone": "+905449593946",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "İBRAHİM ONUR CAN",
+      "phone": "0544 959 39 46",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d496",
-      "name": "İbrahim Veysel",
-      "phone": "+90 555 066 11 34",
+      "name": "İBRAHİM VEYSEL",
+      "phone": "0555 066 11 34",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d497",
-      "name": "İlayda Ankun",
-      "phone": "+90 532 451 30 05",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "İLAYDA ANKUN",
+      "phone": "0532 451 30 05",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d498",
-      "name": "İlayda YETENEL",
-      "phone": "+905447828426",
+      "name": "İLAYDA YETENEL",
+      "phone": "0544 782 84 26",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d499",
-      "name": "İrem Battal",
-      "phone": "+90 553 345 53 35",
+      "name": "İREM BATTAL",
+      "phone": "0553 345 53 35",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d500",
-      "name": "İrem Ceylan",
-      "phone": "905345977203",
+      "name": "İREM CEYLAN",
+      "phone": "0534 597 72 03",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d501",
-      "name": "İrem Nur Duman",
+      "name": "İREM NUR DUMAN",
       "phone": "0531 610 11 28",
-      "unit": "Radyoterapi",
-      "fav": false,
-      "group": ""
+      "unit": "RADYOTERAPİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d502",
-      "name": "İrem Okay",
-      "phone": "+90 530 889 47 19",
+      "name": "İREM OKAY",
+      "phone": "0530 889 47 19",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d503",
-      "name": "İremnur  Hacısalihoğlu",
-      "phone": "+90 535 260 48 22",
-      "unit": "Laboratuvar",
-      "fav": false,
-      "group": ""
+      "name": "İREMNUR HACISALİHOĞLU",
+      "phone": "0535 260 48 22",
+      "unit": "LABORATUVAR",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d504",
-      "name": "Işıl Kale",
+      "name": "IŞIL KALE",
       "phone": "0543 495 88 98",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d505",
-      "name": "İsminur Dakak",
-      "phone": "905312536330",
+      "name": "İSMİNUR DAKAK",
+      "phone": "0531 253 63 30",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d506",
-      "name": "İSS Liv",
-      "phone": "+90 530 172 96 95",
+      "name": "İSS LİV",
+      "phone": "0530 172 96 95",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d507",
-      "name": "İzzettin Artut",
-      "phone": "905320645953",
-      "unit": "Göz",
-      "fav": false,
-      "group": ""
+      "name": "İZZETTİN ARTUT",
+      "phone": "0532 064 59 53",
+      "unit": "GÖZ",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d508",
-      "name": "Kader Demir",
-      "phone": "905453444223",
+      "name": "KADER DEMİR",
+      "phone": "0545 344 42 23",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d509",
-      "name": "Kader Yemen",
-      "phone": "905340174294",
+      "name": "KADER YEMEN",
+      "phone": "0534 017 42 94",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d510",
-      "name": "Kadir Abul Asistan",
-      "phone": "+90 530 823 82 62",
-      "unit": "Asistan",
-      "fav": false,
-      "group": ""
+      "name": "KADİR ABUL ASİSTAN",
+      "phone": "0530 823 82 62",
+      "unit": "ASİSTAN",
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d511",
-      "name": "Kadir Abul",
-      "phone": "+90 553 872 47 14",
-      "unit": "Doktor",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "KADİR ABUL",
+      "phone": "0553 872 47 14",
+      "unit": "DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d512",
-      "name": "Kadir Ceyhan",
-      "phone": "+90 543 534 85 08",
+      "name": "KADİR CEYHAN",
+      "phone": "0543 534 85 08",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d513",
-      "name": "Kadir Yavuz",
+      "name": "KADİR YAVUZ",
       "phone": "0542 469 93 07",
-      "unit": "Biyomedikal",
-      "fav": false,
-      "group": ""
+      "unit": "BİYOMEDİKAL",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d514",
-      "name": "Kamer Funda Yağan",
+      "name": "KAMER FUNDA YAĞAN",
       "phone": "0507 447 99 64",
-      "unit": "Dahiliye Hemşiresi",
-      "fav": false,
-      "group": ""
+      "unit": "DAHİLİYE HEMŞİRESİ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d515",
-      "name": "Kardelen  Acay",
+      "name": "KARDELEN ACAY",
       "phone": "0538 274 48 81",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d516",
-      "name": "Kasım Demirkaya",
-      "phone": "+90 543 772 86 30",
+      "name": "KASIM DEMİRKAYA",
+      "phone": "0543 772 86 30",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d517",
-      "name": "Katerina Özkara",
-      "phone": "+90 530 510 71 02",
-      "unit": "Rusça Tercüman",
-      "fav": false,
-      "group": ""
+      "name": "KATERİNA ÖZKARA",
+      "phone": "0530 510 71 02",
+      "unit": "RUSÇA TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d518",
-      "name": "Kemal Kara",
-      "phone": "+90 549 549 12 34",
+      "name": "KEMAL KARA",
+      "phone": "0549 549 12 34",
       "unit": "",
-      "fav": false,
-      "group": "Doktorlar"
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d519",
-      "name": "Kerem Kurtuluş",
-      "phone": "905396499098",
+      "name": "KEREM KURTULUŞ",
+      "phone": "0539 649 90 98",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d520",
-      "name": "Kevser",
-      "phone": "905314098141",
+      "name": "KEVSER",
+      "phone": "0531 409 81 41",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d521",
-      "name": "Kübra Elmas",
-      "phone": "+90 538 043 79 50",
+      "name": "KÜBRA ELMAS",
+      "phone": "0538 043 79 50",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d522",
-      "name": "Kübra  Koç",
+      "name": "KÜBRA KOÇ",
       "phone": "0554 901 17 81",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d523",
-      "name": "Kübra Savaş",
-      "phone": "+905349155537",
+      "name": "KÜBRA SAVAŞ",
+      "phone": "0534 915 55 37",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d524",
-      "name": "Kutay Hoş",
-      "phone": "+905377884372",
-      "unit": "Radyoloji Teknikeri",
-      "fav": false,
-      "group": ""
+      "name": "KUTAY HOŞ",
+      "phone": "0537 788 43 72",
+      "unit": "RADYOLOJİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d525",
-      "name": "Liv Checkup Hemşire Bedriye",
-      "phone": "+905531079435",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "LİV CHECKUP HEMŞİRE BEDRİYE",
+      "phone": "0553 107 94 35",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d526",
-      "name": "Liv Ulus",
-      "phone": "+90 212 999 82 13 ::: +90 212 999 85 14 ::: +90 212 999 82 52",
+      "name": "LİV ULUS",
+      "phone": "902129998213902129998514902129",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d527",
-      "name": "Makbule  Eker",
-      "phone": "+90 541 636 61 28",
+      "name": "MAKBULE EKER",
+      "phone": "0541 636 61 28",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d528",
-      "name": "Mehmet Antepli",
-      "phone": "+90 552 635 99 08",
-      "unit": "Tercüman",
-      "fav": false,
-      "group": ""
+      "name": "MEHMET ANTEPLİ",
+      "phone": "0552 635 99 08",
+      "unit": "TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d529",
-      "name": "Mehmet Hoca",
+      "name": "MEHMET HOCA",
       "phone": "0552 461 16 71",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d530",
-      "name": "Melis Kaya",
+      "name": "MELİS KAYA",
       "phone": "0545 166 19 37",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d531",
-      "name": "Merdan  Fayda",
+      "name": "MERDAN FAYDA",
       "phone": "0532 650 78 83",
-      "unit": "Prof Dr",
-      "fav": false,
-      "group": ""
+      "unit": "PROF DR",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d532",
-      "name": "Meri İstiroti",
-      "phone": "+90 532 548 76 53",
-      "unit": "Koordinator",
-      "fav": false,
-      "group": ""
+      "name": "MERİ İSTİROTİ",
+      "phone": "0532 548 76 53",
+      "unit": "KOORDİNATOR",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d533",
-      "name": "Mert Arslan",
-      "phone": "+905425608579",
+      "name": "MERT ARSLAN",
+      "phone": "0542 560 85 79",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d534",
-      "name": "Mert Şen",
-      "phone": "+90 533 328 75 64",
-      "unit": "Stajyer",
-      "fav": false,
-      "group": ""
+      "name": "MERT ŞEN",
+      "phone": "0533 328 75 64",
+      "unit": "STAJYER",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d535",
-      "name": "Mert Yolcu",
-      "phone": "+90 534 213 39 75",
+      "name": "MERT YOLCU",
+      "phone": "0534 213 39 75",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d536",
-      "name": "Merve Ay",
-      "phone": "+905393767962",
-      "unit": "Radyoloji Banko",
-      "fav": false,
-      "group": ""
+      "name": "MERVE AY",
+      "phone": "0539 376 79 62",
+      "unit": "RADYOLOJİ BANKO",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d537",
-      "name": "Merve Demirtaş",
-      "phone": "905532644814",
+      "name": "MERVE DEMİRTAŞ",
+      "phone": "0553 264 48 14",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d538",
-      "name": "Merve Göksü",
-      "phone": "+905452486726",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "MERVE GÖKSÜ",
+      "phone": "0545 248 67 26",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d539",
-      "name": "Merve Kadı",
-      "phone": "905441426654",
+      "name": "MERVE KADI",
+      "phone": "0544 142 66 54",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d540",
-      "name": "Merve Kıraç",
-      "phone": "+905428031767",
+      "name": "MERVE KIRAÇ",
+      "phone": "0542 803 17 67",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d541",
-      "name": "Merve Yılmaz",
-      "phone": "905422450225",
+      "name": "MERVE YILMAZ",
+      "phone": "0542 245 02 25",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d542",
-      "name": "Meryem Bayır",
-      "phone": "905373187372",
+      "name": "MERYEM BAYIR",
+      "phone": "0537 318 73 72",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d543",
-      "name": "Mevlüde Çalık",
-      "phone": "+90 501 304 51 57",
+      "name": "MEVLÜDE ÇALIK",
+      "phone": "0501 304 51 57",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d544",
-      "name": "Mithat Önder",
-      "phone": "+90 553 221 18 37",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "MİTHAT ÖNDER",
+      "phone": "0553 221 18 37",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d545",
-      "name": "Muharrem Şahin",
-      "phone": "+90 506 038 95 39",
-      "unit": "Şoför",
-      "fav": false,
-      "group": ""
+      "name": "MUHARREM ŞAHİN",
+      "phone": "0506 038 95 39",
+      "unit": "ŞOFÖR",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d546",
-      "name": "Muhiddin Kuguoglu",
-      "phone": "905412130873",
+      "name": "MUHİDDİN KUGUOGLU",
+      "phone": "0541 213 08 73",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d547",
-      "name": "Murat Bey",
-      "phone": "+90 539 515 23 27",
-      "unit": "Tercüman Arnavutça",
-      "fav": false,
-      "group": ""
+      "name": "MURAT BEY",
+      "phone": "0539 515 23 27",
+      "unit": "TERCÜMAN ARNAVUTÇA",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d548",
-      "name": "Mustafa Aksoy",
-      "phone": "905388327352",
+      "name": "MUSTAFA AKSOY",
+      "phone": "0538 832 73 52",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d549",
-      "name": "Nazmiye Büşra  Demirbaş",
+      "name": "NAZMİYE BÜŞRA DEMİRBAŞ",
       "phone": "0542 107 60 13",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d550",
-      "name": "Nebahat Şenol",
+      "name": "NEBAHAT ŞENOL",
       "phone": "0541 748 21 51",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d551",
-      "name": "Necdet Dalgıç",
+      "name": "NECDET DALGIÇ",
       "phone": "0537 356 58 13",
       "unit": "YSP",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d552",
-      "name": "Nedret Güler",
+      "name": "NEDRET GÜLER",
       "phone": "0534 065 69 50",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d553",
-      "name": "Nehir Aytuğ",
-      "phone": "+905301125543",
+      "name": "NEHİR AYTUĞ",
+      "phone": "0530 112 55 43",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d554",
-      "name": "Neslihan Hanım",
-      "phone": "+905415050152",
+      "name": "NESLİHAN HANIM",
+      "phone": "0541 505 01 52",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d555",
-      "name": "Nesrin Köprülü",
-      "phone": "905306627443",
+      "name": "NESRİN KÖPRÜLÜ",
+      "phone": "0530 662 74 43",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d556",
-      "name": "Nihal Gokbüri",
-      "phone": "+90 545 684 26 00",
-      "unit": "Zemin Kat",
-      "fav": false,
-      "group": ""
+      "name": "NİHAL GOKBÜRİ",
+      "phone": "0545 684 26 00",
+      "unit": "ZEMİN KAT",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d557",
-      "name": "Nilay Yılmaz",
+      "name": "NİLAY YILMAZ",
       "phone": "0507 199 74 94",
-      "unit": "Nicu",
-      "fav": false,
-      "group": ""
+      "unit": "NİCU",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d558",
-      "name": "Nilgün Erdivan",
-      "phone": "905066921991",
+      "name": "NİLGÜN ERDİVAN",
+      "phone": "0506 692 19 91",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d559",
-      "name": "Nur Kavlak",
-      "phone": "905388214594",
+      "name": "NUR KAVLAK",
+      "phone": "0538 821 45 94",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d560",
-      "name": "Nur Özşahin",
-      "phone": "+90 505 912 44 27",
-      "unit": "Dr",
-      "fav": false,
-      "group": ""
+      "name": "NUR ÖZŞAHİN",
+      "phone": "0505 912 44 27",
+      "unit": "DR",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d561",
-      "name": "Nur sena Günel",
-      "phone": "+90 555 833 93 23",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "NUR SENA GÜNEL",
+      "phone": "0555 833 93 23",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d562",
-      "name": "Nuragha Khalilov",
-      "phone": "+90 545 105 00 13",
-      "unit": "Rusca",
-      "fav": false,
-      "group": ""
+      "name": "NURAGHA KHALİLOV",
+      "phone": "0545 105 00 13",
+      "unit": "RUSCA",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d563",
-      "name": "Nuran AKAY",
-      "phone": "+90 535 053 26 56",
+      "name": "NURAN AKAY",
+      "phone": "0535 053 26 56",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d564",
-      "name": "Nuran Garipcan",
-      "phone": "+90 535 834 22 22",
+      "name": "NURAN GARİPCAN",
+      "phone": "0535 834 22 22",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d565",
-      "name": "Nursen Seyitoğlu",
-      "phone": "905336100977",
+      "name": "NURSEN SEYİTOĞLU",
+      "phone": "0533 610 09 77",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d566",
-      "name": "Nurullah Çıkma",
-      "phone": "+90 538 469 46 01",
-      "unit": "Acil",
-      "fav": false,
-      "group": ""
+      "name": "NURULLAH ÇIKMA",
+      "phone": "0538 469 46 01",
+      "unit": "ACİL",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d567",
-      "name": "Oğuz  Kaya",
+      "name": "OĞUZ KAYA",
       "phone": "0530 662 74 01",
-      "unit": "Müdür",
-      "fav": false,
-      "group": ""
+      "unit": "MÜDÜR",
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d568",
-      "name": "Oğuzhan Destireci",
-      "phone": "+90 530 114 98 37",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "OĞUZHAN DESTİRECİ",
+      "phone": "0530 114 98 37",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d569",
-      "name": "Oğuzhan Kibar",
-      "phone": "+90 531 897 82 40",
-      "unit": "3. Kat",
-      "fav": false,
-      "group": ""
+      "name": "OĞUZHAN KİBAR",
+      "phone": "0531 897 82 40",
+      "unit": "3. KAT",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d570",
-      "name": "Okan Saray",
-      "phone": "+90 531 819 89 78",
+      "name": "OKAN SARAY",
+      "phone": "0531 819 89 78",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d571",
-      "name": "Onurcan Cınbız",
-      "phone": "+90 541 311 39 78",
-      "unit": "Radyoloji Teknikeri",
-      "fav": false,
-      "group": ""
+      "name": "ONURCAN CINBIZ",
+      "phone": "0541 311 39 78",
+      "unit": "RADYOLOJİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d572",
-      "name": "Osman Biliciler",
-      "phone": "+90 539 335 84 84",
+      "name": "OSMAN BİLİCİLER",
+      "phone": "0539 335 84 84",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d573",
-      "name": "Osman Nuri Baş",
-      "phone": "+90 552 949 10 50",
+      "name": "OSMAN NURİ BAŞ",
+      "phone": "0552 949 10 50",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d574",
-      "name": "Özgün Deniz Akşahin",
-      "phone": "+905077477117",
+      "name": "ÖZGÜN DENİZ AKŞAHİN",
+      "phone": "0507 747 71 17",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d575",
-      "name": "Özlem Demiralay",
-      "phone": "905414506906",
+      "name": "ÖZLEM DEMİRALAY",
+      "phone": "0541 450 69 06",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d576",
-      "name": "Pembe Çalık",
-      "phone": "05385508367",
+      "name": "PEMBE ÇALIK",
+      "phone": "0538 550 83 67",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d577",
-      "name": "Perizade Yılmaz",
-      "phone": "905324807184",
+      "name": "PERİZADE YILMAZ",
+      "phone": "0532 480 71 84",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d578",
-      "name": "Radyolog Burcu Yetimoğlu",
-      "phone": "+905397324353",
-      "unit": "Radyolog",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "RADYOLOG BURCU YETİMOĞLU",
+      "phone": "0539 732 43 53",
+      "unit": "RADYOLOG",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d579",
-      "name": "Rama Tercüman",
-      "phone": "+905347334796",
-      "unit": "Tercüman",
-      "fav": false,
-      "group": ""
+      "name": "RAMA TERCÜMAN",
+      "phone": "0534 733 47 96",
+      "unit": "TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d580",
-      "name": "Ramazan ASLAN",
+      "name": "RAMAZAN ASLAN",
       "phone": "0531 910 97 95",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d581",
-      "name": "Raouia Fatma Zohra Madani",
+      "name": "RAOUİA FATMA ZOHRA MADANİ",
       "phone": "0536 339 84 28",
-      "unit": "Fransızca Tercüman",
-      "fav": false,
-      "group": ""
+      "unit": "FRANSIZCA TERCÜMAN",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d582",
-      "name": "Ruçhan hilmi Cüni",
+      "name": "RUÇHAN HİLMİ CÜNİ",
       "phone": "0507 938 52 06",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d583",
-      "name": "Rümeysa Karakaya",
-      "phone": "+90 555 164 34 38",
-      "unit": "Yatış",
-      "fav": false,
-      "group": ""
+      "name": "RÜMEYSA KARAKAYA",
+      "phone": "0555 164 34 38",
+      "unit": "YATIŞ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d584",
-      "name": "Sabahattin Evin",
-      "phone": "+90 535 863 68 66",
-      "unit": "Tedarik Zinciri Müdürlüğü",
-      "fav": false,
-      "group": ""
+      "name": "SABAHATTİN EVİN",
+      "phone": "0535 863 68 66",
+      "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d585",
-      "name": "Sabriye Ozcan",
+      "name": "SABRİYE OZCAN",
       "phone": "0531 942 28 08",
-      "unit": "Yardımcı Personel",
-      "fav": false,
-      "group": ""
+      "unit": "YARDIMCI PERSONEL",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d586",
-      "name": "Sadık Önal",
-      "phone": "+90 530 641 84 82",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "SADIK ÖNAL",
+      "phone": "0530 641 84 82",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d587",
-      "name": "Samaya Rasulova",
-      "phone": "+90 507 041 46 44",
+      "name": "SAMAYA RASULOVA",
+      "phone": "0507 041 46 44",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d588",
-      "name": "Samir Tercuman",
-      "phone": "+905393678824",
-      "unit": "İngilizce, Fransızca",
-      "fav": false,
-      "group": ""
+      "name": "SAMİR TERCUMAN",
+      "phone": "0539 367 88 24",
+      "unit": "İNGİLİZCE, FRANSIZCA",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d589",
-      "name": "Sare Durak",
-      "phone": "905393810697",
+      "name": "SARE DURAK",
+      "phone": "0539 381 06 97",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d590",
       "name": "SAYİT COŞGUN",
-      "phone": "+905368381415",
-      "unit": "Radyoterapi",
-      "fav": false,
-      "group": ""
+      "phone": "0536 838 14 15",
+      "unit": "RADYOTERAPİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d591",
-      "name": "Seçil Belli",
-      "phone": "+905424730464",
+      "name": "SEÇİL BELLİ",
+      "phone": "0542 473 04 64",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d592",
-      "name": "Sedanur Demir",
-      "phone": "+90 537 741 13 38",
+      "name": "SEDANUR DEMİR",
+      "phone": "0537 741 13 38",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d593",
-      "name": "Sedef Çörtük",
-      "phone": "+905541191060",
+      "name": "SEDEF ÇÖRTÜK",
+      "phone": "0554 119 10 60",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d594",
-      "name": "Sefa Büyükkayıkçı",
-      "phone": "+905310850557",
+      "name": "SEFA BÜYÜKKAYIKÇI",
+      "phone": "0531 085 05 57",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d595",
-      "name": "Şehiddin Bulut",
-      "phone": "+90 543 254 02 01",
+      "name": "ŞEHİDDİN BULUT",
+      "phone": "0543 254 02 01",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d596",
-      "name": "Selma Çelenk",
-      "phone": "905347458142",
+      "name": "SELMA ÇELENK",
+      "phone": "0534 745 81 42",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d597",
-      "name": "Semih Üstün",
-      "phone": "905432790490",
+      "name": "SEMİH ÜSTÜN",
+      "phone": "0543 279 04 90",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d598",
-      "name": "Semra Kurtuldu",
-      "phone": "905355413693",
+      "name": "SEMRA KURTULDU",
+      "phone": "0535 541 36 93",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d599",
-      "name": "Sena Hayar",
-      "phone": "905394328602",
-      "unit": "Anestezi",
-      "fav": false,
-      "group": ""
+      "name": "SENA HAYAR",
+      "phone": "0539 432 86 02",
+      "unit": "ANESTEZİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d600",
-      "name": "Sena Tekin",
+      "name": "SENA TEKİN",
       "phone": "0534 368 68 52",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d601",
-      "name": "Sercan Taşhan",
-      "phone": "905396761241",
+      "name": "SERCAN TAŞHAN",
+      "phone": "0539 676 12 41",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d602",
-      "name": "Serdar Vale",
-      "phone": "+905366911992",
+      "name": "SERDAR VALE",
+      "phone": "0536 691 19 92",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d603",
-      "name": "Serhat Güler",
-      "phone": "905356255038",
+      "name": "SERHAT GÜLER",
+      "phone": "0535 625 50 38",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d604",
-      "name": "Serkan Erol",
-      "phone": "905312445143",
+      "name": "SERKAN EROL",
+      "phone": "0531 244 51 43",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d605",
-      "name": "Seval Çapar",
-      "phone": "905358837908",
+      "name": "SEVAL ÇAPAR",
+      "phone": "0535 883 79 08",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d606",
-      "name": "Sevgi Kazanç",
-      "phone": "905392419668",
+      "name": "SEVGİ KAZANÇ",
+      "phone": "0539 241 96 68",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d607",
-      "name": "Sevgi Yağlı",
-      "phone": "905435332734",
+      "name": "SEVGİ YAĞLI",
+      "phone": "0543 533 27 34",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d608",
-      "name": "Şevval Nas",
-      "phone": "+905458627919",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "ŞEVVAL NAS",
+      "phone": "0545 862 79 19",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d609",
-      "name": "Şeyda Çatak",
+      "name": "ŞEYDA ÇATAK",
       "phone": "0533 475 72 24",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d610",
-      "name": "Sibel Songur",
-      "phone": "905072238364",
+      "name": "SİBEL SONGUR",
+      "phone": "0507 223 83 64",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d611",
-      "name": "Sinem AĞCA",
-      "phone": "+90 538 385 96 90",
-      "unit": "Radyoterapi",
-      "fav": false,
-      "group": ""
+      "name": "SİNEM AĞCA",
+      "phone": "0538 385 96 90",
+      "unit": "RADYOTERAPİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d612",
-      "name": "Şirin Taşkaya",
-      "phone": "905412146436",
+      "name": "ŞİRİN TAŞKAYA",
+      "phone": "0541 214 64 36",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d613",
-      "name": "Sıla Kardeş",
-      "phone": "905346302534",
+      "name": "SILA KARDEŞ",
+      "phone": "0534 630 25 34",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d614",
-      "name": "Sıla Toklucu",
-      "phone": "905345546333",
+      "name": "SILA TOKLUCU",
+      "phone": "0534 554 63 33",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d615",
-      "name": "Songül İnel",
-      "phone": "+905541167502",
+      "name": "SONGÜL İNEL",
+      "phone": "0554 116 75 02",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d616",
-      "name": "Şükran Cansu",
+      "name": "ŞÜKRAN CANSU",
       "phone": "0536 957 19 79",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d617",
-      "name": "Şura Nur Taşgın",
-      "phone": "+90 505 223 05 62",
+      "name": "ŞURA NUR TAŞGIN",
+      "phone": "0505 223 05 62",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d618",
-      "name": "Taha Abdullah Uçar",
-      "phone": "+905374402858",
+      "name": "TAHA ABDULLAH UÇAR",
+      "phone": "0537 440 28 58",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d619",
-      "name": "Talha Tezcan",
-      "phone": "+90 544 383 43 59",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "TALHA TEZCAN",
+      "phone": "0544 383 43 59",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d620",
-      "name": "Talha Uzun",
-      "phone": "905377356857",
+      "name": "TALHA UZUN",
+      "phone": "0537 735 68 57",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d621",
-      "name": "Tansu Turan",
-      "phone": "905436522337",
+      "name": "TANSU TURAN",
+      "phone": "0543 652 23 37",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d622",
-      "name": "Tayfun Ataş",
-      "phone": "+90 546 940 98 14",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "TAYFUN ATAŞ",
+      "phone": "0546 940 98 14",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d623",
-      "name": "Uğur Haklar  Asistan",
+      "name": "UĞUR HAKLAR ASİSTAN",
       "phone": "0546 544 40 41",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d624",
-      "name": "Ülker Sali",
-      "phone": "+905336142960",
+      "name": "ÜLKER SALİ",
+      "phone": "0533 614 29 60",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d625",
-      "name": "Ulus Gece Müdürü",
-      "phone": "+90 530 172 96 46",
+      "name": "ULUS GECE MÜDÜRÜ",
+      "phone": "0530 172 96 46",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d626",
-      "name": "Umay Tiktaş",
-      "phone": "905050610264",
+      "name": "UMAY TİKTAŞ",
+      "phone": "0505 061 02 64",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d627",
-      "name": "Umut BUÇUKCU",
-      "phone": "905522139507",
+      "name": "UMUT BUÇUKCU",
+      "phone": "0552 213 95 07",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d628",
-      "name": "Umut Kar",
-      "phone": "+90 546 974 68 46",
+      "name": "UMUT KAR",
+      "phone": "0546 974 68 46",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d629",
-      "name": "Umut Kocamızrak",
-      "phone": "905522355974",
+      "name": "UMUT KOCAMIZRAK",
+      "phone": "0552 235 59 74",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d630",
-      "name": "Umut Teknik",
-      "phone": "905389183715",
+      "name": "UMUT TEKNİK",
+      "phone": "0538 918 37 15",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d631",
-      "name": "Utku Karaalp",
-      "phone": "905313438467",
+      "name": "UTKU KARAALP",
+      "phone": "0531 343 84 67",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d632",
-      "name": "Valeri Bahar",
-      "phone": "905306627192",
+      "name": "VALERİ BAHAR",
+      "phone": "0530 662 71 92",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d633",
-      "name": "Vedat Erol",
-      "phone": "+90 544 886 88 56",
-      "unit": "Şoför",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "name": "VEDAT EROL",
+      "phone": "0544 886 88 56",
+      "unit": "ŞOFÖR",
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d634",
-      "name": "Volkan Kişin",
+      "name": "VOLKAN KİŞİN",
       "phone": "0538 688 12 12",
-      "unit": "Muhaberat Depo",
-      "fav": false,
-      "group": ""
+      "unit": "MUHABERAT DEPO",
+      "group": "Yönetim & İdari",
+      "fav": false
     },
     {
       "id": "d635",
-      "name": "Volkan Şanlı",
-      "phone": "+905312119116",
+      "name": "VOLKAN ŞANLI",
+      "phone": "0531 211 91 16",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d636",
-      "name": "Volkan YILMAZ",
-      "phone": "+90 543 662 04 35",
+      "name": "VOLKAN YILMAZ",
+      "phone": "0543 662 04 35",
       "unit": "",
-      "fav": false,
-      "group": "Misafir & VIP"
+      "group": "Misafir & VIP",
+      "fav": false
     },
     {
       "id": "d637",
-      "name": "Yağmur  Arslan",
-      "phone": "+90 546 915 36 87",
+      "name": "YAĞMUR ARSLAN",
+      "phone": "0546 915 36 87",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d638",
-      "name": "Yağmur Melek Sarı",
-      "phone": "+90 544 385 46 74",
-      "unit": "Radyoloji Teknikeri",
-      "fav": false,
-      "group": ""
+      "name": "YAĞMUR MELEK SARI",
+      "phone": "0544 385 46 74",
+      "unit": "RADYOLOJİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d639",
-      "name": "Yakup Sökmen",
-      "phone": "+90 535 743 82 37",
+      "name": "YAKUP SÖKMEN",
+      "phone": "0535 743 82 37",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d640",
-      "name": "Yasemin Çınar",
-      "phone": "905303597360",
+      "name": "YASEMİN ÇINAR",
+      "phone": "0530 359 73 60",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d641",
-      "name": "Yasemin Hemşire",
-      "phone": "+90 507 701 22 03",
-      "unit": "Hemşire",
-      "fav": false,
-      "group": ""
+      "name": "YASEMİN HEMŞİRE",
+      "phone": "0507 701 22 03",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
+      "fav": false
     },
     {
       "id": "d642",
-      "name": "Yasemin Katrancı",
-      "phone": "905529419237",
+      "name": "YASEMİN KATRANCI",
+      "phone": "0552 941 92 37",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d643",
-      "name": "Yasin Aydın",
-      "phone": "+90 544 459 79 32",
-      "unit": "Ysp",
-      "fav": false,
-      "group": ""
+      "name": "YASİN AYDIN",
+      "phone": "0544 459 79 32",
+      "unit": "YSP",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d644",
-      "name": "Yasin Karakuş",
-      "phone": "+90 554 638 63 00",
+      "name": "YASİN KARAKUŞ",
+      "phone": "0554 638 63 00",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d645",
-      "name": "Yekta Temel",
-      "phone": "905342971353",
+      "name": "YEKTA TEMEL",
+      "phone": "0534 297 13 53",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d646",
-      "name": "Yener İnce",
-      "phone": "+905456150706",
+      "name": "YENER İNCE",
+      "phone": "0545 615 07 06",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d647",
-      "name": "Yeşer Dorman",
-      "phone": "+90 530 777 39 04",
-      "unit": "Gyb Doktor",
-      "fav": false,
-      "group": "Doktorlar"
-    },
-    {
-      "id": "d648",
-      "name": "Yeşim Üçkurt",
-      "phone": "+90 532 441 51 41",
-      "unit": "",
-      "fav": false,
-      "group": "Doktorlar"
+      "name": "YEŞER DORMAN",
+      "phone": "0530 777 39 04",
+      "unit": "GYB DOKTOR",
+      "group": "Doktorlar",
+      "fav": false
     },
     {
       "id": "d649",
-      "name": "Yunus Kılıç",
+      "name": "YUNUS KILIÇ",
       "phone": "0531 516 38 12",
-      "unit": "Teknik",
-      "fav": false,
-      "group": ""
+      "unit": "TEKNİK",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d650",
-      "name": "Yüsra Göksel",
-      "phone": "905397983693",
+      "name": "YÜSRA GÖKSEL",
+      "phone": "0539 798 36 93",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d651",
-      "name": "Yüsra Yazıcı",
-      "phone": "905380580603",
+      "name": "YÜSRA YAZICI",
+      "phone": "0538 058 06 03",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d652",
       "name": "YUSUF KAPLAN",
       "phone": "0553 196 14 65",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d653",
-      "name": "Yusufcan ÖZDEMİR",
-      "phone": "507 721 86 30",
-      "unit": "Radyoloji Teknikeri",
-      "fav": false,
-      "group": ""
+      "name": "YUSUFCAN ÖZDEMİR",
+      "phone": "0507 721 86 30",
+      "unit": "RADYOLOJİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d654",
-      "name": "Zahide Aydın",
-      "phone": "905398571453",
+      "name": "ZAHİDE AYDIN",
+      "phone": "0539 857 14 53",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d655",
-      "name": "Zahide Yapıcıoğlu",
-      "phone": "+90 531 786 61 94",
+      "name": "ZAHİDE YAPICIOĞLU",
+      "phone": "0531 786 61 94",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d656",
-      "name": "Zehra Liv",
-      "phone": "+905530156484",
+      "name": "ZEHRA LİV",
+      "phone": "0553 015 64 84",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d657",
-      "name": "Zehra Yılmaz",
-      "phone": "905382390836",
+      "name": "ZEHRA YILMAZ",
+      "phone": "0538 239 08 36",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d658",
-      "name": "Zekiye Çiçek",
-      "phone": "+90 531 224 69 32",
-      "unit": "Ysp",
-      "fav": false,
-      "group": ""
+      "name": "ZEKİYE ÇİÇEK",
+      "phone": "0531 224 69 32",
+      "unit": "YSP",
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d659",
-      "name": "Zernişan Ekiz",
-      "phone": "905435029679",
+      "name": "ZERNİŞAN EKİZ",
+      "phone": "0543 502 96 79",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d660",
-      "name": "Zeynep Arslan",
+      "name": "ZEYNEP ARSLAN",
       "phone": "0542 783 75 44",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d661",
-      "name": "Zeynep Balcı",
-      "phone": "+90 546 791 14 11",
-      "unit": "Nükleer Tıp",
-      "fav": false,
-      "group": ""
+      "name": "ZEYNEP BALCI",
+      "phone": "0546 791 14 11",
+      "unit": "NÜKLEER TIP",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d662",
-      "name": "Zeynep Bektemur",
-      "phone": "905319375618",
+      "name": "ZEYNEP BEKTEMUR",
+      "phone": "0531 937 56 18",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d663",
-      "name": "Zeynep Apaydın",
-      "phone": "905462612460",
+      "name": "ZEYNEP APAYDIN",
+      "phone": "0546 261 24 60",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     },
     {
       "id": "d664",
-      "name": "Zeynep Karakaya",
-      "phone": "+90 533 960 77 20",
-      "unit": "Anestezi",
-      "fav": false,
-      "group": ""
+      "name": "ZEYNEP KARAKAYA",
+      "phone": "0533 960 77 20",
+      "unit": "ANESTEZİ",
+      "group": "Görüntüleme & Lab",
+      "fav": false
     },
     {
       "id": "d665",
-      "name": "Zeynep Yütük",
+      "name": "ZEYNEP YÜTÜK",
       "phone": "0551 104 20 04",
       "unit": "",
-      "fav": false,
-      "group": ""
+      "group": "Poliklinikler",
+      "fav": false
     }
   ],
   "notice": {
