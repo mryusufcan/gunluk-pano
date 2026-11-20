@@ -65,7 +65,7 @@ function jsonResponse(data, status = 200) {
   };
 }
 
-function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null, draft = null } = {}) {
+function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null, draft = null, hour = null } = {}) {
   const store = {
     content: JSON.parse(JSON.stringify(content)),
     fail: failContent,
@@ -88,6 +88,19 @@ function makeDom({ content = baseContent(), mode = "viewer", failContent = false
     pretendToBeVisual: true,
     virtualConsole,
     beforeParse(window) {
+      if (hour !== null) {
+        const RealDate = window.Date;
+        const now = new RealDate(RealDate.now());
+        now.setHours(hour, 30, 0, 0);
+        class FixedDate extends RealDate {
+          constructor(...args) {
+            if (args.length) super(...args);
+            else super(now.getTime());
+          }
+        }
+        FixedDate.now = () => now.getTime();
+        window.Date = FixedDate;
+      }
       window.matchMedia = window.matchMedia || (() => ({ matches: false, addEventListener() {}, removeEventListener() {} }));
       window.HTMLElement.prototype.scrollIntoView = function () {};
       window.TextEncoder = TextEncoder;
@@ -533,8 +546,35 @@ async function main() {
   check("onaydan sonra yayınlandı", conflict.store.puts.length === 1);
   conflict.dom.window.close();
 
-  console.log("\n" + (failures.length ? `BAŞARISIZ: ${failures.length} kontrol` : "TÜM KONTROLLER GEÇTİ"));
+  console.log("\n16) Gece vardiyasi hangi gune ait");
+  const yesterday = shiftKey(-1);
+  function nightContent() {
+    const content = baseContent();
+    content.days[yesterday] = {
+      team: [{ id: "g1", name: "Dun Gececisi", shift: "24\u201308", phone: "", note: "" }],
+      meal: { text: "", updatedAt: 0 },
+    };
+    content.days[TODAY].team.push({ id: "g2", name: "Yarin Gececisi", shift: "24\u201308", phone: "", note: "" });
+    return content;
+  }
+  const night = await boot({ content: nightContent(), hour: 3 });
+  const ndoc = night.dom.window.document;
+  check("gece 03:00 dunun panosu acilir", ndoc.getElementById("date-input").value === yesterday);
+  check("gece 03:00 dunun gececisi gorunur", ndoc.getElementById("team-list").textContent.includes("Dun Gececisi"));
+  const nightChip = ndoc.querySelector("#team-list .chip-now");
+  check("gece 03:00 su an cipi 24-08 grubunda", Boolean(nightChip) && nightChip.closest("details").dataset.shift.replace(/\D/g, "") === "2408");
+  check("gece 03:00 yarinin gececisi gorunmez", !ndoc.getElementById("team-list").textContent.includes("Yarin Gececisi"));
+  night.dom.window.close();
+
+  const morning = await boot({ content: nightContent(), hour: 10 });
+  const mdoc = morning.dom.window.document;
+  check("sabah 10:00 bugunun panosu acilir", mdoc.getElementById("date-input").value === TODAY);
+  const morningChip = mdoc.querySelector("#team-list .chip-now");
+  check("sabah 10:00 su an cipi 08-16 grubunda", Boolean(morningChip) && morningChip.closest("details").dataset.shift.replace(/\D/g, "") === "0816");
+  morning.dom.window.close();
+
   const exitCode = failures.length ? 1 : 0;
+  console.log("\n" + (failures.length ? `BAŞARISIZ: ${failures.length} kontrol` : "TÜM KONTROLLER GEÇTİ"));
   process.exitCode = exitCode;
   // jsdom zamanlayıcıları süreci askıda bırakmasın
   setTimeout(() => process.exit(exitCode), 200);

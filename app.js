@@ -68,6 +68,12 @@ function todayKey() {
   return keyOf(new Date());
 }
 
+// Gece 00:00-08:00 arası çalışanlar bir önceki günün 24-08 vardiyasıdır.
+function activeDayKey() {
+  const today = todayKey();
+  return new Date().getHours() < 8 ? addDays(today, -1) : today;
+}
+
 function longDate(key) {
   const date = parseKey(key);
   return `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
@@ -317,7 +323,7 @@ function contentPayload() {
 }
 
 let state = blankState();
-let selected = todayKey();
+let selected = activeDayKey();
 try {
   const savedDate = sessionStorage.getItem("pano-date");
   if (savedDate && /^\d{4}-\d{2}-\d{2}$/.test(savedDate)) selected = savedDate;
@@ -566,11 +572,11 @@ function renderUpdatedLine() {
 }
 
 function currentShift() {
-  if (selected !== todayKey()) return "";
+  const today = todayKey();
   const hour = new Date().getHours();
-  if (hour >= 8 && hour < 16) return "08–16";
-  if (hour >= 16) return "16–24";
-  return "24–08";
+  if (hour >= 8 && hour < 16) return selected === today ? SHIFTS[0] : "";
+  if (hour >= 16) return selected === today ? SHIFTS[1] : "";
+  return selected === addDays(today, -1) ? SHIFTS[2] : "";
 }
 
 function renderHero() {
@@ -3106,15 +3112,15 @@ async function init() {
   await loadContent();
   applySharedHash();
 
-  let bootToday = todayKey();
+  let bootDay = activeDayKey();
   setInterval(() => {
-    const current = todayKey();
-    if (current === bootToday) return;
-    const wasToday = selected === bootToday;
-    bootToday = current;
-    if (wasToday) {
-      setDate(current);
-      toast(`Yeni gün: ${longDate(current)}`);
+    const active = activeDayKey();
+    if (active === bootDay) return;
+    const wasActive = selected === bootDay;
+    bootDay = active;
+    if (wasActive) {
+      setDate(active);
+      toast(`Yeni gün: ${longDate(active)}`);
     }
   }, 30000);
 
