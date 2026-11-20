@@ -21,21 +21,40 @@ Yönetici (telefon)                      GitHub                        Ekip (tel
 - Tarayıcıda kalıcı veri tutulmaz; yalnızca yöneticinin **taslağı** ve son içeriğin **çevrimdışı önbelleği** cihazda durur.
 - Görüntüleyicide yazma yolu yoktur; düzenleme düğmeleri hiç gösterilmez.
 
+## Cep numaraları ve şifre
+
+Rehberdeki cep numaraları yayınlanan `content.json` içinde **düz metin olarak durmaz**. Depo public olduğu için bu bilinçli bir tercih:
+
+- `content.json` yalnızca `hasMobile: true` bayrağını taşır; numaranın kendisi yok.
+- Numaralar `phones.enc` dosyasında AES-GCM-256 ile şifreli durur. Anahtar, girilen şifreden PBKDF2-SHA256 (100.000 tur, rastgele salt) ile türetilir.
+- Şifre kodda saklanmaz. Tarayıcı girilen şifreyi doğrudan çözme anahtarı olarak dener; yanlışsa AES-GCM doğrulaması düşer ve "Şifre yanlış" görünür.
+- Doğru şifre cihazda hatırlanır (`localStorage`); kilit çubuğu kaybolur, cep numaraları `tel:` düğmesi olur.
+
+Şifre değiştirme (depoda `tools/cep_yedek.json` yedeği gerekiyor):
+
+```bash
+node tools/encrypt_phones.mjs "yeni-sifre"   # phones.enc yeniden üretilir
+```
+
+Sonra `phones.enc` commit'lenip push edilir; `sw.js` önbellek adı commit ile değiştiği için eski şifreli dosya tarayıcıda kalmaz.
+
 ## Özellikler
+
 
 - **Günün ekibi:** vardiyaya göre gruplu liste (08–16, 16–24, 24–08, idari, izinli); geçerli vardiya açık, diğerleri tek satıra katlanmış. Telefon/dahili için `tel:` bağlantısı, kişi notu.
 - **Günün yemeği:** ekip ekranının altında kart; çok satırlı menü, dünkü menüyü kopyalama.
 - **Notlar:** etiketli (Sabit / Arıza / Duyuru / Hatırlatma), durum noktalı (Açık / Tamamlandı), yazar, saat, sabitleme; Tümü / Bugün / Sabit / Açık filtreleri.
-- **Telefon rehberi:** ayrı sekme; arama kutusu üst başlıkta, sık kullanılanlar kutucuk olarak, sonuçlarda arama düğmesi. Yönetici Ayarlar'dan satır ekleyip düzenler, yıldızla sık kullanılana alır.
+- **Telefon rehberi:** ayrı sekme; arama kutusu üst başlıkta (kelime kelime de bulur, "kaya ece" → Ece Kaya), sık kullanılanlar kutucuk olarak, sonuçlarda arama düğmesi. Cep ve dahili tek satırda iki ayrı `tel:` düğmesi. Yönetici Ayarlar'dan satır ekleyip düzenler, yıldızla sık kullanılana alır.
+- **Cep numarası kilidi:** rehberdeki cep numaraları `phones.enc` dosyasında şifreli durur. Şifre girilmeden maskeli görünür; doğru şifre girilince tıklanabilir olur ve cihazda hatırlanır.
 - **Liste içe aktarma (yönetici):** haftalık/aylık çalışma listesini veya yemek listesini yapıştırın ya da `.xlsx` / `.docx` seçin; tarih, gün adı, vardiya, isim ve cihaz otomatik ayrılır, aktarmadan önce önizleme gösterilir.
 - **Aylık ızgara:** üst satırı gün numaraları (`1 2 3 … 30`) olan tablolar ve dikey gün numaralı listeler desteklenir.
 - **Duyuru şeridi:** acil bilgi (ör. "BT 14:00–16:00 arası bakımda") panonun üstünde bant olarak; bilgi veya uyarı tonu seçilebilir.
 - **Son güncelleme satırı:** ekip, gördüğü içeriğin ne zaman yayınlandığını görür.
 - **Canlı yayın kontrolü:** yönetici yayından sonra tek düğmeyle canlı sürümün çıkıp çıkmadığını doğrular.
-- **Otomatik tazelik:** gece yarısı kendiliğinden yeni güne geçer, açık kalan ekran 5 dakikada bir sessizce yenilenir.
-- **Paylaşım:** günün özeti (duyuru dahil) WhatsApp metni olarak gönderilir.
-- **Çevrimdışı:** son içerik önbellekte; internet yokken gösterilir, bağlantı gelince kendiliğinden yenilenir. Yöneticide önce **taslak** yüklenir, yayın düğmesi kapanır; bağlantı gelince "Yayınla" yeniden açılır.
-- **Sakin Klinik teması:** tek turkuaz vurgu, yumuşak kartlar, hap biçimli düğmeler; açık ve gece modu (cihaz başına hatırlanır). Yazı tipi Inter, uygulamayla birlikte gelir (internet gerekmez).
+- **Otomatik tazelik:** açık kalan ekran 5 dakikada bir sessizce yenilenir. Saat 08:00'de yeni güne geçer; gece 00:00-08:00 arası dünün panosu açılır ve 24–08 vardiyası "şu an" olarak işaretlenir.
+- **Paylaşım:** günün özeti (duyuru ve gece nöbeti dahil) WhatsApp metni olarak gönderilir.
+- **Çevrimdışı:** son içerik önbellekte; internet yokken gösterilir, bağlantı gelince kendiliğinden yenilenir. `phones.enc` de önbellekte olduğu için çevrimdışıyken şifre girilip cep numaraları açılabilir. Yöneticide önce **taslak** yüklenir, yayın düğmesi kapanır; bağlantı gelince "Yayınla" yeniden açılır.
+- **Sakin Klinik teması:** tek turkuaz vurgu, yumuşak kartlar, hap biçimli düğmeler; açık ve gece modu (cihaz başına hatırlanır). Kayıtlı tercih yoksa 20:00-08:00 arası gece modu kendiliğinden açılır; elle seçim bunu sabitler. Yazı tipi Inter, uygulamayla birlikte gelir (internet gerekmez).
 
 ## Kurulum
 
@@ -115,6 +134,7 @@ index.html            arayüz (görüntüleme + yönetici modu)
 styles.css            mobil + masaüstü stilleri
 app.js                tüm işlevler (bağımlılık yok)
 content.json          YAYINLANAN İÇERİK — tek veri kaynağı
+phones.enc            şifreli cep numaraları (AES-GCM)
 manifest.webmanifest  uygulama bilgileri
 sw.js                 çevrimdışı kabuk; content.json her zaman ağdan
 assets/               simgeler
@@ -127,8 +147,9 @@ LICENSE               MIT lisansı
 
 ```bash
 npm ci                     # yalnızca jsdom, geliştirme bağımlılığı
-npm test                   # 80 kontrol: görüntüleme, yönetici, yayın API'si,
-                           # duyuru, içe aktarma, önbellek, bozuk içerik
+npm test                   # 134 kontrol: görüntüleme, yönetici, yayın API'si,
+                           # duyuru, içe aktarma, önbellek, bozuk içerik,
+                           # gece vardiyası, cep şifresi
 python -m unittest discover tests   # çizelge ayrıştırıcısı (openpyxl gerekir)
 ```
 
@@ -143,6 +164,7 @@ Her iki test de `main` dalına gelen her push'ta yayından **önce** çalışır
 - Ekip not ekleyemez; notlar yönetici tarafından yazılır (talep edilirse ayrı bir yazma servisi gerekir).
 - Fotoğraf/PDF listeler tarayıcıda okunamaz (OCR yok); metin, Excel veya Word kullanılmalı.
 - Anahtar cihazda saklanır; ortak kullanılan bir telefonda tarayıcı verilerini paylaşmayın.
+- Cep şifresi yalnızca gizlilik perdesi sağlar: `phones.enc` herkese açıktır, şifreyi bilen herkes numaraları çözebilir. Şifre kısa veya tahmin edilebilirse dosyayı indirip deneme yapılabilir; güçlü bir şifre seçin. Şifre unutulursa `tools/cep_yedek.json` (depoda değil, yalnızca yönetici makinesinde) ile yeniden üretilir.
 
 ## Lisans
 

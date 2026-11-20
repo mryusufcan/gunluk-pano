@@ -1,10 +1,14 @@
 // tools/cep_yedek.json'daki cep numaralarini AES-GCM ile sifreler, phones.enc uretir.
-// Anahtar sifreden PBKDF2-SHA256 ile turetilir. Tarayici app.js ayni
-// parametrelerle cozer. Kullanim: node tools/encrypt_phones.mjs
+// Sifre komut satirindan veya PANOPASS ortam degiskeninden gelir; kodda saklanmaz.
+// Kullanim: node tools/encrypt_phones.mjs "yeni-sifre"
 import { readFileSync, writeFileSync } from "node:fs";
 import { webcrypto } from "node:crypto";
 
 const PASS = process.argv[2] || process.env.PANOPASS;
+if (!PASS) {
+  console.error('Sifre gerekli: node tools/encrypt_phones.mjs "sifre"');
+  process.exit(1);
+}
 const ITERATIONS = 100000;
 const enc = new TextEncoder();
 
