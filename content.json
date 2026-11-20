@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T17:52:43.921544+00:00",
+  "updatedAt": "2026-11-20T18:03:17.295420+00:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1078,7 +1078,8 @@
       "phone2": "",
       "unit": "AYAKTAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d7",
@@ -1123,7 +1124,8 @@
       "phone2": "",
       "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ UZMANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d12",
@@ -1132,7 +1134,8 @@
       "phone2": "",
       "unit": "GRUP TIBBİ KOORDİNATÖR",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d13",
@@ -1141,7 +1144,8 @@
       "phone2": "",
       "unit": "YURT DIŞI ANLAŞMALI KURUMLAR UZMANI",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d14",
@@ -1150,7 +1154,8 @@
       "phone2": "",
       "unit": "FRANSIZCA - İNGİLİZCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d15",
@@ -1195,7 +1200,8 @@
       "phone2": "",
       "unit": "YATAN MİSAFİR HİZMETLERİ MÜDÜR YARDIMCISI",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d21",
@@ -1222,7 +1228,8 @@
       "phone2": "",
       "unit": "İNGİLİZCE - FARSÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d24",
@@ -1240,7 +1247,8 @@
       "phone2": "",
       "unit": "BİLGİ SİSTEMLERİ UZMANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d26",
@@ -1249,7 +1257,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d27",
@@ -1258,7 +1267,8 @@
       "phone2": "",
       "unit": "İNSAN KAYNAKLARI UZMANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d28",
@@ -1366,7 +1376,8 @@
       "phone2": "",
       "unit": "ANA DEPO SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d40",
@@ -1375,7 +1386,8 @@
       "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d41",
@@ -1420,7 +1432,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT KADIN DOĞUM SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d46",
@@ -1429,7 +1442,8 @@
       "phone2": "",
       "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d47",
@@ -1474,7 +1488,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d53",
@@ -1483,7 +1498,8 @@
       "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ AYAKTAN SORUMLU",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d54",
@@ -1501,7 +1517,8 @@
       "phone2": "",
       "unit": "ULAŞIM · TÜRKÇE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d56",
@@ -1510,7 +1527,8 @@
       "phone2": "",
       "unit": "UHM TRANSFER SORUMLUSU",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d57",
@@ -1519,7 +1537,8 @@
       "phone2": "",
       "unit": "ROMANYA (2 KİŞİ) · ROMENCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d58",
@@ -1528,7 +1547,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ROMENCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d59",
@@ -1555,7 +1575,8 @@
       "phone2": "",
       "unit": "ÇİNCE, ÖZBEKÇE, RUSÇA, TÜRKMENCE, KAZAKÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d62",
@@ -1564,7 +1585,8 @@
       "phone2": "",
       "unit": "KAZAKÇA - RUSÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d63",
@@ -1573,7 +1595,8 @@
       "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ EĞİTİM SORUMLUSU",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d64",
@@ -1591,7 +1614,8 @@
       "phone2": "",
       "unit": "KURUMSAL FATURALAMA AK SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d66",
@@ -1609,7 +1633,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d68",
@@ -1654,7 +1679,8 @@
       "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d73",
@@ -1879,7 +1905,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d99",
@@ -1906,7 +1933,8 @@
       "phone2": "",
       "unit": "BAŞHEKİM YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d102",
@@ -2212,7 +2240,8 @@
       "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d137",
@@ -2230,7 +2259,8 @@
       "phone2": "",
       "unit": "BAŞHEKİM",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d139",
@@ -2302,7 +2332,8 @@
       "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d147",
@@ -2590,7 +2621,8 @@
       "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ İŞ GELİŞTİRME",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d179",
@@ -2617,7 +2649,8 @@
       "phone2": "",
       "unit": "BAŞHEKİM ASİSTANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d182",
@@ -2626,7 +2659,8 @@
       "phone2": "",
       "unit": "ÖZBEKİSTAN (3 KİŞİ) · RUSÇA- ÖZBEKÇE- K",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d183",
@@ -2635,7 +2669,8 @@
       "phone2": "",
       "unit": "RAPORTÖR - BAŞHEKİMLİK",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d184",
@@ -2644,7 +2679,8 @@
       "phone2": "",
       "unit": "DİYABET EĞİTİM VE İŞYERİ HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d185",
@@ -2653,7 +2689,8 @@
       "phone2": "",
       "unit": "ACİL SERVİS SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d186",
@@ -2662,7 +2699,8 @@
       "phone2": "",
       "unit": "GENEL MÜDÜR YARDIMCISI ASİSTANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d188",
@@ -2671,7 +2709,8 @@
       "phone2": "",
       "unit": "MALİ İŞLER MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d189",
@@ -2680,7 +2719,8 @@
       "phone2": "",
       "unit": "PEDATRİ SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d190",
@@ -2698,7 +2738,8 @@
       "phone2": "",
       "unit": "FİYATLANDIRMA GRUP MÜDÜRÜ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d192",
@@ -2707,7 +2748,8 @@
       "phone2": "",
       "unit": "HAKEDİŞ SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d193",
@@ -2743,7 +2785,8 @@
       "phone2": "",
       "unit": "YENİDOĞAN SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d198",
@@ -2770,7 +2813,8 @@
       "phone2": "",
       "unit": "POLİKLİNİK SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d201",
@@ -2779,7 +2823,8 @@
       "phone2": "",
       "unit": "TÜRKMENCE - RUSÇA - İNGİLİZCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d202",
@@ -2788,7 +2833,8 @@
       "phone2": "",
       "unit": "STERİLİZASYON SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d203",
@@ -2797,7 +2843,8 @@
       "phone2": "",
       "unit": "BAŞHEKİM YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d204",
@@ -2806,7 +2853,8 @@
       "phone2": "",
       "unit": "UHM SORUMLUSU · İNGİLİZCE - İSPANYOLCA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d205",
@@ -2815,7 +2863,8 @@
       "phone2": "",
       "unit": "TEDARİK ZİNCİRİ SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d206",
@@ -3085,7 +3134,8 @@
       "phone2": "",
       "unit": "İDARİ İŞLER VE DESTEK HİZMETLERİ SORUMLU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d236",
@@ -3103,7 +3153,8 @@
       "phone2": "",
       "unit": "BULGARİSTAN (3 KİŞİ) · BULGARCA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d238",
@@ -3112,7 +3163,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d239",
@@ -3121,7 +3173,8 @@
       "phone2": "",
       "unit": "LABORATUVAR SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d241",
@@ -3130,7 +3183,8 @@
       "phone2": "",
       "unit": "TIBBİ GÖRÜNTÜLEME SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d242",
@@ -3139,7 +3193,8 @@
       "phone2": "",
       "unit": "BİYOMEDİKAL MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d243",
@@ -3148,7 +3203,8 @@
       "phone2": "",
       "unit": "ROMENCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d244",
@@ -3157,7 +3213,8 @@
       "phone2": "",
       "unit": "YURTDIŞI ANLAŞMALI KURUMLAR",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d245",
@@ -3175,7 +3232,8 @@
       "phone2": "",
       "unit": "TEKNİK HİZMETLER SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d248",
@@ -3184,7 +3242,8 @@
       "phone2": "",
       "unit": "İNGİLİZCE - İSPANYOLCA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d249",
@@ -3202,7 +3261,8 @@
       "phone2": "",
       "unit": "VIP TEMSİLCİSİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d251",
@@ -3229,7 +3289,8 @@
       "phone2": "",
       "unit": "TEDARİK ZİNCİRİ UZMANI",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d254",
@@ -3238,7 +3299,8 @@
       "phone2": "",
       "unit": "İNSAN KAYNAKLARI UZMAN YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d255",
@@ -3310,7 +3372,8 @@
       "phone2": "",
       "unit": "İNSAN KAYNAKLARI MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d263",
@@ -3319,7 +3382,8 @@
       "phone2": "",
       "unit": "GÜRCİSTAN 2 KİŞİ · GÜRCÜCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d264",
@@ -3328,7 +3392,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d266",
@@ -3337,7 +3402,8 @@
       "phone2": "",
       "unit": "GECE İŞLETME SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d267",
@@ -3346,7 +3412,8 @@
       "phone2": "",
       "unit": "1. KAT VE 2. KAT DAHİLİYE SORUMLU HEMŞİRES",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d268",
@@ -3355,7 +3422,8 @@
       "phone2": "",
       "unit": "BİREYSEL PAZARLAMA UZMANI (KÖK HÜCRE)",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d269",
@@ -3373,7 +3441,8 @@
       "phone2": "",
       "unit": "AMELİYATHANE SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d271",
@@ -3391,7 +3460,8 @@
       "phone2": "",
       "unit": "KURUMSAL İLETİŞİM UZMANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d273",
@@ -3400,7 +3470,8 @@
       "phone2": "",
       "unit": "GÜNÜBİRLİK ALAN SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d274",
@@ -3409,7 +3480,8 @@
       "phone2": "",
       "unit": "EĞİTİM VE GELİŞİM SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d275",
@@ -3418,7 +3490,8 @@
       "phone2": "",
       "unit": "ARNAVUTÇA -BOŞNAKÇA - SIRPÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d277",
@@ -3427,7 +3500,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d276",
@@ -3445,7 +3519,8 @@
       "phone2": "",
       "unit": "ARAPÇA - İNGİLİZCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d279",
@@ -3454,7 +3529,8 @@
       "phone2": "",
       "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d280",
@@ -3463,7 +3539,8 @@
       "phone2": "",
       "unit": "ARNAVUTÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d281",
@@ -3472,7 +3549,8 @@
       "phone2": "",
       "unit": "VIP TEMSİLCİSİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d282",
@@ -3481,7 +3559,8 @@
       "phone2": "",
       "unit": "EVDE BAKIM HİZM. SUPERVİSOR",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d283",
@@ -3490,7 +3569,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d284",
@@ -3499,7 +3579,8 @@
       "phone2": "",
       "unit": "BULGARCA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d285",
@@ -3508,7 +3589,8 @@
       "phone2": "",
       "unit": "BULGARCA - İSPANYOLCA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d286",
@@ -3517,7 +3599,8 @@
       "phone2": "",
       "unit": "ÖZBEKÇE -RUSÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d287",
@@ -3526,7 +3609,8 @@
       "phone2": "",
       "unit": "3. KAT CERRAHİ KATI SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d288",
@@ -3544,7 +3628,8 @@
       "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ ORTADOĞ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d290",
@@ -3553,7 +3638,8 @@
       "phone2": "",
       "unit": "GENEL MÜDÜR ASİSTANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d292",
@@ -3580,7 +3666,8 @@
       "phone2": "",
       "unit": "AMELİYATHANE DEPO UZMANI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d295",
@@ -3607,7 +3694,8 @@
       "phone2": "",
       "unit": "NÖBETÇİ SUPERVİSOR",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d298",
@@ -3616,7 +3704,8 @@
       "phone2": "",
       "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d300",
@@ -3652,7 +3741,8 @@
       "phone2": "",
       "unit": "ANESTEZİ SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d304",
@@ -3688,7 +3778,8 @@
       "phone2": "",
       "unit": "ARAPÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d308",
@@ -3697,7 +3788,8 @@
       "phone2": "",
       "unit": "ANA DANIŞMA · RUSÇA - AZERİCE - İNGİLİZC",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d309",
@@ -3706,7 +3798,8 @@
       "phone2": "",
       "unit": "GENEL YOĞUN BAKIM SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d311",
@@ -3724,7 +3817,8 @@
       "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ YATAN SORUMLU",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d313",
@@ -3742,7 +3836,8 @@
       "phone2": "",
       "unit": "İNSAN KAYNAKLARI SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d315",
@@ -3751,7 +3846,8 @@
       "phone2": "",
       "unit": "ARAPÇA - İNGİLİZCE (GECE TERCÜMANI)",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d316",
@@ -3760,7 +3856,8 @@
       "phone2": "",
       "unit": "AVRUPA (3) · RUSÇA - TÜRKMENCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d317",
@@ -3769,7 +3866,8 @@
       "phone2": "",
       "unit": "AZERBAYCAN (1 KİŞİ) · AZERİCE RUSÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d318",
@@ -3778,7 +3876,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU -AZERİCE-R",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d319",
@@ -3787,7 +3886,8 @@
       "phone2": "",
       "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d320",
@@ -3796,7 +3896,8 @@
       "phone2": "",
       "unit": "ENFEKSİYON SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d321",
@@ -3814,7 +3915,8 @@
       "phone2": "",
       "unit": "CCTV OTOMASYON GÜVENLİK MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d323",
@@ -3823,7 +3925,8 @@
       "phone2": "",
       "unit": "YURTİÇİ ULAŞTIRMA SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d324",
@@ -3832,7 +3935,8 @@
       "phone2": "",
       "unit": "RUSÇA UKRAYNACA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d325",
@@ -3841,7 +3945,8 @@
       "phone2": "",
       "unit": "CCTV OTOMASYON GÜVENLİK AMİRİ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d326",
@@ -3868,7 +3973,8 @@
       "phone2": "",
       "unit": "RUSÇA- İNGİLİZCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d329",
@@ -3877,7 +3983,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - RUSCA -",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d330",
@@ -3895,7 +4002,8 @@
       "phone2": "",
       "unit": "RUSÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d332",
@@ -3913,7 +4021,8 @@
       "phone2": "",
       "unit": "KURUMSAL TANITIM GRUP MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d334",
@@ -3949,7 +4058,8 @@
       "phone2": "",
       "unit": "TIBBI DOKUMANTASYON VE ARŞİV GÖREVLİSİ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d338",
@@ -3985,7 +4095,8 @@
       "phone2": "",
       "unit": "TEKNİK HİZMETLER MEKANİK SORUMLU TEKNİSY",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d342",
@@ -4003,7 +4114,8 @@
       "phone2": "",
       "unit": "MİSAFİR İLİŞKİLERİ GRUP MÜDÜRÜ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d345",
@@ -4012,7 +4124,8 @@
       "phone2": "",
       "unit": "UHM MDR YARDIMCISI · ARAPÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d346",
@@ -4021,7 +4134,8 @@
       "phone2": "",
       "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ OPERASY",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d347",
@@ -4039,7 +4153,8 @@
       "phone2": "",
       "unit": "GENEL MÜDÜR YARDIMCISI (SÜREÇLERDEN SORU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d349",
@@ -4057,7 +4172,8 @@
       "phone2": "",
       "unit": "AZERİCE - RUSÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d351",
@@ -4066,7 +4182,8 @@
       "phone2": "",
       "unit": "GÜRCÜCE",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d352",
@@ -4075,7 +4192,8 @@
       "phone2": "",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d353",
@@ -4084,7 +4202,8 @@
       "phone2": "",
       "unit": "İŞ GELİŞTİRME GRUP MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d354",
@@ -4093,7 +4212,8 @@
       "phone2": "8459-1919",
       "unit": "ECZANE MESUL MÜDÜRÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d356",
@@ -4111,7 +4231,8 @@
       "phone2": "",
       "unit": "MENA AFRİKA (6 KİŞİ) · ARAPÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d358",
@@ -4120,7 +4241,8 @@
       "phone2": "",
       "unit": "KVC YOĞUN BAKIM VE ANGİO SORUMLU HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d360",
@@ -4138,7 +4260,8 @@
       "phone2": "",
       "unit": "GENEL MÜDÜR",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d362",
@@ -4147,7 +4270,8 @@
       "phone2": "",
       "unit": "GECE İŞLETME SORUMLUSU",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d363",
@@ -4156,7 +4280,8 @@
       "phone2": "",
       "unit": "KALİTE MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d365",
@@ -4165,7 +4290,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d366",
@@ -4174,7 +4300,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d368",
@@ -4183,7 +4310,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d369",
@@ -4192,7 +4320,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d370",
@@ -4201,7 +4330,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d372",
@@ -4210,7 +4340,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d374",
@@ -4219,7 +4350,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d375",
@@ -4228,7 +4360,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d376",
@@ -4237,7 +4370,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d377",
@@ -4246,7 +4380,8 @@
       "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d378",
@@ -4255,7 +4390,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d379",
@@ -4264,7 +4400,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d381",
@@ -4273,7 +4410,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d382",
@@ -4282,7 +4420,8 @@
       "phone2": "",
       "unit": "BANKO",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d383",
@@ -4291,7 +4430,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d384",
@@ -4300,7 +4440,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d385",
@@ -4309,7 +4450,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d386",
@@ -4318,7 +4460,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d387",
@@ -4327,7 +4470,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d388",
@@ -4336,7 +4480,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d389",
@@ -4345,7 +4490,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d390",
@@ -4354,7 +4500,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d391",
@@ -4363,7 +4510,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d392",
@@ -4372,7 +4520,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d393",
@@ -4381,7 +4530,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d394",
@@ -4390,7 +4540,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d395",
@@ -4399,7 +4550,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d396",
@@ -4408,7 +4560,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d397",
@@ -4417,7 +4570,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d398",
@@ -4426,7 +4580,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d399",
@@ -4435,7 +4590,8 @@
       "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d400",
@@ -4444,7 +4600,8 @@
       "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d401",
@@ -4453,7 +4610,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d402",
@@ -4462,7 +4620,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d403",
@@ -4471,7 +4630,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d404",
@@ -4480,7 +4640,8 @@
       "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d405",
@@ -4489,7 +4650,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d406",
@@ -4498,7 +4660,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d407",
@@ -4507,7 +4670,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d408",
@@ -4516,7 +4680,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d409",
@@ -4525,7 +4690,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d410",
@@ -4534,7 +4700,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d411",
@@ -4543,7 +4710,8 @@
       "phone2": "",
       "unit": "3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d412",
@@ -4552,7 +4720,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d413",
@@ -4561,7 +4730,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d414",
@@ -4570,7 +4740,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d415",
@@ -4579,7 +4750,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d416",
@@ -4588,7 +4760,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d417",
@@ -4597,7 +4770,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d418",
@@ -4606,7 +4780,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d419",
@@ -4615,7 +4790,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d420",
@@ -4624,7 +4800,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d421",
@@ -4633,7 +4810,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d422",
@@ -4642,7 +4820,8 @@
       "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d423",
@@ -4651,7 +4830,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d424",
@@ -4660,7 +4840,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d425",
@@ -4669,7 +4850,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d426",
@@ -4678,7 +4860,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d427",
@@ -4687,7 +4870,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d428",
@@ -4696,7 +4880,8 @@
       "phone2": "",
       "unit": "RUSÇA TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d429",
@@ -4705,7 +4890,8 @@
       "phone2": "",
       "unit": "RUSÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d430",
@@ -4714,7 +4900,8 @@
       "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d431",
@@ -4723,7 +4910,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d432",
@@ -4732,7 +4920,8 @@
       "phone2": "",
       "unit": "GYB",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d433",
@@ -4741,7 +4930,8 @@
       "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d434",
@@ -4750,7 +4940,8 @@
       "phone2": "",
       "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d435",
@@ -4759,7 +4950,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d436",
@@ -4768,7 +4960,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d437",
@@ -4777,7 +4970,8 @@
       "phone2": "",
       "unit": "ACİL BANKO",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d438",
@@ -4786,7 +4980,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d439",
@@ -4795,7 +4990,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d440",
@@ -4804,7 +5000,8 @@
       "phone2": "",
       "unit": "POLİKLİNİK ÜRODİNAMİ HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d441",
@@ -4813,7 +5010,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d442",
@@ -4822,7 +5020,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d443",
@@ -4831,7 +5030,8 @@
       "phone2": "",
       "unit": "",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d444",
@@ -4840,7 +5040,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d445",
@@ -4849,7 +5050,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d446",
@@ -4858,7 +5060,8 @@
       "phone2": "",
       "unit": "ANESTEZİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d447",
@@ -4867,7 +5070,8 @@
       "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d448",
@@ -4876,7 +5080,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d449",
@@ -4885,7 +5090,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d450",
@@ -4894,7 +5100,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d451",
@@ -4903,7 +5110,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d452",
@@ -4912,7 +5120,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d453",
@@ -4921,7 +5130,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d454",
@@ -4930,7 +5140,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d455",
@@ -4939,7 +5150,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d456",
@@ -4948,7 +5160,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d457",
@@ -4957,7 +5170,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d458",
@@ -4966,7 +5180,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d459",
@@ -4975,7 +5190,8 @@
       "phone2": "",
       "unit": "ARAPÇA TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d460",
@@ -4984,7 +5200,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d461",
@@ -4993,7 +5210,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d462",
@@ -5002,7 +5220,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d463",
@@ -5011,7 +5230,8 @@
       "phone2": "",
       "unit": "GYB",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d465",
@@ -5020,7 +5240,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d466",
@@ -5029,7 +5250,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d467",
@@ -5038,7 +5260,8 @@
       "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d468",
@@ -5047,7 +5270,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d469",
@@ -5056,7 +5280,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d470",
@@ -5065,7 +5290,8 @@
       "phone2": "",
       "unit": "SUPERVİSOR HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d471",
@@ -5074,7 +5300,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d472",
@@ -5083,7 +5310,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d473",
@@ -5092,7 +5320,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d474",
@@ -5101,7 +5330,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d475",
@@ -5110,7 +5340,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d476",
@@ -5119,7 +5350,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d477",
@@ -5128,7 +5360,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d478",
@@ -5137,7 +5370,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d479",
@@ -5146,7 +5380,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ ASİSTAN",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d480",
@@ -5155,7 +5390,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d481",
@@ -5164,7 +5400,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d482",
@@ -5173,7 +5410,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d483",
@@ -5182,7 +5420,8 @@
       "phone2": "",
       "unit": "ELEKTRİK TEKNİSYENİ",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d484",
@@ -5191,7 +5430,8 @@
       "phone2": "",
       "unit": "",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d485",
@@ -5200,7 +5440,8 @@
       "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d486",
@@ -5209,7 +5450,8 @@
       "phone2": "",
       "unit": "ŞOFÖR",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d487",
@@ -5218,7 +5460,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d488",
@@ -5227,7 +5470,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d489",
@@ -5236,7 +5480,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d490",
@@ -5245,7 +5490,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d491",
@@ -5254,7 +5500,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d492",
@@ -5263,7 +5510,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d493",
@@ -5272,7 +5520,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d494",
@@ -5281,7 +5530,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d495",
@@ -5290,7 +5540,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d496",
@@ -5299,7 +5550,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d497",
@@ -5308,7 +5560,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d498",
@@ -5317,7 +5570,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d499",
@@ -5326,7 +5580,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d500",
@@ -5335,7 +5590,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d501",
@@ -5344,7 +5600,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d502",
@@ -5353,7 +5610,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d503",
@@ -5362,7 +5620,8 @@
       "phone2": "",
       "unit": "LABORATUVAR",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d504",
@@ -5371,7 +5630,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d505",
@@ -5380,7 +5640,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d506",
@@ -5389,7 +5650,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d507",
@@ -5398,7 +5660,8 @@
       "phone2": "",
       "unit": "GÖZ",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d508",
@@ -5407,7 +5670,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d509",
@@ -5416,7 +5680,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d510",
@@ -5425,7 +5690,8 @@
       "phone2": "",
       "unit": "ASİSTAN",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d512",
@@ -5434,7 +5700,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d513",
@@ -5443,7 +5710,8 @@
       "phone2": "",
       "unit": "BİYOMEDİKAL",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d514",
@@ -5452,7 +5720,8 @@
       "phone2": "",
       "unit": "DAHİLİYE HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d515",
@@ -5461,7 +5730,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d516",
@@ -5470,7 +5740,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d517",
@@ -5479,7 +5750,8 @@
       "phone2": "",
       "unit": "RUSÇA TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d519",
@@ -5488,7 +5760,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d520",
@@ -5497,7 +5770,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d521",
@@ -5506,7 +5780,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d522",
@@ -5515,7 +5790,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d523",
@@ -5524,7 +5800,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d524",
@@ -5533,7 +5810,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d525",
@@ -5542,7 +5820,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d526",
@@ -5560,7 +5839,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d528",
@@ -5569,7 +5849,8 @@
       "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d529",
@@ -5578,7 +5859,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d530",
@@ -5587,7 +5869,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d531",
@@ -5596,7 +5879,8 @@
       "phone2": "",
       "unit": "PROF DR",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d532",
@@ -5605,7 +5889,8 @@
       "phone2": "",
       "unit": "KOORDİNATOR",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d533",
@@ -5614,7 +5899,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d534",
@@ -5623,7 +5909,8 @@
       "phone2": "",
       "unit": "STAJYER",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d535",
@@ -5632,7 +5919,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d536",
@@ -5641,7 +5929,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ BANKO",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d537",
@@ -5650,7 +5939,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d538",
@@ -5659,7 +5949,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d539",
@@ -5668,7 +5959,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d540",
@@ -5677,7 +5969,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d541",
@@ -5686,7 +5979,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d542",
@@ -5695,7 +5989,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d543",
@@ -5704,7 +5999,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d544",
@@ -5713,7 +6009,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d545",
@@ -5722,7 +6019,8 @@
       "phone2": "",
       "unit": "ŞOFÖR",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d546",
@@ -5731,7 +6029,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d547",
@@ -5740,7 +6039,8 @@
       "phone2": "",
       "unit": "TERCÜMAN ARNAVUTÇA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d548",
@@ -5749,7 +6049,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d549",
@@ -5758,7 +6059,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d550",
@@ -5767,7 +6069,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d551",
@@ -5776,7 +6079,8 @@
       "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d552",
@@ -5785,7 +6089,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d553",
@@ -5794,7 +6099,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d554",
@@ -5803,7 +6109,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d555",
@@ -5812,7 +6119,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d556",
@@ -5821,7 +6129,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d557",
@@ -5830,7 +6139,8 @@
       "phone2": "",
       "unit": "NİCU",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d558",
@@ -5839,7 +6149,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d559",
@@ -5848,7 +6159,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d560",
@@ -5857,7 +6169,8 @@
       "phone2": "",
       "unit": "DR",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d561",
@@ -5866,7 +6179,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d562",
@@ -5875,7 +6189,8 @@
       "phone2": "",
       "unit": "RUSCA",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d563",
@@ -5884,7 +6199,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d564",
@@ -5893,7 +6209,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d565",
@@ -5902,7 +6219,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d566",
@@ -5911,7 +6229,8 @@
       "phone2": "",
       "unit": "ACİL",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d567",
@@ -5920,7 +6239,8 @@
       "phone2": "",
       "unit": "MÜDÜR",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d568",
@@ -5929,7 +6249,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d569",
@@ -5938,7 +6259,8 @@
       "phone2": "",
       "unit": "3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d570",
@@ -5947,7 +6269,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d571",
@@ -5956,7 +6279,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d572",
@@ -5965,7 +6289,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d573",
@@ -5974,7 +6299,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d574",
@@ -5983,7 +6309,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d575",
@@ -5992,7 +6319,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d576",
@@ -6001,7 +6329,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d577",
@@ -6010,7 +6339,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d578",
@@ -6019,7 +6349,8 @@
       "phone2": "",
       "unit": "RADYOLOG",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d579",
@@ -6028,7 +6359,8 @@
       "phone2": "",
       "unit": "TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d580",
@@ -6037,7 +6369,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d581",
@@ -6046,7 +6379,8 @@
       "phone2": "",
       "unit": "FRANSIZCA TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d582",
@@ -6055,7 +6389,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d583",
@@ -6064,7 +6399,8 @@
       "phone2": "",
       "unit": "YATIŞ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d584",
@@ -6073,7 +6409,8 @@
       "phone2": "",
       "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d585",
@@ -6082,7 +6419,8 @@
       "phone2": "",
       "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d586",
@@ -6091,7 +6429,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d587",
@@ -6100,7 +6439,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d588",
@@ -6109,7 +6449,8 @@
       "phone2": "",
       "unit": "İNGİLİZCE, FRANSIZCA",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d589",
@@ -6118,7 +6459,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d590",
@@ -6127,7 +6469,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d591",
@@ -6136,7 +6479,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d592",
@@ -6145,7 +6489,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d593",
@@ -6154,7 +6499,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d594",
@@ -6163,7 +6509,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d595",
@@ -6172,7 +6519,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d596",
@@ -6181,7 +6529,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d597",
@@ -6190,7 +6539,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d598",
@@ -6199,7 +6549,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d599",
@@ -6208,7 +6559,8 @@
       "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d600",
@@ -6217,7 +6569,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d601",
@@ -6226,7 +6579,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d602",
@@ -6235,7 +6589,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d603",
@@ -6244,7 +6599,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d604",
@@ -6253,7 +6609,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d605",
@@ -6262,7 +6619,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d606",
@@ -6271,7 +6629,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d607",
@@ -6280,7 +6639,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d608",
@@ -6289,7 +6649,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d609",
@@ -6298,7 +6659,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d610",
@@ -6307,7 +6669,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d611",
@@ -6316,7 +6679,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d612",
@@ -6325,7 +6689,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d613",
@@ -6334,7 +6699,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d614",
@@ -6343,7 +6709,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d615",
@@ -6352,7 +6719,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d616",
@@ -6361,7 +6729,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d617",
@@ -6370,7 +6739,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d618",
@@ -6379,7 +6749,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d619",
@@ -6388,7 +6759,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d620",
@@ -6397,7 +6769,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d621",
@@ -6406,7 +6779,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d622",
@@ -6415,7 +6789,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d623",
@@ -6424,7 +6799,8 @@
       "phone2": "",
       "unit": "",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d624",
@@ -6433,7 +6809,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d625",
@@ -6442,7 +6819,8 @@
       "phone2": "",
       "unit": "",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d626",
@@ -6451,7 +6829,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d627",
@@ -6460,7 +6839,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d628",
@@ -6469,7 +6849,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d629",
@@ -6478,7 +6859,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d630",
@@ -6487,7 +6869,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d631",
@@ -6496,7 +6879,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d632",
@@ -6505,7 +6889,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d633",
@@ -6514,7 +6899,8 @@
       "phone2": "",
       "unit": "ŞOFÖR",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d634",
@@ -6523,7 +6909,8 @@
       "phone2": "",
       "unit": "MUHABERAT DEPO",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d635",
@@ -6532,7 +6919,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d636",
@@ -6541,7 +6929,8 @@
       "phone2": "",
       "unit": "",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d637",
@@ -6550,7 +6939,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d638",
@@ -6559,7 +6949,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d639",
@@ -6568,7 +6959,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d640",
@@ -6577,7 +6969,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d641",
@@ -6586,7 +6979,8 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d642",
@@ -6595,7 +6989,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d643",
@@ -6604,7 +6999,8 @@
       "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d644",
@@ -6613,7 +7009,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d645",
@@ -6622,7 +7019,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d646",
@@ -6631,7 +7029,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d647",
@@ -6640,7 +7039,8 @@
       "phone2": "",
       "unit": "GYB DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d649",
@@ -6649,7 +7049,8 @@
       "phone2": "",
       "unit": "TEKNİK",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d650",
@@ -6658,7 +7059,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d651",
@@ -6667,7 +7069,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d652",
@@ -6676,7 +7079,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d653",
@@ -6685,7 +7089,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d654",
@@ -6694,7 +7099,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d655",
@@ -6703,7 +7109,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d656",
@@ -6712,7 +7119,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d657",
@@ -6721,7 +7129,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d658",
@@ -6730,7 +7139,8 @@
       "phone2": "",
       "unit": "YSP",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d659",
@@ -6739,7 +7149,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d660",
@@ -6748,7 +7159,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d661",
@@ -6757,7 +7169,8 @@
       "phone2": "",
       "unit": "NÜKLEER TIP",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d662",
@@ -6766,7 +7179,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d663",
@@ -6775,7 +7189,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d664",
@@ -6784,7 +7199,8 @@
       "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d665",
@@ -6793,7 +7209,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": true
     }
   ],
   "notice": {

@@ -56,6 +56,7 @@ def main():
         # cep kimin numarasi oldugunu netlestir: phone mu phone2 mi
         row["dugme"] = "phone" if phone == mobile else "phone2"
         backup.append(row)
+        item["hasMobile"] = True  # numara sifreli dosyada; sadece maskeleme icin bayrak
 
         # yedegin oldugu alani bosalt; diger alan dahiliyse phone'a tasi
         if phone == mobile:

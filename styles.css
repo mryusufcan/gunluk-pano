@@ -2179,6 +2179,40 @@ main {
   color: var(--accent);
 }
 
+.call-btn.is-locked {
+  background: var(--surface-2);
+  color: var(--muted);
+  cursor: default;
+}
+
+.phone-lock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+}
+
+.phone-lock-note {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.phone-lock form {
+  display: flex;
+  gap: 8px;
+}
+
+.phone-lock input {
+  min-width: 120px;
+}
+
 @media (min-width: 720px) {
   .fav-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));

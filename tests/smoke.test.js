@@ -37,8 +37,8 @@ function baseContent() {
     settings: { title: "Radyoloji Panosu", dept: "Görüntüleme" },
     directory: [
       { id: "d1", name: "Radyoloji Sekreterliği", phone: "1234", unit: "Sekreterya" },
-      { id: "d2", name: "Uzm. Dr. Ece Kaya", phone: "0532 111 22 33", phone2: "8278", unit: "Radyoloji" },
-      { id: "d3", name: "dr.ayşe  yılmaz", phone: "+90 532 111 22 33", unit: "Radyoloji" },
+      { id: "d2", name: "Uzm. Dr. Ece Kaya", phone: "8278", unit: "Radyoloji", hasMobile: true },
+      { id: "d3", name: "dr.ayşe  yılmaz", phone: "", unit: "Radyoloji", hasMobile: true },
     ],
     days: {
       [TODAY]: {
@@ -65,7 +65,30 @@ function jsonResponse(data, status = 200) {
   };
 }
 
-function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null, draft = null, hour = null } = {}) {
+const { webcrypto } = require("crypto");
+const PHONE_PASS = "test-sifre";
+const PHONE_MAP = { d2: "0532 111 22 33", d3: "0532 111 22 33" };
+const b64 = (bytes) => Buffer.from(bytes).toString("base64");
+
+async function encryptFixture(pass) {
+  const salt = webcrypto.getRandomValues(new Uint8Array(16));
+  const iv = webcrypto.getRandomValues(new Uint8Array(12));
+  const base = await webcrypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveKey"]);
+  const key = await webcrypto.subtle.deriveKey(
+    { name: "PBKDF2", salt, iterations: 100000, hash: "SHA-256" },
+    base,
+    { name: "AES-GCM", length: 256 },
+    false,
+    ["encrypt"],
+  );
+  const data = await webcrypto.subtle.encrypt({ name: "AES-GCM", iv }, key, new TextEncoder().encode(JSON.stringify(PHONE_MAP)));
+  return { v: 1, iterations: 100000, salt: b64(salt), iv: b64(iv), data: b64(data) };
+}
+
+let phonesFixture = null;
+const getPhonesFixture = () => (phonesFixture = phonesFixture || encryptFixture(PHONE_PASS));
+
+function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null, draft = null, hour = null, phones = true } = {}) {
   const store = {
     content: JSON.parse(JSON.stringify(content)),
     fail: failContent,
@@ -106,8 +129,10 @@ function makeDom({ content = baseContent(), mode = "viewer", failContent = false
       window.TextEncoder = TextEncoder;
       window.TextDecoder = TextDecoder;
       window.DecompressionStream = DecompressionStream;
+      Object.defineProperty(window, "crypto", { value: webcrypto, configurable: true });
       if (publish) window.localStorage.setItem("pano-publish", JSON.stringify(publish));
       if (draft) window.localStorage.setItem("pano-draft", JSON.stringify(draft));
+      if (phones) window.localStorage.setItem("pano-phones", PHONE_PASS);
       window.fetch = async (input, init = {}) => {
         const url = String(input);
         if (url.startsWith("https://api.github.com/repos/")) {
@@ -129,6 +154,9 @@ function makeDom({ content = baseContent(), mode = "viewer", failContent = false
         if (url.includes("content.json")) {
           if (store.fail) throw new TypeError("ağ yok");
           return jsonResponse(store.content);
+        }
+        if (url.includes("phones.enc")) {
+          return { ok: true, status: 200, json: async () => getPhonesFixture() };
         }
         return jsonResponse({ message: "yok" }, 404);
       };
@@ -579,6 +607,27 @@ async function main() {
   const morningChip = mdoc.querySelector("#team-list .chip-now");
   check("sabah 10:00 su an cipi 08-16 grubunda", Boolean(morningChip) && morningChip.closest("details").dataset.shift.replace(/\D/g, "") === "0816");
   morning.dom.window.close();
+
+  /* ---------- 17. Cep numaralari sifre kilidi ---------- */
+  console.log("\n17) Cep numaralari kilidi");
+  const lockInst = await boot({ phones: false, hour: 12 });
+  const lockDoc = lockInst.dom.window.document;
+  check("kilitli: cep numarasi gizli", !lockDoc.getElementById("directory-list").textContent.includes("0532 111 22 33"));
+  check("kilitli: maskeli cep dugmesi", Boolean(q(lockDoc, "#directory-list .call-btn.is-locked")));
+  check("kilitli: dahili numara gorunur", lockDoc.getElementById("directory-list").textContent.includes("8278"));
+  check("kilitli: sifre cubugu gorunur", !lockDoc.getElementById("phone-lock").hidden);
+
+  lockDoc.getElementById("phone-pass").value = "yanlis";
+  lockDoc.getElementById("phone-unlock").dispatchEvent(new lockInst.dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  check("yanlis sifre: hala kilitli", Boolean(q(lockDoc, "#directory-list .call-btn.is-locked")));
+
+  lockDoc.getElementById("phone-pass").value = PHONE_PASS;
+  lockDoc.getElementById("phone-unlock").dispatchEvent(new lockInst.dom.window.Event("submit", { bubbles: true, cancelable: true }));
+  await wait(30);
+  check("dogru sifre: cep numarasi acilir", lockDoc.getElementById("directory-list").textContent.includes("0532 111 22 33"));
+  check("dogru sifre: kilit cubugu gizlenir", lockDoc.getElementById("phone-lock").hidden);
+  check("dogru sifre: cep tel: baglantisi", Boolean(q(lockDoc, '#directory-list a[href^="tel:"]')));
+  lockInst.dom.window.close();
 
   const exitCode = failures.length ? 1 : 0;
   console.log("\n" + (failures.length ? `BAŞARISIZ: ${failures.length} kontrol` : "TÜM KONTROLLER GEÇTİ"));

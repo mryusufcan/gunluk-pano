@@ -11,6 +11,7 @@ const ASSETS = [
   "./assets/inter-latin.woff2",
   "./assets/inter-latin-ext.woff2",
   "./app.js",
+  "./phones.enc",
   "./manifest.webmanifest",
   "./assets/ikon.svg",
   "./assets/ikon-32.png",

@@ -230,6 +230,7 @@ function normalizeDirectory(raw) {
         unit,
         group: groupOf({ name, unit, group: item.group }),
         fav: Boolean(item.fav),
+        hasMobile: Boolean(item.hasMobile),
       };
     })
     .filter(Boolean)
@@ -335,6 +336,17 @@ let noteFilter = "all";
 let directoryQuery = "";
 let directoryGroup = "Tümü";
 let directoryEditQuery = "";
+// Cep numaralari phones.enc icinde AES-GCM sifreli durur; sifre kodda saklanmaz,
+// yalnizca decrypt anahtari olarak denenir. Yanlis sifre = cozme hatasi.
+let mobileMap = {};
+let phonesPass = (() => {
+  try {
+    return localStorage.getItem("pano-phones");
+  } catch (error) {
+    return null;
+  }
+})();
+let phonesUnlocked = false;
 let editingMemberId = null;
 let publishedAt = 0;
 let isDraft = false;
@@ -784,17 +796,45 @@ function directoryMatches(item, query) {
   return words.every((word) => text.includes(word));
 }
 
+const b64ToBytes = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+
+async function decryptPhones(pass) {
+  const res = await fetch("phones.enc", { cache: "no-store" });
+  if (!res.ok) throw new Error("phones.enc yok");
+  const blob = await res.json();
+  const baseKey = await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveKey"]);
+  const aesKey = await crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt: b64ToBytes(blob.salt), iterations: blob.iterations, hash: "SHA-256" },
+    baseKey,
+    { name: "AES-GCM", length: 256 },
+    false,
+    ["decrypt"],
+  );
+  const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64ToBytes(blob.iv) }, aesKey, b64ToBytes(blob.data));
+  return JSON.parse(new TextDecoder().decode(plain));
+}
+
+function callBtn(raw, name, second) {
+  const tel = telOf(raw);
+  if (!tel) return "";
+  const cls = second ? "call-btn is-second" : "call-btn";
+  return `<a class="${cls}" href="tel:${esc(tel)}" aria-label="${esc(name)}${second ? " ikinci numara" : ""} ara">${ICON_PHONE}<span>${esc(raw)}</span></a>`;
+}
+
+function lockedBtn(name, second) {
+  const cls = second ? "call-btn is-second is-locked" : "call-btn is-locked";
+  return `<span class="${cls}" aria-label="${esc(name)} cep numarası kilitli">${ICON_PHONE}<span>••• ••• •• ••</span></span>`;
+}
+
 function callHtml(item) {
-  const tel = telOf(item.phone);
-  if (!tel && !item.phone2) return `<span class="call-btn is-empty" aria-hidden="true">${ICON_PHONE}</span>`;
-  const main = tel
-    ? `<a class="call-btn" href="tel:${esc(tel)}" aria-label="${esc(item.name)} ara">${ICON_PHONE}<span>${esc(item.phone)}</span></a>`
-    : `<span class="call-btn is-empty" aria-hidden="true">${ICON_PHONE}</span>`;
-  const tel2 = telOf(item.phone2);
-  const second = tel2
-    ? `<a class="call-btn is-second" href="tel:${esc(tel2)}" aria-label="${esc(item.name)} ikinci numara ara">${ICON_PHONE}<span>${esc(item.phone2)}</span></a>`
-    : "";
-  return `<div class="directory-calls">${main}${second}</div>`;
+  const mobile = mobileMap[item.id];
+  const parts = [];
+  if (item.phone) parts.push(callBtn(item.phone, item.name, false));
+  if (item.phone2) parts.push(callBtn(item.phone2, item.name, true));
+  if (mobile) parts.push(callBtn(mobile, item.name, true));
+  else if (item.hasMobile) parts.push(lockedBtn(item.name, true));
+  if (!parts.length) return `<span class="call-btn is-empty" aria-hidden="true">${ICON_PHONE}</span>`;
+  return `<div class="directory-calls">${parts.join("")}</div>`;
 }
 
 function renderDirectory() {
@@ -802,12 +842,18 @@ function renderDirectory() {
   if (!box) return;
   const entries = state.directory || [];
 
+  const lockBar = el("phone-lock");
+  if (lockBar) lockBar.hidden = phonesUnlocked;
+
   const favorites = entries.filter((item) => item.fav).sort((a, b) => a.name.localeCompare(b.name, "tr"));
   el("favorites-head").hidden = !favorites.length;
   el("favorites").innerHTML = favorites
     .map((item) => {
-      const tel = telOf(item.phone);
-      const label = [item.phone, item.phone2].filter(Boolean).join(" · ");
+      const mobile = mobileMap[item.id];
+      const nums = [item.phone, item.phone2, mobile].filter(Boolean);
+      if (!mobile && item.hasMobile) nums.push("••• ••• •• ••");
+      const tel = telOf(item.phone || item.phone2 || mobile);
+      const label = nums.join(" · ");
       const body = `<span class="fav-name">${esc(item.name)}</span><span class="fav-phone">${esc(label || item.unit || "-")}</span>`;
       return tel ? `<a class="fav-tile" href="tel:${esc(tel)}">${body}</a>` : `<div class="fav-tile">${body}</div>`;
     })
@@ -2882,6 +2928,30 @@ function bindEvents() {
     renderDirectory();
   });
 
+  const phoneForm = el("phone-unlock");
+  if (phoneForm) {
+    phoneForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const pass = el("phone-pass").value.trim();
+      if (!pass) return;
+      try {
+        mobileMap = await decryptPhones(pass);
+      } catch (error) {
+        toast("Şifre yanlış.", true);
+        return;
+      }
+      phonesPass = pass;
+      phonesUnlocked = true;
+      try {
+        localStorage.setItem("pano-phones", pass);
+      } catch (error) {
+        /* depolama kapalıysa bu oturumda açık kalır */
+      }
+      el("phone-pass").value = "";
+      renderDirectory();
+    });
+  }
+
   el("directory-edit-search").addEventListener("input", (event) => {
     directoryEditQuery = event.target.value;
     renderDirectoryEditor();
@@ -3116,6 +3186,19 @@ function applyTheme(theme, persist = true) {
 /* ---------- Başlangıç ---------- */
 async function init() {
   applyMode();
+  if (phonesPass) {
+    try {
+      mobileMap = await decryptPhones(phonesPass);
+      phonesUnlocked = true;
+    } catch (error) {
+      phonesPass = null;
+      try {
+        localStorage.removeItem("pano-phones");
+      } catch (ignore) {
+        /* yoksay */
+      }
+    }
+  }
   fillSelect(el("m-shift"), SHIFTS);
   applyTheme(document.documentElement.dataset.theme, false);
   el("note-author").value = authorName;
