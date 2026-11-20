@@ -24,6 +24,15 @@ def norm(value):
     return re.sub(r"[^A-Z0-9]", "", s)
 
 
+def bare_name(value):
+    # DR./DT./UZM. on ekini yok say: "DR. ADEM UCAR" ile "ADEM UCAR" ayni kisi.
+    n = norm(value)
+    for prefix in ("DR", "DT", "UZMDR", "UZM"):
+        if n.startswith(prefix):
+            return n[len(prefix):]
+    return n
+
+
 def is_cell(phone):
     digits = re.sub(r"\D", "", phone or "")
     return len(digits) >= 10 and digits.startswith("05")
@@ -39,7 +48,7 @@ def main():
 
     by_name = {}
     for item in data["directory"]:
-        by_name.setdefault(norm(item["name"]), []).append(item)
+        by_name.setdefault(bare_name(item["name"]), []).append(item)
 
     merged = []
     skip = set()

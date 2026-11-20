@@ -1542,12 +1542,13 @@
       "fav": false
     },
     {
-      "id": "d67",
-      "name": "DR. ADEM UÇAR",
-      "phone": "8469",
+      "id": "d367",
+      "name": "ADEM UÇAR",
+      "phone": "0535 292 64 24",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "phone2": "8469"
     },
     {
       "id": "d68",
@@ -1582,12 +1583,13 @@
       "fav": false
     },
     {
-      "id": "d72",
-      "name": "DR. ALİ BARAN BUDAK",
-      "phone": "8276",
-      "unit": "KALP VE DAMAR CERRAHİ",
+      "id": "d371",
+      "name": "ALİ BARAN BUDAK",
+      "phone": "0541 202 10 00",
+      "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "phone2": "8276"
     },
     {
       "id": "d73",
@@ -1782,12 +1784,13 @@
       "fav": false
     },
     {
-      "id": "d98",
-      "name": "DR. KEMAL KARA",
-      "phone": "8469",
+      "id": "d518",
+      "name": "KEMAL KARA",
+      "phone": "0549 549 12 34",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "phone2": "8469"
     },
     {
       "id": "d99",
@@ -1806,12 +1809,13 @@
       "fav": false
     },
     {
-      "id": "d101",
-      "name": "DR. MEHMET AYDOĞAN",
-      "phone": "8261",
-      "unit": "GÖĞÜS HASTALIKLARI",
-      "group": "Doktorlar",
-      "fav": false
+      "id": "d265",
+      "name": "MEHMET AYDOĞAN",
+      "phone": "0542 505 17 42",
+      "unit": "BAŞHEKİM YARDIMCISI",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "phone2": "8261"
     },
     {
       "id": "d102",
@@ -2078,12 +2082,13 @@
       "fav": false
     },
     {
-      "id": "d136",
-      "name": "DR. FERAH ECE",
-      "phone": "8410",
-      "unit": "GÖĞÜS HASTALIKLARI",
+      "id": "d464",
+      "name": "FERAH ECE",
+      "phone": "0542 473 66 33",
+      "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "phone2": "8410"
     },
     {
       "id": "d137",
@@ -2094,12 +2099,13 @@
       "fav": false
     },
     {
-      "id": "d138",
-      "name": "DR. GAMZE KESKİN",
-      "phone": "8278",
-      "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
-      "group": "Doktorlar",
-      "fav": false
+      "id": "d196",
+      "name": "GAMZE KESKİN",
+      "phone": "0554 923 42 55",
+      "unit": "BAŞHEKİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "phone2": "8278"
     },
     {
       "id": "d139",
@@ -2158,12 +2164,13 @@
       "fav": false
     },
     {
-      "id": "d146",
-      "name": "DR. KADİR ABUL",
-      "phone": "8448",
-      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "id": "d511",
+      "name": "KADİR ABUL",
+      "phone": "0553 872 47 14",
+      "unit": "DOKTOR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "phone2": "8448"
     },
     {
       "id": "d147",
@@ -2548,14 +2555,6 @@
       "phone": "8620",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
-    },
-    {
-      "id": "d196",
-      "name": "GAMZE KESKİN",
-      "phone": "0554 923 42 55",
-      "unit": "BAŞHEKİM",
-      "group": "Yönetim & İdari",
       "fav": false
     },
     {
@@ -3089,14 +3088,6 @@
       "fav": false
     },
     {
-      "id": "d265",
-      "name": "MEHMET AYDOĞAN",
-      "phone": "0542 505 17 42",
-      "unit": "BAŞHEKİM YARDIMCISI",
-      "group": "Yönetim & İdari",
-      "fav": false
-    },
-    {
       "id": "d266",
       "name": "MEHMET MERT EKMEKCİ",
       "phone": "0532 325 46 31",
@@ -3177,19 +3168,19 @@
       "fav": false
     },
     {
-      "id": "d276",
-      "name": "MİKROBİYOLOJİ LABORATUVARI",
-      "phone": "8196",
-      "unit": "BİYOKİMYA LABORATUVARI",
-      "group": "Görüntüleme & Lab",
-      "fav": false
-    },
-    {
       "id": "d277",
       "name": "MİRAY ÖZTÜRK",
       "phone": "0530 242 22 12",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
       "group": "Misafir & VIP",
+      "fav": false
+    },
+    {
+      "id": "d276",
+      "name": "MİKROBİYOLOJİ LABORATUVARI",
+      "phone": "8196",
+      "unit": "BİYOKİMYA LABORATUVARI",
+      "group": "Görüntüleme & Lab",
       "fav": false
     },
     {
@@ -3856,14 +3847,6 @@
       "fav": false
     },
     {
-      "id": "d367",
-      "name": "ADEM UÇAR",
-      "phone": "0535 292 64 24",
-      "unit": "",
-      "group": "Doktorlar",
-      "fav": false
-    },
-    {
       "id": "d368",
       "name": "AHSEN ŞEVVAL TEKER",
       "phone": "0552 877 87 49",
@@ -3885,14 +3868,6 @@
       "phone": "0531 666 06 39",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
-    },
-    {
-      "id": "d371",
-      "name": "ALİ BARAN BUDAK",
-      "phone": "0541 202 10 00",
-      "unit": "DOKTOR",
-      "group": "Doktorlar",
       "fav": false
     },
     {
@@ -4624,14 +4599,6 @@
       "fav": false
     },
     {
-      "id": "d464",
-      "name": "FERAH ECE",
-      "phone": "0542 473 66 33",
-      "unit": "DOKTOR",
-      "group": "Doktorlar",
-      "fav": false
-    },
-    {
       "id": "d465",
       "name": "FERHAT TEMİZ",
       "phone": "0549 430 34 60",
@@ -5000,14 +4967,6 @@
       "fav": false
     },
     {
-      "id": "d511",
-      "name": "KADİR ABUL",
-      "phone": "0553 872 47 14",
-      "unit": "DOKTOR",
-      "group": "Doktorlar",
-      "fav": false
-    },
-    {
       "id": "d512",
       "name": "KADİR CEYHAN",
       "phone": "0543 534 85 08",
@@ -5053,14 +5012,6 @@
       "phone": "0530 510 71 02",
       "unit": "RUSÇA TERCÜMAN",
       "group": "Misafir & VIP",
-      "fav": false
-    },
-    {
-      "id": "d518",
-      "name": "KEMAL KARA",
-      "phone": "0549 549 12 34",
-      "unit": "",
-      "group": "Doktorlar",
       "fav": false
     },
     {
