@@ -2,9 +2,8 @@ name: Çizelgeyi senkronla
 
 on:
   schedule:
-    # Her pazar 21:00 (Türkiye, UTC+3) = 18:00 UTC
-    # Liste cumartesi günü kesinleştiği için haftada bir yeterli.
-    - cron: "0 18 * * 0"
+    # Her 3 saatte bir. E-Tablo'ya yeni hafta girildiğinde pano aynı gün içinde alır.
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:

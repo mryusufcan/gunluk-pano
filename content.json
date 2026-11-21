@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T18:03:17.295420+00:00",
+  "updatedAt": "2026-11-21T14:28:02Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -635,49 +635,392 @@
       }
     },
     "2026-11-23": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-23-0",
+          "name": "Kutay Hoş",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-23-1",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-23-2",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-23-3",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-23-4",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-23-5",
+          "name": "Sedanur Demir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-23-6",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-23-7",
+          "name": "Abdullah Tecen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "KAZDAĞI ÇORBA\nETLİ ALİ NAZİK\nZERDAÇALLI PİLAV\nSICAK İRMİK HELVASI\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + KÖZ PATLICAN SALATASI",
         "updatedAt": 1794767704394
       }
     },
     "2026-11-24": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-24-0",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-24-1",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-24-2",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-24-3",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-24-4",
+          "name": "Damlanur Köksalan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-24-5",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-24-6",
+          "name": "Sedanur Demir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "TAVUKSUYU ÇORBA (KIRMIZI)\nEKŞİLİ ETLİ NOHUTLU PATLICAN YEMEĞİ\nBULGUR PİLAVI\nTRİLİÇE\nGÖBEK + KIRMIZI LAHANA + DOMATES SALATALIK BİBER SÖĞÜŞ + HAVUÇ TARATOR",
         "updatedAt": 1794767704394
       }
     },
     "2026-11-25": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-25-0",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-25-1",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-25-2",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-25-3",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-25-4",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-25-5",
+          "name": "Hazal Kaşıkcı",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-25-6",
+          "name": "Kutay Hoş",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-25-7",
+          "name": "Damlanur Köksalan",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "SÜTLÜ KEREVİZ ÇORBASI\nTAVUK BURGER / PATATES\nCOLA / FANTA / AYRAN\nKEŞKÜL\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + PORTAKALLI PIRASA",
         "updatedAt": 1794767704394
       }
     },
     "2026-11-26": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-26-0",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-26-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-26-2",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-26-3",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-26-4",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-26-5",
+          "name": "Hazal Kaşıkcı",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-26-6",
+          "name": "Kutay Hoş",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-26-7",
+          "name": "Yusuf Can Özdemir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "MERCİMEK ÇORBA\nADANA KEBAP (ACISIZ) / LAVAŞ\nMEYHANE BURGUR PİLAVI\nAYRAN\nELMALI ROKA SALATA + HAVUÇ + DOMATES SALATALIK BİBER SÖĞÜŞ + ACILI EZME",
         "updatedAt": 1794767704394
       }
     },
     "2026-11-27": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-27-0",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-27-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-27-2",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-27-3",
+          "name": "Damlanur Köksalan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-27-4",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-27-5",
+          "name": "Ercan Kurt",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-27-6",
+          "name": "Kutay Hoş",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "DÜĞÜN ÇORBASI\nBEŞAMEL SOSLU SEBZE GRATEN\nZERDEÇALLI PİRİNÇ PİLAVI\nBİSKÜVİLİ PASTA\nHAVUÇ + KIRMIZI LAHANA + PANCAR SALATASI",
         "updatedAt": 1794767713648
       }
     },
     "2026-11-28": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-28-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-28-1",
+          "name": "Mert Aslan",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-28-2",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-28-3",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-28-4",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-28-5",
+          "name": "Yusuf Can Özdemir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-28-6",
+          "name": "Ercan Kurt",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "EZOGELİN ÇORBA\nPİLİÇ FLORENTİN\nDOMATES SOSLU MAKARNA\nFIRIN SÜTLAÇ\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + ZEYTİNYAĞLI PIRASA",
         "updatedAt": 1794767704394
       }
     },
     "2026-11-29": {
-      "team": [],
+      "team": [
+        {
+          "id": "sheet-2026-11-29-0",
+          "name": "Kutay Hoş",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-29-1",
+          "name": "Sedanur Demir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-29-2",
+          "name": "Damlanur Köksalan",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
       "meal": {
         "text": "YAYLA ÇORBASI\nKIYMALI YUFKADA PAŞA KEBABI\nSEBZELİ ARPA ŞEHRİYE PİLAVI\nARMUT\nYEŞİL SALATA + HAVUÇ + KIRMIZI LAHANA + HAYDARİ",
         "updatedAt": 1794767704394
