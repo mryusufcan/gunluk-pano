@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T16:52:22.191Z",
+  "updatedAt": "2026-11-21T16:54:10.914Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -4943,7 +4943,7 @@
       "name": "AYÇA GÜLLENCİ",
       "phone": "",
       "phone2": "",
-      "unit": "RADYOLOG",
+      "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -5153,7 +5153,7 @@
       "name": "BURHAN BARIŞ",
       "phone": "",
       "phone2": "",
-      "unit": "RADYOLOG",
+      "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -5323,7 +5323,7 @@
       "name": "DENİZ DALAYMAN",
       "phone": "",
       "phone2": "",
-      "unit": "RADYOLOG",
+      "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -5403,7 +5403,7 @@
       "name": "AYDIN BORA",
       "phone": "",
       "phone2": "",
-      "unit": "RADYOLOG",
+      "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -5433,7 +5433,7 @@
       "name": "ÖZGE ARPAÇ",
       "phone": "",
       "phone2": "",
-      "unit": "DOKTOR",
+      "unit": "ACİL",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -5463,7 +5463,7 @@
       "name": "ECE YILMAZ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6069,16 +6069,6 @@
       "hasMobile": true
     },
     {
-      "id": "d512",
-      "name": "KADİR CEYHAN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d513",
       "name": "KADİR YAVUZ",
       "phone": "",
@@ -6103,7 +6093,7 @@
       "name": "KARDELEN ACAY",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOTERAPİ BANKO",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6113,7 +6103,7 @@
       "name": "KASIM DEMİRKAYA",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "LİV TAKSİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6143,7 +6133,7 @@
       "name": "KEVSER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "ÇOCUK HASTALIKLARI",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6153,7 +6143,7 @@
       "name": "KÜBRA ELMAS",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "NÜKLEER TIP",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6199,16 +6189,6 @@
       "hasMobile": true
     },
     {
-      "id": "d526",
-      "name": "LİV ULUS",
-      "phone": "902129998213902129998514902129",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": false
-    },
-    {
       "id": "d527",
       "name": "MAKBULE EKER",
       "phone": "",
@@ -6231,16 +6211,6 @@
     {
       "id": "d529",
       "name": "MEHMET HOCA",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d530",
-      "name": "MELİS KAYA",
       "phone": "",
       "phone2": "",
       "unit": "",
@@ -6273,7 +6243,7 @@
       "name": "MERT ARSLAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6293,7 +6263,7 @@
       "name": "MERT YOLCU",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "ACİL BANKO",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
