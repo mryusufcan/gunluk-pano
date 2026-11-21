@@ -320,6 +320,25 @@
             </details>
           </div>
 
+          <div class="panel admin-only">
+            <div class="panel-head">
+              <div>
+                <h2>Fotoğraftan liste</h2>
+                <p class="panel-hint">Çizelgenin fotoğrafını <strong>Listeden içe aktar → Dosya seç</strong> ile seçin; okunan liste önizmede çıkar, onaylayınca panoya girer.</p>
+              </div>
+            </div>
+            <label class="field"><span>Google AI Studio anahtarı (Gemini, ücretsiz kota)</span><input id="ocr-key" type="password" autocomplete="off" placeholder="AIza…" /></label>
+            <p class="panel-hint" style="margin: 0 0 10px">
+              Ücretsiz anahtar:
+              <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> → <em>Create API key</em>.
+              Anahtar yalnızca bu cihazda saklanır; fotoğraf yalnızca Google'ın Gemini servisine gönderilir.
+            </p>
+            <div class="panel-actions">
+              <button id="ocr-save" class="btn secondary" type="button">Anahtarı kaydet</button>
+            </div>
+            <p id="ocr-status" class="panel-hint"></p>
+          </div>
+
           <div class="panel">
             <div class="panel-head"><div><h2>Veri</h2><p class="panel-hint" id="stats"></p></div></div>
             <div class="panel-actions">
@@ -438,7 +457,7 @@
         <div class="import-tools">
           <label class="btn secondary file-label">
             Dosya seç
-            <input id="import-file" type="file" accept=".txt,.csv,.tsv,.md,.xlsx,.docx,text/plain,text/csv" hidden />
+            <input id="import-file" type="file" accept=".txt,.csv,.tsv,.md,.xlsx,.docx,text/plain,text/csv,image/*" hidden />
           </label>
           <button id="import-example" class="link-btn" type="button">Örnek doldur</button>
           <label class="import-week-label">

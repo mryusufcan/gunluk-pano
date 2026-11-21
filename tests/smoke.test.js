@@ -629,6 +629,42 @@ async function main() {
   check("dogru sifre: cep tel: baglantisi", Boolean(q(lockDoc, '#directory-list a[href^="tel:"]')));
   lockInst.dom.window.close();
 
+  /* ---------- 18. Fotografdan cizelge metni ---------- */
+  console.log("\n18) Fotograftan cizelge okuma");
+  const ocrInst = await boot({ hour: 12 });
+  const ocrData = {
+    days: [
+      {
+        date: "2026-11-23",
+        lines: [
+          { shift: "08:00-16:00", name: "KUTAY HOŞ", device: "MR" },
+          { shift: "08:00-16:00", name: "DAMLANUR KÖKSALAN", device: "BT" },
+          { shift: "16:00-24:00", name: "SEDANUR DEMİR", device: "" },
+          { shift: "16:00-24:00", name: "MERT ASLAN", device: "" },
+          { shift: "24:00-08:00", name: "ABDULLAH TECEN", device: "" },
+        ],
+      },
+      { date: "2026-11-24", lines: [] },
+    ],
+  };
+  const ocrValue = ocrInst.dom.window.ocrText(ocrData);
+  check("fotograf metni gun basligi", ocrValue.includes("23.11.2026"));
+  check("fotograf metni cihaz", ocrValue.includes("KUTAY HOŞ (MR)"));
+  check("fotograf metni bos gun atlanir", !ocrValue.includes("24.11.2026"));
+  const ocrParsed = ocrInst.dom.window.parseImport(ocrValue, "team", "2026-11-23", 0);
+  const ocrMembers = ocrParsed.groups.get("2026-11-23") || [];
+  const ocrFind = (name) => ocrMembers.find((member) => member.name === name) || {};
+  check(
+    "fotograf metni vardiyalara ayrilir",
+    ocrFind("KUTAY HOŞ").shift === "08–16" &&
+      ocrFind("SEDANUR DEMİR").shift === "16–24" &&
+      ocrFind("ABDULLAH TECEN").shift === "24–08",
+  );
+  check("fotograf metni cihaz notu", ocrFind("KUTAY HOŞ").note === "MR" && ocrFind("SEDANUR DEMİR").note === "");
+  check("fotograf metni kisi sayisi", ocrMembers.length === 5, `(${ocrMembers.length})`);
+  check("fotograf icin anahtar alani var", Boolean(ocrInst.dom.window.document.getElementById("ocr-key")));
+  ocrInst.dom.window.close();
+
   const exitCode = failures.length ? 1 : 0;
   console.log("\n" + (failures.length ? `BAŞARISIZ: ${failures.length} kontrol` : "TÜM KONTROLLER GEÇTİ"));
   process.exitCode = exitCode;

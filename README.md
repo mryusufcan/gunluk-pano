@@ -46,7 +46,7 @@ Sonra `phones.enc` commit'lenip push edilir; `sw.js` önbellek adı commit ile d
 - **Notlar:** etiketli (Sabit / Arıza / Duyuru / Hatırlatma), durum noktalı (Açık / Tamamlandı), yazar, saat, sabitleme; Tümü / Bugün / Sabit / Açık filtreleri.
 - **Telefon rehberi:** ayrı sekme; arama kutusu üst başlıkta (kelime kelime de bulur, "kaya ece" → Ece Kaya), sık kullanılanlar kutucuk olarak, sonuçlarda arama düğmesi. Cep ve dahili tek satırda iki ayrı `tel:` düğmesi. Yönetici Ayarlar'dan satır ekleyip düzenler, yıldızla sık kullanılana alır.
 - **Cep numarası kilidi:** rehberdeki cep numaraları `phones.enc` dosyasında şifreli durur. Şifre girilmeden maskeli görünür; doğru şifre girilince tıklanabilir olur ve cihazda hatırlanır.
-- **Liste içe aktarma (yönetici):** haftalık/aylık çalışma listesini veya yemek listesini yapıştırın ya da `.xlsx` / `.docx` seçin; tarih, gün adı, vardiya, isim ve cihaz otomatik ayrılır, aktarmadan önce önizleme gösterilir.
+- **Liste içe aktarma (yönetici):** haftalık/aylık çalışma listesini veya yemek listesini yapıştırın, `.xlsx` / `.docx` seçin ya da çizelgenin **fotoğrafını** verin; tarih, gün adı, vardiya, isim ve cihaz otomatik ayrılır, aktarmadan önce önizleme gösterilir.
 - **Aylık ızgara:** üst satırı gün numaraları (`1 2 3 … 30`) olan tablolar ve dikey gün numaralı listeler desteklenir.
 - **Duyuru şeridi:** acil bilgi (ör. "BT 14:00–16:00 arası bakımda") panonun üstünde bant olarak; bilgi veya uyarı tonu seçilebilir.
 - **Son güncelleme satırı:** ekip, gördüğü içeriğin ne zaman yayınlandığını görür.
@@ -90,6 +90,16 @@ Ekip listesi, departmanın Google E-Tablo'sundaki haftalık çalışma listesind
 - Aynı günün ekibini yönetici olarak elle düzenlediyseniz ertesi pazar senkron o günü tablodan yeniden yazar; kalıcı istisna için tabloyu düzeltin.
 - Çizelge okunamazsa (sayfa adı veya tablo düzeni değişirse) iş akışı **kırmızı** olur ve yayınlanmış ekip korunur; sessizce boş kadro yayınlanmaz.
 - Otomatik senkron istenmiyorsa workflow dosyasını silin; her şey elle de çalışır (`python3 tools/sync_schedule.py`).
+
+## Fotoğraftan liste
+
+E-Tablo'ya giremeden, çizelgenin fotoğrafından da liste çıkarılabilir:
+
+- Yönetici → **Ayarlar → Fotoğraftan liste** bölümüne Google AI Studio (Gemini) anahtarını yapıştırıp **Anahtarı kaydet** deyin. Anahtar yalnızca o cihazda (`localStorage`) durur.
+- **Listeden içe aktar → Dosya seç** ile fotoğrafı seçin. Fotoğraf 1600 px'e küçültülüp Gemini'ye gönderilir, dönen JSON aynı içe aktarma metnine çevrilir; **önizlemeyi siz onaylamadan** panoya yazılmaz.
+- Ücretsiz kota bu iş için fazlasıyla yeter: ayda 4-5 fotoğraf, ücretsiz katmanın günlük istek sınırının çok altında. Kota/fiyat değişirse `app.js` içindeki `OCR_MODEL` satırından model seçilebilir.
+- Anahtar yoksa düğme çalışmaz, uyarı çıkar; yapıştırma, Excel/Word ve E-Tablo senkronu aynen durur.
+- Fotoğraf yalnızca Google'ın Gemini servisine gider; başka bir yere yüklenmez, depoya girmez.
 
 ## Yönetici kullanımı
 
@@ -162,7 +172,7 @@ Her iki test de `main` dalına gelen her push'ta yayından **önce** çalışır
 - Yayınlanan `content.json` yalnızca son 90 günün günlerini tutar; daha eskisi yönetici kaydettiğinde düşer (arşiv GitHub commit geçmişindedir).
 - Yönetici telefonu dışındaki cihazlar yalnızca görüntüler; `?admin=1` ile açılan cihazda anahtar yoksa yayın yapılamaz.
 - Ekip not ekleyemez; notlar yönetici tarafından yazılır (talep edilirse ayrı bir yazma servisi gerekir).
-- Fotoğraf/PDF listeler tarayıcıda okunamaz (OCR yok); metin, Excel veya Word kullanılmalı.
+- Fotoğraf okuma Gemini anahtarına ve ücretsiz kotaya bağlıdır; anahtar yokken, kota dolduğunda ya da internet yokken metin/Excel/Word kullanılmalı. PDF hâlâ okunamaz.
 - Anahtar cihazda saklanır; ortak kullanılan bir telefonda tarayıcı verilerini paylaşmayın.
 - Cep şifresi yalnızca gizlilik perdesi sağlar: `phones.enc` herkese açıktır, şifreyi bilen herkes numaraları çözebilir. Şifre kısa veya tahmin edilebilirse dosyayı indirip deneme yapılabilir; güçlü bir şifre seçin. Şifre unutulursa `tools/cep_yedek.json` (depoda değil, yalnızca yönetici makinesinde) ile yeniden üretilir.
 

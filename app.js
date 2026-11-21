@@ -9,6 +9,7 @@ const CONTENT_URL = (typeof window !== "undefined" && window.__PANO_CONTENT_URL)
 const CACHE_KEY = "pano-cache";
 const DRAFT_KEY = "pano-draft";
 const PUBLISH_KEY = "pano-publish";
+const OCR_KEY = "pano-ocr-key";
 const AUTHOR_KEY = "pano-author";
 const THEME_KEY = "pano-theme";
 const VIEW_KEY = "pano-view";
@@ -1590,6 +1591,11 @@ function bindAdminEvents() {
   });
   el("pub-test").addEventListener("click", testPublishConnection);
   el("pub-publish").addEventListener("click", publishContent);
+  el("ocr-save").addEventListener("click", () => {
+    localStorage.setItem(OCR_KEY, el("ocr-key").value.trim());
+    fillOcrField();
+    toast("Fotoğraf okuma anahtarı kaydedildi.");
+  });
   el("download-content").addEventListener("click", downloadContentFile);
   el("copy-content").addEventListener("click", copyContentJson);
 }
@@ -2221,7 +2227,7 @@ function updateImportModeUi() {
   el("import-title").textContent = importMode === "team" ? "Ekip listesini içe aktar" : "Yemek listesini içe aktar";
   el("import-hint").textContent =
     importMode === "team"
-      ? "Excel, Word veya WhatsApp'tan kopyalayıp yapıştırın. Tarih, vardiya, isim ve cihaz otomatik ayrılır; gün adları seçili haftaya göre yorumlanır."
+      ? "Excel, Word, WhatsApp metni ya da çizelgenin fotoğrafını seçin. Tarih, vardiya, isim ve cihaz otomatik ayrılır; gün adları seçili haftaya göre yorumlanır."
       : "Tarih satırları ve altındaki yemekler ayrıştırılır. Tarih yoksa menü seçili güne yazılır.";
   el("import-replace-label").textContent = importMode === "team" ? "Bu günlerdeki mevcut ekibi sil" : "Aynı günlerin menüsünün üzerine yaz";
   el("import-replace").checked = importMode === "meal";
@@ -2362,6 +2368,8 @@ async function handleImportFile(event) {
   const file = event.target.files && event.target.files[0];
   event.target.value = "";
   if (!file) return;
+  const photo = String(file.type || "").startsWith("image/");
+  if (photo) toast("Fotoğraf okunuyor…");
   try {
     const text = await readImportFile(file);
     if (!text || !text.trim()) {
@@ -2370,9 +2378,18 @@ async function handleImportFile(event) {
     }
     el("import-text").value = text;
     renderImportPreview();
-    toast("Dosya okundu; önizlemeyi kontrol edin.");
+    toast(photo ? "Fotoğraf okundu; önizlemeyi kontrol edin." : "Dosya okundu; önizlemeyi kontrol edin.");
   } catch (error) {
-    toast("Dosya okunamadı. Listeyi kopyalayıp yapıştırın (.xlsx/.docx dışındaki dosyalar desteklenmez).", true);
+    const reason = String(error && error.message ? error.message : error);
+    if (reason === "no-key") {
+      toast("Fotoğraf okumak için Ayarlar → Fotoğraftan liste anahtarını girin.", true);
+    } else if (reason.startsWith("api-")) {
+      toast(`Fotoğraf okunamadı (${reason.slice(4)}). Anahtarı ve kotayı kontrol edin.`, true);
+    } else if (photo) {
+      toast("Fotoğraftan çizelge çıkarılamadı. Daha net bir fotoğraf deneyin.", true);
+    } else {
+      toast("Dosya okunamadı. Listeyi kopyalayıp yapıştırın (.xlsx/.docx dışındaki dosyalar desteklenmez).", true);
+    }
   }
 }
 
@@ -2381,7 +2398,116 @@ async function readImportFile(file) {
   if (name.endsWith(".xlsx") || name.endsWith(".docx")) {
     return readOfficeText(await file.arrayBuffer(), name.endsWith(".docx") ? "docx" : "xlsx");
   }
+  if (String(file.type || "").startsWith("image/")) {
+    return readSchedulePhoto(file);
+  }
   return file.text();
+}
+
+/* ---------- Fotoğraftan çizelge okuma (Gemini, ücretsiz kota) ---------- */
+const OCR_MODEL = "gemini-2.5-flash-lite";
+const OCR_PROMPT = `Bu, radyoloji bölümünün haftalık çalışma çizelgesi fotoğrafı.
+Sütunlar günlerdir (üst satırda "Pazartesi 23.11.2026" gibi tarih yazar).
+Satırlar vardiyadır: "08:00-16:00" altında cihaz satırları (MR, BT, RÖNT-PORT, RÖNTGEN, RÖNT-MAMO),
+"16:00-24:00" altında iki satır, "24:00-08:00" altında bir satır.
+Her gün için hücrelerde yazan isimleri, hangi vardiyada ve hangi cihazda olduklarıyla birlikte döndür.
+Boş hücreleri atla. İsimleri fotoğrafta yazdığı gibi (büyük harf) yaz, uydurma.
+Tarihi YYYY-MM-DD biçiminde ver. Vardiyayı "08:00-16:00", "16:00-24:00" veya "24:00-08:00" olarak ver.
+Cihaz yalnızca 08:00-16:00 satırlarında olur; diğerlerinde boş bırak.`;
+
+const OCR_SCHEMA = {
+  type: "OBJECT",
+  properties: {
+    days: {
+      type: "ARRAY",
+      items: {
+        type: "OBJECT",
+        properties: {
+          date: { type: "STRING" },
+          lines: {
+            type: "ARRAY",
+            items: {
+              type: "OBJECT",
+              properties: {
+                shift: { type: "STRING" },
+                name: { type: "STRING" },
+                device: { type: "STRING" },
+              },
+              required: ["shift", "name"],
+            },
+          },
+        },
+        required: ["date", "lines"],
+      },
+    },
+  },
+  required: ["days"],
+};
+
+function readOcrKey() {
+  return localStorage.getItem(OCR_KEY) || "";
+}
+
+function fillOcrField() {
+  el("ocr-key").value = readOcrKey();
+  el("ocr-status").textContent = readOcrKey()
+    ? "Anahtar kayıtlı; çizelge fotoğrafını seçebilirsiniz."
+    : "Anahtar yok; fotoğraftan okuma kapalı.";
+}
+
+/** Okunan JSON'u içe aktarma kutusunun anladığı metne çevirir. */
+function ocrText(data) {
+  const days = Array.isArray(data?.days) ? data.days : [];
+  const blocks = [];
+  for (const day of days) {
+    const match = String(day?.date || "").match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+    if (!match) continue;
+    const byShift = new Map();
+    for (const line of Array.isArray(day.lines) ? day.lines : []) {
+      const shift = String(line?.shift || "").replace(/\s/g, "");
+      const name = String(line?.name || "").trim();
+      if (!name || !/^\d{1,2}:\d{2}-\d{1,2}:\d{2}$/.test(shift)) continue;
+      if (!byShift.has(shift)) byShift.set(shift, []);
+      const device = String(line?.device || "").trim();
+      byShift.get(shift).push(device ? `${name} (${device})` : name);
+    }
+    if (!byShift.size) continue;
+    blocks.push(
+      [`${match[3]}.${match[2]}.${match[1]}`, ...[...byShift].map(([shift, names]) => `${shift}  ${names.join(", ")}`)].join("\n"),
+    );
+  }
+  return blocks.join("\n\n");
+}
+
+/** Fotoğrafı 1600 px'e küçültüp base64 JPEG döndürür (ücretsiz kotayı korur). */
+async function shrinkPhoto(file, max = 1600) {
+  const bitmap = await createImageBitmap(file);
+  const scale = Math.min(1, max / Math.max(bitmap.width, bitmap.height));
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.round(bitmap.width * scale);
+  canvas.height = Math.round(bitmap.height * scale);
+  canvas.getContext("2d").drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+  return canvas.toDataURL("image/jpeg", 0.85).split(",")[1];
+}
+
+async function readSchedulePhoto(file) {
+  const key = readOcrKey();
+  if (!key) throw new Error("no-key");
+  const data = await shrinkPhoto(file);
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${OCR_MODEL}:generateContent`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "x-goog-api-key": key },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: OCR_PROMPT }, { inline_data: { mime_type: "image/jpeg", data } }] }],
+      generationConfig: { temperature: 0, responseMimeType: "application/json", responseSchema: OCR_SCHEMA },
+    }),
+  });
+  if (!response.ok) throw new Error(`api-${response.status}`);
+  const payload = await response.json();
+  const raw = (payload.candidates?.[0]?.content?.parts || []).map((part) => part.text || "").join("");
+  const text = ocrText(JSON.parse(raw));
+  if (!text.trim()) throw new Error("empty");
+  return text;
 }
 
 
@@ -3205,6 +3331,7 @@ async function init() {
   if (ADMIN_MODE) {
     renderDirectoryEditor();
     fillPublishFields();
+    fillOcrField();
   }
   bindEvents();
   if (ADMIN_MODE) bindAdminEvents();
