@@ -243,6 +243,7 @@ async function main() {
   check("modalite sekmesi", doc.querySelector('.view[data-view="modalite"]').classList.contains("is-active"));
   const modalityText = doc.getElementById("modality-summary").textContent;
   check("modalite tablosu", modalityText.includes("Ece Kaya") && modalityText.includes("MR") && modalityText.includes("Akşam"));
+  check("modalite bu ay", doc.getElementById("modality-hint").textContent.includes(String(new Date().getFullYear())));
   doc.querySelector('.tab[data-view="ekip"]').click();
   check("ekip sekmesi", doc.querySelector('.view[data-view="ekip"]').classList.contains("is-active"));
   check("menü ekip ekranında", doc.getElementById("meal-body").textContent.includes("Izgara tavuk"));

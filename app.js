@@ -1034,7 +1034,8 @@ const MODALITIES = ["MR", "BT", "RÖNT-PORT", "RÖNTGEN", "RÖNT-MAMO"];
 function renderModality() {
   const box = el("modality-summary");
   if (!box) return;
-  const keys = Object.keys(state.days).sort();
+  const month = todayKey().slice(0, 7);
+  const keys = Object.keys(state.days).filter((key) => key.startsWith(month)).sort();
   const people = new Map();
   for (const key of keys) {
     for (const member of state.days[key].team) {
@@ -1049,10 +1050,10 @@ function renderModality() {
     }
   }
   el("modality-hint").textContent = keys.length
-    ? `${shortDate(keys[0])} – ${shortDate(keys[keys.length - 1])} · ${keys.length} gün`
-    : "Kayıt yok";
+    ? `${MONTHS[Number(month.slice(5, 7)) - 1]} ${month.slice(0, 4)} · ${keys.length} gün`
+    : "Bu ay kayıt yok";
   if (!people.size) {
-    box.innerHTML = '<p class="import-empty">Henüz gün kaydı yok.</p>';
+    box.innerHTML = '<p class="import-empty">Bu ay için gün kaydı yok.</p>';
     return;
   }
   const rows = [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "tr"));
