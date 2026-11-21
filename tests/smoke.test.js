@@ -199,14 +199,15 @@ async function main() {
   check("başlık içerikten", doc.getElementById("brand-title").textContent === "Radyoloji Panosu");
   check("bölüm içerikten", doc.getElementById("brand-dept").textContent === "Görüntüleme");
   check("rehber kaydı var", doc.getElementById("directory-list").textContent.includes("RADYOLOJİ SEKRETERLİĞİ"));
+  check("rehber ünvanı sıyrıldı", !doc.getElementById("directory-list").textContent.includes("UZM. DR.") && doc.getElementById("directory-list").textContent.includes("ECE KAYA"));
   check("rehber telefon bağlantısı", Boolean(q(doc, '#directory-list a[href^="tel:"]')));
   check("rehber sayacı", doc.getElementById("directory-count").textContent.includes("3 kişi"));
-  check("rehber adı düzenlendi", doc.getElementById("directory-list").textContent.includes("DR. AYŞE YILMAZ"));
+  check("rehber adı düzenlendi", doc.getElementById("directory-list").textContent.includes("AYŞE YILMAZ"));
   check("rehber telefonu düzenlendi", doc.getElementById("directory-list").textContent.includes("0532 111 22 33"));
   check("kategori çipleri", doc.querySelectorAll("#directory-chips button").length === 7);
   check("kategori bölümleri", doc.querySelectorAll("#directory-list details.directory-group").length === 2);
   doc.querySelector('#directory-chips button[data-group="Doktorlar"]').click();
-  check("kategori filtresi", doc.querySelectorAll("#directory-list .directory-row").length === 2 && doc.getElementById("directory-list").textContent.includes("DR. AYŞE YILMAZ"));
+  check("kategori filtresi", doc.querySelectorAll("#directory-list .directory-row").length === 2 && doc.getElementById("directory-list").textContent.includes("AYŞE YILMAZ"));
   check("yönetici çubuğu gizli", doc.getElementById("admin-bar").hidden);
   check("duyuru şeridi görünür", !doc.getElementById("notice").hidden);
   check("duyuru metni", doc.getElementById("notice-text").textContent.includes("bakımda"));

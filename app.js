@@ -177,6 +177,9 @@ function groupOf(item) {
   return "Poliklinikler";
 }
 
+// Rehberde ad başında ünvan gösterilmez; eski kayıt ve içe aktarımlar da sıyrılır.
+const NAME_TITLES = /^(?:(?:DOÇ|DOC|PROF|UZMAN|UZM|DR|DT|OP|RADYOLOG|DOKTOR)\.?\s+)+/i;
+
 function cleanName(value) {
   // Rehber tek biçimde görünsün: büyük harf, tek boşluk, nokta/parantez aralıkları düzgün.
   return String(value || "")
@@ -220,12 +223,13 @@ function normalizeDirectory(raw) {
   return raw
     .map((item) => {
       if (!item || typeof item !== "object") return null;
-      const name = cleanName(item.name).slice(0, 60);
-      if (!name) return null;
+      const name = cleanName(item.name);
+      const displayName = name.replace(NAME_TITLES, "").slice(0, 60);
+      if (!displayName) return null;
       const unit = cleanName(item.unit).slice(0, 60);
       return {
         id: str(item.id, uid(), 60),
-        name,
+        name: displayName,
         phone: formatPhone(item.phone).slice(0, 30),
         phone2: item.phone2 ? formatPhone(item.phone2).slice(0, 30) : "",
         unit,
