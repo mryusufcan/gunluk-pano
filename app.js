@@ -2384,7 +2384,7 @@ async function handleImportFile(event) {
     if (reason === "no-key") {
       toast("Fotoğraf okumak için Ayarlar → Fotoğraftan liste anahtarını girin.", true);
     } else if (reason.startsWith("api-")) {
-      toast(`Fotoğraf okunamadı (${reason.slice(4)}). Anahtarı ve kotayı kontrol edin.`, true);
+      toast(`Fotoğraf okunamadı (${reason.slice(4)}).`, true);
     } else if (photo) {
       toast("Fotoğraftan çizelge çıkarılamadı. Daha net bir fotoğraf deneyin.", true);
     } else {
@@ -2405,7 +2405,7 @@ async function readImportFile(file) {
 }
 
 /* ---------- Fotoğraftan çizelge okuma (Gemini, ücretsiz kota) ---------- */
-const OCR_MODEL = "gemini-2.5-flash-lite";
+const OCR_MODEL = "gemini-flash-lite-latest";
 const OCR_PROMPT = `Bu, radyoloji bölümünün haftalık çalışma çizelgesi fotoğrafı.
 Sütunlar günlerdir (üst satırda "Pazartesi 23.11.2026" gibi tarih yazar).
 Satırlar vardiyadır: "08:00-16:00" altında cihaz satırları (MR, BT, RÖNT-PORT, RÖNTGEN, RÖNT-MAMO),
@@ -2502,9 +2502,14 @@ async function readSchedulePhoto(file) {
       generationConfig: { temperature: 0, responseMimeType: "application/json", responseSchema: OCR_SCHEMA },
     }),
   });
-  if (!response.ok) throw new Error(`api-${response.status}`);
+  if (!response.ok) {
+    const info = await response.json().catch(() => ({}));
+    const detail = info?.error?.message ? `: ${String(info.error.message).slice(0, 140)}` : "";
+    throw new Error(`api-${response.status}${detail}`);
+  }
   const payload = await response.json();
-  const raw = (payload.candidates?.[0]?.content?.parts || []).map((part) => part.text || "").join("");
+  const parts = payload.candidates?.[0]?.content?.parts || [];
+  const raw = parts.filter((part) => !part.thought).map((part) => part.text || "").join("");
   const text = ocrText(JSON.parse(raw));
   if (!text.trim()) throw new Error("empty");
   return text;
