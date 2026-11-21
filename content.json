@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T16:35:58.545Z",
+  "updatedAt": "2026-11-21T16:37:22.844Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -5119,26 +5119,6 @@
       "hasMobile": true
     },
     {
-      "id": "d396",
-      "name": "BURAK BADUR",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d397",
-      "name": "BURAK GÜRLEYEN",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOTERAPİ",
-      "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d398",
       "name": "BURAK İLKİM YÜKSEL",
       "phone": "",
@@ -5154,26 +5134,6 @@
       "phone": "",
       "phone2": "",
       "unit": "YSP",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d400",
-      "name": "BURAK DOLANBAY",
-      "phone": "",
-      "phone2": "",
-      "unit": "DOKTOR",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d401",
-      "name": "BURAK PERK",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
