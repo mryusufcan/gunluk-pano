@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T16:54:42.221Z",
+  "updatedAt": "2026-11-21T17:18:50.890Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -5079,16 +5079,6 @@
       "hasMobile": true
     },
     {
-      "id": "d392",
-      "name": "BEYZA UYGUN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d393",
       "name": "BEYZANUR AYGÜN",
       "phone": "",
@@ -5140,7 +5130,7 @@
     },
     {
       "id": "d403",
-      "name": "BURCU ",
+      "name": "BURCU",
       "phone": "",
       "phone2": "",
       "unit": "HEMŞİRE",
@@ -5913,7 +5903,7 @@
       "name": "İBRAHİM BULĞAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6069,16 +6059,6 @@
       "hasMobile": true
     },
     {
-      "id": "d513",
-      "name": "KADİR YAVUZ",
-      "phone": "",
-      "phone2": "",
-      "unit": "BİYOMEDİKAL",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d514",
       "name": "KAMER FUNDA YAĞAN",
       "phone": "",
@@ -6093,7 +6073,7 @@
       "name": "KARDELEN ACAY",
       "phone": "",
       "phone2": "",
-      "unit": "RADYOTERAPİ BANKO",
+      "unit": "RADYOTERAPİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6103,7 +6083,7 @@
       "name": "KASIM DEMİRKAYA",
       "phone": "",
       "phone2": "",
-      "unit": "LİV TAKSİ",
+      "unit": "ULAŞTIRMA",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6123,7 +6103,7 @@
       "name": "KEREM KURTULUŞ",
       "phone": "",
       "phone2": "",
-      "unit": "ANESTEZİ",
+      "unit": "",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6133,7 +6113,7 @@
       "name": "KEVSER",
       "phone": "",
       "phone2": "",
-      "unit": "ÇOCUK HASTALIKLARI",
+      "unit": "",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6213,7 +6193,7 @@
       "name": "MEHMET HOCA",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6243,7 +6223,7 @@
       "name": "MERT ARSLAN",
       "phone": "",
       "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
+      "unit": "",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6383,7 +6363,7 @@
       "name": "MUSTAFA AKSOY",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6423,7 +6403,7 @@
       "name": "NEDRET GÜLER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "TERCÜMAN",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6433,7 +6413,7 @@
       "name": "NEHİR AYTUĞ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "İNSAN KAYNAKLARI",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6441,16 +6421,6 @@
     {
       "id": "d554",
       "name": "NESLİHAN HANIM",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d555",
-      "name": "NESRİN KÖPRÜLÜ",
       "phone": "",
       "phone2": "",
       "unit": "",
@@ -6503,7 +6473,7 @@
       "name": "NUR ÖZŞAHİN",
       "phone": "",
       "phone2": "",
-      "unit": "DR",
+      "unit": "YOĞUN BAKIM",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6533,7 +6503,7 @@
       "name": "NURAN AKAY",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOTERAPİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6553,7 +6523,7 @@
       "name": "NURSEN SEYİTOĞLU",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOTERAPİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6603,7 +6573,7 @@
       "name": "OKAN SARAY",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
