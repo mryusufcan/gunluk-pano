@@ -2,8 +2,8 @@ name: Çizelgeyi senkronla
 
 on:
   schedule:
-    # Her 3 saatte bir. E-Tablo'ya yeni hafta girildiğinde pano aynı gün içinde alır.
-    - cron: "0 */3 * * *"
+    # Her gün 08:00 (Türkiye, UTC+3) = 05:00 UTC
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 permissions:

@@ -84,7 +84,7 @@ Ekip listesi, departmanın Google E-Tablo'sundaki haftalık çalışma listesind
 
 - Google E-Tablo: haftalık çalışma listesi (`10-i9GB...JT-5I`), herkese açık bağlantı.
 - `tools/sync_schedule.py` çizelgeyi indirir, günleri/kişileri/vardiyaları ayrıştırır ve **yalnızca ekip alanlarını** `content.json`'a yazar.
-- `.github/workflows/sync-schedule.yml` bu betiği **her 3 saatte bir** çalıştırır. Değişiklik varsa commit eder, Pages kendiliğinden yayınlar.
+- `.github/workflows/sync-schedule.yml` bu betiği **her gün 08:00'de** (Türkiye saati) çalıştırır. Değişiklik varsa commit eder, Pages kendiliğinden yayınlar.
 - Elle çalıştırmak için: GitHub → **Actions → Çizelgeyi senkronla → Run workflow**.
 - Yemek, not, duyuru ve ayarlara dokunulmaz. Telefon numaraları isim eşleşmesiyle korunur.
 - Aynı günün ekibini yönetici olarak elle düzenlediyseniz ertesi pazar senkron o günü tablodan yeniden yazar; kalıcı istisna için tabloyu düzeltin.
