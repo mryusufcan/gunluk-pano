@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T14:28:02Z",
+  "updatedAt": "2026-11-21T16:21:18.874Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1385,7 +1385,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d2",
@@ -1394,7 +1395,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d3",
@@ -1403,7 +1405,8 @@
       "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d4",
@@ -1412,7 +1415,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d5",
@@ -1431,7 +1435,8 @@
       "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d8",
@@ -1440,7 +1445,8 @@
       "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d9",
@@ -1449,7 +1455,8 @@
       "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d10",
@@ -1458,7 +1465,8 @@
       "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d11",
@@ -1507,7 +1515,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d16",
@@ -1516,7 +1525,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d17",
@@ -1525,7 +1535,8 @@
       "phone2": "",
       "unit": "B5. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d18",
@@ -1534,7 +1545,8 @@
       "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d19",
@@ -1553,7 +1565,8 @@
       "phone2": "",
       "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d22",
@@ -1562,7 +1575,8 @@
       "phone2": "",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d23",
@@ -1581,7 +1595,8 @@
       "phone2": "",
       "unit": "1. KAT İDARİ OFİSLER",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d25",
@@ -1620,7 +1635,8 @@
       "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d29",
@@ -1629,7 +1645,8 @@
       "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d30",
@@ -1638,7 +1655,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d31",
@@ -1647,7 +1665,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d32",
@@ -1656,7 +1675,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d33",
@@ -1665,7 +1685,8 @@
       "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d34",
@@ -1674,7 +1695,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d35",
@@ -1683,7 +1705,8 @@
       "phone2": "",
       "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d36",
@@ -1692,7 +1715,8 @@
       "phone2": "",
       "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d37",
@@ -1701,7 +1725,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d38",
@@ -1710,7 +1735,8 @@
       "phone2": "",
       "unit": "GENEL YOĞUN BAKIM HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d39",
@@ -1739,7 +1765,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d42",
@@ -1748,7 +1775,8 @@
       "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d43",
@@ -1757,7 +1785,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d44",
@@ -1766,7 +1795,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d45",
@@ -1795,7 +1825,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d48",
@@ -1804,7 +1835,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d49",
@@ -1813,7 +1845,8 @@
       "phone2": "",
       "unit": "MİSAFİR HİZMETLERİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d50",
@@ -1822,7 +1855,8 @@
       "phone2": "",
       "unit": "HASTA BAKIM HİZMETLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d51",
@@ -1851,7 +1885,8 @@
       "phone2": "",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d55",
@@ -1900,7 +1935,8 @@
       "phone2": "",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d60",
@@ -1909,7 +1945,8 @@
       "phone2": "",
       "unit": "FİYAT VERME HİZMETLERİ OFİSİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d61",
@@ -1948,7 +1985,8 @@
       "phone2": "",
       "unit": "YATIŞ HİZMETLERİ PROVİZYON",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d65",
@@ -1967,7 +2005,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d367",
@@ -1986,7 +2025,8 @@
       "phone2": "",
       "unit": "ENDOKRİN CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d69",
@@ -1995,7 +2035,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d70",
@@ -2004,7 +2045,8 @@
       "phone2": "",
       "unit": "KALP VE DAMAR CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d71",
@@ -2013,7 +2055,8 @@
       "phone2": "",
       "unit": "DAMAR CERRAHİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d371",
@@ -2032,7 +2075,8 @@
       "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d74",
@@ -2041,7 +2085,8 @@
       "phone2": "",
       "unit": "PERİNOTOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d75",
@@ -2050,7 +2095,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d76",
@@ -2059,7 +2105,8 @@
       "phone2": "",
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d77",
@@ -2068,7 +2115,8 @@
       "phone2": "",
       "unit": "LABORATUVAR",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d78",
@@ -2077,7 +2125,8 @@
       "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d79",
@@ -2086,7 +2135,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d80",
@@ -2095,7 +2145,8 @@
       "phone2": "",
       "unit": "ÇOCUK ENDOKRİNOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d81",
@@ -2104,7 +2155,8 @@
       "phone2": "",
       "unit": "ENDOKRİNOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d82",
@@ -2113,7 +2165,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d83",
@@ -2122,7 +2175,8 @@
       "phone2": "",
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d84",
@@ -2131,7 +2185,8 @@
       "phone2": "",
       "unit": "RADYASYON ONKOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d85",
@@ -2140,7 +2195,8 @@
       "phone2": "",
       "unit": "ÇOCUK GÖĞÜS HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d86",
@@ -2149,7 +2205,8 @@
       "phone2": "",
       "unit": "RADYASYON ONKOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d87",
@@ -2158,7 +2215,8 @@
       "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d88",
@@ -2167,7 +2225,8 @@
       "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d89",
@@ -2176,7 +2235,8 @@
       "phone2": "",
       "unit": "ÇOCUK NÖROLOJİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d90",
@@ -2185,7 +2245,8 @@
       "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d92",
@@ -2194,7 +2255,8 @@
       "phone2": "",
       "unit": "ÇOCUK GASTROENTEROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d93",
@@ -2203,7 +2265,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d94",
@@ -2212,7 +2275,8 @@
       "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d95",
@@ -2221,7 +2285,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM IVF",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d96",
@@ -2230,7 +2295,8 @@
       "phone2": "",
       "unit": "ALGOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d97",
@@ -2239,7 +2305,8 @@
       "phone2": "",
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d518",
@@ -2258,7 +2325,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d100",
@@ -2267,7 +2335,8 @@
       "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d265",
@@ -2286,7 +2355,8 @@
       "phone2": "",
       "unit": "HEMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d103",
@@ -2295,7 +2365,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d104",
@@ -2304,7 +2375,8 @@
       "phone2": "",
       "unit": "NEFROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d105",
@@ -2313,7 +2385,8 @@
       "phone2": "",
       "unit": "ÇOCUK KARDİYOLOJİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d106",
@@ -2322,7 +2395,8 @@
       "phone2": "",
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d107",
@@ -2331,7 +2405,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d108",
@@ -2340,7 +2415,8 @@
       "phone2": "",
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d109",
@@ -2349,7 +2425,8 @@
       "phone2": "",
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d110",
@@ -2358,7 +2435,8 @@
       "phone2": "",
       "unit": "ÜROONKOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d111",
@@ -2367,7 +2445,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d112",
@@ -2376,7 +2455,8 @@
       "phone2": "",
       "unit": "ÇOCUK CERRRAHİSİ VE ÜROLOJİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d113",
@@ -2385,7 +2465,8 @@
       "phone2": "",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d114",
@@ -2394,7 +2475,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d115",
@@ -2403,7 +2485,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d116",
@@ -2412,7 +2495,8 @@
       "phone2": "",
       "unit": "ÜROONKOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d117",
@@ -2421,7 +2505,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d118",
@@ -2430,7 +2515,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d119",
@@ -2439,7 +2525,8 @@
       "phone2": "",
       "unit": "ENFEKSİYON HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d120",
@@ -2448,7 +2535,8 @@
       "phone2": "",
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d121",
@@ -2457,7 +2545,8 @@
       "phone2": "",
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d122",
@@ -2466,7 +2555,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d123",
@@ -2475,7 +2565,8 @@
       "phone2": "",
       "unit": "ROMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d124",
@@ -2484,7 +2575,8 @@
       "phone2": "",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d125",
@@ -2493,7 +2585,8 @@
       "phone2": "",
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d126",
@@ -2502,7 +2595,8 @@
       "phone2": "",
       "unit": "PLASTİK VE REKONSTRÜKTİF CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d127",
@@ -2511,7 +2605,8 @@
       "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d128",
@@ -2520,7 +2615,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d129",
@@ -2529,7 +2625,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d130",
@@ -2538,7 +2635,8 @@
       "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d131",
@@ -2547,7 +2645,8 @@
       "phone2": "",
       "unit": "ACİL DOKTOR ODASI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d133",
@@ -2556,7 +2655,8 @@
       "phone2": "",
       "unit": "KÖK HÜCRE",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d134",
@@ -2565,7 +2665,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d135",
@@ -2574,7 +2675,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d464",
@@ -2593,7 +2695,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d196",
@@ -2612,7 +2715,8 @@
       "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d140",
@@ -2621,7 +2725,8 @@
       "phone2": "",
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d141",
@@ -2630,7 +2735,8 @@
       "phone2": "",
       "unit": "OMURGA CERRAHİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d142",
@@ -2639,7 +2745,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d143",
@@ -2648,7 +2755,8 @@
       "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d144",
@@ -2657,7 +2765,8 @@
       "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d145",
@@ -2666,7 +2775,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d511",
@@ -2685,7 +2795,8 @@
       "phone2": "",
       "unit": "PSİKİYATRİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d148",
@@ -2694,7 +2805,8 @@
       "phone2": "",
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d149",
@@ -2703,7 +2815,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d150",
@@ -2712,7 +2825,8 @@
       "phone2": "",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d151",
@@ -2721,7 +2835,8 @@
       "phone2": "",
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d152",
@@ -2730,7 +2845,8 @@
       "phone2": "",
       "unit": "KADIN HAST VE DOĞUM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d153",
@@ -2739,7 +2855,8 @@
       "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d154",
@@ -2748,7 +2865,8 @@
       "phone2": "",
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d155",
@@ -2757,7 +2875,8 @@
       "phone2": "",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d156",
@@ -2766,7 +2885,8 @@
       "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d157",
@@ -2775,7 +2895,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d158",
@@ -2784,7 +2905,8 @@
       "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d159",
@@ -2793,7 +2915,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d160",
@@ -2802,7 +2925,8 @@
       "phone2": "",
       "unit": "ENDOKRİNOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d161",
@@ -2811,7 +2935,8 @@
       "phone2": "",
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d162",
@@ -2820,7 +2945,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d163",
@@ -2829,7 +2955,8 @@
       "phone2": "",
       "unit": "MEME CERRAHİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d164",
@@ -2838,7 +2965,8 @@
       "phone2": "",
       "unit": "ÜROLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d165",
@@ -2847,7 +2975,8 @@
       "phone2": "",
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d166",
@@ -2856,7 +2985,8 @@
       "phone2": "",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d167",
@@ -2865,7 +2995,8 @@
       "phone2": "",
       "unit": "DİZ CERRAHİSİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d168",
@@ -2874,7 +3005,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d169",
@@ -2883,7 +3015,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d170",
@@ -2892,7 +3025,8 @@
       "phone2": "",
       "unit": "FİZİKSEL TIP VE REHABİLİTASYON",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d171",
@@ -2901,7 +3035,8 @@
       "phone2": "",
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d172",
@@ -2910,7 +3045,8 @@
       "phone2": "",
       "unit": "NÖRORADYOLOJİ",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d173",
@@ -2919,7 +3055,8 @@
       "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d174",
@@ -2928,7 +3065,8 @@
       "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d175",
@@ -2937,7 +3075,8 @@
       "phone2": "",
       "unit": "ENDODONTİ UZMANI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d176",
@@ -2946,7 +3085,8 @@
       "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d177",
@@ -2955,7 +3095,8 @@
       "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d178",
@@ -2974,7 +3115,8 @@
       "phone2": "",
       "unit": "B4. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d180",
@@ -2983,7 +3125,8 @@
       "phone2": "",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d181",
@@ -3072,7 +3215,8 @@
       "phone2": "",
       "unit": "KARDİYOLOJİ & KVC KOORDİNATÖRÜ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d191",
@@ -3101,7 +3245,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d194",
@@ -3110,7 +3255,8 @@
       "phone2": "",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d195",
@@ -3119,7 +3265,8 @@
       "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d197",
@@ -3138,7 +3285,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d199",
@@ -3147,7 +3295,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d200",
@@ -3216,7 +3365,8 @@
       "phone2": "",
       "unit": "GÜNÜBİRLİK YATIŞ İŞLEMLERİ - TÜP BEBEK İŞLERİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d207",
@@ -3225,7 +3375,8 @@
       "phone2": "",
       "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d208",
@@ -3234,7 +3385,8 @@
       "phone2": "",
       "unit": "ENDOSKOPİ MİSAFİR HİZMETLERİ EKİP LİDERİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d209",
@@ -3243,7 +3395,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d210",
@@ -3252,7 +3405,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d211",
@@ -3261,7 +3415,8 @@
       "phone2": "",
       "unit": "KARDİYOLOJİ - GÖĞÜS CERRAHİSİ - KVC - PLASTİK",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d212",
@@ -3270,7 +3425,8 @@
       "phone2": "",
       "unit": "ÜROLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d213",
@@ -3279,7 +3435,8 @@
       "phone2": "",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d214",
@@ -3288,7 +3445,8 @@
       "phone2": "",
       "unit": "KULAK BURUN BOĞAZ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d215",
@@ -3297,7 +3455,8 @@
       "phone2": "",
       "unit": "GÖZ HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d216",
@@ -3306,7 +3465,8 @@
       "phone2": "",
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d217",
@@ -3315,7 +3475,8 @@
       "phone2": "",
       "unit": "TÜP BEBEK-IVF",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d218",
@@ -3324,7 +3485,8 @@
       "phone2": "",
       "unit": "NÖROLOJİ - GÖĞÜS HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d219",
@@ -3333,7 +3495,8 @@
       "phone2": "",
       "unit": "GENEL CERRAHİ-PSİKOLOJİ-GENETİK",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d220",
@@ -3342,7 +3505,8 @@
       "phone2": "",
       "unit": "3",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d221",
@@ -3351,7 +3515,8 @@
       "phone2": "",
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d222",
@@ -3360,7 +3525,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d223",
@@ -3369,7 +3535,8 @@
       "phone2": "",
       "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d224",
@@ -3378,7 +3545,8 @@
       "phone2": "",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM - İÇ HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d225",
@@ -3387,7 +3555,8 @@
       "phone2": "",
       "unit": "CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d226",
@@ -3396,7 +3565,8 @@
       "phone2": "",
       "unit": "GASTROENTEROLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d227",
@@ -3405,7 +3575,8 @@
       "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d228",
@@ -3414,7 +3585,8 @@
       "phone2": "",
       "unit": "DERMATOLOJİ - NÖRO RADYOLOJİ - BEYİN VE",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d229",
@@ -3423,7 +3595,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d230",
@@ -3432,7 +3605,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d231",
@@ -3441,7 +3615,8 @@
       "phone2": "",
       "unit": "DERMATOLOJİ - MEDİKAL ESTETİK",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d232",
@@ -3450,7 +3625,8 @@
       "phone2": "",
       "unit": "FİZİK TEDAVİ VE REHABİLİTASYON FİZYOTERAPİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d233",
@@ -3459,7 +3635,8 @@
       "phone2": "",
       "unit": "MEDİKAL (TIBBİ) ONKOLOJİ - HEMATOLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d234",
@@ -3468,7 +3645,8 @@
       "phone2": "",
       "unit": "ACİL SERVİS",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d235",
@@ -3487,7 +3665,8 @@
       "phone2": "",
       "unit": "VIP - CHECK-UP VE SAĞLIKLI YAŞAM",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d237",
@@ -3566,7 +3745,8 @@
       "phone2": "",
       "unit": "B5. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d246",
@@ -3595,7 +3775,8 @@
       "phone2": "",
       "unit": "ANJİO BANKO (KORONER ANJİO,KALP PİLİ)",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d250",
@@ -3614,7 +3795,8 @@
       "phone2": "",
       "unit": "1. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d252",
@@ -3623,7 +3805,8 @@
       "phone2": "",
       "unit": "1. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d253",
@@ -3652,7 +3835,8 @@
       "phone2": "",
       "unit": "EKİP LİDERİ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d256",
@@ -3661,7 +3845,8 @@
       "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d257",
@@ -3670,7 +3855,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d258",
@@ -3679,7 +3865,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d259",
@@ -3688,7 +3875,8 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d260",
@@ -3697,7 +3885,8 @@
       "phone2": "",
       "unit": "BİYOKİMYA LABORATUVARI",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d261",
@@ -3706,7 +3895,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d262",
@@ -3775,7 +3965,8 @@
       "phone2": "",
       "unit": "ANESTEZİ BANKO",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d270",
@@ -3794,7 +3985,8 @@
       "phone2": "",
       "unit": "GENEL YOĞUN BAKIM MİSAFİR HİZMETLERİ BAN",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d272",
@@ -3853,7 +4045,8 @@
       "phone2": "",
       "unit": "BİYOKİMYA LABORATUVARI",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d278",
@@ -3962,7 +4155,8 @@
       "phone2": "",
       "unit": "KAN ALMA- ÜROLOJİ-NEFROLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d289",
@@ -3991,7 +4185,8 @@
       "phone2": "",
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d293",
@@ -4000,7 +4195,8 @@
       "phone2": "",
       "unit": "MİSAFİR İLİŞKİLERİ UZMAN YARDIMCISI",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d294",
@@ -4019,7 +4215,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d296",
@@ -4028,7 +4225,8 @@
       "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d297",
@@ -4057,7 +4255,8 @@
       "phone2": "",
       "unit": "PANSUMAN - ALÇI ODASI",
       "group": "Doktorlar",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d301",
@@ -4066,7 +4265,8 @@
       "phone2": "",
       "unit": "B3. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d302",
@@ -4075,7 +4275,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT ÇOCUK POLİKLİNİĞİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d303",
@@ -4094,7 +4295,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d305",
@@ -4103,7 +4305,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d306",
@@ -4112,7 +4315,8 @@
       "phone2": "",
       "unit": "RADYOTERAPİ (RADYOSYON ONKOLOJİ)",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d307",
@@ -4151,7 +4355,8 @@
       "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d312",
@@ -4170,7 +4375,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d314",
@@ -4249,7 +4455,8 @@
       "phone2": "",
       "unit": "YATIŞ HİZMETLERİ OFİSİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d322",
@@ -4298,7 +4505,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d327",
@@ -4307,7 +4515,8 @@
       "phone2": "",
       "unit": "3. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d328",
@@ -4336,7 +4545,8 @@
       "phone2": "",
       "unit": "B5. KAT",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d331",
@@ -4355,7 +4565,8 @@
       "phone2": "",
       "unit": "4. KAT YÖNETİM",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d333",
@@ -4374,7 +4585,8 @@
       "phone2": "",
       "unit": "TÜP BEBEK-IVF",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d335",
@@ -4383,7 +4595,8 @@
       "phone2": "",
       "unit": "AMELİYATHANE DEPO",
       "group": "Yönetim & İdari",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d336",
@@ -4392,7 +4605,8 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d337",
@@ -4411,7 +4625,8 @@
       "phone2": "",
       "unit": "ANESTEZİ",
       "group": "Görüntüleme & Lab",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d339",
@@ -4420,7 +4635,8 @@
       "phone2": "",
       "unit": "3. KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d340",
@@ -4429,7 +4645,8 @@
       "phone2": "",
       "unit": "UZM. KLİNİK PSİKOLOG",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d341",
@@ -4448,7 +4665,8 @@
       "phone2": "",
       "unit": "2. KAT GİRİŞ",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d343",
@@ -4487,7 +4705,8 @@
       "phone2": "",
       "unit": "ZEMİN KAT YATAN HASTA",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d348",
@@ -4506,7 +4725,8 @@
       "phone2": "",
       "unit": "B1 YÖNETİM OFİSLERİ",
       "group": "Misafir & VIP",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d350",
@@ -4565,7 +4785,8 @@
       "phone2": "",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d357",
@@ -4594,7 +4815,8 @@
       "phone2": "",
       "unit": "BİYOKİMYA LABORATUVARI",
       "group": "Hemşirelik & Yatan",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d361",
@@ -6173,7 +6395,8 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false
+      "fav": false,
+      "hasMobile": false
     },
     {
       "id": "d527",
@@ -6687,7 +6910,7 @@
     },
     {
       "id": "d578",
-      "name": "RADYOLOG BURCU YETİMOĞLU",
+      "name": "BURCU YETİMOĞLU",
       "phone": "",
       "phone2": "",
       "unit": "RADYOLOG",
