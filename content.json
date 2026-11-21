@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:36:14Z",
+  "updatedAt": "2026-11-21T17:56:02.056Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -5857,7 +5857,7 @@
       "name": "FATMANUR KARA",
       "phone": "",
       "phone2": "",
-      "unit": "GYB",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6413,6 +6413,16 @@
       "hasMobile": true
     },
     {
+      "id": "d531",
+      "name": "MERDAN FAYDA",
+      "phone": "",
+      "phone2": "",
+      "unit": "PROF DR",
+      "group": "Poliklinikler",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
       "id": "d532",
       "name": "MERİ İSTİROTİ",
       "phone": "",
@@ -6428,16 +6438,6 @@
       "phone": "",
       "phone2": "",
       "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d534",
-      "name": "MERT ŞEN",
-      "phone": "",
-      "phone2": "",
-      "unit": "STAJYER",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -7527,7 +7527,7 @@
       "name": "YEŞER DORMAN",
       "phone": "",
       "phone2": "",
-      "unit": "GYB DOKTOR",
+      "unit": "YOĞUN BAKIM",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
