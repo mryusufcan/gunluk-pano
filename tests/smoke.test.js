@@ -276,6 +276,12 @@ async function main() {
   check("icap vardiyası yok", ![...doc.getElementById("m-shift").options].some((option) => option.value === "İcap"));
   check("depo önceden dolu", doc.getElementById("pub-repo").value === "mryusufcan/gunluk-pano");
   check("rehber düzenleyicisi satırları", doc.querySelectorAll("#directory-editor .directory-edit-row").length === 3);
+  const editSearch = doc.getElementById("directory-edit-search");
+  editSearch.value = "#eksik";
+  editSearch.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  check("birimsiz filtresi", doc.getElementById("directory-editor").textContent.includes("Eşleşen kayıt yok"));
+  editSearch.value = "";
+  editSearch.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
   const directoryPhone = doc.querySelector('#directory-editor input[data-directory="phone"]');
   check("rehber giriş alanı", Boolean(directoryPhone));
   check("rehber ad alanı", doc.querySelector('#directory-editor input[data-directory="name"]').value.includes("SEKRETERLİĞİ"));

@@ -789,10 +789,19 @@ function renderNotes() {
   badge.textContent = open > 9 ? "9+" : String(open);
 }
 
+// Birim alanı yer tutucuysa (boş, "DOKTOR", "RADYOLOG"...) kayıt eksik sayılır.
+const UNIT_PLACEHOLDERS = /^(DOKTOR|RADYOLOG|GYB DOKTOR|DR|DT)$/i;
+
+function unitMissing(item) {
+  const unit = String(item.unit || "").trim();
+  return !unit || UNIT_PLACEHOLDERS.test(unit);
+}
+
 function directoryMatches(item, query) {
   if (!query) return true;
   const search = lowerTr(query).trim();
   if (!search) return true;
+  if (search === "#eksik" || search === "#birimsiz") return unitMissing(item);
   const digits = search.replace(/[^\d+]/g, "");
   if (digits && String(item.phone || "").replace(/[^\d+]/g, "").includes(digits)) return true;
   const text = lowerTr(`${item.name} ${item.unit || ""} ${groupOf(item)}`);
@@ -929,8 +938,9 @@ function renderDirectoryEditor() {
   }
   const filtered = state.directory.filter((item) => directoryMatches(item, directoryEditQuery));
   const shown = filtered.slice(0, 50);
+  const missing = state.directory.filter(unitMissing).length;
   const hint = filtered.length
-    ? `<p class="import-empty">${filtered.length} kayıt${filtered.length > shown.length ? ` · ilk ${shown.length} gösteriliyor, arayarak daraltın` : ""}</p>`
+    ? `<p class="import-empty">${filtered.length} kayıt${filtered.length > shown.length ? ` · ilk ${shown.length} gösteriliyor, arayarak daraltın` : ""}${missing ? ` · ${missing} birimsiz (#eksik)` : ""}</p>`
     : '<p class="import-empty">Eşleşen kayıt yok.</p>';
   box.innerHTML = hint + shown
     .map(
