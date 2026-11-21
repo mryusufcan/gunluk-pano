@@ -1,6 +1,6 @@
 # Günün Panosu · Radyoloji
 
-Radyoloji departmanının günlük operasyon panosu: **günün ekibi**, **günün yemeği** ve **notlar**. Veri artık tarayıcıda değil, sitenin yanındaki **`content.json`** dosyasında tutulur.
+Radyoloji departmanının günlük operasyon panosu: **günün ekibi**, **günün yemeği**, **notlar**, **telefon rehberi** ve **modalite özeti**. Veri artık tarayıcıda değil, sitenin yanındaki **`content.json`** dosyasında tutulur.
 
 - **Ekip** normal adresi açar, sadece **görüntüler**; düzenleme düğmesi görmez.
 - **Yönetici** (`?admin=1`) düzenler, listeyi içe aktarır ve **Yayınla** ile `content.json` dosyasını GitHub'a yazar. GitHub Pages 1-2 dakikada yeni hâli yayınlar.
@@ -44,7 +44,8 @@ Sonra `phones.enc` commit'lenip push edilir; `sw.js` önbellek adı commit ile d
 - **Günün ekibi:** vardiyaya göre gruplu liste (08–16, 16–24, 24–08, idari, izinli); geçerli vardiya açık, diğerleri tek satıra katlanmış. Telefon/dahili için `tel:` bağlantısı, kişi notu.
 - **Günün yemeği:** ekip ekranının altında kart; çok satırlı menü, dünkü menüyü kopyalama.
 - **Notlar:** etiketli (Sabit / Arıza / Duyuru / Hatırlatma), durum noktalı (Açık / Tamamlandı), yazar, saat, sabitleme; Tümü / Bugün / Sabit / Açık filtreleri.
-- **Telefon rehberi:** ayrı sekme; arama kutusu üst başlıkta (kelime kelime de bulur, "kaya ece" → Ece Kaya), sık kullanılanlar kutucuk olarak, sonuçlarda arama düğmesi. Cep ve dahili tek satırda iki ayrı `tel:` düğmesi. Yönetici Ayarlar'dan satır ekleyip düzenler, yıldızla sık kullanılana alır.
+- **Modalite özeti:** ayrı sekme; içinde bulunulan ayın gün kayıtlarından kişi başına sabah cihaz atamalarını (MR, BT, RÖNT-PORT, RÖNTGEN, RÖNT-MAMO) ve akşam/gece vardiya sayılarını tablo hâlinde gösterir. Başlıkta ay ve gün sayısı yazar; başka aya geçince kendiliğinden o ayı gösterir.
+- **Telefon rehberi:** ayrı sekme; arama kutusu üst başlıkta (kelime kelime de bulur, "kaya ece" → Ece Kaya), sık kullanılanlar kutucuk olarak, sonuçlarda arama düğmesi. Cep ve dahili tek satırda iki ayrı `tel:` düğmesi. Yönetici Ayarlar'dan satır ekleyip düzenler, yıldızla sık kullanılana alır. İsimlerdeki ünvan (Dr., Doç., Uzm., Radyolog…) gösterilmez; kategoriler birime göre belirlenir. Arama kutusuna **#eksik** yazınca birimi boş ya da yer tutucu (`DOKTOR`, `RADYOLOG`, `DR`, `DT`…) kayıtlar listelenir.
 - **Cep numarası kilidi:** rehberdeki cep numaraları `phones.enc` dosyasında şifreli durur. Şifre girilmeden maskeli görünür; doğru şifre girilince tıklanabilir olur ve cihazda hatırlanır.
 - **Liste içe aktarma (yönetici):** haftalık/aylık çalışma listesini veya yemek listesini yapıştırın, `.xlsx` / `.docx` seçin ya da çizelgenin **fotoğrafını** verin; tarih, gün adı, vardiya, isim ve cihaz otomatik ayrılır, aktarmadan önce önizleme gösterilir.
 - **Aylık ızgara:** üst satırı gün numaraları (`1 2 3 … 30`) olan tablolar ve dikey gün numaralı listeler desteklenir.
@@ -85,6 +86,7 @@ Ekip listesi, departmanın Google E-Tablo'sundaki haftalık çalışma listesind
 - Google E-Tablo: haftalık çalışma listesi (`10-i9GB...JT-5I`), herkese açık bağlantı.
 - `tools/sync_schedule.py` çizelgeyi indirir, günleri/kişileri/vardiyaları ayrıştırır ve **yalnızca ekip alanlarını** `content.json`'a yazar.
 - `.github/workflows/sync-schedule.yml` bu betiği **her gün 08:00'de** (Türkiye saati) çalıştırır. Değişiklik varsa commit eder, Pages kendiliğinden yayınlar.
+- Pencere ayın 1'inden itibaren başlar: ayın ilk günleri ve önceki ay sekmesinin son hafta bloğuna düşen ay başı (ör. 1 Kasım Pazar) de aktarılır. Sonraki aya ait günler de önceden doldurulur.
 - Elle çalıştırmak için: GitHub → **Actions → Çizelgeyi senkronla → Run workflow**.
 - Yemek, not, duyuru ve ayarlara dokunulmaz. Telefon numaraları isim eşleşmesiyle korunur.
 - Aynı günün ekibini yönetici olarak elle düzenlediyseniz ertesi pazar senkron o günü tablodan yeniden yazar; kalıcı istisna için tabloyu düzeltin.
@@ -108,6 +110,9 @@ E-Tablo'ya giremeden, çizelgenin fotoğrafından da liste çıkarılabilir:
 3. Ekip / Rehber / Notlar sekmelerinde düzenleyin. **Listeden içe aktar** ile Excel, Word veya WhatsApp metnini kullanın.
 4. **Yayınla** → "Yayınlandı" yazısı çıkar. GitHub Pages 1-2 dakika içinde güncellenir.
 5. Ekip sayfayı yenilediğinde (ya da birkaç dakika sonra kendiliğinden) yeni içeriği görür.
+6. Yayından sonra düzenlemeye devam edecekseniz sayfayı yenileyin. Açık kalan eski sekme eski listeyi taşır; sonraki **Yayınla** başka yerden yapılan değişiklikleri geri alabilir.
+
+**Modalite** sekmesi salt okunurdur: içinde bulunulan ayın kişi başına cihaz ve vardiya sayılarını gösterir. Ayrı veri girmez, gün kayıtlarından hesaplar.
 
 Yarım kalan işler kaybolmaz: değişiklikler taslak olarak cihazda durur, sayfayı kapatıp açsanız da geri gelir. Taslağı atmak için tarayıcı verilerini temizlemek yerine **Ayarlar → Veri → Tüm verileri sil** (yalnızca taslağı ve önbelleği siler, yayındaki içeriğe dokunmaz) kullanılabilir.
 
@@ -157,9 +162,9 @@ LICENSE               MIT lisansı
 
 ```bash
 npm ci                     # yalnızca jsdom, geliştirme bağımlılığı
-npm test                   # 134 kontrol: görüntüleme, yönetici, yayın API'si,
+npm test                   # 147 kontrol: görüntüleme, yönetici, yayın API'si,
                            # duyuru, içe aktarma, önbellek, bozuk içerik,
-                           # gece vardiyası, cep şifresi
+                           # gece vardiyası, modalite özeti, cep şifresi
 python -m unittest discover tests   # çizelge ayrıştırıcısı (openpyxl gerekir)
 ```
 
