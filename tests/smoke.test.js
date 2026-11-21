@@ -663,6 +663,11 @@ async function main() {
   check("fotograf metni cihaz notu", ocrFind("KUTAY HOŞ").note === "MR" && ocrFind("SEDANUR DEMİR").note === "");
   check("fotograf metni kisi sayisi", ocrMembers.length === 5, `(${ocrMembers.length})`);
   check("fotograf icin anahtar alani var", Boolean(ocrInst.dom.window.document.getElementById("ocr-key")));
+  check(
+    "fotograf okuma durumu gorunur",
+    Boolean(ocrInst.dom.window.document.getElementById("import-status")) &&
+      Boolean(ocrInst.dom.window.document.getElementById("import-file-text")),
+  );
   ocrInst.dom.window.close();
 
   const exitCode = failures.length ? 1 : 0;

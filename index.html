@@ -456,7 +456,7 @@
         </label>
         <div class="import-tools">
           <label class="btn secondary file-label">
-            Dosya seç
+            <span id="import-file-text">Dosya seç</span>
             <input id="import-file" type="file" accept=".txt,.csv,.tsv,.md,.xlsx,.docx,text/plain,text/csv,image/*" hidden />
           </label>
           <button id="import-example" class="link-btn" type="button">Örnek doldur</button>
@@ -469,6 +469,7 @@
             </select>
           </label>
         </div>
+        <p id="import-status" class="import-status" role="status" aria-live="polite"></p>
         <label class="check">
           <input id="import-replace" type="checkbox" />
           <span id="import-replace-label">Bu günlerdeki mevcut ekibi sil</span>

@@ -960,6 +960,39 @@ main {
   font-size: 16px;
 }
 
+.import-status {
+  margin: 0 0 10px;
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
+.import-status:empty {
+  display: none;
+}
+
+.import-status.is-warn {
+  color: var(--danger);
+}
+
+.import-status.is-busy::after {
+  content: "";
+  display: inline-block;
+  width: 0.72em;
+  height: 0.72em;
+  margin-left: 6px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  vertical-align: -0.06em;
+  animation: import-spin 0.8s linear infinite;
+}
+
+@keyframes import-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .import-preview {
   max-height: 250px;
   margin: 8px 0 2px;

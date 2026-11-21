@@ -2239,6 +2239,7 @@ function openImport(mode) {
   importResult = null;
   el("import-text").value = "";
   el("import-preview").innerHTML = importEmptyPreview();
+  setImportStatus("");
   el("import-apply").disabled = true;
   el("import-apply").textContent = "İçe aktar";
   el("import-week").value = "0";
@@ -2364,32 +2365,51 @@ function applyImport() {
   );
 }
 
+function setImportStatus(message, kind = "") {
+  const box = el("import-status");
+  if (!box) return;
+  box.textContent = message;
+  box.classList.toggle("is-busy", kind === "busy");
+  box.classList.toggle("is-warn", kind === "warn");
+  el("import-file-text").textContent = kind === "busy" ? "Okunuyor…" : "Dosya seç";
+}
+
+/** İşlem sürerken geçen saniyeyi gösterir; uzun bekleyiş boş görünmesin. */
+function startImportStatus(base) {
+  const started = Date.now();
+  setImportStatus(base, "busy");
+  return setInterval(() => setImportStatus(`${base} ${Math.round((Date.now() - started) / 1000)} sn`, "busy"), 1000);
+}
+
 async function handleImportFile(event) {
   const file = event.target.files && event.target.files[0];
   event.target.value = "";
   if (!file) return;
   const photo = String(file.type || "").startsWith("image/");
-  if (photo) toast("Fotoğraf okunuyor…");
+  const statusTimer = startImportStatus(photo ? "Fotoğraf okunuyor…" : "Dosya okunuyor…");
   try {
     const text = await readImportFile(file);
     if (!text || !text.trim()) {
-      toast("Dosyadan metin okunamadı.", true);
+      setImportStatus("Dosyadan metin okunamadı.", "warn");
       return;
     }
     el("import-text").value = text;
     renderImportPreview();
-    toast(photo ? "Fotoğraf okundu; önizlemeyi kontrol edin." : "Dosya okundu; önizlemeyi kontrol edin.");
+    setImportStatus(photo ? "Fotoğraf okundu. Önizlemeyi kontrol edin." : "Dosya okundu. Önizlemeyi kontrol edin.");
   } catch (error) {
     const reason = String(error && error.message ? error.message : error);
     if (reason === "no-key") {
-      toast("Fotoğraf okumak için Ayarlar → Fotoğraftan liste anahtarını girin.", true);
+      setImportStatus("Fotoğraf okumak için Ayarlar → Fotoğraftan liste anahtarını girin.", "warn");
     } else if (reason.startsWith("api-")) {
-      toast(`Fotoğraf okunamadı (${reason.slice(4)}).`, true);
+      setImportStatus(`Fotoğraf okunamadı (${reason.slice(4)}).`, "warn");
     } else if (photo) {
-      toast("Fotoğraftan çizelge çıkarılamadı. Daha net bir fotoğraf deneyin.", true);
+      setImportStatus("Fotoğraftan çizelge çıkarılamadı. Daha net bir fotoğraf deneyin.", "warn");
     } else {
-      toast("Dosya okunamadı. Listeyi kopyalayıp yapıştırın (.xlsx/.docx dışındaki dosyalar desteklenmez).", true);
+      setImportStatus("Dosya okunamadı. Listeyi kopyalayıp yapıştırın (.xlsx/.docx dışındaki dosyalar desteklenmez).", "warn");
     }
+  } finally {
+    clearInterval(statusTimer);
+    if (el("import-status").classList.contains("is-busy")) setImportStatus("");
   }
 }
 
