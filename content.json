@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T16:37:22.844Z",
+  "updatedAt": "2026-11-21T16:52:22.191Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -4853,8 +4853,8 @@
       "name": "ABDULLAH KAĞIT",
       "phone": "",
       "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
+      "unit": "HEMŞİRE",
+      "group": "Hemşirelik & Yatan",
       "fav": false,
       "hasMobile": true
     },
@@ -4863,8 +4863,8 @@
       "name": "ABDULLAH TECEN",
       "phone": "",
       "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
+      "unit": "RADYOLOJİ TEKNİKERİ",
+      "group": "Görüntüleme & Lab",
       "fav": false,
       "hasMobile": true
     },
@@ -4873,7 +4873,7 @@
       "name": "AHSEN ŞEVVAL TEKER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ BANKO",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4883,7 +4883,7 @@
       "name": "ALAATTİN ÜRKÜT",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4893,7 +4893,7 @@
       "name": "ALEX DJİBRIL NGAYABA",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "İNGİLİZCE FRANSIZCA TERCÜMAN",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4903,7 +4903,7 @@
       "name": "ALİNA CLAUDİA",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "TERCÜMAN",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4913,7 +4913,7 @@
       "name": "ARZUV BABANİYAZOV",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "TERCÜMAN",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4923,7 +4923,7 @@
       "name": "ASYA NİLGÜN GİDER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ RAPORTÖR",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4933,7 +4933,7 @@
       "name": "AYÇA AYYILDIZ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4943,7 +4943,7 @@
       "name": "AYÇA GÜLLENCİ",
       "phone": "",
       "phone2": "",
-      "unit": "DOKTOR",
+      "unit": "RADYOLOG",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -4953,7 +4953,7 @@
       "name": "AYMAN AJAM",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "TERCÜMAN",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4963,7 +4963,7 @@
       "name": "AYNUR SUNKUR",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -4973,7 +4973,7 @@
       "name": "AYŞE ŞİMŞEK",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5013,7 +5013,7 @@
       "name": "BAŞAR ÖZGÜN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5023,7 +5023,7 @@
       "name": "BATIKAN ŞENGÜL",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5033,7 +5033,7 @@
       "name": "BAYRAM YAVUZ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5073,7 +5073,7 @@
       "name": "BETÜL GÜLÜSTAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5093,17 +5093,7 @@
       "name": "BEYZANUR AYGÜN",
       "phone": "",
       "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d394",
-      "name": "BİLAL ÇELİK",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5113,7 +5103,7 @@
       "name": "BİLGE NAZ DURSUN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5123,7 +5113,7 @@
       "name": "BURAK İLKİM YÜKSEL",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5143,17 +5133,17 @@
       "name": "BURÇAK MERİÇ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
     },
     {
       "id": "d403",
-      "name": "BURCU DAMARYOLU",
+      "name": "BURCU ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5173,7 +5163,7 @@
       "name": "BUSE GÜNER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5213,17 +5203,7 @@
       "name": "BÜŞRA BEKCİ",
       "phone": "",
       "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d410",
-      "name": "BÜŞRA KANDEMİR",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5243,7 +5223,7 @@
       "name": "CABİR ATAR",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5253,7 +5233,7 @@
       "name": "CANER PALUT",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5263,7 +5243,7 @@
       "name": "CEM ATASEVER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5283,7 +5263,7 @@
       "name": "DAMLA ÇELİK",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5303,7 +5283,7 @@
       "name": "DAMLA NUR KÖKSALAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5313,7 +5293,7 @@
       "name": "DEMİRHAN YÜCEPUR",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5333,7 +5313,7 @@
       "name": "DENİZ ÇİLİNGER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "ANESTEZİ TEKNİKERİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5373,7 +5353,7 @@
       "name": "DİLAY KANLICA",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5393,7 +5373,7 @@
       "name": "DİLYA BAYJANOVA",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "TERCÜMAN",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5429,16 +5409,6 @@
       "hasMobile": true
     },
     {
-      "id": "d431",
-      "name": "DOĞUŞ EREZ",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d432",
       "name": "AHMET BAŞEL",
       "phone": "",
@@ -5469,21 +5439,11 @@
       "hasMobile": true
     },
     {
-      "id": "d435",
-      "name": "EBRU ŞAHİN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d436",
       "name": "ECE ERÇOBAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "BEYİN CERRAHİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5513,7 +5473,7 @@
       "name": "ECEM COŞKUN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "GENEL CERRAHİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5543,7 +5503,7 @@
       "name": "EDA KAHVECİ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5593,7 +5553,7 @@
       "name": "EMİNE GÜLAY",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "AMELİYATHANE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5609,31 +5569,11 @@
       "hasMobile": true
     },
     {
-      "id": "d450",
-      "name": "EMRAH DANKIR",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d451",
-      "name": "EMRE COŞKUN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d453",
       "name": "EMRE SARTAKAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "ACİL BANKO",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5643,7 +5583,7 @@
       "name": "ERCAN KURT",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5683,7 +5623,7 @@
       "name": "EZGİSU TAÇALAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "AMELİYATHANE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5703,27 +5643,7 @@
       "name": "FATİH KARABULUT",
       "phone": "",
       "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d461",
-      "name": "FATİH KOÇ",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d462",
-      "name": "FATMA ŞAZİYE ŞENGÜL",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5753,7 +5673,7 @@
       "name": "FİLİZ AKKUŞ",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5773,7 +5693,7 @@
       "name": "FURKAN KABADAYI",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "KÖK HÜCRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5783,7 +5703,7 @@
       "name": "GANİ TAMER",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5803,7 +5723,7 @@
       "name": "GÖZDE SERTKAYA",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5823,7 +5743,7 @@
       "name": "GÜLSEREN BAYRAKTAR",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5833,7 +5753,7 @@
       "name": "GÜLSÜN SARIKAN",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "ANESTEZİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5869,16 +5789,6 @@
       "hasMobile": true
     },
     {
-      "id": "d478",
-      "name": "HALE ŞAHİN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d479",
       "name": "HANDAN ARSLAN GÜNDEYER",
       "phone": "",
@@ -5891,16 +5801,6 @@
     {
       "id": "d480",
       "name": "HANİFE ÇARPAR",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d481",
-      "name": "HARUN ÇAKIROĞLU",
       "phone": "",
       "phone2": "",
       "unit": "",
@@ -5953,7 +5853,7 @@
       "name": "HAZAL BAĞCI",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5973,7 +5873,7 @@
       "name": "HİLAL TURGAY",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5983,7 +5883,7 @@
       "name": "HÜLYA DOKUR",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "YARDIMCI PERSONEL",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -5993,17 +5893,7 @@
       "name": "HÜMAY NUR SÜLEYMANOĞLU",
       "phone": "",
       "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d492",
-      "name": "HÜSEYİN DURMUŞ",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6059,21 +5949,11 @@
       "hasMobile": true
     },
     {
-      "id": "d498",
-      "name": "İLAYDA YETENEL",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d499",
       "name": "İREM BATTAL",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6103,7 +5983,7 @@
       "name": "İREM OKAY",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6133,7 +6013,7 @@
       "name": "İSMİNUR DAKAK",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "HEMŞİRE",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
@@ -6143,7 +6023,7 @@
       "name": "İSS LİV",
       "phone": "",
       "phone2": "",
-      "unit": "",
+      "unit": "İSS",
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
