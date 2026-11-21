@@ -2315,3 +2315,13 @@ main {
 [data-theme="dark"] .shift {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 24px -18px rgba(0, 0, 0, 0.8);
 }
+
+/* Modalite özeti: kişi başına cihaz ve vardiya sayıları */
+.modality-summary { overflow-x: auto; padding: 4px 8px; }
+.modality-summary table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.modality-summary th,
+.modality-summary td { padding: 8px 10px; text-align: center; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.modality-summary th:first-child,
+.modality-summary td:first-child { text-align: left; }
+.modality-summary thead th { font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.modality-summary tbody tr:last-child td { border-bottom: 0; }

@@ -18,7 +18,7 @@ const SHIFT_DEVICES = ["MR", "BT", "RÖNT-PORT", "RÖNTGEN", "RÖNT-MAMO"];
 const SHIFTS = ["08–16", "16–24", "24–08", "İdari", "İzinli"];
 const SHIFT_LABELS = { "08–16": "Sabah", "16–24": "Akşam", "24–08": "Gece", "İdari": "İdari", "İzinli": "İzinli" };
 const NOTE_TAGS = { sabit: "Sabit", ariza: "Arıza", duyuru: "Duyuru", hatirlatma: "Hatırlatma" };
-const VIEWS = ["ekip", "rehber", "notlar", "ayarlar"];
+const VIEWS = ["ekip", "modalite", "rehber", "notlar", "ayarlar"];
 const WEEKDAYS = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
 const WEEKDAYS_SHORT = ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"];
 const MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
@@ -620,6 +620,10 @@ function renderHero() {
     el("hero-eyebrow").textContent = "Dahili numaralar";
     title.textContent = "Telefon rehberi";
     sub.textContent = "";
+  } else if (view === "modalite") {
+    el("hero-eyebrow").textContent = "Kişi başına dağılım";
+    title.textContent = "Modalite özeti";
+    sub.textContent = "";
   } else if (view === "notlar") {
     el("hero-eyebrow").textContent = `${shortDate(selected)} · ${weekdayOf(selected)}`;
     title.textContent = "Notlar";
@@ -1024,6 +1028,47 @@ function renderSettings() {
     : "Sürüm 2.1 · Henüz içerik yayınlanmadı";
 }
 
+const MODALITIES = ["MR", "BT", "RÖNT-PORT", "RÖNTGEN", "RÖNT-MAMO"];
+
+// Nöbet listesindeki modalite özetinin panoya uyarlanmış hâli: gün kayıtlarından sayılır.
+function renderModality() {
+  const box = el("modality-summary");
+  if (!box) return;
+  const keys = Object.keys(state.days).sort();
+  const people = new Map();
+  for (const key of keys) {
+    for (const member of state.days[key].team) {
+      const shift = String(member.shift || "").replace("–", "-");
+      const row = people.get(member.name) || { name: member.name, devices: {}, morning: 0, evening: 0, night: 0 };
+      if (shift.startsWith("08")) {
+        row.morning++;
+        if (MODALITIES.includes(member.note)) row.devices[member.note] = (row.devices[member.note] || 0) + 1;
+      } else if (shift.startsWith("16")) row.evening++;
+      else if (shift.startsWith("24")) row.night++;
+      people.set(member.name, row);
+    }
+  }
+  el("modality-hint").textContent = keys.length
+    ? `${shortDate(keys[0])} – ${shortDate(keys[keys.length - 1])} · ${keys.length} gün`
+    : "Kayıt yok";
+  if (!people.size) {
+    box.innerHTML = '<p class="import-empty">Henüz gün kaydı yok.</p>';
+    return;
+  }
+  const rows = [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "tr"));
+  const head = ["Personel", ...MODALITIES, "Sabah", "Akşam", "Gece", "Toplam"]
+    .map((label) => `<th scope="col">${esc(label)}</th>`)
+    .join("");
+  const body = rows
+    .map((row) => {
+      const counts = MODALITIES.map((name) => `<td>${row.devices[name] || 0}</td>`).join("");
+      const total = row.morning + row.evening + row.night;
+      return `<tr><td>${esc(row.name)}</td>${counts}<td>${row.morning}</td><td>${row.evening}</td><td>${row.night}</td><td><b>${total}</b></td></tr>`;
+    })
+    .join("");
+  box.innerHTML = `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+}
+
 function renderStats() {
   const days = Object.keys(state.days).length;
   const teams = Object.values(state.days).reduce((total, day) => total + day.team.length, 0);
@@ -1084,6 +1129,7 @@ function render() {
   renderHero();
   renderNotice();
   renderTeam();
+  renderModality();
   renderMeal();
   renderNotes();
   renderDirectory();

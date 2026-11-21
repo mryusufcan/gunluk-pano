@@ -239,6 +239,10 @@ async function main() {
   dirSearch.value = "";
   dirSearch.dispatchEvent(new dom.window.Event("input", { bubbles: true }));
   check("çift numara iki arama düğmesi", doc.querySelectorAll("#directory-list .directory-calls .call-btn").length >= 2);
+  doc.querySelector('.tab[data-view="modalite"]').click();
+  check("modalite sekmesi", doc.querySelector('.view[data-view="modalite"]').classList.contains("is-active"));
+  const modalityText = doc.getElementById("modality-summary").textContent;
+  check("modalite tablosu", modalityText.includes("Ece Kaya") && modalityText.includes("MR") && modalityText.includes("Akşam"));
   doc.querySelector('.tab[data-view="ekip"]').click();
   check("ekip sekmesi", doc.querySelector('.view[data-view="ekip"]').classList.contains("is-active"));
   check("menü ekip ekranında", doc.getElementById("meal-body").textContent.includes("Izgara tavuk"));
