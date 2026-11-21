@@ -5858,7 +5858,7 @@
       "phone": "",
       "phone2": "",
       "unit": "HEMŞİRE",
-      "group": "Poliklinikler",
+      "group": "Hemşirelik & Yatan",
       "fav": false,
       "hasMobile": true
     },
@@ -6409,16 +6409,6 @@
       "phone2": "",
       "unit": "RADYOLOJİ",
       "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d531",
-      "name": "MERDAN FAYDA",
-      "phone": "",
-      "phone2": "",
-      "unit": "PROF DR",
-      "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
     },
