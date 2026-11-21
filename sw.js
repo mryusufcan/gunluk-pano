@@ -51,8 +51,8 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Sayfa açılışı: önce ağ (güncel sürüm), çevrimdışıysa önbellek.
-  if (request.mode === "navigate") {
+  // Sayfa ve kod dosyaları: önce ağ (güncel sürüm), çevrimdışıysa önbellek.
+  if (request.mode === "navigate" || /\.(?:html|js|css)$/.test(url.pathname)) {
     event.respondWith(
       fetch(request)
         .then((response) => {

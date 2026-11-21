@@ -3365,6 +3365,13 @@ async function init() {
     navigator.serviceWorker.register("./sw.js").catch(() => {
       /* çevrimdışı destek yoksa uygulama yine çalışır */
     });
+    // Yeni sürüm devralınca bir kez yenile; yoksa eski kod açık kalır.
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (sessionStorage.getItem("pano-reloaded")) return;
+      sessionStorage.setItem("pano-reloaded", "1");
+      location.reload();
+    });
+    window.addEventListener("load", () => sessionStorage.removeItem("pano-reloaded"));
   }
 }
 
