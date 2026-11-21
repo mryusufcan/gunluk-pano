@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:18:50.890Z",
+  "updatedAt": "2026-11-21T17:36:14Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1365,6 +1365,220 @@
         {
           "id": "sheet-2026-11-10-6",
           "name": "Abdullah Tecen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-01": {
+      "team": [
+        {
+          "id": "sheet-2026-11-01-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-01-1",
+          "name": "Damlanur Köksalan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-01-2",
+          "name": "Sedanur Demir",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-02": {
+      "team": [
+        {
+          "id": "sheet-2026-11-02-0",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-02-1",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-02-2",
+          "name": "Kutay Hoş",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-02-3",
+          "name": "Bahar Yarenoğlu",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-02-4",
+          "name": "Ercan Kurt",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-02-5",
+          "name": "Damlanur Köksalan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-02-6",
+          "name": "Abdullah Tecen",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-03": {
+      "team": [
+        {
+          "id": "sheet-2026-11-03-0",
+          "name": "Yusuf Can Özdemir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-03-1",
+          "name": "Kutay Hoş",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-03-2",
+          "name": "Fatih Karabulut",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-03-3",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-03-4",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-03-5",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-03-6",
+          "name": "Bahar Yarenoğlu",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-03-7",
+          "name": "Damlanur Köksalan",
+          "shift": "24–08",
+          "phone": "",
+          "note": ""
+        }
+      ],
+      "meal": {
+        "text": "",
+        "updatedAt": 0
+      }
+    },
+    "2026-11-04": {
+      "team": [
+        {
+          "id": "sheet-2026-11-04-0",
+          "name": "Sedanur Demir",
+          "shift": "08–16",
+          "phone": "",
+          "note": "MR"
+        },
+        {
+          "id": "sheet-2026-11-04-1",
+          "name": "Abdullah Tecen",
+          "shift": "08–16",
+          "phone": "",
+          "note": "BT"
+        },
+        {
+          "id": "sheet-2026-11-04-2",
+          "name": "Ercan Kurt",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-PORT"
+        },
+        {
+          "id": "sheet-2026-11-04-3",
+          "name": "Kutay Hoş",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNTGEN"
+        },
+        {
+          "id": "sheet-2026-11-04-4",
+          "name": "Hazal Kaşıkcı",
+          "shift": "08–16",
+          "phone": "",
+          "note": "RÖNT-MAMO"
+        },
+        {
+          "id": "sheet-2026-11-04-5",
+          "name": "Mert Aslan",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-04-6",
+          "name": "Yusuf Can Özdemir",
+          "shift": "16–24",
+          "phone": "",
+          "note": ""
+        },
+        {
+          "id": "sheet-2026-11-04-7",
+          "name": "Fatih Karabulut",
           "shift": "24–08",
           "phone": "",
           "note": ""

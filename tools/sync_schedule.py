@@ -88,7 +88,8 @@ def fetch_workbook():
 
 
 def parse_schedule(workbook, today):
-    window_start = today - timedelta(days=WINDOW_BACK)
+    # Ay başından itibaren tüm günler alınır; yoksa ayın ilk günleri pencere dışında kalıyordu.
+    window_start = min(today - timedelta(days=WINDOW_BACK), today.replace(day=1))
     window_end = today + timedelta(days=WINDOW_FORWARD)
     collected = {}
 
