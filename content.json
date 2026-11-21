@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T16:21:18.874Z",
+  "updatedAt": "2026-11-21T16:35:58.545Z",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -5589,16 +5589,6 @@
       "hasMobile": true
     },
     {
-      "id": "d443",
-      "name": "ELDAR VALİYEV",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d444",
       "name": "ELİF ARSLANOĞLU",
       "phone": "",
@@ -5675,16 +5665,6 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d452",
-      "name": "EMRE KAPLAN",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
-      "group": "Görüntüleme & Lab",
       "fav": false,
       "hasMobile": true
     },
@@ -5965,16 +5945,6 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d482",
-      "name": "HARUN MEKİKLİ",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
-      "group": "Görüntüleme & Lab",
       "fav": false,
       "hasMobile": true
     },
@@ -6489,16 +6459,6 @@
       "hasMobile": true
     },
     {
-      "id": "d536",
-      "name": "MERVE AY",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ BANKO",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d537",
       "name": "MERVE DEMİRTAŞ",
       "phone": "",
@@ -6835,16 +6795,6 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d571",
-      "name": "ONURCAN CINBIZ",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
-      "group": "Görüntüleme & Lab",
       "fav": false,
       "hasMobile": true
     },
@@ -7505,16 +7455,6 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d638",
-      "name": "YAĞMUR MELEK SARI",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
-      "group": "Görüntüleme & Lab",
       "fav": false,
       "hasMobile": true
     },
