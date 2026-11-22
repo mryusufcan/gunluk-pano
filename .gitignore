@@ -4,3 +4,5 @@ node_modules/
 __pycache__/
 # cep numaralari yedegi public repoya asla (KVKK)
 tools/cep_yedek.json
+
+tools/_liv_contacts.csv

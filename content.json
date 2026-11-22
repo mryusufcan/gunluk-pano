@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:56:02.056Z",
+  "updatedAt": "2026-11-22T14:19:18.205230+00:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -2400,7 +2400,7 @@
       "unit": "RADYASYON ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d85",
@@ -4760,7 +4760,7 @@
       "unit": "B5. KAT",
       "group": "Hemşirelik & Yatan",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d331",
@@ -7691,6 +7691,336 @@
       "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
+    },
+    {
+      "id": "d666",
+      "name": "Anıl Hoca",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "Doktorlar",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d667",
+      "name": "Aynur Yılmaz",
+      "phone": "",
+      "unit": "Radyoloji Banko",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d668",
+      "name": "Beyza Uygun",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d669",
+      "name": "Bilal Çelik",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d670",
+      "name": "Burak Badur",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d671",
+      "name": "Burak Gürleyen",
+      "phone": "",
+      "unit": "Radyoterapi",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d672",
+      "name": "Burak Dolanbay",
+      "phone": "",
+      "unit": "Doktor",
+      "fav": false,
+      "group": "Doktorlar",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d673",
+      "name": "Burak Perk",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d674",
+      "name": "Büşra Asan",
+      "phone": "",
+      "unit": "1.kat",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d675",
+      "name": "Büşra Kandemir",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d676",
+      "name": "Doğuş Erez",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d677",
+      "name": "Ebru Şahin",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d678",
+      "name": "Eldar Valiyev",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "Doktorlar",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d679",
+      "name": "Emrah Dankır",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d680",
+      "name": "Emre Coşkun",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d681",
+      "name": "Emre Kaplan",
+      "phone": "",
+      "unit": "Radyoloji Teknikeri",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d682",
+      "name": "Fatih Koç",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d683",
+      "name": "Fatma Şaziye Şengül",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d684",
+      "name": "Hale ŞAHİN",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d685",
+      "name": "Harun Çakıroğlu",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d686",
+      "name": "Harun Mekikli",
+      "phone": "",
+      "unit": "Radyoloji Teknikeri",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d687",
+      "name": "Hüseyin DURMUŞ",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d688",
+      "name": "İlayda YETENEL",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d689",
+      "name": "Kadir Ceyhan",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d690",
+      "name": "Kadir Yavuz",
+      "phone": "",
+      "unit": "Biyomedikal",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d691",
+      "name": "Melis Kaya",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d692",
+      "name": "Mert Şen",
+      "phone": "",
+      "unit": "Stajyer",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d693",
+      "name": "Merve Ay",
+      "phone": "",
+      "unit": "Radyoloji Banko",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d694",
+      "name": "Nesrin Köprülü",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d695",
+      "name": "Onurcan Cınbız",
+      "phone": "",
+      "unit": "Radyoloji Teknikeri",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d696",
+      "name": "Samid Şükürov",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d697",
+      "name": "Yağmur Melek Sarı",
+      "phone": "",
+      "unit": "Radyoloji Teknikeri",
+      "fav": false,
+      "group": "",
+      "hasMobile": true,
+      "phone2": ""
+    },
+    {
+      "id": "d698",
+      "name": "Yeşim Üçkurt",
+      "phone": "",
+      "unit": "",
+      "fav": false,
+      "group": "Doktorlar",
+      "hasMobile": true,
+      "phone2": ""
     }
   ],
   "notice": {
