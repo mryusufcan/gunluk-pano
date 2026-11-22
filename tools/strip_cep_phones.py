@@ -39,14 +39,6 @@ def main():
     with io.open("content.json", encoding="utf-8") as handle:
         data = json.load(handle)
 
-    # Onceki yedek korunur: yalnizca bu kosuda bulunanlar tazelenir (veri kaybi olmasin).
-    old = {}
-    try:
-        with io.open("tools/cep_yedek.json", encoding="utf-8") as handle:
-            old = {row["id"]: row for row in json.load(handle)}
-    except FileNotFoundError:
-        pass
-
     backup, changed = [], []
     for item in data["directory"]:
         phone, phone2 = item.get("phone") or "", item.get("phone2") or ""
@@ -90,12 +82,8 @@ def main():
         handle.write("\n")
 
     backup.sort(key=lambda r: r["name"] or "")
-    for row in backup:
-        old[row["id"]] = row
-    ids = {item["id"] for item in data["directory"]}
-    merged = sorted((old[i] for i in ids if i in old), key=lambda r: r["name"] or "")
     with io.open("tools/cep_yedek.json", "w", encoding="utf-8", newline="\n") as handle:
-        json.dump(merged, handle, ensure_ascii=False, indent=2)
+        json.dump(backup, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
 
     print("content.json + tools/cep_yedek.json guncellendi")
