@@ -805,8 +805,12 @@ function unitMissing(item) {
 
 function directoryMatches(item, query) {
   if (!query) return true;
-  // Turkce kucultmede I -> ı olur; arama icin ikisini de i say.
-  const fold = (text) => lowerTr(text).replace(/ı/g, "i");
+  // Turkce kucultmede I -> ı olur; arama icin ikisini de i say. Aksanlar da katlanir: "sukran" -> "ŞÜKRAN".
+  const fold = (text) =>
+    lowerTr(text)
+      .replace(/ı/g, "i")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "");
   const search = fold(query).trim();
   if (!search) return true;
   if (search === "#eksik" || search === "#birimsiz") return unitMissing(item);
