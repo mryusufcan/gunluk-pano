@@ -28,7 +28,7 @@ HEADER = [
     "Organization 1 - Department",
 ]
 
-FIRMA = "Liv Ulus"
+FIRMA = "Liv Hospital Ulus"
 ETIKET = "Liv"
 
 
