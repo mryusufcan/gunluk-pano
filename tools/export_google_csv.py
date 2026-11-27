@@ -78,6 +78,8 @@ def main():
         return 2
     out = sys.argv[1]
     haric = sys.argv[sys.argv.index("--haric") + 1] if "--haric" in sys.argv else ""
+    atla = sys.argv[sys.argv.index("--atla-ad") + 1] if "--atla-ad" in sys.argv else ""
+    skip_names = {fold(name) for name in atla.split(";") if fold(name)}
     hnames, hphones = load_existing(haric) if haric else (None, None)
 
     data = json.load(open("content.json", encoding="utf-8"))
@@ -93,6 +95,8 @@ def main():
         for item in data["directory"]:
             name = " ".join(item["name"].split())
             cep = mobiles.get(item["id"], [])
+            if fold(name) in skip_names:
+                continue
             if hnames is not None:
                 same_name = fold(name) in hnames
                 keys = {phone_key(value) for value in cep + [item.get("phone")]} - {""}
