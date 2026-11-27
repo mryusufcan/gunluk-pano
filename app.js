@@ -227,12 +227,14 @@ function normalizeDirectory(raw) {
       const displayName = name.replace(NAME_TITLES, "").slice(0, 60);
       if (!displayName) return null;
       const unit = cleanName(item.unit).slice(0, 60);
+      const title = cleanName(item.title).slice(0, 60);
       return {
         id: str(item.id, uid(), 60),
         name: displayName,
         phone: formatPhone(item.phone).slice(0, 30),
         phone2: item.phone2 ? formatPhone(item.phone2).slice(0, 30) : "",
         unit,
+        title: title === unit ? "" : title,
         group: groupOf({ name, unit, group: item.group }),
         fav: Boolean(item.fav),
         hasMobile: Boolean(item.hasMobile),
@@ -810,7 +812,7 @@ function directoryMatches(item, query) {
   if (search === "#eksik" || search === "#birimsiz") return unitMissing(item);
   const digits = search.replace(/[^\d+]/g, "");
   if (digits && String(item.phone || "").replace(/[^\d+]/g, "").includes(digits)) return true;
-  const text = fold(`${item.name} ${item.unit || ""} ${groupOf(item)}`);
+  const text = fold(`${item.name} ${item.title || ""} ${item.unit || ""} ${groupOf(item)}`);
   const words = search.split(/\s+/).filter(Boolean);
   // Tüm kelimeler geçiyorsa eşleşir: "ali kaya" hem "ALI KAYA"yı hem sıralı eşleşmeleri bulur.
   return words.every((word) => text.includes(word));
@@ -911,7 +913,7 @@ function renderDirectory() {
   const rowHtml = (item) => `<div class="directory-row">
         <div class="directory-main">
           <span class="directory-name">${esc(item.name)}</span>
-          ${item.unit ? `<span class="directory-unit">${esc(item.unit)}</span>` : ""}
+          ${item.unit || item.title ? `<span class="directory-unit">${esc([item.title, item.unit === "HEKİMLİK" ? "" : item.unit].filter(Boolean).join(" · "))}</span>` : ""}
         </div>
         ${callHtml(item)}
       </div>`;
@@ -956,6 +958,7 @@ function renderDirectoryEditor() {
         <input data-directory="phone" type="text" maxlength="30" value="${esc(item.phone)}" placeholder="Dahili / telefon" aria-label="Telefon" inputmode="tel" />
         ${item.phone2 ? `<input data-directory="phone2" type="text" maxlength="30" value="${esc(item.phone2)}" placeholder="İkinci numara" aria-label="İkinci numara" inputmode="tel" />` : ""}
         <input data-directory="unit" type="text" maxlength="60" value="${esc(item.unit)}" placeholder="Birim (isteğe bağlı)" aria-label="Birim" />
+        <input data-directory="title" type="text" maxlength="60" value="${esc(item.title || "")}" placeholder="Görev (isteğe bağlı)" aria-label="Görev" />
         <select data-directory="group" aria-label="Kategori">${DIRECTORY_GROUPS.map((group) => `<option${groupOf(item) === group ? " selected" : ""}>${esc(group)}</option>`).join("")}</select>
         <button class="mini-btn" type="button" data-delete-directory="${esc(item.id)}" aria-label="Satırı sil" title="Sil">${ICON_TRASH}</button>
       </div>`,
@@ -3193,7 +3196,7 @@ function bindEvents() {
     if (!row || !field) return;
     const entry = state.directory.find((item) => item.id === row.dataset.id);
     if (!entry) return;
-    entry[field] = event.target.value.slice(0, field === "name" ? 60 : field === "phone" || field === "phone2" ? 30 : 40);
+    entry[field] = event.target.value.slice(0, field === "name" ? 60 : field === "phone" || field === "phone2" ? 30 : field === "unit" || field === "title" ? 60 : 40);
     renderDirectory();
     saveSoon();
   });
