@@ -548,6 +548,10 @@ main {
 
 .directory-unit {
   color: var(--muted);
+  /* Uzun gorev + birim tek satirda kalir; tam metin title'da ve aramada durur. */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .directory-edit-row {

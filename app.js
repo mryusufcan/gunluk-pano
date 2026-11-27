@@ -825,6 +825,9 @@ function subtitleOf(item) {
   const unitWords = subtitleWords(unit);
   const subset = (a, b) => a.size > 0 && [...a].every((word) => b.has(word));
   if (unitWords.size === 0 || subset(unitWords, titleWords) || subset(titleWords, unitWords)) return title;
+  // Birimin kelimelerinin yarisindan fazlasi unvanda geciyorsa birim tekrar sayilir.
+  const shared = [...unitWords].filter((word) => titleWords.has(word)).length;
+  if (shared * 2 > unitWords.size) return title;
   return `${title} · ${unit}`;
 }
 
@@ -945,13 +948,16 @@ function renderDirectory() {
     return;
   }
 
-  const rowHtml = (item) => `<div class="directory-row">
+  const rowHtml = (item) => {
+    const subtitle = subtitleOf(item);
+    return `<div class="directory-row">
         <div class="directory-main">
           <span class="directory-name">${esc(item.name)}</span>
-          ${subtitleOf(item) ? `<span class="directory-unit">${esc(subtitleOf(item))}</span>` : ""}
+          ${subtitle ? `<span class="directory-unit" title="${esc(subtitle)}">${esc(subtitle)}</span>` : ""}
         </div>
         ${callHtml(item)}
       </div>`;
+  };
   // Arama veya tek kategori seçiliyse bölümler açık gelir; "Tümü"de kapalı liste daha kısa.
   const open = Boolean(directoryQuery.trim()) || directoryGroup !== "Tümü";
   box.innerHTML = DIRECTORY_GROUPS.map((group) => ({
