@@ -48,27 +48,62 @@ def org_fields(item):
     return title, unit
 
 
+def phone_key(value):
+    digits = "".join(ch for ch in (value or "") if ch.isdigit())
+    return digits[-10:] if len(digits) >= 10 else ""
+
+
+def load_existing(path):
+    """Mevcut Google Kisiler CSV'sinden isim ve telefon kumesi."""
+    names, phones = set(), set()
+    with io.open(path, encoding="utf-8-sig", errors="replace", newline="") as handle:
+        for row in csv.DictReader(handle):
+            name = " ".join(
+                row.get(key, "") or ""
+                for key in ("First Name", "Middle Name", "Last Name")
+            )
+            folded = fold(name)
+            if folded:
+                names.add(folded)
+            for index in range(1, 5):
+                key = phone_key(row.get(f"Phone {index} - Value", ""))
+                if key:
+                    phones.add(key)
+    return names, phones
+
+
 def main():
     if len(sys.argv) < 2:
         print(__doc__)
         return 2
     out = sys.argv[1]
+    haric = sys.argv[sys.argv.index("--haric") + 1] if "--haric" in sys.argv else ""
+    hnames, hphones = load_existing(haric) if haric else (None, None)
 
     data = json.load(open("content.json", encoding="utf-8"))
     mobiles = {}
     for row in json.load(open("tools/cep_yedek.json", encoding="utf-8")):
         mobiles.setdefault(row["id"], []).append(row["mobile"])
 
+    by_name, by_phone = [], []
+    written = 0
     with io.open(out, "w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.writer(handle)
         writer.writerow(HEADER)
         for item in data["directory"]:
             name = " ".join(item["name"].split())
+            cep = mobiles.get(item["id"], [])
+            if hnames is not None:
+                same_name = fold(name) in hnames
+                keys = {phone_key(value) for value in cep + [item.get("phone")]} - {""}
+                same_phone = bool(keys & hphones)
+                if same_name or same_phone:
+                    (by_name if same_name else by_phone).append(name)
+                    continue
             parts = name.split(" ")
             given = " ".join(parts[:-1]) if len(parts) > 1 else name
             family = parts[-1] if len(parts) > 1 else ""
             title, dept = org_fields(item)
-            cep = mobiles.get(item["id"], [])
             row = {key: "" for key in HEADER}
             row.update({
                 "Name": name,
@@ -90,9 +125,13 @@ def main():
                 row["Phone 2 - Type"] = "Work"
                 row["Phone 2 - Value"] = item["phone"]
             writer.writerow([row[key] for key in HEADER])
+            written += 1
 
     total = len(data["directory"])
-    print(f"yazildi: {out} | kisi: {total} | cep: {sum(1 for x in data['directory'] if x['id'] in mobiles)}")
+    print(f"yazildi: {out} | yazilan: {written}/{total} | cep: {sum(1 for x in data['directory'] if x['id'] in mobiles)}")
+    if hnames is not None:
+        print(f"haric: isim+telefon {len(by_name) + len(by_phone)} (sadece isim {len(by_name)}, sadece telefon {len(by_phone)})")
+        print("sadece isim eslesenler:", by_name[:15])
     return 0
 
 
