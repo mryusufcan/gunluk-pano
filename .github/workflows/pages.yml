@@ -49,6 +49,8 @@ jobs:
           cp -r index.html styles.css app.js sw.js content.json phones.enc manifest.webmanifest assets onizleme sakin dist/
           # Önbellek adını commit ile eşle; elle sürüm artırmak gerekmez.
           sed -i "s/__CACHE_VERSION__/${GITHUB_SHA::7}/" dist/sw.js
+          # Tarayıcının 10 dakikalık HTTP önbelleğini atlamak için dosya adlarına sürüm ekle.
+          sed -i "s|\./app\.js|./app.js?v=${GITHUB_SHA::7}|; s|\./styles\.css|./styles.css?v=${GITHUB_SHA::7}|" dist/index.html
 
       - uses: actions/upload-pages-artifact@v5
         with:
