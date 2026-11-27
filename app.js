@@ -803,6 +803,31 @@ function unitMissing(item) {
   return !unit || UNIT_PLACEHOLDERS.test(unit);
 }
 
+// Unvan birimi tekrar ediyorsa ("RADYOLOJİ HEKİMİ · RADYOLOJİ") birim gizlenir.
+const SUBTITLE_STOP = new Set([
+  "VE", "ILE", "HEKIMI", "HEKIMLIGI", "HEKIMLIK", "CERRAHISI", "UZMANI", "UZMANLIGI",
+  "DOKTOR", "DR", "PROF", "DOC", "UZM", "ASISTANI", "SORUMLUSU", "YETKILISI",
+]);
+function subtitleWords(text) {
+  const plain = lowerTr(String(text).replace(/\([^)]*\)/g, " "))
+    .replace(/ı/g, "i")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase();
+  return new Set(plain.split(/[^A-Z0-9]+/).filter((word) => word && !SUBTITLE_STOP.has(word)));
+}
+function subtitleOf(item) {
+  const title = String(item.title || "").trim();
+  const unit = String(item.unit || "").trim();
+  if (!unit || unit === "HEKİMLİK") return title;
+  if (!title) return unit;
+  const titleWords = subtitleWords(title);
+  const unitWords = subtitleWords(unit);
+  const subset = (a, b) => a.size > 0 && [...a].every((word) => b.has(word));
+  if (unitWords.size === 0 || subset(unitWords, titleWords) || subset(titleWords, unitWords)) return title;
+  return `${title} · ${unit}`;
+}
+
 function directoryMatches(item, query) {
   if (!query) return true;
   // Turkce kucultmede I -> ı olur; arama icin ikisini de i say. Aksanlar da katlanir: "sukran" -> "ŞÜKRAN".
@@ -923,7 +948,7 @@ function renderDirectory() {
   const rowHtml = (item) => `<div class="directory-row">
         <div class="directory-main">
           <span class="directory-name">${esc(item.name)}</span>
-          ${item.unit || item.title ? `<span class="directory-unit">${esc([item.title, item.unit === "HEKİMLİK" ? "" : item.unit].filter(Boolean).join(" · "))}</span>` : ""}
+          ${subtitleOf(item) ? `<span class="directory-unit">${esc(subtitleOf(item))}</span>` : ""}
         </div>
         ${callHtml(item)}
       </div>`;
