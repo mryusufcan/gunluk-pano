@@ -239,7 +239,7 @@ function normalizeDirectory(raw) {
       };
     })
     .filter(Boolean)
-    .slice(0, 1000);
+    .slice(0, 2000);
 }
 
 function normalizeMember(raw) {
@@ -803,12 +803,14 @@ function unitMissing(item) {
 
 function directoryMatches(item, query) {
   if (!query) return true;
-  const search = lowerTr(query).trim();
+  // Turkce kucultmede I -> ı olur; arama icin ikisini de i say.
+  const fold = (text) => lowerTr(text).replace(/ı/g, "i");
+  const search = fold(query).trim();
   if (!search) return true;
   if (search === "#eksik" || search === "#birimsiz") return unitMissing(item);
   const digits = search.replace(/[^\d+]/g, "");
   if (digits && String(item.phone || "").replace(/[^\d+]/g, "").includes(digits)) return true;
-  const text = lowerTr(`${item.name} ${item.unit || ""} ${groupOf(item)}`);
+  const text = fold(`${item.name} ${item.unit || ""} ${groupOf(item)}`);
   const words = search.split(/\s+/).filter(Boolean);
   // Tüm kelimeler geçiyorsa eşleşir: "ali kaya" hem "ALI KAYA"yı hem sıralı eşleşmeleri bulur.
   return words.every((word) => text.includes(word));
@@ -3171,8 +3173,8 @@ function bindEvents() {
 
   el("add-directory").addEventListener("click", () => {
     if (!ADMIN_MODE) return;
-    if (state.directory.length >= 1000) {
-      toast("En fazla 1000 kişi eklenebilir.", true);
+    if (state.directory.length >= 2000) {
+      toast("En fazla 2000 kişi eklenebilir.", true);
       return;
     }
     state.directory.push({ id: uid(), name: "", phone: "", unit: "" });

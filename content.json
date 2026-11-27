@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T17:56:02.056Z",
+  "updatedAt": "2026-11-27T09:44:53.882055+00:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -2113,16 +2113,6 @@
       "hasMobile": true
     },
     {
-      "id": "d56",
-      "name": "CİHAN YARENOĞLU",
-      "phone": "",
-      "phone2": "",
-      "unit": "UHM TRANSFER SORUMLUSU",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d57",
       "name": "CLAUDİA ALİNA AŞAR",
       "phone": "",
@@ -2160,7 +2150,7 @@
       "unit": "FİYAT VERME HİZMETLERİ OFİSİ",
       "group": "Hemşirelik & Yatan",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d61",
@@ -2200,7 +2190,7 @@
       "unit": "YATIŞ HİZMETLERİ PROVİZYON",
       "group": "Hemşirelik & Yatan",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d65",
@@ -2221,16 +2211,6 @@
       "group": "Hemşirelik & Yatan",
       "fav": false,
       "hasMobile": false
-    },
-    {
-      "id": "d367",
-      "name": "ADEM UÇAR",
-      "phone": "8469",
-      "phone2": "",
-      "unit": "RADYOLOJİ",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": true
     },
     {
       "id": "d68",
@@ -2260,7 +2240,7 @@
       "unit": "KALP VE DAMAR CERRAHİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d71",
@@ -2268,16 +2248,6 @@
       "phone": "8173",
       "phone2": "",
       "unit": "DAMAR CERRAHİSİ",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": false
-    },
-    {
-      "id": "d371",
-      "name": "ALİ BARAN BUDAK",
-      "phone": "8276",
-      "phone2": "",
-      "unit": "DAMAR CERRAHİSİ VE VARİS TEDAVİSİ",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -2300,7 +2270,7 @@
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d75",
@@ -2310,7 +2280,7 @@
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d76",
@@ -2330,7 +2300,7 @@
       "unit": "LABORATUVAR",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d78",
@@ -2340,7 +2310,7 @@
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d79",
@@ -2350,7 +2320,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d80",
@@ -2360,7 +2330,7 @@
       "unit": "ÇOCUK ENDOKRİNOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d81",
@@ -2390,7 +2360,7 @@
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d84",
@@ -2400,7 +2370,7 @@
       "unit": "RADYASYON ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d85",
@@ -2410,7 +2380,7 @@
       "unit": "ÇOCUK GÖĞÜS HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d86",
@@ -2440,7 +2410,7 @@
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d89",
@@ -2450,7 +2420,7 @@
       "unit": "ÇOCUK NÖROLOJİSİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d90",
@@ -2460,7 +2430,7 @@
       "unit": "GENEL CERRAHİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d92",
@@ -2470,7 +2440,7 @@
       "unit": "ÇOCUK GASTROENTEROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d93",
@@ -2480,7 +2450,7 @@
       "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d94",
@@ -2490,7 +2460,7 @@
       "unit": "GASTROENTEROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d95",
@@ -2510,7 +2480,7 @@
       "unit": "ALGOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d97",
@@ -2518,16 +2488,6 @@
       "phone": "8221",
       "phone2": "",
       "unit": "KARDİYOLOJİ",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": false
-    },
-    {
-      "id": "d518",
-      "name": "KEMAL KARA",
-      "phone": "8469",
-      "phone2": "",
-      "unit": "RADYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
@@ -2540,7 +2500,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d100",
@@ -2553,16 +2513,6 @@
       "hasMobile": false
     },
     {
-      "id": "d265",
-      "name": "MEHMET AYDOĞAN",
-      "phone": "8261",
-      "phone2": "",
-      "unit": "BAŞHEKİM YARDIMCISI",
-      "group": "Yönetim & İdari",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d102",
       "name": "MEHMET HİLMİ DOĞU",
       "phone": "8455",
@@ -2570,7 +2520,7 @@
       "unit": "HEMATOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d103",
@@ -2580,7 +2530,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d104",
@@ -2590,7 +2540,7 @@
       "unit": "NEFROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d105",
@@ -2600,7 +2550,7 @@
       "unit": "ÇOCUK KARDİYOLOJİSİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d106",
@@ -2610,7 +2560,7 @@
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d107",
@@ -2620,7 +2570,7 @@
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d108",
@@ -2630,7 +2580,7 @@
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d109",
@@ -2640,7 +2590,7 @@
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d110",
@@ -2650,7 +2600,7 @@
       "unit": "ÜROONKOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d111",
@@ -2660,7 +2610,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d112",
@@ -2670,7 +2620,7 @@
       "unit": "ÇOCUK CERRAHİSİ VE ÜROLOJİSİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d113",
@@ -2680,7 +2630,7 @@
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d114",
@@ -2690,7 +2640,7 @@
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d115",
@@ -2710,7 +2660,7 @@
       "unit": "ÜROONKOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d117",
@@ -2720,7 +2670,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d118",
@@ -2730,7 +2680,7 @@
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d119",
@@ -2740,7 +2690,7 @@
       "unit": "ENFEKSİYON HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d120",
@@ -2750,7 +2700,7 @@
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d121",
@@ -2760,7 +2710,7 @@
       "unit": "BESLENME VE DİYET",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d122",
@@ -2770,7 +2720,7 @@
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d123",
@@ -2780,7 +2730,7 @@
       "unit": "ROMATOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d124",
@@ -2790,7 +2740,7 @@
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d125",
@@ -2800,7 +2750,7 @@
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d126",
@@ -2810,7 +2760,7 @@
       "unit": "PLASTİK VE REKONSTRÜKTİF CERRAHİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d127",
@@ -2830,7 +2780,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d129",
@@ -2840,7 +2790,7 @@
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d130",
@@ -2850,7 +2800,7 @@
       "unit": "NÜKLEER TIP - PET CT - SİNTİGRAFİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d131",
@@ -2860,7 +2810,7 @@
       "unit": "ACİL DOKTOR ODASI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d133",
@@ -2870,7 +2820,7 @@
       "unit": "KÖK HÜCRE",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d134",
@@ -2890,16 +2840,6 @@
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
-    },
-    {
-      "id": "d464",
-      "name": "FERAH ECE",
-      "phone": "8410",
-      "phone2": "",
-      "unit": "GÖĞÜS HASTALIKLARI",
-      "group": "Doktorlar",
-      "fav": false,
       "hasMobile": true
     },
     {
@@ -2909,16 +2849,6 @@
       "phone2": "",
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": false
-    },
-    {
-      "id": "d196",
-      "name": "GAMZE KESKİN",
-      "phone": "8278",
-      "phone2": "",
-      "unit": "BAŞHEKİM",
-      "group": "Yönetim & İdari",
       "fav": false,
       "hasMobile": true
     },
@@ -2930,7 +2860,7 @@
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d140",
@@ -2940,7 +2870,7 @@
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d141",
@@ -2950,7 +2880,7 @@
       "unit": "OMURGA CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d142",
@@ -2980,22 +2910,12 @@
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d145",
       "name": "İSMAİL TUGAY YAĞCI",
       "phone": "8475-8476",
-      "phone2": "",
-      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": false
-    },
-    {
-      "id": "d511",
-      "name": "KADİR ABUL",
-      "phone": "8448",
       "phone2": "",
       "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
       "group": "Doktorlar",
@@ -3030,7 +2950,7 @@
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d150",
@@ -3040,7 +2960,7 @@
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d151",
@@ -3050,7 +2970,7 @@
       "unit": "ONKOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d152",
@@ -3060,7 +2980,7 @@
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d153",
@@ -3070,7 +2990,7 @@
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d154",
@@ -3080,7 +3000,7 @@
       "unit": "BEYİN VE SİNİR CERRAHİSİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d155",
@@ -3090,7 +3010,7 @@
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d156",
@@ -3100,7 +3020,7 @@
       "unit": "DERMATOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d157",
@@ -3110,7 +3030,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d158",
@@ -3120,7 +3040,7 @@
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d159",
@@ -3130,7 +3050,7 @@
       "unit": "GÖZ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d160",
@@ -3140,7 +3060,7 @@
       "unit": "ENDOKRİNOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d161",
@@ -3150,7 +3070,7 @@
       "unit": "NÖROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d162",
@@ -3160,7 +3080,7 @@
       "unit": "KADIN HASTALIKLARI VE DOĞUM",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d163",
@@ -3170,7 +3090,7 @@
       "unit": "MEME CERRAHİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d164",
@@ -3180,7 +3100,7 @@
       "unit": "ÜROLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d165",
@@ -3190,7 +3110,7 @@
       "unit": "ÇOCUK SAĞLIĞI HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d166",
@@ -3200,7 +3120,7 @@
       "unit": "AİLE HEKİMLİĞİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d167",
@@ -3220,7 +3140,7 @@
       "unit": "İÇ HASTALIKLARI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d169",
@@ -3230,7 +3150,7 @@
       "unit": "CHECK-UP",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d170",
@@ -3240,7 +3160,7 @@
       "unit": "FİZİKSEL TIP VE REHABİLİTASYON",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d171",
@@ -3300,7 +3220,7 @@
       "unit": "AĞIZ VE DİŞ SAĞLIĞI",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d177",
@@ -3413,16 +3333,6 @@
       "hasMobile": true
     },
     {
-      "id": "d189",
-      "name": "FATMAGÜL BİRSİN",
-      "phone": "",
-      "phone2": "",
-      "unit": "PEDATRİ SORUMLU HEMŞİRESİ",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d190",
       "name": "FERİDE TÜRKMEN",
       "phone": "8178",
@@ -3430,7 +3340,7 @@
       "unit": "KARDİYOLOJİ & KVC KOORDİNATÖRÜ",
       "group": "Misafir & VIP",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d191",
@@ -3481,6 +3391,16 @@
       "group": "Görüntüleme & Lab",
       "fav": false,
       "hasMobile": false
+    },
+    {
+      "id": "d196",
+      "name": "GAMZE KESKİN",
+      "phone": "8278",
+      "phone2": "",
+      "unit": "BAŞHEKİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
     },
     {
       "id": "d197",
@@ -3893,16 +3813,6 @@
       "hasMobile": true
     },
     {
-      "id": "d238",
-      "name": "HEPŞEN ALİ",
-      "phone": "",
-      "phone2": "",
-      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d239",
       "name": "HÜLYA YAYLA",
       "phone": "5422",
@@ -3990,7 +3900,7 @@
       "unit": "ANJİO BANKO (KORONER ANJİO,KALP PİLİ)",
       "group": "Hemşirelik & Yatan",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d250",
@@ -4143,6 +4053,16 @@
       "hasMobile": true
     },
     {
+      "id": "d265",
+      "name": "MEHMET AYDOĞAN",
+      "phone": "8261",
+      "phone2": "",
+      "unit": "BAŞHEKİM YARDIMCISI",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
       "id": "d266",
       "name": "MEHMET MERT EKMEKCİ",
       "phone": "",
@@ -4200,7 +4120,7 @@
       "unit": "GENEL YOĞUN BAKIM MİSAFİR HİZMETLERİ BAN",
       "group": "Misafir & VIP",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d272",
@@ -4238,16 +4158,6 @@
       "phone": "",
       "phone2": "",
       "unit": "ARNAVUTÇA -BOŞNAKÇA - SIRPÇA",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d277",
-      "name": "MİRAY ÖZTÜRK",
-      "phone": "",
-      "phone2": "",
-      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ARNAVUTÇ",
       "group": "Misafir & VIP",
       "fav": false,
       "hasMobile": true
@@ -4328,16 +4238,6 @@
       "phone": "",
       "phone2": "",
       "unit": "BULGARCA",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d285",
-      "name": "NELİ KAYIKÇI",
-      "phone": "",
-      "phone2": "",
-      "unit": "BULGARCA - İSPANYOLCA",
       "group": "Misafir & VIP",
       "fav": false,
       "hasMobile": true
@@ -4470,7 +4370,7 @@
       "unit": "KARDİYOLOJİ",
       "group": "Doktorlar",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d301",
@@ -4704,7 +4604,7 @@
     },
     {
       "id": "d325",
-      "name": "SÜLEYMAN YILDIZ - SONER ÇAKMAK- GÖKHAN BAŞALAN",
+      "name": "CCTV GÜVENLİK HATTI",
       "phone": "",
       "phone2": "",
       "unit": "CCTV OTOMASYON GÜVENLİK AMİRİ",
@@ -4738,16 +4638,6 @@
       "phone": "",
       "phone2": "",
       "unit": "RUSÇA- İNGİLİZCE",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d329",
-      "name": "TATİANA URUM",
-      "phone": "",
-      "phone2": "",
-      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - RUSCA -",
       "group": "Misafir & VIP",
       "fav": false,
       "hasMobile": true
@@ -4860,7 +4750,7 @@
       "unit": "UZM. KLİNİK PSİKOLOG",
       "group": "Poliklinikler",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d341",
@@ -4963,31 +4853,11 @@
       "hasMobile": true
     },
     {
-      "id": "d352",
-      "name": "ZEYNEP YÜCEKAYA",
-      "phone": "",
-      "phone2": "",
-      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - GÜRCİSTA",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d353",
       "name": "ZUHAL SÖYLEMEZ",
       "phone": "",
       "phone2": "",
       "unit": "İŞ GELİŞTİRME GRUP MÜDÜRÜ",
-      "group": "Yönetim & İdari",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d354",
-      "name": "ÇİĞDEM TELMAN",
-      "phone": "",
-      "phone2": "8459-1919",
-      "unit": "ECZANE MESUL MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "fav": false,
       "hasMobile": true
@@ -5000,7 +4870,7 @@
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
       "group": "Poliklinikler",
       "fav": false,
-      "hasMobile": false
+      "hasMobile": true
     },
     {
       "id": "d357",
@@ -5083,6 +4953,16 @@
       "hasMobile": true
     },
     {
+      "id": "d367",
+      "name": "ADEM UÇAR",
+      "phone": "8469",
+      "phone2": "",
+      "unit": "RADYOLOJİ",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
       "id": "d368",
       "name": "AHSEN ŞEVVAL TEKER",
       "phone": "",
@@ -5103,22 +4983,12 @@
       "hasMobile": true
     },
     {
-      "id": "d370",
-      "name": "ALEX DJİBRIL NGAYABA",
-      "phone": "",
+      "id": "d371",
+      "name": "ALİ BARAN BUDAK",
+      "phone": "8276",
       "phone2": "",
-      "unit": "İNGİLİZCE FRANSIZCA TERCÜMAN",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d372",
-      "name": "ALİNA CLAUDİA",
-      "phone": "",
-      "phone2": "",
-      "unit": "TERCÜMAN",
-      "group": "Misafir & VIP",
+      "unit": "DAMAR CERRAHİSİ VE VARİS TEDAVİSİ",
+      "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
     },
@@ -5253,16 +5123,6 @@
       "hasMobile": true
     },
     {
-      "id": "d388",
-      "name": "BERKAY LORT",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d389",
       "name": "BERNA BAYRAK KÖKALP",
       "phone": "",
@@ -5343,16 +5203,6 @@
       "hasMobile": true
     },
     {
-      "id": "d403",
-      "name": "BURCU",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d404",
       "name": "BURHAN BARIŞ",
       "phone": "",
@@ -5393,16 +5243,6 @@
       "hasMobile": true
     },
     {
-      "id": "d408",
-      "name": "BÜŞRA AYDOĞDU",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d409",
       "name": "BÜŞRA BEKCİ",
       "phone": "",
@@ -5435,16 +5275,6 @@
     {
       "id": "d413",
       "name": "CANER PALUT",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d414",
-      "name": "CEM ATASEVER",
       "phone": "",
       "phone2": "",
       "unit": "HEMŞİRE",
@@ -5623,36 +5453,6 @@
       "hasMobile": true
     },
     {
-      "id": "d433",
-      "name": "KÜRŞAT KARA",
-      "phone": "",
-      "phone2": "",
-      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d434",
-      "name": "ÖZGE ARPAÇ",
-      "phone": "",
-      "phone2": "",
-      "unit": "ACİL",
-      "group": "Doktorlar",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d436",
-      "name": "ECE ERÇOBAN",
-      "phone": "",
-      "phone2": "",
-      "unit": "BEYİN CERRAHİ",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d437",
       "name": "ECE KORKMAZ",
       "phone": "",
@@ -5783,16 +5583,6 @@
       "hasMobile": true
     },
     {
-      "id": "d454",
-      "name": "ERCAN KURT",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
-      "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d455",
       "name": "ERDİNÇ BEDER",
       "phone": "",
@@ -5859,6 +5649,16 @@
       "phone2": "",
       "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d464",
+      "name": "FERAH ECE",
+      "phone": "8410",
+      "phone2": "",
+      "unit": "GÖĞÜS HASTALIKLARI",
+      "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
     },
@@ -6033,16 +5833,6 @@
       "hasMobile": true
     },
     {
-      "id": "d485",
-      "name": "HATİCE YILDIRIM",
-      "phone": "",
-      "phone2": "",
-      "unit": "YSP",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d486",
       "name": "HAYRİ ÇİÇEK",
       "phone": "",
@@ -6059,16 +5849,6 @@
       "phone2": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d488",
-      "name": "HİLAL KARA",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
     },
@@ -6153,26 +5933,6 @@
       "hasMobile": true
     },
     {
-      "id": "d499",
-      "name": "İREM BATTAL",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d500",
-      "name": "İREM CEYLAN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d501",
       "name": "İREM NUR DUMAN",
       "phone": "",
@@ -6199,26 +5959,6 @@
       "phone2": "",
       "unit": "LABORATUVAR",
       "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d504",
-      "name": "IŞIL KALE",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d505",
-      "name": "İSMİNUR DAKAK",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
       "fav": false,
       "hasMobile": true
     },
@@ -6273,6 +6013,16 @@
       "hasMobile": true
     },
     {
+      "id": "d511",
+      "name": "KADİR ABUL",
+      "phone": "8448",
+      "phone2": "",
+      "unit": "ORTOPEDİ VE TRAVMATOLOJİ",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
       "id": "d514",
       "name": "KAMER FUNDA YAĞAN",
       "phone": "",
@@ -6313,18 +6063,18 @@
       "hasMobile": true
     },
     {
-      "id": "d519",
-      "name": "KEREM KURTULUŞ",
-      "phone": "",
+      "id": "d518",
+      "name": "KEMAL KARA",
+      "phone": "8469",
       "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
+      "unit": "RADYOLOJİ",
+      "group": "Doktorlar",
       "fav": false,
       "hasMobile": true
     },
     {
-      "id": "d520",
-      "name": "KEVSER",
+      "id": "d519",
+      "name": "KEREM KURTULUŞ",
       "phone": "",
       "phone2": "",
       "unit": "",
@@ -6359,26 +6109,6 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d524",
-      "name": "KUTAY HOŞ",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
-      "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d525",
-      "name": "LİV CHECKUP HEMŞİRE BEDRİYE",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
       "fav": false,
       "hasMobile": true
     },
@@ -6543,16 +6273,6 @@
       "hasMobile": true
     },
     {
-      "id": "d547",
-      "name": "MURAT BEY",
-      "phone": "",
-      "phone2": "",
-      "unit": "TERCÜMAN ARNAVUTÇA",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d548",
       "name": "MUSTAFA AKSOY",
       "phone": "",
@@ -6589,36 +6309,6 @@
       "phone2": "",
       "unit": "YSP",
       "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d552",
-      "name": "NEDRET GÜLER",
-      "phone": "",
-      "phone2": "",
-      "unit": "TERCÜMAN",
-      "group": "Misafir & VIP",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d553",
-      "name": "NEHİR AYTUĞ",
-      "phone": "",
-      "phone2": "",
-      "unit": "İNSAN KAYNAKLARI",
-      "group": "Yönetim & İdari",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d554",
-      "name": "NESLİHAN HANIM",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
       "fav": false,
       "hasMobile": true
     },
@@ -6668,16 +6358,6 @@
       "phone": "",
       "phone2": "",
       "unit": "YOĞUN BAKIM",
-      "group": "Hemşirelik & Yatan",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d561",
-      "name": "NUR SENA GÜNEL",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
       "group": "Hemşirelik & Yatan",
       "fav": false,
       "hasMobile": true
@@ -6893,16 +6573,6 @@
       "hasMobile": true
     },
     {
-      "id": "d584",
-      "name": "SABAHATTİN EVİN",
-      "phone": "",
-      "phone2": "",
-      "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
-      "group": "Yönetim & İdari",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d585",
       "name": "SABRİYE OZCAN",
       "phone": "",
@@ -6973,28 +6643,8 @@
       "hasMobile": true
     },
     {
-      "id": "d592",
-      "name": "SEDANUR DEMİR",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d593",
       "name": "SEDEF ÇÖRTÜK",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d594",
-      "name": "SEFA BÜYÜKKAYIKÇI",
       "phone": "",
       "phone2": "",
       "unit": "",
@@ -7163,16 +6813,6 @@
       "hasMobile": true
     },
     {
-      "id": "d611",
-      "name": "SİNEM AĞCA",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOTERAPİ",
-      "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d612",
       "name": "ŞİRİN TAŞKAYA",
       "phone": "",
@@ -7205,16 +6845,6 @@
     {
       "id": "d615",
       "name": "SONGÜL İNEL",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d616",
-      "name": "ŞÜKRAN CANSU",
       "phone": "",
       "phone2": "",
       "unit": "",
@@ -7353,16 +6983,6 @@
       "hasMobile": true
     },
     {
-      "id": "d630",
-      "name": "UMUT TEKNİK",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d631",
       "name": "UTKU KARAALP",
       "phone": "",
@@ -7433,32 +7053,12 @@
       "hasMobile": true
     },
     {
-      "id": "d639",
-      "name": "YAKUP SÖKMEN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d640",
       "name": "YASEMİN ÇINAR",
       "phone": "",
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d641",
-      "name": "YASEMİN HEMŞİRE",
-      "phone": "",
-      "phone2": "",
-      "unit": "HEMŞİRE",
-      "group": "Hemşirelik & Yatan",
       "fav": false,
       "hasMobile": true
     },
@@ -7563,16 +7163,6 @@
       "hasMobile": true
     },
     {
-      "id": "d653",
-      "name": "YUSUFCAN ÖZDEMİR",
-      "phone": "",
-      "phone2": "",
-      "unit": "RADYOLOJİ TEKNİKERİ",
-      "group": "Görüntüleme & Lab",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d654",
       "name": "ZAHİDE AYDIN",
       "phone": "",
@@ -7585,16 +7175,6 @@
     {
       "id": "d655",
       "name": "ZAHİDE YAPICIOĞLU",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d656",
-      "name": "ZEHRA LİV",
       "phone": "",
       "phone2": "",
       "unit": "",
@@ -7663,16 +7243,6 @@
       "hasMobile": true
     },
     {
-      "id": "d663",
-      "name": "ZEYNEP APAYDIN",
-      "phone": "",
-      "phone2": "",
-      "unit": "",
-      "group": "Poliklinikler",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d664",
       "name": "ZEYNEP KARAKAYA",
       "phone": "",
@@ -7689,6 +7259,6796 @@
       "phone2": "",
       "unit": "",
       "group": "Poliklinikler",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d666",
+      "name": "APTÜL KERIM KURTULUŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d667",
+      "name": "ASUDE SULTAN UZUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d668",
+      "name": "BERKAY DURAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d669",
+      "name": "CANSU DÖNMEZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d670",
+      "name": "ÇIĞDEM TELMAN ÇAYIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d671",
+      "name": "DOĞAN ALTAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d672",
+      "name": "ENSAR KÖSELIÖREN",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d673",
+      "name": "ERSAN DÖNMEZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d674",
+      "name": "KÜBRA ALTUNKAYNAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d675",
+      "name": "KÜBRA ESER",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d676",
+      "name": "MAKBULE CINGÖZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d677",
+      "name": "ŞEYMA DENIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d678",
+      "name": "TUNAHAN NAMOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d679",
+      "name": "YAĞMUR GÜRENÇ GÜNDOĞDU",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d680",
+      "name": "ZAFER BULUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "BAŞHEKİMLİK",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d681",
+      "name": "ENES CEBI",
+      "phone": "",
+      "phone2": "",
+      "unit": "BİLGİ SİSTEMLERİ MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d682",
+      "name": "SEFA DURSUN BÜYÜKKAYIKÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "BİLGİ SİSTEMLERİ MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d683",
+      "name": "BAHRI KÖKEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "BİYOMEDİKAL MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d684",
+      "name": "CENGIZHAN FAZLACA",
+      "phone": "",
+      "phone2": "",
+      "unit": "BİYOMEDİKAL MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d685",
+      "name": "ELIF ÇAKIR BERBER",
+      "phone": "",
+      "phone2": "",
+      "unit": "BİYOMEDİKAL MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d686",
+      "name": "ABDULLAH EMRE DURAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d687",
+      "name": "ABDULSEMET ÇIKARAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d688",
+      "name": "ALEYNA AYDIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d689",
+      "name": "ALEYNA GÜR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d690",
+      "name": "ALEYNANUR ÇELIKKOL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d691",
+      "name": "ALPER DEMIRSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d692",
+      "name": "ARDA ALKAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d693",
+      "name": "ASLI KORKMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d694",
+      "name": "ASLINUR BIÇAKÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d695",
+      "name": "AYDEMIR AVCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d696",
+      "name": "AYLA TAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d697",
+      "name": "AYŞE APAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d698",
+      "name": "AYŞE DILARA DEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d699",
+      "name": "AYŞE KATIPOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d700",
+      "name": "AYŞE NUR CEVAHIR GEVREK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d701",
+      "name": "AYŞE TUNÇEL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d702",
+      "name": "AYŞENUR GÜNAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d703",
+      "name": "BAHAR YARENOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d704",
+      "name": "BATUHAN İKIZLER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d705",
+      "name": "BEDRIYE BALIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d706",
+      "name": "BERKER DAĞCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d707",
+      "name": "BETÜL TOMBUL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d708",
+      "name": "BEYTULLAH GÜL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d709",
+      "name": "BEYZA AKÇAKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d710",
+      "name": "BEYZA GÜLTEKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d711",
+      "name": "BURAK ÖZYÜREK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d712",
+      "name": "BURAK SEYMEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d713",
+      "name": "BURAK SÜTYEMEZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d714",
+      "name": "BURCU DERICI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d715",
+      "name": "BUSE ORTAÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d716",
+      "name": "BÜŞRA ARSLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d717",
+      "name": "BÜŞRA CEYLAN AYDOĞDU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d718",
+      "name": "BÜŞRA KARASAKAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d719",
+      "name": "BÜŞRA MEDIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d720",
+      "name": "BÜŞRA NUR ÖZDEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d721",
+      "name": "BÜŞRA UÇAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d722",
+      "name": "CAFER KARAHAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d723",
+      "name": "CANSU ULUSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d724",
+      "name": "CEM SEVINÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d726",
+      "name": "CEYDA YALÇINKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d727",
+      "name": "CIHAN KEMAL AÇAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d728",
+      "name": "ÇAĞLAR MACIT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d731",
+      "name": "DEMET ÇETIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d732",
+      "name": "DENIZ EMRIYE ATMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d733",
+      "name": "DERYA YAMANGÖZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d734",
+      "name": "DILARA KOÇKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d735",
+      "name": "DILARA TOPRAKÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d736",
+      "name": "DILEK BAYRAM",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d737",
+      "name": "DILŞAD URAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d738",
+      "name": "DUYGU CENĞIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d739",
+      "name": "ECE GÜLTEN ERÇOBAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d740",
+      "name": "ECENUR ESER ÜRE",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d741",
+      "name": "EDA ÇERI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d742",
+      "name": "ELIF BOZTEPE",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d743",
+      "name": "ELIF ÇALIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d744",
+      "name": "ELIF SERÇE",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d745",
+      "name": "EMINE YALDIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d746",
+      "name": "EMIRCAN TÜRKMEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d747",
+      "name": "ENES ERSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d748",
+      "name": "ENES KANCA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d749",
+      "name": "ERCAN RESUL KURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d750",
+      "name": "ERHAN GÜNDOĞDU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d751",
+      "name": "ERHAN KARAHAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d752",
+      "name": "ERSIN ÇELIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d753",
+      "name": "ERTUĞRUL DUVAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d754",
+      "name": "ESMA TUĞBA YILMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d755",
+      "name": "ESRA NUR BAKIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d756",
+      "name": "ESRA ÖZINAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d757",
+      "name": "ESRA TORĞUL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d758",
+      "name": "EZGI DURU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d759",
+      "name": "FATIH VARILMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d760",
+      "name": "FATMA EKENER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d761",
+      "name": "FATMA GÜL BIRSIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d762",
+      "name": "FATMA İREM BATTAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d763",
+      "name": "FERHAT ATALAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d764",
+      "name": "FILIZ YALDIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d765",
+      "name": "GIZEM GÖKÇIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d766",
+      "name": "GIZEM YILMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d767",
+      "name": "GÖKHAN PEHLIVAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d768",
+      "name": "HANDAN ALGÜN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d769",
+      "name": "HANDAN ÇAKIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d770",
+      "name": "HASAN ŞENGÜL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d771",
+      "name": "HATICE HILAL KARA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d772",
+      "name": "HATICE KÖSE YILDIRIM",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d773",
+      "name": "HAZAL KAŞIKCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d774",
+      "name": "HEDIYE SARIGÜLLÜ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d776",
+      "name": "HÜMEYRA GEÇER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d777",
+      "name": "HÜSEYIN BÜYÜKMERT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d778",
+      "name": "HÜSEYIN ÖZDEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d779",
+      "name": "HÜSEYIN UYGAR ABEŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d780",
+      "name": "HÜSNIYE ŞIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d781",
+      "name": "IŞIL KALE TATAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d782",
+      "name": "İBRAHIM KANCA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d783",
+      "name": "İHSAN BERKAY LORT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d784",
+      "name": "İHSAN KORTAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d785",
+      "name": "İLAYDA GÜLSÜN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d786",
+      "name": "İPEK SÜRER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d787",
+      "name": "İREM NAZ POLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d788",
+      "name": "İREM ÖZDEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d789",
+      "name": "İREM ZEYNEP CEYLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d790",
+      "name": "İSMAIL ZENGIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d791",
+      "name": "İSMINUR DAKAK ARABUL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d792",
+      "name": "KADER DEMIR DAKAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d793",
+      "name": "KADIR CAN AÇAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d794",
+      "name": "KÜBRA ERTEKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d795",
+      "name": "KÜBRA GÜNEŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d796",
+      "name": "KÜBRA SUNA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d797",
+      "name": "KÜBRA YEŞIL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d798",
+      "name": "LEYLA ÖNER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d799",
+      "name": "MEHMET BURAK KARATAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d800",
+      "name": "MEHMET CEM ATASEVER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d801",
+      "name": "MEHMET MEDENI KEMALOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d802",
+      "name": "MELEK NAZ AKKUŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d803",
+      "name": "MELEK ÜNSAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d804",
+      "name": "MELISA ÖZCAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d805",
+      "name": "MERVE ÇORBACIOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d806",
+      "name": "METIN KESKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d807",
+      "name": "MUHAMMET DIYADIN BAŞAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d808",
+      "name": "MURAT KAHLIOĞULLARI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d809",
+      "name": "MUSTAFA ŞAHIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d810",
+      "name": "MUSTAFA TAŞCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d811",
+      "name": "NAGIHAN CEVAHIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d812",
+      "name": "NAZIFE SINEM AĞCA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d813",
+      "name": "NAZLICAN ERZEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d815",
+      "name": "NERGIS CANSU KAŞIKÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d816",
+      "name": "NESIBE BAKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d817",
+      "name": "NESLIHAN KÖÇER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d818",
+      "name": "NUR SENA GÜNEL ARI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d819",
+      "name": "ORHAN BEKAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d820",
+      "name": "ÖMER AKBULUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d821",
+      "name": "ÖMER ALATAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d822",
+      "name": "ÖMER FERIT BURSA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d823",
+      "name": "ÖZER ERGÜL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d824",
+      "name": "ÖZKAN KAŞIKÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d825",
+      "name": "ÖZNUR ATAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d827",
+      "name": "PINAR SARIÇIMEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d828",
+      "name": "RABIA ÇATALBAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d829",
+      "name": "RABIA GÜRE",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d830",
+      "name": "RECEP KALAYCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d831",
+      "name": "SAMET ÇELIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d832",
+      "name": "SEBAHATTIN YARAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d833",
+      "name": "SEDA NUR DEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d834",
+      "name": "SELVA DILARA IRMAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d835",
+      "name": "SEMANUR DEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d836",
+      "name": "SENA CINBEK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d837",
+      "name": "SERAP KAHRAMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d838",
+      "name": "SERDAR ÇAYAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d839",
+      "name": "SERDAR SUSAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d840",
+      "name": "SERHAT EMRE GÜNDÜZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d841",
+      "name": "SERKAN ÇAĞLAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d842",
+      "name": "SIBEL BOZKURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d843",
+      "name": "SONGÜL GÜLVER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d844",
+      "name": "SUDE MELISA ARPINAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d845",
+      "name": "SULTAN KILIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d846",
+      "name": "ŞAHINCAN ALTUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d847",
+      "name": "ŞENAY VICIL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d848",
+      "name": "ŞENGÜL ESENLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d849",
+      "name": "ŞEVKET KUTAY HOŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d850",
+      "name": "ŞEVVAL DOĞAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d851",
+      "name": "ŞEVVAL İPEK MUTLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d852",
+      "name": "ŞEVVAL MELIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d853",
+      "name": "ŞEYMA BEYAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d854",
+      "name": "ŞIMAL OCAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d855",
+      "name": "ŞULE NUR YENISOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d856",
+      "name": "ŞÜKRIYE ERTEKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d857",
+      "name": "TUĞBA NUR KALIP",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d858",
+      "name": "TUĞBA ÖZKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d859",
+      "name": "TURAN SALCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d860",
+      "name": "TURGUTHAN DEMIRCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d861",
+      "name": "UFUK MERT BAYRAM",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d862",
+      "name": "UMUT EFE DOKURLAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d864",
+      "name": "VALIDE KARADUMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d865",
+      "name": "YAĞMUR DOLUNAY AKÇAKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d866",
+      "name": "YAKUP OLCAY SÖKMEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d867",
+      "name": "YASEMIN GÜRSES",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d868",
+      "name": "YASEMIN TAŞOVA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d869",
+      "name": "YAŞAR DÖNMEZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d870",
+      "name": "YAŞAR GÜLERYÜZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d871",
+      "name": "YUNUS APAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d872",
+      "name": "YUSUF CAN ÖZDEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d873",
+      "name": "YÜKSEL KARAPINAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d874",
+      "name": "ZEHRA ATLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d875",
+      "name": "ZEHRA PILĞIS",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d876",
+      "name": "ZELAL ÖZTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d877",
+      "name": "ZEYNEP ARIKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d878",
+      "name": "ZEYNEP ELIF AĞRIKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d879",
+      "name": "ZEYNEP YEŞILLER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d880",
+      "name": "ZIYNET YONCA ŞENGÜL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d881",
+      "name": "ZÜLFÜKAR DAĞHAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d882",
+      "name": "TARIK KELEŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HASTA HAKLARI MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d883",
+      "name": "ABDIL CEM İBIŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d884",
+      "name": "ABDULVAHIT DEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d885",
+      "name": "ADEM ÖZTEKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d886",
+      "name": "AHMET CEYLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d887",
+      "name": "AHMET ELBAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d888",
+      "name": "AHMET SÖNMEZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d889",
+      "name": "AHMET ÜSTÜNDAĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d890",
+      "name": "AHMET YILMAZ NIŞANCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d891",
+      "name": "ALI NIHAT OFLUOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d892",
+      "name": "ALI RIZA ÖREROĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d893",
+      "name": "ALI SAFA SAYIM",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d894",
+      "name": "ALIM HUSEYNOV",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d895",
+      "name": "ALPASLAN TOPÇU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d896",
+      "name": "ASIM KAYTAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d897",
+      "name": "AYDAN GÜRCAN ACAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d898",
+      "name": "AYHAN SANDAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d899",
+      "name": "AYLIN KILIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d900",
+      "name": "AYŞE DENIZ AKKAYA PULTAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d901",
+      "name": "AYŞE KARAHASANOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d902",
+      "name": "AZIZ SÜMER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d903",
+      "name": "BARIŞ ÇAYNAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d904",
+      "name": "BIROL VURAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d905",
+      "name": "BULAT AYTEK ŞIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d906",
+      "name": "BURÇAK ERDINÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d907",
+      "name": "BÜLENT BAYSAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d908",
+      "name": "CANER KARAKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d909",
+      "name": "CEMAL TAHSIN GÖKHÜR ŞENYUVA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d910",
+      "name": "CEYHUN BOZKURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d911",
+      "name": "CIHAN BOLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d912",
+      "name": "CÜNEYT OCAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d913",
+      "name": "CÜNEYT ŞELLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d914",
+      "name": "DEMET DIKMEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d915",
+      "name": "DENIZ DUMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d916",
+      "name": "DENIZ KAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d917",
+      "name": "DICLEHAN ALI DICLE",
+      "phone": "0212 979 30 00",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": false
+    },
+    {
+      "id": "d918",
+      "name": "ELIF AYANOĞLU AKSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d919",
+      "name": "ELIF DILER ERMEÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d920",
+      "name": "ELIF ÖZTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d921",
+      "name": "EMIN KAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d922",
+      "name": "EMRAH KIZILDAĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d923",
+      "name": "ENGIN KAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d924",
+      "name": "ENIS OĞUZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d925",
+      "name": "ERCAN PAŞAOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d926",
+      "name": "ERDAL YÜZBAŞIOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d927",
+      "name": "ERKAN ERFIDAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d928",
+      "name": "ERKAN YILDIRIM",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d929",
+      "name": "ETHEM ONUR KULAKSIZOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d930",
+      "name": "EVRIM AKSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d931",
+      "name": "FAIK TAMER SÖZEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d932",
+      "name": "FARUK ABIT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d933",
+      "name": "FATIH KAHRAMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d934",
+      "name": "FATIH KENAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d935",
+      "name": "FATIH LEVENT BALCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d936",
+      "name": "FUAT ESEROL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d937",
+      "name": "GAYE TOPLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d938",
+      "name": "GIZEM KAVRAM",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d939",
+      "name": "GÖKAY GÜNAY",
+      "phone": "0212 476 24 00",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": false
+    },
+    {
+      "id": "d940",
+      "name": "HAKAN AKALAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d941",
+      "name": "HAKAN GÖK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d942",
+      "name": "HAKAN TANER ÖZPOLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d943",
+      "name": "HALIL ÖNDER BAHÇECIOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d944",
+      "name": "HAMIT SONER TATLIDEDE",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d945",
+      "name": "HAYRETTIN BARBAROS KINOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d946",
+      "name": "HAYRIYE SEMA BAĞHAKI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d947",
+      "name": "HÜSEYIN AVNI SANISOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d948",
+      "name": "IŞILAY KAVADARLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d949",
+      "name": "İBRAHIM GÖKHAN GÜLKILIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d950",
+      "name": "İBRAHIM TOPRAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d951",
+      "name": "İKLIL KONYALILAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d952",
+      "name": "İSKENDER ALKIN SOLMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d953",
+      "name": "İSKENDER MEHMET NURI BATTAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d954",
+      "name": "İSMAIL ÖZGÜR ŞANLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d955",
+      "name": "İSMET ASLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d956",
+      "name": "KADIR ÖZTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d957",
+      "name": "KAZIM ÖZENÇ MINARECI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d958",
+      "name": "KEMAL DOLAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d959",
+      "name": "KEREM DOĞA SEÇKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d960",
+      "name": "KEREM ÖZDEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d961",
+      "name": "KORAY SADIK ACARLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d962",
+      "name": "KORHAN FAZIL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d963",
+      "name": "LEVENT ARSLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d964",
+      "name": "LEYLA ARVAS",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d965",
+      "name": "MAHIZAR MAMMADOVA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d966",
+      "name": "MAHMUT EBUDECCANE MÜSLÜMANOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d967",
+      "name": "MAHMUT GÖKHAN TEKER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d968",
+      "name": "MEHMET ALPER ÖZTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d969",
+      "name": "MEHMET ATAKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d970",
+      "name": "MEHMET DOKUYUCU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d971",
+      "name": "MEHMET LEVHI AKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d972",
+      "name": "MEHMET NECMETTIN ATSÜ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d973",
+      "name": "MEHMET ÖZGÜR ÇUBUK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d974",
+      "name": "MEHMET TETIKOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d975",
+      "name": "MEHMET ULGAR MANZAKOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d976",
+      "name": "MELIH HABOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d977",
+      "name": "MELIKE GÜLER ÜLKER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d978",
+      "name": "MUAMMER KENDIRCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d979",
+      "name": "MUHAMMED FARUK COŞAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d980",
+      "name": "MUHARREM ÇIÇEK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d981",
+      "name": "MURAT BAŞKURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d982",
+      "name": "MURAT SUBAŞI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d983",
+      "name": "MURAT ZOR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d984",
+      "name": "MUSTAFA EYÜP ÇELIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d985",
+      "name": "MUSTAFA FIRAT APA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d986",
+      "name": "MUSTAFA GÜDEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d987",
+      "name": "MUSTAFA KUDRET TUYGUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d988",
+      "name": "MUSTAFA ŞEHVER NEFESOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d989",
+      "name": "NACIYE ÇIĞDEM ARSLAN ÖZŞAHIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d990",
+      "name": "NAZLI KORKMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d991",
+      "name": "NEZIHE AYLIN KARABULUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d992",
+      "name": "NILÜFER BAHADIRLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d993",
+      "name": "OĞUZHAN PARLAKKILIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d994",
+      "name": "OKTAY CELAL KUMRAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d995",
+      "name": "ONUR SELÇUK GÖKSEL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d996",
+      "name": "ORKUN MÜFTÜOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d997",
+      "name": "ÖZCAN ÖZTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d998",
+      "name": "ÖZGE RUKEN ARPAÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d999",
+      "name": "ÖZGÜL DEMET YETKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1000",
+      "name": "ÖZGÜN MELIKE GEDAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1001",
+      "name": "ÖZGÜR IRMAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1002",
+      "name": "ÖZKAN SEVER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1003",
+      "name": "ÖZLEM CAVKAYTAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1004",
+      "name": "ÖZTEKIN OTO",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1005",
+      "name": "RAMAZAN ERDEN ERTÜRER",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1006",
+      "name": "RIZA ASIL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1007",
+      "name": "SEDA NUR CEYLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1008",
+      "name": "SELAM YEKTA ŞENDÜL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1009",
+      "name": "SELÇUK BULUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1010",
+      "name": "SEMA NUR KIRLAROĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1011",
+      "name": "SEMIH DOĞAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1012",
+      "name": "SEYFI AKBAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1013",
+      "name": "SUPHI ALOLO",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1014",
+      "name": "SÜLEYMAN ÇATALTEPE",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1015",
+      "name": "TANIL GÜRSEL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1016",
+      "name": "TARIK ŞAPÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1017",
+      "name": "TOLGA SIMRU TUĞRUL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1018",
+      "name": "TUNCER GÜNEY",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1019",
+      "name": "TUNÇ LAÇIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1020",
+      "name": "TURGAY ÇETIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1021",
+      "name": "TURGUT YÜKSEL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1022",
+      "name": "TURHAN ECE",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1023",
+      "name": "TÜLAY ARICI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1024",
+      "name": "VEYSI EMRE ERDEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1025",
+      "name": "VOLKAN TURAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1026",
+      "name": "YELDA TAYYARECI",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1027",
+      "name": "YUSUF KAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1028",
+      "name": "ZEKI TUNÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1029",
+      "name": "ZEYNEP KUMRAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1030",
+      "name": "ABDULKADIR BAYRAKÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1031",
+      "name": "ADEM GÖKŞEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1032",
+      "name": "ADIL AYGÜN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1033",
+      "name": "AHMET BIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1034",
+      "name": "AHMET GÖKŞEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1035",
+      "name": "AHMET GÖKTAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1036",
+      "name": "AHMET KÖKDEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1037",
+      "name": "ALI AYAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1038",
+      "name": "ALI CAN DENIZHAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1039",
+      "name": "ARZU MILYON",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1040",
+      "name": "ATIYE ŞAHIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1041",
+      "name": "AYSU ALTUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1042",
+      "name": "AYTEN BUZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1043",
+      "name": "AYTEN SUCU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1044",
+      "name": "BERNA ENGIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1045",
+      "name": "BUĞRAHAN BARIŞICI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1046",
+      "name": "BURHANETTIN BOZKURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1047",
+      "name": "CAZIYE YAĞIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1048",
+      "name": "CEMAL YAĞIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1049",
+      "name": "CENGIZ YILMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1050",
+      "name": "CEREN TEKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1051",
+      "name": "CIHAT TUMAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1052",
+      "name": "COŞKUN AZIZ KARABULUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1053",
+      "name": "DILEK TÜRKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1054",
+      "name": "DILEK UYGUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1055",
+      "name": "DUYGU EZIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1056",
+      "name": "DÜZGÜN TUNA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1057",
+      "name": "EDNAIL ORUÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1058",
+      "name": "EGECAN EREN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1059",
+      "name": "ELIF AYNURCAN ARSLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1060",
+      "name": "ELIF UĞURLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1061",
+      "name": "EMIRHAN DEMIRAĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1062",
+      "name": "EMIRHAN YILDIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1063",
+      "name": "EMRAH ZEBIL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1064",
+      "name": "EMRE ÇABUK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1065",
+      "name": "ERKAN KOCA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1066",
+      "name": "ERKAN SARICA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1067",
+      "name": "EROL BACIOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1068",
+      "name": "EROL YAŞAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1069",
+      "name": "EVGENIYA ERMOLAEVA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1070",
+      "name": "EVIN YAĞIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1071",
+      "name": "FATMA ÇAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1072",
+      "name": "FATMA EFE",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1073",
+      "name": "FATMA SEVIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1074",
+      "name": "FERDI TAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1075",
+      "name": "FETHI FINDIKCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1076",
+      "name": "FIRAT TILAVER",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1077",
+      "name": "FIDAN KAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1078",
+      "name": "FÜSÜN SARITAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1079",
+      "name": "GÖKHAN BAŞALAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1080",
+      "name": "GÜLSER AKDAĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1081",
+      "name": "GÜLSÜM YILDIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1082",
+      "name": "GÜLSÜN TÜRÜDÜ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1083",
+      "name": "GÜLŞEN ARSLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1084",
+      "name": "GÜLŞEN ÇINAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1085",
+      "name": "GÜNEŞ YILDIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1086",
+      "name": "HAKAN AYTAÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1087",
+      "name": "HAKAN SARAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1088",
+      "name": "HALIL SOMUNCU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1089",
+      "name": "HAVVA KOÇYIĞIT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1090",
+      "name": "HAYRIYE ÇINER",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1091",
+      "name": "HAZAR EREZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1092",
+      "name": "HELIN KAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1093",
+      "name": "HÜLYA MANTARCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1094",
+      "name": "İLKNUR ERMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1095",
+      "name": "İRFAN ÇAKIRCA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1096",
+      "name": "İSA KILIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1097",
+      "name": "İSMET HAKAN İLDENIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1098",
+      "name": "KAAN GÖKÇE",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1099",
+      "name": "KADIR BULUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1100",
+      "name": "KADRIYE CIĞAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1101",
+      "name": "KAZIM KILIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1102",
+      "name": "KEMAL CAN ÜNEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1103",
+      "name": "KEMAL ERDEM",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1104",
+      "name": "KERIME POLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1105",
+      "name": "KEVSER AKSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1106",
+      "name": "KEZBAN AKÇAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1107",
+      "name": "LEYLA ŞIKGENÇ KAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1108",
+      "name": "MAKBULE KALELI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1109",
+      "name": "MAVIŞEN KEMENT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1110",
+      "name": "MEDINE AKTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1111",
+      "name": "MEHMET SARITAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1112",
+      "name": "MEHMET TOPUZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1113",
+      "name": "MELEK BINGÖL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1114",
+      "name": "MERVE SAFA AVAĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1115",
+      "name": "MERYEM DOĞAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1116",
+      "name": "MERYEM KALE",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1117",
+      "name": "MESUT AYDEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1118",
+      "name": "METIN SELÇUK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1119",
+      "name": "MIHRIBAN SOLMUŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1120",
+      "name": "MINE RENKLIHAVA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1121",
+      "name": "MUHAMMED ACAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1122",
+      "name": "MUHAMMET ALI KOÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1123",
+      "name": "MURAT GÜNEŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1124",
+      "name": "MUSTAFA AL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1125",
+      "name": "MUSTAFA ELMA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1126",
+      "name": "MUSTAFA NOHUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1127",
+      "name": "MÜCAHIT SARI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1128",
+      "name": "NAGIHAN YAVUZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1129",
+      "name": "NAZLI ŞERIFE YAĞCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1130",
+      "name": "NAZLICAN ÇELIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1131",
+      "name": "NEBIYE UYSAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1132",
+      "name": "NEFISE SEZMIŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1133",
+      "name": "NOKTA YAVRU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1134",
+      "name": "NURETTIN KARAKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1135",
+      "name": "OĞUZHAN BOZKURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1136",
+      "name": "OĞUZHAN KOÇYIĞIT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1137",
+      "name": "ONUR GÜN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1138",
+      "name": "ORHAN DAYANAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1139",
+      "name": "OZAN YILMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1140",
+      "name": "ÖMER AKILLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1141",
+      "name": "ÖMER FARUK ÇITAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1142",
+      "name": "ÖMER FARUK KÖNEÇOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1143",
+      "name": "RAMAZAN DAĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1144",
+      "name": "RECEP ARSLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1145",
+      "name": "REMZIYE GÜNEYSU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1146",
+      "name": "REMZIYE KUŞÇU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1147",
+      "name": "RUŞEN GÜRÜN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1148",
+      "name": "SADIK DURSUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1149",
+      "name": "SAKINE SARTTAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1150",
+      "name": "SAMET TÜRKEŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1151",
+      "name": "SANIYE MUSLUOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1152",
+      "name": "SEÇIL YARAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1153",
+      "name": "SEFA AYAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1154",
+      "name": "SEHER EFE",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1155",
+      "name": "SELÇUK YILMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1156",
+      "name": "SELINAY NAZLI KILIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1157",
+      "name": "SELMA ÇAVUŞDAĞI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1158",
+      "name": "SEMA NUR BURUS",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1159",
+      "name": "SERAY AYTAÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1160",
+      "name": "SERGEN KARATAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1161",
+      "name": "SERPIL YURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1162",
+      "name": "SERRA MADRAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1163",
+      "name": "SEVIM BINGÖL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1164",
+      "name": "SIDIKA ANAÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1165",
+      "name": "SONER ÇAKMAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1166",
+      "name": "SONGÜL TORUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1167",
+      "name": "SÜLEYMAN YILDIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1168",
+      "name": "ŞAFAK MIRZE",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1169",
+      "name": "ŞAFAK TAŞTEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1170",
+      "name": "ŞENAY ÖZGÜR",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1171",
+      "name": "ŞEYMA İNKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1172",
+      "name": "ŞEYMANUR SAĞLAM",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1173",
+      "name": "ŞILAN TUMAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1174",
+      "name": "ŞÜKRAN ALTAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1175",
+      "name": "TOLGA TAMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1176",
+      "name": "TUĞBA KARATAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1177",
+      "name": "TUĞSAN TULSAN KESER",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1178",
+      "name": "TUNA TAMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1179",
+      "name": "TUNCER ACUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1180",
+      "name": "TURGAY AYRANCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1181",
+      "name": "TURGUT YILDIZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1182",
+      "name": "TÜRKAN ORUÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1183",
+      "name": "UĞUR ÇIÇEK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1184",
+      "name": "UMUT EMRE TEKINALP",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1185",
+      "name": "ÜMÜT KAVAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1186",
+      "name": "VELI NOHUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1187",
+      "name": "YAREN SEZEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1188",
+      "name": "YASIN ÇETINER",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1189",
+      "name": "YAŞARE ARABACI",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1190",
+      "name": "YILDIZ ERDOĞAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1191",
+      "name": "YILMAZ NOHUT",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1192",
+      "name": "YLYAS HOJAKULYYEV",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1193",
+      "name": "YONCA HURŞUTAĞAOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1194",
+      "name": "YURDAGÜL ÇEVIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1195",
+      "name": "YUSUF ENES GÜÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1196",
+      "name": "ZAFER ÖZTEKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "İDARİ İŞLER VE DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1197",
+      "name": "MAHMUD SELIM GÜLER",
+      "phone": "",
+      "phone2": "",
+      "unit": "İNSAN KAYNAKLARI MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1198",
+      "name": "SAADET NEHIR AYTUĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "İNSAN KAYNAKLARI MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1199",
+      "name": "AYŞENUR ŞENEL",
+      "phone": "",
+      "phone2": "",
+      "unit": "KURUMSAL FATURALAMA MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1200",
+      "name": "DUYĞU KAYMAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "KURUMSAL FATURALAMA MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1201",
+      "name": "NESRIN COŞKUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "KURUMSAL FATURALAMA MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1202",
+      "name": "NURCAN İRTEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "KURUMSAL FATURALAMA MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1203",
+      "name": "OĞUZHAN GÜMÜŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "KURUMSAL FATURALAMA MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1204",
+      "name": "BERAY MELEKOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "KURUMSAL TANITIM MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1206",
+      "name": "ADALET NIHAL KELEŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1207",
+      "name": "ASLI NURŞEVAL OYUNLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1208",
+      "name": "BAHAR KAHRAMAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1209",
+      "name": "BERK CAN ÖZTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1210",
+      "name": "CANSU KIZILASLAN EKIM",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1211",
+      "name": "CEM CANLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1212",
+      "name": "DAMLA ALKAN AĞIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1213",
+      "name": "DILARA TEKAVIT",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1214",
+      "name": "DOĞAN ÇEVIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1215",
+      "name": "HASRET ARAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1216",
+      "name": "IŞILSU ÖZCAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1217",
+      "name": "İLAYDA ÇAVRAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1218",
+      "name": "İLKNUR MISIRLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1219",
+      "name": "KEREM ALTUNTAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1220",
+      "name": "MEHMET TURAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1221",
+      "name": "MUHAMMED BERKANT ERSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1222",
+      "name": "NURAN AYGÜL",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1223",
+      "name": "SAMET UÇAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1224",
+      "name": "ULAŞ EFE SAKARYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1225",
+      "name": "UMUT OĞLUOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1226",
+      "name": "ZEHRA ŞEVVAL DEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1227",
+      "name": "ZEHRAGÜL ERGÜL YÜKSEL",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1228",
+      "name": "ZEYNEP ELIF APAYDIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "KÖK HÜCRE",
+      "group": "Görüntüleme & Lab",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1229",
+      "name": "MUSTAFA YUSUF POLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "MALİ İŞLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1230",
+      "name": "YASEMIN TAŞTAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MALİ İŞLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1231",
+      "name": "AHMET AŞAM",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1232",
+      "name": "AHMETHAN KARAP",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1233",
+      "name": "ALEYNA NUR ERDOĞAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1234",
+      "name": "ALEYNA ÖN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1235",
+      "name": "ALIŞAN KARAGÖZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1236",
+      "name": "ARZU BIÇAKCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1237",
+      "name": "ASYA DEMIRCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1238",
+      "name": "AYŞE ÖKSÜZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1239",
+      "name": "AYŞEGÜL SAĞBAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1240",
+      "name": "AYŞENUR GÜVEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1241",
+      "name": "BARIŞ AYKUT GÖKDEMIR",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1242",
+      "name": "BETÜL KILAVUZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1243",
+      "name": "BEYZANUR YALINKILIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1244",
+      "name": "BUSE ATAKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1245",
+      "name": "BUŞRA SAÇIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1246",
+      "name": "CANAN ÖZDEN TAŞKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1247",
+      "name": "CEREN ERÜNSAL TEMUR",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1248",
+      "name": "ÇAĞLA UYAROĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1249",
+      "name": "DAMLA ÖRS",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1250",
+      "name": "DENIZ PEHLIVAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1251",
+      "name": "DIDEM KORKMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1252",
+      "name": "DILARA ARPA GÜVEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1253",
+      "name": "ECE DOKUZFIDAN AY",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1254",
+      "name": "ELIF ARLIYÜZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1255",
+      "name": "ELIF BAŞAK KARA",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1256",
+      "name": "ELIF CANTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1257",
+      "name": "EMINE AYDIN YARTAŞI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1258",
+      "name": "ESRA EBRU ŞENGÜL ÇIRACI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1259",
+      "name": "ESRA ERTAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1260",
+      "name": "FERIHA DÖNMEZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1261",
+      "name": "FURKAN ADA",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1262",
+      "name": "GAMZE SOYKAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1263",
+      "name": "GIZEM ÇINAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1264",
+      "name": "GÖKHAN AYDIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1265",
+      "name": "GÖKHAN ÖZER",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1266",
+      "name": "GÖKNUR KARA",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1267",
+      "name": "HACER İŞSEVER",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1268",
+      "name": "HILAL ERYIĞIT",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1269",
+      "name": "HIVDA BAŞAL",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1270",
+      "name": "HÜSEYIN YILDIRIMOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1271",
+      "name": "HÜSRAN YIĞIT",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1272",
+      "name": "İLAYDA ÖZTÜRK",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1273",
+      "name": "İREM YILDIRIM",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1274",
+      "name": "KEVSER BERK",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1275",
+      "name": "KÜBRA FINDIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1276",
+      "name": "KÜBRA NUR GÜRE",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1277",
+      "name": "MEHTAP TEKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1278",
+      "name": "MELIHA NUR BAYRAKCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1279",
+      "name": "MELIKE KARAKEBELIOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1280",
+      "name": "MELTEM YÜTÜK",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1281",
+      "name": "MIRAY ZENGI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1282",
+      "name": "MUHAMMET KÖSE",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1283",
+      "name": "NARIN ALTINBAŞ KOÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1284",
+      "name": "NAZAN YILDIRIM",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1285",
+      "name": "NERMIN MADEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1286",
+      "name": "NERMIN MEYDAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1287",
+      "name": "NESLIHAN AKGÖZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1288",
+      "name": "NURGÜL ÇETINKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1289",
+      "name": "OĞUZ ÇELIKÇI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1290",
+      "name": "ÖYKÜM BACACI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1291",
+      "name": "REYYAN EŞGÜNOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1292",
+      "name": "RUKIYE KARATAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1294",
+      "name": "SEDANUR ABBASOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1295",
+      "name": "SEHER MERVE BOLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1296",
+      "name": "SENA ALEYNA TAŞBAŞI",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1297",
+      "name": "SERAP AKKOYUN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1298",
+      "name": "SERRA ALEMDAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1299",
+      "name": "SIMGE ALTUNTAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1300",
+      "name": "SINEM GEÇER",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1301",
+      "name": "SINEM UZUNTAŞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1302",
+      "name": "ŞEVVAL BIKLIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1303",
+      "name": "ŞÜKRAN CANSU DAĞ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1304",
+      "name": "TUĞBA KAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1305",
+      "name": "TÜLAY ÇAPKIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1306",
+      "name": "VESILE CANAN YAVUZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1307",
+      "name": "YASEMIN ORUÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1308",
+      "name": "ZEYNEP ÇAKIROĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1309",
+      "name": "MUHAMMED ENES BIYIKCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1310",
+      "name": "MUHAMMET RAIF GEZER",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1311",
+      "name": "SERHAT AKÇAY",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEDARİK ZİNCİRİ MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1312",
+      "name": "AYDIN AKPINAR",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1313",
+      "name": "EYÜP BOLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1314",
+      "name": "İNAN YALÇINKAYA",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1315",
+      "name": "KADIR GÜRSOY",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1316",
+      "name": "MURAT GEZEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1317",
+      "name": "MUSTAFA ŞABAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1318",
+      "name": "RIDVAN YILMAZ",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1319",
+      "name": "TUGAY TOPRAKLI",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1320",
+      "name": "TURGUT SINAN AYDOĞAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1321",
+      "name": "UMUT FERDI SÖZEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "TEKNİK HİZMETLER MÜDÜRLÜĞÜ",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1322",
+      "name": "ALAA S A ABED",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1323",
+      "name": "ARRAYAN MRABET",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1324",
+      "name": "BIANCHI ALEX DJIBRIL NGAYABA MAMBANDZO",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1325",
+      "name": "FURKAN KOLBAŞI",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1326",
+      "name": "HEPŞEN ÖZKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1327",
+      "name": "ISHAQ IBRAHIM HAJIYOUSOUF",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1328",
+      "name": "İRINA ÇOLAK",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1329",
+      "name": "İSMAIL MERT KURTOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1331",
+      "name": "MELTEM YENIDÜNYA ÖZKAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1333",
+      "name": "MOHAMEDNOOR OSMAN DIBA",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1334",
+      "name": "MOHAMMAD ABDULLAH",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1335",
+      "name": "MUKHLISA SHAKIROVA",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1336",
+      "name": "NELI RUMENOVA KAYIKCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1337",
+      "name": "NINO THOMASCHVILI",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1338",
+      "name": "OĞUZHAN AKYOL",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1339",
+      "name": "OUMAIMA BEN FARHAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1340",
+      "name": "ÖMER BÖLÜKBAŞI",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1341",
+      "name": "SALEH HREIB",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1342",
+      "name": "SEMIH SÜRMELI",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1343",
+      "name": "SVITLANA BEREZOVA",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1344",
+      "name": "TUĞÇE KIREMITCI",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1345",
+      "name": "YASIN İSOVIÇ",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1346",
+      "name": "ZAFER YURT",
+      "phone": "",
+      "phone2": "",
+      "unit": "ULUSLARARASI MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1347",
+      "name": "AMELIA CONSTANTIN",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1348",
+      "name": "BILGE KARACA",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1349",
+      "name": "BUSE ŞEN",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1350",
+      "name": "ERION CERKEJA",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1351",
+      "name": "EZGI ÇELIK",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1352",
+      "name": "FIZULI İDRISOĞLU",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1353",
+      "name": "GULNOZ ARSLAN",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1354",
+      "name": "NATELA GAGUA AKGÜN",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
+      "fav": false,
+      "hasMobile": true
+    },
+    {
+      "id": "d1355",
+      "name": "ŞULE CANPOLAT",
+      "phone": "",
+      "phone2": "",
+      "unit": "ÜST YÖNETİM",
+      "group": "Yönetim & İdari",
       "fav": false,
       "hasMobile": true
     }
