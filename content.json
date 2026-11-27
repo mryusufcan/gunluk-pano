@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T09:44:53.882055+00:00",
+  "updatedAt": "2026-11-27T10:01:41.096702+00:00",
   "settings": {
     "title": "Günün Panosu",
     "dept": "Radyoloji"
@@ -1837,7 +1837,7 @@
     {
       "id": "d25",
       "name": "ATAKAN MEHMET ÇOBAN",
-      "title": "Bilgi Sistemleri Uzmanı",
+      "title": "",
       "unit": "BİLGİ SİSTEMLERİ UZMANI",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -1859,7 +1859,7 @@
     {
       "id": "d27",
       "name": "AYŞENUR GÜLER ÇOŞKUN",
-      "title": "İnsan Kaynakları Uzmanı",
+      "title": "",
       "unit": "İNSAN KAYNAKLARI UZMANI",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -1991,7 +1991,7 @@
     {
       "id": "d39",
       "name": "BARIŞ ALPER",
-      "title": "Ana Depo Sorumlusu",
+      "title": "",
       "unit": "ANA DEPO SORUMLUSU",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -2123,7 +2123,7 @@
     {
       "id": "d51",
       "name": "CANAN SARI",
-      "title": "Hasta Bakım Hizmetleri Müdürü",
+      "title": "",
       "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -2169,17 +2169,6 @@
       "name": "CLAUDİA ALİNA AŞAR",
       "title": "Uluslararası Misafir Hizmetleri Yetkilisi",
       "unit": "ROMANYA (2 KİŞİ) · ROMENCE",
-      "group": "Misafir & VIP",
-      "phone": "",
-      "phone2": "",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d58",
-      "name": "CLAUDİA ALİNA AŞAR",
-      "title": "Uluslararası Misafir Hizmetleri Yetkilisi",
-      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - ROMENCE",
       "group": "Misafir & VIP",
       "phone": "",
       "phone2": "",
@@ -3267,7 +3256,7 @@
     {
       "id": "d166",
       "name": "TUBA EFE",
-      "title": "Aile Hekimliği",
+      "title": "",
       "unit": "AİLE HEKİMLİĞİ",
       "group": "Doktorlar",
       "phone": "8183",
@@ -3432,7 +3421,7 @@
     {
       "id": "d181",
       "name": "ELİF CAN CEYLAN",
-      "title": "Başhekim Asistanı",
+      "title": "",
       "unit": "BAŞHEKİM ASİSTANI",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -3476,7 +3465,7 @@
     {
       "id": "d185",
       "name": "EMEL YANIK",
-      "title": "Acil Servis Sorumlu Hemşiresi",
+      "title": "",
       "unit": "ACİL SERVİS SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "phone": "",
@@ -3498,7 +3487,7 @@
     {
       "id": "d188",
       "name": "FATİH SAKA",
-      "title": "Mali İşler Müdür Yardımcısı",
+      "title": "",
       "unit": "MALİ İŞLER MÜDÜR YARDIMCISI",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -3575,7 +3564,7 @@
     {
       "id": "d196",
       "name": "GAMZE KESKİN",
-      "title": "Başhekim",
+      "title": "",
       "unit": "BAŞHEKİM",
       "group": "Yönetim & İdari",
       "phone": "8278",
@@ -3619,7 +3608,7 @@
     {
       "id": "d200",
       "name": "GONCA ULAMAN",
-      "title": "Poliklinik Sorumlu Hemşiresi",
+      "title": "",
       "unit": "POLİKLİNİK SORUMLU HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "phone": "",
@@ -3652,7 +3641,7 @@
     {
       "id": "d203",
       "name": "HALİL HÜZMELİ",
-      "title": "Başhekim Yardımcısı",
+      "title": "",
       "unit": "BAŞHEKİM YARDIMCISI",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -3674,7 +3663,7 @@
     {
       "id": "d205",
       "name": "HARUN BAŞODA",
-      "title": "Tedarik Zinciri Sorumlusu",
+      "title": "",
       "unit": "TEDARİK ZİNCİRİ SORUMLUSU",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -4136,7 +4125,7 @@
     {
       "id": "d250",
       "name": "İSMAİL AKTAŞ",
-      "title": "VIP Temsilcisi",
+      "title": "",
       "unit": "VIP TEMSİLCİSİ",
       "group": "Misafir & VIP",
       "phone": "",
@@ -4169,7 +4158,7 @@
     {
       "id": "d253",
       "name": "KAAN TOKAT",
-      "title": "Tedarik Zinciri Uzmanı",
+      "title": "",
       "unit": "TEDARİK ZİNCİRİ UZMANI",
       "group": "Hemşirelik & Yatan",
       "phone": "",
@@ -4180,7 +4169,7 @@
     {
       "id": "d254",
       "name": "KAMİL BİLGİLİ",
-      "title": "İnsan Kaynakları Uzman Yardımcısı",
+      "title": "",
       "unit": "İNSAN KAYNAKLARI UZMAN YARDIMCISI",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -4303,7 +4292,7 @@
       "name": "MEHMET AYDOĞAN",
       "title": "Göğüs Hastalıkları Hekimi",
       "unit": "BAŞHEKİM YARDIMCISI",
-      "group": "Yönetim & İdari",
+      "group": "Doktorlar",
       "phone": "8261",
       "phone2": "",
       "fav": false,
@@ -4466,7 +4455,7 @@
     {
       "id": "d281",
       "name": "MURAT UYAR",
-      "title": "VIP Temsilcisi",
+      "title": "",
       "unit": "VIP TEMSİLCİSİ",
       "group": "Misafir & VIP",
       "phone": "",
@@ -4490,17 +4479,6 @@
       "name": "NEDRET NEZHDET GÜLER",
       "title": "Uluslararası Misafir Hizmetleri Yetkilisi",
       "unit": "YURT DIŞI PAZARLAMA SORUMLUSU - BULGARİSTAN",
-      "group": "Misafir & VIP",
-      "phone": "",
-      "phone2": "",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d284",
-      "name": "NEDRET NEZHDET GÜLER",
-      "title": "Uluslararası Misafir Hizmetleri Yetkilisi",
-      "unit": "BULGARCA",
       "group": "Misafir & VIP",
       "phone": "",
       "phone2": "",
@@ -4631,7 +4609,7 @@
     {
       "id": "d298",
       "name": "OĞUZHAN BEKTAŞ",
-      "title": "Teknik Hizmetler Müdürü",
+      "title": "",
       "unit": "TEKNİK HİZMETLER MÜDÜRÜ",
       "group": "Yönetim & İdari",
       "phone": "8293",
@@ -4820,17 +4798,6 @@
       "name": "SAMİD SHUKUROV",
       "title": "Uluslararası Misafir Hizmetleri Yetkilisi",
       "unit": "AZERBAYCAN (1 KİŞİ) · AZERİCE RUSÇA",
-      "group": "Misafir & VIP",
-      "phone": "",
-      "phone2": "",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
-      "id": "d318",
-      "name": "SAMİD SHUKUROV",
-      "title": "Uluslararası Misafir Hizmetleri Yetkilisi",
-      "unit": "YURT DIŞI PAZARLAMA SORUMLUSU -AZERİCE-R",
       "group": "Misafir & VIP",
       "phone": "",
       "phone2": "",
@@ -5113,17 +5080,6 @@
       "hasMobile": true
     },
     {
-      "id": "d346",
-      "name": "YAHYA ZÜVEKLİ",
-      "title": "Uluslararası Misafir Hizmetleri Müdür Yardımcısı",
-      "unit": "ULUSLAR ARASI MİSAFİR HİZMETLERİ OPERASY",
-      "group": "Misafir & VIP",
-      "phone": "",
-      "phone2": "",
-      "fav": false,
-      "hasMobile": true
-    },
-    {
       "id": "d347",
       "name": "YENİDOĞAN YOĞUN BAKIM (NİCU)",
       "title": "",
@@ -5194,7 +5150,7 @@
       "name": "ÖMER ERDUR",
       "title": "Kulak-Burun-Boğaz Hastalıkları Hekimi",
       "unit": "KULAK BURUN BOĞAZ HASTALIKLARI",
-      "group": "Poliklinikler",
+      "group": "Doktorlar",
       "phone": "8189",
       "phone2": "",
       "fav": false,
@@ -5236,7 +5192,7 @@
     {
       "id": "d361",
       "name": "ÖZGÜR KAAN YELER",
-      "title": "Genel Müdür",
+      "title": "",
       "unit": "GENEL MÜDÜR",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -5280,7 +5236,7 @@
     {
       "id": "d366",
       "name": "ABDULLAH TECEN",
-      "title": "Radyoloji Teknikeri",
+      "title": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "phone": "",
@@ -5654,9 +5610,9 @@
     {
       "id": "d415",
       "name": "CEMRE GÜL ALICI",
-      "title": "",
-      "unit": "",
-      "group": "Poliklinikler",
+      "title": "Kadın Doğum Servis Hemşiresi",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
       "phone": "",
       "phone2": "",
       "fav": false,
@@ -5709,9 +5665,9 @@
     {
       "id": "d420",
       "name": "DENİZ ÇAMKAYA ŞEN",
-      "title": "",
-      "unit": "",
-      "group": "Poliklinikler",
+      "title": "Yatış Koordinasyon ve Planlama Yetkilisi",
+      "unit": "MİSAFİR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Misafir & VIP",
       "phone": "",
       "phone2": "",
       "fav": false,
@@ -5874,7 +5830,7 @@
     {
       "id": "d440",
       "name": "EDA AKDOĞAN",
-      "title": "Poliklinik Ürodinami Hemşiresi",
+      "title": "",
       "unit": "POLİKLİNİK ÜRODİNAMİ HEMŞİRESİ",
       "group": "Hemşirelik & Yatan",
       "phone": "",
@@ -5929,7 +5885,7 @@
     {
       "id": "d446",
       "name": "ELZEM AĞTAŞ",
-      "title": "Anestezi Teknikeri",
+      "title": "",
       "unit": "ANESTEZİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "phone": "",
@@ -6039,7 +5995,7 @@
     {
       "id": "d460",
       "name": "FATİH KARABULUT",
-      "title": "Radyoloji Teknikeri",
+      "title": "",
       "unit": "RADYOLOJİ TEKNİKERİ",
       "group": "Görüntüleme & Lab",
       "phone": "",
@@ -6237,7 +6193,7 @@
     {
       "id": "d483",
       "name": "HASAN ERBAY",
-      "title": "Elektrik Teknisyeni",
+      "title": "",
       "unit": "ELEKTRİK TEKNİSYENİ",
       "group": "Yönetim & İdari",
       "phone": "",
@@ -6259,7 +6215,7 @@
     {
       "id": "d486",
       "name": "HAYRİ ÇİÇEK",
-      "title": "Şoför",
+      "title": "",
       "unit": "ŞOFÖR",
       "group": "Misafir & VIP",
       "phone": "",
@@ -6424,9 +6380,9 @@
     {
       "id": "d508",
       "name": "KADER DEMİR",
-      "title": "",
-      "unit": "",
-      "group": "Poliklinikler",
+      "title": "Cerrahi Servis YP",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
       "phone": "",
       "phone2": "",
       "fav": false,
@@ -6985,9 +6941,9 @@
     {
       "id": "d576",
       "name": "PEMBE ÇALIK",
-      "title": "",
-      "unit": "",
-      "group": "Poliklinikler",
+      "title": "Acil Servis Hemşiresi",
+      "unit": "HASTA BAKIM HİZMETLERİ MÜDÜRLÜĞÜ",
+      "group": "Hemşirelik & Yatan",
       "phone": "",
       "phone2": "",
       "fav": false,
@@ -7447,9 +7403,9 @@
     {
       "id": "d623",
       "name": "UĞUR HAKLAR ASİSTAN",
-      "title": "",
-      "unit": "",
-      "group": "Yönetim & İdari",
+      "title": "Ortopedi ve Travmatoloji Hekimi",
+      "unit": "HEKİMLİK",
+      "group": "Doktorlar",
       "phone": "",
       "phone2": "",
       "fav": false,

@@ -40,10 +40,12 @@ def main():
         data = json.load(handle)
 
     # Onceki yedek korunur: yalnizca bu kosuda bulunanlar tazelenir (veri kaybi olmasin).
+    # Bir kiside iki numara olabilir; yedek id basina liste tutar.
     old = {}
     try:
         with io.open("tools/cep_yedek.json", encoding="utf-8") as handle:
-            old = {row["id"]: row for row in json.load(handle)}
+            for row in json.load(handle):
+                old.setdefault(row["id"], []).append(row)
     except FileNotFoundError:
         pass
 
@@ -91,9 +93,12 @@ def main():
 
     backup.sort(key=lambda r: r["name"] or "")
     for row in backup:
-        old[row["id"]] = row
+        rows = old[row["id"]]
+        # Ayni numara ikinci kez yazilmasin; eski kayitta olmayan numara eklenir.
+        if all(prev["mobile"] != row["mobile"] for prev in rows):
+            rows.append(row)
     ids = {item["id"] for item in data["directory"]}
-    merged = sorted((old[i] for i in ids if i in old), key=lambda r: r["name"] or "")
+    merged = sorted((row for i in ids for row in old.get(i, [])), key=lambda r: r["name"] or "")
     with io.open("tools/cep_yedek.json", "w", encoding="utf-8", newline="\n") as handle:
         json.dump(merged, handle, ensure_ascii=False, indent=2)
         handle.write("\n")

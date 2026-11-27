@@ -812,6 +812,7 @@ function directoryMatches(item, query) {
   if (search === "#eksik" || search === "#birimsiz") return unitMissing(item);
   const digits = search.replace(/[^\d+]/g, "");
   if (digits && String(item.phone || "").replace(/[^\d+]/g, "").includes(digits)) return true;
+  if (digits && mobilesOf(item).some((mobile) => mobile.replace(/[^\d+]/g, "").includes(digits))) return true;
   const text = fold(`${item.name} ${item.title || ""} ${item.unit || ""} ${groupOf(item)}`);
   const words = search.split(/\s+/).filter(Boolean);
   // Tüm kelimeler geçiyorsa eşleşir: "ali kaya" hem "ALI KAYA"yı hem sıralı eşleşmeleri bulur.
@@ -848,13 +849,18 @@ function lockedBtn(name, second) {
   return `<span class="${cls}" aria-label="${esc(name)} cep numarası kilitli">${ICON_PHONE}<span>••• ••• •• ••</span></span>`;
 }
 
-function callHtml(item) {
+function mobilesOf(item) {
   const mobile = mobileMap[item.id];
+  return Array.isArray(mobile) ? mobile : mobile ? [mobile] : [];
+}
+
+function callHtml(item) {
+  const mobiles = mobilesOf(item);
   const parts = [];
   if (item.phone) parts.push(callBtn(item.phone, item.name, false));
   if (item.phone2) parts.push(callBtn(item.phone2, item.name, true));
-  if (mobile) parts.push(callBtn(mobile, item.name, true));
-  else if (item.hasMobile) parts.push(lockedBtn(item.name, true));
+  for (const mobile of mobiles) parts.push(callBtn(mobile, item.name, true));
+  if (!mobiles.length && item.hasMobile) parts.push(lockedBtn(item.name, true));
   if (!parts.length) return `<span class="call-btn is-empty" aria-hidden="true">${ICON_PHONE}</span>`;
   return `<div class="directory-calls">${parts.join("")}</div>`;
 }
@@ -871,10 +877,10 @@ function renderDirectory() {
   el("favorites-head").hidden = !favorites.length;
   el("favorites").innerHTML = favorites
     .map((item) => {
-      const mobile = mobileMap[item.id];
-      const nums = [item.phone, item.phone2, mobile].filter(Boolean);
-      if (!mobile && item.hasMobile) nums.push("••• ••• •• ••");
-      const tel = telOf(item.phone || item.phone2 || mobile);
+      const mobiles = mobilesOf(item);
+      const nums = [item.phone, item.phone2, ...mobiles].filter(Boolean);
+      if (!mobiles.length && item.hasMobile) nums.push("••• ••• •• ••");
+      const tel = telOf(item.phone || item.phone2 || mobiles[0]);
       const label = nums.join(" · ");
       const body = `<span class="fav-name">${esc(item.name)}</span><span class="fav-phone">${esc(label || item.unit || "-")}</span>`;
       return tel ? `<a class="fav-tile" href="tel:${esc(tel)}">${body}</a>` : `<div class="fav-tile">${body}</div>`;

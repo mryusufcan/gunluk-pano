@@ -15,8 +15,12 @@ const enc = new TextEncoder();
 const b64 = (bytes) => Buffer.from(bytes).toString("base64");
 
 const rows = JSON.parse(readFileSync("tools/cep_yedek.json", "utf8"));
+// Ayni id icin birden fazla numara olabilir; tek numara duz metin, cok numara dizi olarak sifrelenir.
 const map = {};
-for (const row of rows) map[row.id] = row.mobile;
+for (const row of rows) {
+  const prev = map[row.id];
+  map[row.id] = prev === undefined ? row.mobile : Array.isArray(prev) ? [...prev, row.mobile] : [prev, row.mobile];
+}
 
 const salt = webcrypto.getRandomValues(new Uint8Array(16));
 const iv = webcrypto.getRandomValues(new Uint8Array(12));
