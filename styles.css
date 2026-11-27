@@ -1047,6 +1047,19 @@ main {
   gap: 5px;
 }
 
+/* 18 departman chip'i tek satirda kaydirilir; sayfa asagi itilmez. */
+.directory-chips {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+}
+
+.directory-chips .import-chip {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
 .import-chip {
   padding: 3px 7px;
   border: 1px solid var(--line);

@@ -204,9 +204,9 @@ async function main() {
   check("rehber sayacı", doc.getElementById("directory-count").textContent.includes("3 kişi"));
   check("rehber adı düzenlendi", doc.getElementById("directory-list").textContent.includes("AYŞE YILMAZ"));
   check("rehber telefonu düzenlendi", doc.getElementById("directory-list").textContent.includes("0532 111 22 33"));
-  check("kategori çipleri", doc.querySelectorAll("#directory-chips button").length === 7);
+  check("kategori çipleri", doc.querySelectorAll("#directory-chips button").length === 19);
   check("kategori bölümleri", doc.querySelectorAll("#directory-list details.directory-group").length === 2);
-  doc.querySelector('#directory-chips button[data-group="Doktorlar"]').click();
+  doc.querySelector('#directory-chips button[data-group="Hekimler"]').click();
   check("kategori filtresi", doc.querySelectorAll("#directory-list .directory-row").length === 2 && doc.getElementById("directory-list").textContent.includes("AYŞE YILMAZ"));
   check("yönetici çubuğu gizli", doc.getElementById("admin-bar").hidden);
   check("duyuru şeridi görünür", !doc.getElementById("notice").hidden);
@@ -295,11 +295,11 @@ async function main() {
   await wait(600);
   check("rehber taslağa yazıldı", JSON.parse(dom.window.localStorage.getItem("pano-draft")).directory[0].phone === "9999");
   const groupSelect = doc.querySelector('#directory-editor select[data-directory="group"]');
-  check("kategori seçici", Boolean(groupSelect) && groupSelect.options.length === 6);
-  groupSelect.value = "Yönetim & İdari";
+  check("kategori seçici", Boolean(groupSelect) && groupSelect.options.length === 18);
+  groupSelect.value = "İdari İşler";
   groupSelect.dispatchEvent(new dom.window.Event("change", { bubbles: true }));
   await wait(600);
-  check("kategori taslağa yazıldı", JSON.parse(dom.window.localStorage.getItem("pano-draft")).directory[0].group === "Yönetim & İdari");
+  check("kategori taslağa yazıldı", JSON.parse(dom.window.localStorage.getItem("pano-draft")).directory[0].group === "İdari İşler");
   doc.querySelector("[data-fav-directory]").click();
   await wait(40);
   check("sık kullanılan kutucuğu", doc.querySelectorAll("#favorites .fav-tile").length === 1);

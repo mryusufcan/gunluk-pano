@@ -152,29 +152,55 @@ function normalizeNotice(raw) {
   return notice;
 }
 
+// Kategoriler fihrist dosyalarina gore: her kisi tek departmana duser.
 const DIRECTORY_GROUPS = [
-  "Doktorlar",
-  "Poliklinikler",
-  "Hemşirelik & Yatan",
-  "Görüntüleme & Lab",
-  "Misafir & VIP",
-  "Yönetim & İdari",
+  "Hekimler",
+  "Hasta Bakım",
+  "İdari İşler",
+  "Misafir Hizmetleri",
+  "Uluslararası Misafir",
+  "Başhekimlik",
+  "Kök Hücre",
+  "Teknik Hizmetler",
+  "Üst Yönetim",
+  "Tedarik Zinciri",
+  "Kurumsal Faturalama",
+  "İnsan Kaynakları",
+  "Biyomedikal",
+  "Bilgi Sistemleri",
+  "Mali İşler",
+  "Anlaşmalı Kurumlar",
+  "Kurumsal Tanıtım",
+  "Hasta Hakları",
 ];
 
-// Kategori girilmemiş eski kayıtlar için: önce ad (doktor), sonra birim/anahtar kelime.
+// Kategori girilmemiş eski kayıtlar için: önce unvan, sonra birim.
 const GROUP_RULES = [
-  ["Misafir & VIP", /MİSAFİR|VIP|TERCÜMAN|YURT\s?DIŞI|PAZARLAMA|İNGİLİZCE|ARAPÇA|RUSÇA|RUSCA|FARSÇA|ÇİNCE|KAZAK|BULGAR|GÜRCÜ|ÖZBEK|TÜRKMEN|TRANSFER|ULAŞIM|ULAŞTIRMA|ROMENCE|ARNAVUTÇA|BOŞNAKÇA|SIRPÇA|ALMANCA|FRANSIZCA|ŞOFÖR/i],
-  ["Hemşirelik & Yatan", /BANKO|KABUL|VEZNE|DANIŞMA|SANTRAL|YATAN|HEMŞİRE|YOĞUN BAKIM|KAT\b|SERVİS|YATIŞ|EVDE BAKIM|FİYAT|YARDIMCI PERSONEL|YSP|NİCU/i],
-  ["Yönetim & İdari", /MÜDÜR|BAŞHEKİM|İDARİ|İNSAN KAYNAK|KALİTE|BİLGİ SİSTEM|FATURA|KOORDİNATÖR|KOORDİNATOR|ASİSTAN|İŞLETME|EKİP LİDER|SORUMLU|SUPERVİS|SÜPERVİZ|AMİR|GÜVENLİK|ARŞİV|DOKUMANTASYON|UZMAN|DEPO|TEKNİK HİZMET|ELEKTRİK|^TEKNİK$|^İSS$|SATIN/i],
-  ["Görüntüleme & Lab", /ACİL|AMELİYAT|ANESTEZİ|ENDOSKOPİ|GİRİŞİM|STERİL|LAB|PATOLOJ|BİYOKİMYA|MİKROBİYOLOJ|NÜKLEER|RADYOLOJ|RADYASYON|RADYOTERAPİ|PET|SİNTİGRAF|GÖRÜNTÜLEME/i],
+  ["Başhekimlik", /BAŞHEKİM/i],
+  ["Üst Yönetim", /ÜST YÖNETİM/i],
+  ["Bilgi Sistemleri", /BİLGİ SİSTEM/i],
+  ["Biyomedikal", /BİYOMEDİKAL/i],
+  ["Hasta Hakları", /HASTA HAKLARI/i],
+  ["İnsan Kaynakları", /İNSAN KAYNAK/i],
+  ["Kök Hücre", /KÖK HÜCRE/i],
+  ["Kurumsal Faturalama", /FATURA/i],
+  ["Kurumsal Tanıtım", /TANITIM/i],
+  ["Mali İşler", /MALİ/i],
+  ["Tedarik Zinciri", /TEDARİK/i],
+  ["Teknik Hizmetler", /TEKNİK/i],
+  ["Uluslararası Misafir", /ULUSLARARASI/i],
+  ["Anlaşmalı Kurumlar", /ANLAŞMALI/i],
+  ["Misafir Hizmetleri", /MİSAFİR|VIP|TERCÜMAN|DANIŞMA|ÇAĞRI/i],
+  ["İdari İşler", /İDARİ|GÜVENLİK|OTOPARK|TEMİZLİK|PORTER|YEMEKHANE|KAFETERYA|ÇAMAŞIR|BERBER|KUAFÖR/i],
 ];
 
 function groupOf(item) {
   if (DIRECTORY_GROUPS.includes(item.group)) return item.group;
-  if (/^(DR|DT)\.|^UZM\. DR\.|^DOÇ\.|^PROF\./i.test(item.name || "")) return "Doktorlar";
+  if (/^(DR|DT)\.|^UZM\. DR\.|^DOÇ\.|^PROF\./i.test(item.name || "")) return "Hekimler";
+  if (/HEKİM|DOKTOR/i.test(item.title || "")) return "Hekimler";
   const text = `${item.unit || ""} ${item.name || ""}`;
   for (const [group, pattern] of GROUP_RULES) if (pattern.test(text)) return group;
-  return "Poliklinikler";
+  return "Hasta Bakım";
 }
 
 // Rehberde ad başında ünvan gösterilmez; eski kayıt ve içe aktarımlar da sıyrılır.
