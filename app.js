@@ -447,6 +447,25 @@ function clearDraft() {
   }
 }
 
+async function discardDraft() {
+  if (!ADMIN_MODE || !isDraft) return;
+  const ok = await askConfirm({
+    title: "Taslağı at",
+    text: "Yayınlanmamış değişiklikler silinecek ve son yayınlanmış sürüm geri yüklenecek. Emin misiniz?",
+    ok: "Taslağı at",
+  });
+  if (!ok) return;
+  clearDraft();
+  isDraft = false;
+  const cached = readCache();
+  state = normalizeState(cached ? cached.data : blankState());
+  publishedAt = cached ? Date.parse(cached.data.updatedAt) || cached.savedAt || 0 : publishedAt;
+  render();
+  renderDirectoryEditor();
+  updateChrome();
+  toast("Taslak atıldı; son yayınlanmış sürüm geri yüklendi.");
+}
+
 async function fetchContent() {
   const url = new URL(CONTENT_URL, location.href);
   url.searchParams.set("v", String(Date.now()));
@@ -1075,6 +1094,8 @@ function updateChrome() {
     if (publishButton) publishButton.disabled = offlineMode;
     const retryButton = el("admin-retry");
     if (retryButton) retryButton.hidden = !offlineMode;
+    const discardButton = el("admin-discard");
+    if (discardButton) discardButton.hidden = !isDraft;
   }
   const offline = el("offline-note");
   if (offline) {
@@ -1729,6 +1750,7 @@ async function refreshContent() {
 
 function bindAdminEvents() {
   el("admin-publish").addEventListener("click", publishContent);
+  el("admin-discard").addEventListener("click", discardDraft);
   el("pub-save").addEventListener("click", () => {
     const config = publishFields();
     if (writePublishConfig(config)) {

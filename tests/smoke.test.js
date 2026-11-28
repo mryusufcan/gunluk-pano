@@ -321,6 +321,14 @@ async function main() {
   check("durum: taslak", doc.getElementById("admin-status").textContent.includes("Yayınlanmamış"));
   const draft = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
   check("taslak kaydedildi", JSON.stringify(draft).includes("Yeni Teknisyen"));
+  doc.getElementById("admin-discard").click();
+  await wait(40);
+  check("taslak düğmesi görünür", doc.getElementById("admin-discard").hidden === false);
+  const confirmOk = doc.getElementById("confirm-ok");
+  confirmOk.dispatchEvent(new dom.window.Event("click", { bubbles: true }));
+  await wait(40);
+  const draftDiscarded = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  check("taslak atıldı", !draftDiscarded || !JSON.stringify(draftDiscarded).includes("Yeni Teknisyen"));
 
   doc.querySelector('.tab[data-view="ekip"]').click();
   doc.getElementById("edit-meal").click();
