@@ -1397,10 +1397,15 @@ async function importShiftTeam() {
     return;
   }
   if (day.team.length) {
+    const unchanged = (member, person) => sameMember(member, person) && member.note === person.note;
+    const kept = day.team.filter((member) => list.some((person) => unchanged(member, person)));
+    const removed = day.team.filter((member) => !list.some((person) => unchanged(member, person)));
+    const added = list.filter((person) => !day.team.some((member) => unchanged(member, person)));
+    const section = (title, people) => (people.length ? `<strong>${title}</strong><br>${teamPreview(people)}` : "");
     const ok = await askConfirm({
       title: "Ekip değiştirilsin mi?",
-      text: `${longDate(selected)} için mevcut ${day.team.length} kişi silinip nöbet listesindeki ${list.length} kişi yazılacak. Elle eklenen kişiler de silinir.`,
-      html: `<strong>Silinecekler</strong><br>${teamPreview(day.team)}<br><br><strong>Yeni ekip</strong><br>${teamPreview(list)}`,
+      text: `${longDate(selected)} için mevcut ${day.team.length} kişilik ekibin yerine nöbet listesindeki ${list.length} kişi yazılacak. Liste dışındaki kişiler silinir.`,
+      html: [section("Silinecekler", removed), section("Eklenecekler", added), section("Değişmeyenler", kept)].filter(Boolean).join("<br><br>"),
       ok: "Değiştir",
     });
     if (!ok) return;

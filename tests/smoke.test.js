@@ -435,7 +435,12 @@ async function main() {
     `"Vardiya","Cihaz","Pazartesi ${stamp}"`,
     `"08:00 - 16:00","MR","SONRAKI HAFTA"`,
   ].join("\n");
-  ({ dom } = await boot({ mode: "admin" }));
+  const sheetContent = baseContent();
+  sheetContent.days[TODAY].team = [
+    { id: "x1", name: "Uzm. Dr. Ece Kaya", shift: "08-16", phone: "1234", note: "MR" },
+    { id: "x2", name: "Mert Aslan", shift: "08–16", phone: "", note: "BT" },
+  ];
+  ({ dom } = await boot({ mode: "admin", content: sheetContent }));
   doc = dom.window.document;
   dom.window.fetch = async (input) => {
     const url = String(input);
@@ -446,8 +451,9 @@ async function main() {
   doc.getElementById("sync-shift").click();
   await wait(60);
   const previewText = doc.getElementById("confirm-text").textContent;
-  check("onayda yeni ekip görünüyor", previewText.includes("Yeni ekip") && previewText.includes("Sabah · Fatih Karabulut · MR") && previewText.includes("Gece · Ercan Kurt"), previewText);
+  check("onayda eklenecekler görünüyor", previewText.includes("Eklenecekler") && previewText.includes("Sabah · Fatih Karabulut · MR") && previewText.includes("Gece · Ercan Kurt"), previewText);
   check("onayda silinecekler görünüyor", previewText.includes("Silinecekler") && previewText.includes("Ece Kaya"), previewText);
+  check("değişmeyen ayrı listede", previewText.includes("Değişmeyenler") && previewText.indexOf("Sabah · Mert Aslan · BT") > previewText.indexOf("Değişmeyenler"), previewText);
   doc.getElementById("confirm-ok").dispatchEvent(new dom.window.Event("click", { bubbles: true }));
   await wait(60);
   const sheetText = doc.getElementById("team-list").textContent;
