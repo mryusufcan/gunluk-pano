@@ -14,6 +14,7 @@ const AUTHOR_KEY = "pano-author";
 const THEME_KEY = "pano-theme";
 const VIEW_KEY = "pano-view";
 const SHIFT_KEY = "nobet-listesi-static-v1";
+const SHIFT_SHEET_ID = "10-i9GBdUwCZ2XWA1IylaA5V5EgxPQG3BzGmemyJT-5I";
 const SHIFT_DEVICES = ["MR", "BT", "RÖNT-PORT", "RÖNTGEN", "RÖNT-MAMO"];
 const SHIFTS = ["08–16", "16–24", "24–08", "İdari", "İzinli"];
 const SHIFT_LABELS = { "08–16": "Sabah", "16–24": "Akşam", "24–08": "Gece", "İdari": "İdari", "İzinli": "İzinli" };
@@ -772,7 +773,7 @@ function renderTeam() {
       .join("");
   }
 
-  el("sync-shift").hidden = !ADMIN_MODE || !readShiftTeam(selected);
+  el("sync-shift").hidden = !ADMIN_MODE;
   el("forward-team").hidden = !ADMIN_MODE || !team.length;
   el("copy-team").hidden = !ADMIN_MODE || team.length > 0;
 }
@@ -1247,7 +1248,91 @@ function render() {
 }
 
 /* ---------- Nöbet listesinden aktarma ---------- */
-function readShiftTeam(dateKey) {
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let cell = "";
+  let quoted = false;
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    if (quoted) {
+      if (char === '"' && text[index + 1] === '"') {
+        cell += '"';
+        index += 1;
+      } else if (char === '"') {
+        quoted = false;
+      } else {
+        cell += char;
+      }
+    } else if (char === '"') {
+      quoted = true;
+    } else if (char === ",") {
+      row.push(cell);
+      cell = "";
+    } else if (char === "\n") {
+      row.push(cell);
+      rows.push(row);
+      row = [];
+      cell = "";
+    } else if (char !== "\r") {
+      cell += char;
+    }
+  }
+  if (cell || row.length) {
+    row.push(cell);
+    rows.push(row);
+  }
+  return rows;
+}
+
+function titleTr(value) {
+  return value
+    .toLocaleLowerCase("tr-TR")
+    .split(/\s+/)
+    .map((word) => (word ? word[0].toLocaleUpperCase("tr-TR") + word.slice(1) : ""))
+    .join(" ")
+    .trim();
+}
+
+async function readSheetShiftTeam(dateKey) {
+  const [year, month, day] = dateKey.split("-").map(Number);
+  const base = `https://docs.google.com/spreadsheets/d/${SHIFT_SHEET_ID}`;
+  const html = await (await fetch(`${base}/htmlview`)).text();
+  const sheet = [...html.matchAll(/items\.push\(\{name: "([^"]+)", pageUrl: "[^"]*gid=(\d+)/g)]
+    .find((match) => nameKey(match[1]) === nameKey(`${year} ${MONTHS[month - 1]}`));
+  if (!sheet) return null;
+  const csv = await (await fetch(`${base}/gviz/tq?tqx=out:csv&gid=${sheet[2]}`)).text();
+  const rows = parseCsv(csv);
+  const stamp = `${pad(day)}.${pad(month)}.${year}`;
+  const head = rows.findIndex((row) => row.some((cell) => cell.includes(stamp)));
+  if (head < 0) return null;
+  const column = rows[head].findIndex((cell) => cell.includes(stamp));
+  const list = [];
+  let shift = "";
+  for (const row of rows.slice(head + 1, head + 16)) {
+    const label = (row[0] || "").trim();
+    if (label) shift = label;
+    const device = (row[1] || "").trim();
+    const name = (row[column] || "").trim();
+    if (!name) continue;
+    if (SHIFT_DEVICES.includes(device)) list.push({ name: titleTr(name), shift: "08–16", note: device });
+    else if (shift.startsWith("16")) list.push({ name: titleTr(name), shift: "16–24", note: "Akşam" });
+    else if (shift.startsWith("24")) list.push({ name: titleTr(name), shift: "24–08", note: "Gece" });
+  }
+  return list.length ? list : null;
+}
+
+async function readShiftTeam(dateKey) {
+  try {
+    const list = await readSheetShiftTeam(dateKey);
+    if (list) return list;
+  } catch (error) {
+    // Ağ yoksa aşağıdaki tarayıcı kopyasına düşer.
+  }
+  return readLocalShiftTeam(dateKey);
+}
+
+function readLocalShiftTeam(dateKey) {
   let raw = null;
   try {
     raw = localStorage.getItem(SHIFT_KEY);
@@ -1291,7 +1376,7 @@ function readShiftTeam(dateKey) {
 
 async function importShiftTeam() {
   if (!ADMIN_MODE) return;
-  const list = readShiftTeam(selected);
+  const list = await readShiftTeam(selected);
   if (!list || !list.length) {
     toast("Bu tarih için nöbet listesi bulunamadı.", true);
     return;

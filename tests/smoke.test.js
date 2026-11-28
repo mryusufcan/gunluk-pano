@@ -415,6 +415,41 @@ async function main() {
   check("eski kişiler silindi", !replacedText.includes("Ece Kaya") && !replacedText.includes("Murat Demir"));
   dom.window.close();
 
+  /* ---------- 5c. Nöbet listesi Google Sheet'ten okunur ---------- */
+  console.log("\n5c) Nöbet listesi Google Sheet");
+  const [sheetYear, sheetMonth, sheetDay] = TODAY.split("-").map(Number);
+  const monthNames = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
+  const stamp = `${String(sheetDay).padStart(2, "0")}.${String(sheetMonth).padStart(2, "0")}.${sheetYear}`;
+  const sheetHtml = `items.push({name: "${sheetYear} ${monthNames[sheetMonth - 1].toLocaleUpperCase("tr")}", pageUrl: "https://docs.google.com/spreadsheets/d/x/htmlview/sheet?gid=42", gid: "42",initialSheet: false});`;
+  const sheetCsv = [
+    `"Vardiya","Cihaz","Cumartesi ${stamp}"`,
+    `"08:00 - 16:00","MR","FATİH KARABULUT"`,
+    `"","BT","MERT ASLAN"`,
+    `"","RÖNT-PORT","ABDULLAH TECEN"`,
+    `"","RÖNTGEN",""`,
+    `"","RÖNT-MAMO","SEDANUR DEMİR"`,
+    `"08:00-16:00","",""`,
+    `"16:00-24:00","","BAHAR YARENOĞLU"`,
+    `"","","YUSUF CAN ÖZDEMİR"`,
+    `"24:00-08:00","","ERCAN KURT"`,
+  ].join("\n");
+  ({ dom } = await boot({ mode: "admin" }));
+  doc = dom.window.document;
+  dom.window.fetch = async (input) => {
+    const url = String(input);
+    if (url.includes("htmlview")) return { ok: true, status: 200, text: async () => sheetHtml };
+    if (url.includes("gviz")) return { ok: true, status: 200, text: async () => sheetCsv };
+    return { ok: false, status: 404, text: async () => "" };
+  };
+  doc.getElementById("sync-shift").click();
+  await wait(60);
+  doc.getElementById("confirm-ok").dispatchEvent(new dom.window.Event("click", { bubbles: true }));
+  await wait(60);
+  const sheetText = doc.getElementById("team-list").textContent;
+  check("sheet ekibi 7 kişi", ["Fatih Karabulut", "Mert Aslan", "Abdullah Tecen", "Sedanur Demir", "Bahar Yarenoğlu", "Yusuf Can Özdemir", "Ercan Kurt"].every((name) => sheetText.includes(name)), sheetText);
+  check("sheet boş RÖNTGEN atlandı", !sheetText.includes("RÖNTGEN"), sheetText);
+  dom.window.close();
+
   /* ---------- 6. Excel ve Word dosyası ---------- */
   console.log("\n6) Excel ve Word dosyası");
   ({ dom } = await boot({ mode: "admin" }));
