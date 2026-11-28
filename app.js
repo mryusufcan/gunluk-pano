@@ -1375,6 +1375,12 @@ function readLocalShiftTeam(dateKey) {
   }
 }
 
+function teamPreview(people) {
+  return people
+    .map((person) => `${esc(SHIFT_LABELS[person.shift] || person.shift)} · ${esc(person.name)}${person.note && person.shift === "08–16" ? ` · ${esc(person.note)}` : ""}`)
+    .join("<br>");
+}
+
 async function importShiftTeam() {
   if (!ADMIN_MODE) return;
   const list = await readShiftTeam(selected);
@@ -1394,9 +1400,7 @@ async function importShiftTeam() {
     const ok = await askConfirm({
       title: "Ekip değiştirilsin mi?",
       text: `${longDate(selected)} için mevcut ${day.team.length} kişi silinip nöbet listesindeki ${list.length} kişi yazılacak. Elle eklenen kişiler de silinir.`,
-      html: `<strong>Yeni ekip</strong><br>${list
-        .map((person) => `${esc(SHIFT_LABELS[person.shift] || person.shift)} · ${esc(person.name)}${person.note && person.shift === "08–16" ? ` · ${esc(person.note)}` : ""}`)
-        .join("<br>")}`,
+      html: `<strong>Silinecekler</strong><br>${teamPreview(day.team)}<br><br><strong>Yeni ekip</strong><br>${teamPreview(list)}`,
       ok: "Değiştir",
     });
     if (!ok) return;

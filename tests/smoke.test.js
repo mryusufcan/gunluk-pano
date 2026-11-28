@@ -447,6 +447,7 @@ async function main() {
   await wait(60);
   const previewText = doc.getElementById("confirm-text").textContent;
   check("onayda yeni ekip görünüyor", previewText.includes("Yeni ekip") && previewText.includes("Sabah · Fatih Karabulut · MR") && previewText.includes("Gece · Ercan Kurt"), previewText);
+  check("onayda silinecekler görünüyor", previewText.includes("Silinecekler") && previewText.includes("Ece Kaya"), previewText);
   doc.getElementById("confirm-ok").dispatchEvent(new dom.window.Event("click", { bubbles: true }));
   await wait(60);
   const sheetText = doc.getElementById("team-list").textContent;
