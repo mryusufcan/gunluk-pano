@@ -1317,8 +1317,8 @@ async function readSheetShiftTeam(dateKey) {
     const name = (row[column] || "").trim();
     if (!name) continue;
     if (SHIFT_DEVICES.includes(device)) list.push({ name: titleTr(name), shift: "08–16", note: device });
-    else if (shift.startsWith("16")) list.push({ name: titleTr(name), shift: "16–24", note: "Akşam" });
-    else if (shift.startsWith("24")) list.push({ name: titleTr(name), shift: "24–08", note: "Gece" });
+    else if (shift.startsWith("16")) list.push({ name: titleTr(name), shift: "16–24", note: "" });
+    else if (shift.startsWith("24")) list.push({ name: titleTr(name), shift: "24–08", note: "" });
   }
   return list.length ? list : null;
 }
@@ -1377,7 +1377,10 @@ function readLocalShiftTeam(dateKey) {
 
 function teamPreview(people) {
   return people
-    .map((person) => `${esc(SHIFT_LABELS[person.shift] || person.shift)} · ${esc(person.name)}${person.note && person.shift === "08–16" ? ` · ${esc(person.note)}` : ""}`)
+    .map((person) => {
+      const shift = SHIFTS.find((item) => shiftKey(item) === shiftKey(person.shift)) || person.shift;
+      return `${esc(SHIFT_LABELS[shift] || shift)} · ${esc(person.name)}${person.note && shift === "08–16" ? ` · ${esc(person.note)}` : ""}`;
+    })
     .join("<br>");
 }
 
@@ -1389,15 +1392,15 @@ async function importShiftTeam() {
     return;
   }
   const day = ensureDay(selected);
+  const unchanged = (member, person) => sameMember(member, person) && (person.shift !== "08–16" || member.note === person.note);
   const same =
     day.team.length === list.length &&
-    list.every((person) => day.team.some((member) => sameMember(member, person) && member.note === person.note));
+    list.every((person) => day.team.some((member) => unchanged(member, person)));
   if (same) {
     toast("Ekip nöbet listesiyle zaten aynı.");
     return;
   }
   if (day.team.length) {
-    const unchanged = (member, person) => sameMember(member, person) && member.note === person.note;
     const kept = day.team.filter((member) => list.some((person) => unchanged(member, person)));
     const removed = day.team.filter((member) => !list.some((person) => unchanged(member, person)));
     const added = list.filter((person) => !day.team.some((member) => unchanged(member, person)));

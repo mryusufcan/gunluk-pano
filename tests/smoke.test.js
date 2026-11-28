@@ -439,6 +439,7 @@ async function main() {
   sheetContent.days[TODAY].team = [
     { id: "x1", name: "Uzm. Dr. Ece Kaya", shift: "08-16", phone: "1234", note: "MR" },
     { id: "x2", name: "Mert Aslan", shift: "08–16", phone: "", note: "BT" },
+    { id: "x3", name: "Bahar Yarenoğlu", shift: "16-24", phone: "", note: "" },
   ];
   ({ dom } = await boot({ mode: "admin", content: sheetContent }));
   doc = dom.window.document;
@@ -454,6 +455,7 @@ async function main() {
   check("onayda eklenecekler görünüyor", previewText.includes("Eklenecekler") && previewText.includes("Sabah · Fatih Karabulut · MR") && previewText.includes("Gece · Ercan Kurt"), previewText);
   check("onayda silinecekler görünüyor", previewText.includes("Silinecekler") && previewText.includes("Ece Kaya"), previewText);
   check("değişmeyen ayrı listede", previewText.includes("Değişmeyenler") && previewText.indexOf("Sabah · Mert Aslan · BT") > previewText.indexOf("Değişmeyenler"), previewText);
+  check("akşam aynı kişi değişmeyende", previewText.indexOf("Akşam · Bahar Yarenoğlu") > previewText.indexOf("Değişmeyenler"), previewText);
   doc.getElementById("confirm-ok").dispatchEvent(new dom.window.Event("click", { bubbles: true }));
   await wait(60);
   const sheetText = doc.getElementById("team-list").textContent;
