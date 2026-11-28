@@ -450,6 +450,17 @@
           <span>Menü (her satır bir yemek)</span>
           <textarea id="meal-textarea" rows="6" maxlength="600" placeholder="Mercimek çorbası&#10;Izgara tavuk&#10;Pirinç pilavı&#10;Mevsim salata"></textarea>
         </label>
+        <div class="field">
+          <span>Fotoğraf (isteğe bağlı)</span>
+          <div class="meal-photo-tools">
+            <label class="btn secondary file-label">
+              <span>Fotoğraf seç</span>
+              <input id="meal-photo" type="file" accept="image/*" hidden />
+            </label>
+            <button id="meal-photo-clear" class="link-btn" type="button" hidden>Fotoğrafı kaldır</button>
+          </div>
+          <img id="meal-photo-preview" class="meal-photo-preview" alt="Seçilen fotoğraf" hidden />
+        </div>
         <div class="dialog-actions">
           <span class="spacer"></span>
           <button type="button" class="btn secondary" data-close>Vazgeç</button>

@@ -46,7 +46,7 @@ function baseContent() {
           { id: "a1", name: "Uzm. Dr. Ece Kaya", role: "Radyolog", shift: "08–16", phone: "1234", note: "MR" },
           { id: "a2", name: "Murat Demir", role: "Teknisyen", shift: "16–24", phone: "", note: "BT" },
         ],
-        meal: { text: "Mercimek çorbası\nIzgara tavuk\nPilav", updatedAt: 0 },
+        meal: { text: "Mercimek çorbası\nIzgara tavuk\nPilav", updatedAt: 0, img: "data:image/jpeg;base64,/9j/4AAQSkZJRg==" },
       },
     },
     notes: [
@@ -251,6 +251,18 @@ async function main() {
   check("menü başlığı", doc.getElementById("team-hint").textContent.includes("kişi"));
   const mealLines = doc.querySelector("#meal-body .meal-text").textContent.split("\n").length;
   check("menü satırları korundu", mealLines === 3);
+  check("menü fotoğrafı", Boolean(q(doc, "#meal-body img.meal-photo")));
+  const norm = dom.window.normalizeState({
+    days: {
+      [TODAY]: { meal: { text: "a", img: "data:image/jpeg;base64,AA" } },
+      [shiftKey(-6)]: { meal: { text: "b", img: "data:image/jpeg;base64,AA" } },
+      [shiftKey(-7)]: { meal: { text: "c", img: "data:image/jpeg;base64,AA" } },
+    },
+  });
+  check(
+    "7 günden eski menü fotoğrafı yüklenmez",
+    norm.days[TODAY].meal.img !== "" && norm.days[shiftKey(-6)].meal.img !== "" && norm.days[shiftKey(-7)].meal.img === "",
+  );
   doc.querySelector('.tab[data-view="notlar"]').click();
   check("not listede", doc.getElementById("note-list").textContent.includes("toplantı"));
   check("not durum noktası", Boolean(q(doc, "#note-list .note-status")));
@@ -337,6 +349,7 @@ async function main() {
   doc.getElementById("meal-form").dispatchEvent(new dom.window.Event("submit", { bubbles: true, cancelable: true }));
   await wait(40);
   check("menü düzenlendi", doc.getElementById("meal-body").textContent.includes("Kuru fasulye"));
+  check("fotoğraf kaydetmede korundu", Boolean(q(doc, "#meal-body img.meal-photo")));
 
   doc.querySelector('.tab[data-view="notlar"]').click();
   doc.getElementById("note-text").value = "Cihaz bakımı yarın";

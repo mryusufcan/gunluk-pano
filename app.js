@@ -12,6 +12,8 @@ const PUBLISH_KEY = "pano-publish";
 const OCR_KEY = "pano-ocr-key";
 const AUTHOR_KEY = "pano-author";
 const THEME_KEY = "pano-theme";
+const MEAL_PHOTO_MAX = 400000;
+const MEAL_PHOTO_DAYS = 7;
 const VIEW_KEY = "pano-view";
 const SHIFT_KEY = "nobet-listesi-static-v1";
 const SHIFT_SHEET_ID = "10-i9GBdUwCZ2XWA1IylaA5V5EgxPQG3BzGmemyJT-5I";
@@ -320,6 +322,8 @@ function normalizeDay(raw) {
   }
   if (raw.meal && typeof raw.meal === "object") {
     day.meal.text = str(raw.meal.text, "", 600);
+    const img = str(raw.meal.img, "", MEAL_PHOTO_MAX);
+    day.meal.img = img.startsWith("data:image/") ? img : "";
     const updated = Number(raw.meal.updatedAt);
     day.meal.updatedAt = Number.isFinite(updated) && updated > 0 ? updated : 0;
   }
@@ -338,9 +342,11 @@ function normalizeState(raw) {
   state.directory = normalizeDirectory(raw.directory);
 
   if (raw.days && typeof raw.days === "object") {
+    const photoCutoff = addDays(todayKey(), 1 - MEAL_PHOTO_DAYS);
     for (const [date, day] of Object.entries(raw.days)) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) continue;
       state.days[date] = normalizeDay(day);
+      if (date < photoCutoff) state.days[date].meal.img = "";
     }
   }
 
@@ -781,11 +787,15 @@ function renderTeam() {
 function renderMeal() {
   const day = getDay(selected);
   const text = day.meal.text.trim();
-  el("meal-pill").hidden = !text;
-  el("meal-pill").textContent = text ? "Girildi" : "";
-  el("copy-meal").hidden = !ADMIN_MODE || Boolean(text);
-  el("meal-body").innerHTML = text
-    ? `<p class="meal-text">${esc(text)}</p>${day.meal.updatedAt ? `<p class="meal-updated">Son güncelleme: ${esc(formatStamp(day.meal.updatedAt))}</p>` : ""}`
+  const image = day.meal.img || "";
+  const filled = Boolean(text || image);
+  el("meal-pill").hidden = !filled;
+  el("meal-pill").textContent = filled ? "Girildi" : "";
+  el("copy-meal").hidden = !ADMIN_MODE || filled;
+  el("meal-body").innerHTML = filled
+    ? `${text ? `<p class="meal-text">${esc(text)}</p>` : ""}${
+        image ? `<img class="meal-photo" src="${esc(image)}" alt="Günün yemeği" loading="lazy" />` : ""
+      }${day.meal.updatedAt ? `<p class="meal-updated">Son güncelleme: ${esc(formatStamp(day.meal.updatedAt))}</p>` : ""}`
     : `<div class="empty"><strong>Menü girilmemiş</strong>${
         ADMIN_MODE
           ? "Yemekhanenin menüsünü yazın, listeden içe aktarın ya da dünkü menüyü kopyalayın."
@@ -2796,14 +2806,14 @@ function ocrText(data) {
 }
 
 /** Fotoğrafı 1600 px'e küçültüp base64 JPEG döndürür (ücretsiz kotayı korur). */
-async function shrinkPhoto(file, max = 1600) {
+async function shrinkPhoto(file, max = 1600, quality = 0.85) {
   const bitmap = await createImageBitmap(file);
   const scale = Math.min(1, max / Math.max(bitmap.width, bitmap.height));
   const canvas = document.createElement("canvas");
   canvas.width = Math.round(bitmap.width * scale);
   canvas.height = Math.round(bitmap.height * scale);
   canvas.getContext("2d").drawImage(bitmap, 0, 0, canvas.width, canvas.height);
-  return canvas.toDataURL("image/jpeg", 0.85).split(",")[1];
+  return canvas.toDataURL("image/jpeg", quality).split(",")[1];
 }
 
 async function readSchedulePhoto(file) {
@@ -3105,9 +3115,21 @@ function openMemberDialog(memberId) {
   setTimeout(() => el("m-name").focus(), 60);
 }
 
+let mealPhotoDraft = "";
+
+function renderMealPhotoDraft() {
+  el("meal-photo-preview").hidden = !mealPhotoDraft;
+  if (mealPhotoDraft) el("meal-photo-preview").src = mealPhotoDraft;
+  el("meal-photo-clear").hidden = !mealPhotoDraft;
+}
+
 function openMealDialog() {
   if (!ADMIN_MODE) return;
-  el("meal-textarea").value = getDay(selected).meal.text;
+  const day = getDay(selected);
+  el("meal-textarea").value = day.meal.text;
+  mealPhotoDraft = day.meal.img || "";
+  el("meal-photo").value = "";
+  renderMealPhotoDraft();
   openDialog(el("meal-dialog"));
   setTimeout(() => el("meal-textarea").focus(), 60);
 }
@@ -3321,11 +3343,34 @@ function bindEvents() {
   el("meal-form").addEventListener("submit", (event) => {
     event.preventDefault();
     const day = ensureDay(selected);
-    day.meal = { text: el("meal-textarea").value.slice(0, 600), updatedAt: Date.now() };
+    const meal = { text: el("meal-textarea").value.slice(0, 600), updatedAt: Date.now() };
+    if (mealPhotoDraft) meal.img = mealPhotoDraft;
+    day.meal = meal;
     save();
     render();
     closeDialog(el("meal-dialog"));
     toast("Menü kaydedildi.");
+  });
+
+  el("meal-photo").addEventListener("change", async (event) => {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+    try {
+      const image = `data:image/jpeg;base64,${await shrinkPhoto(file, 900, 0.75)}`;
+      if (image.length > MEAL_PHOTO_MAX) throw new Error("big");
+      mealPhotoDraft = image;
+      renderMealPhotoDraft();
+      toast("Fotoğraf hazır; Kaydet'e basın.");
+    } catch (error) {
+      event.target.value = "";
+      toast("Fotoğraf okunamadı ya da çok büyük.", true);
+    }
+  });
+
+  el("meal-photo-clear").addEventListener("click", () => {
+    mealPhotoDraft = "";
+    el("meal-photo").value = "";
+    renderMealPhotoDraft();
   });
 
   el("note-form").addEventListener("submit", (event) => {
