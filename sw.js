@@ -54,7 +54,7 @@ self.addEventListener("fetch", (event) => {
   // Sayfa ve kod dosyaları: önce ağ (güncel sürüm), çevrimdışıysa önbellek.
   if (request.mode === "navigate" || /\.(?:html|js|css)$/.test(url.pathname)) {
     event.respondWith(
-      fetch(request)
+      fetch(request, { cache: "no-store" })
         .then((response) => {
           const copy = response.clone();
           caches.open(CACHE).then((cache) => cache.put(request, copy));
