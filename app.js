@@ -1310,6 +1310,7 @@ async function readSheetShiftTeam(dateKey) {
   const list = [];
   let shift = "";
   for (const row of rows.slice(head + 1, head + 16)) {
+    if ((row[0] || "").trim() === "Vardiya") break;
     const label = (row[0] || "").trim();
     if (label) shift = label;
     const device = (row[1] || "").trim();

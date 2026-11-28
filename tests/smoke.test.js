@@ -432,6 +432,8 @@ async function main() {
     `"16:00-24:00","","BAHAR YARENOĞLU"`,
     `"","","YUSUF CAN ÖZDEMİR"`,
     `"24:00-08:00","","ERCAN KURT"`,
+    `"Vardiya","Cihaz","Pazartesi ${stamp}"`,
+    `"08:00 - 16:00","MR","SONRAKI HAFTA"`,
   ].join("\n");
   ({ dom } = await boot({ mode: "admin" }));
   doc = dom.window.document;
@@ -448,6 +450,7 @@ async function main() {
   const sheetText = doc.getElementById("team-list").textContent;
   check("sheet ekibi 7 kişi", ["Fatih Karabulut", "Mert Aslan", "Abdullah Tecen", "Sedanur Demir", "Bahar Yarenoğlu", "Yusuf Can Özdemir", "Ercan Kurt"].every((name) => sheetText.includes(name)), sheetText);
   check("sheet boş RÖNTGEN atlandı", !sheetText.includes("RÖNTGEN"), sheetText);
+  check("sonraki hafta karışmadı", !sheetText.includes("Sonraki Hafta"), sheetText);
   dom.window.close();
 
   /* ---------- 6. Excel ve Word dosyası ---------- */
