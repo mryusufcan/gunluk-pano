@@ -1394,6 +1394,9 @@ async function importShiftTeam() {
     const ok = await askConfirm({
       title: "Ekip değiştirilsin mi?",
       text: `${longDate(selected)} için mevcut ${day.team.length} kişi silinip nöbet listesindeki ${list.length} kişi yazılacak. Elle eklenen kişiler de silinir.`,
+      html: `<strong>Yeni ekip</strong><br>${list
+        .map((person) => `${esc(SHIFT_LABELS[person.shift] || person.shift)} · ${esc(person.name)}${person.note && person.shift === "08–16" ? ` · ${esc(person.note)}` : ""}`)
+        .join("<br>")}`,
       ok: "Değiştir",
     });
     if (!ok) return;
@@ -3054,11 +3057,11 @@ async function readOfficeText(buffer, type) {
 
 /* ---------- Diyaloglar ---------- */
 let confirmResolver = null;
-function askConfirm({ title = "Emin misiniz?", text = "", ok = "Sil" } = {}) {
+function askConfirm({ title = "Emin misiniz?", text = "", html = "", ok = "Sil" } = {}) {
   return new Promise((resolve) => {
     confirmResolver = resolve;
     el("confirm-title").textContent = title;
-    el("confirm-text").textContent = text;
+    el("confirm-text").innerHTML = html ? `${esc(text)}<br><br>${html}` : esc(text);
     el("confirm-ok").textContent = ok;
     openDialog(el("confirm-dialog"));
   });
