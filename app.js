@@ -3532,6 +3532,7 @@ async function init() {
     if (active === bootDay) return;
     const wasActive = selected === bootDay;
     bootDay = active;
+    renderModality();
     if (wasActive) {
       setDate(active);
       toast(`Yeni gün: ${longDate(active)}`);
