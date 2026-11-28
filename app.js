@@ -1289,7 +1289,7 @@ function readShiftTeam(dateKey) {
   }
 }
 
-function importShiftTeam() {
+async function importShiftTeam() {
   if (!ADMIN_MODE) return;
   const list = readShiftTeam(selected);
   if (!list || !list.length) {
@@ -1297,20 +1297,32 @@ function importShiftTeam() {
     return;
   }
   const day = ensureDay(selected);
-  let added = 0;
-  for (const person of list) {
-    const exists = day.team.some((member) => sameMember(member, person));
-    if (exists) continue;
-    day.team.push({ id: uid(), name: person.name, shift: person.shift, phone: "", note: person.note });
-    added += 1;
-  }
-  if (!added) {
-    toast("Ekipte bu kişiler zaten var.");
+  const same =
+    day.team.length === list.length &&
+    list.every((person) => day.team.some((member) => sameMember(member, person) && member.note === person.note));
+  if (same) {
+    toast("Ekip nöbet listesiyle zaten aynı.");
     return;
   }
+  if (day.team.length) {
+    const ok = await askConfirm({
+      title: "Ekip değiştirilsin mi?",
+      text: `${longDate(selected)} için mevcut ${day.team.length} kişi silinip nöbet listesindeki ${list.length} kişi yazılacak. Elle eklenen kişiler de silinir.`,
+      ok: "Değiştir",
+    });
+    if (!ok) return;
+  }
+  const phones = new Map(day.team.map((member) => [nameKey(member.name), member.phone]));
+  day.team = list.map((person) => ({
+    id: uid(),
+    name: person.name,
+    shift: person.shift,
+    phone: phones.get(nameKey(person.name)) || "",
+    note: person.note,
+  }));
   save();
   render();
-  toast(`${added} kişi nöbet listesinden eklendi.`);
+  toast(`${list.length} kişi nöbet listesinden alındı.`);
 }
 
 /* ---------- Paylaşım ---------- */

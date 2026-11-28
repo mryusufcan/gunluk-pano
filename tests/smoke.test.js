@@ -88,7 +88,7 @@ async function encryptFixture(pass) {
 let phonesFixture = null;
 const getPhonesFixture = () => (phonesFixture = phonesFixture || encryptFixture(PHONE_PASS));
 
-function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null, draft = null, hour = null, phones = true } = {}) {
+function makeDom({ content = baseContent(), mode = "viewer", failContent = false, github = null, publish = null, draft = null, hour = null, phones = true, shiftPlan = null } = {}) {
   const store = {
     content: JSON.parse(JSON.stringify(content)),
     fail: failContent,
@@ -133,6 +133,7 @@ function makeDom({ content = baseContent(), mode = "viewer", failContent = false
       if (publish) window.localStorage.setItem("pano-publish", JSON.stringify(publish));
       if (draft) window.localStorage.setItem("pano-draft", JSON.stringify(draft));
       if (phones) window.localStorage.setItem("pano-phones", PHONE_PASS);
+      if (shiftPlan) window.localStorage.setItem("nobet-listesi-static-v1", JSON.stringify(shiftPlan));
       window.fetch = async (input, init = {}) => {
         const url = String(input);
         if (url.startsWith("https://api.github.com/repos/")) {
@@ -385,6 +386,33 @@ async function main() {
   doc.querySelector('.tab[data-view="modalite"]').click();
   const modalityText2 = doc.getElementById("modality-summary").textContent.toLocaleLowerCase("tr");
   check("modalite harf farkını tek satırda topluyor", modalityText2.split("murat demir").length - 1 === 1);
+  dom.window.close();
+
+  /* ---------- 5b. Nöbet listesinden al ---------- */
+  console.log("\n5b) Nöbet listesinden al");
+  const [planYear, planMonth] = TODAY.split("-").map(Number);
+  const shiftPlan = {
+    staff: [
+      { id: "s1", name: "Plan Bir" },
+      { id: "s2", name: "Plan İki" },
+    ],
+    plan: {
+      year: planYear,
+      month: planMonth,
+      days: [{ date: TODAY, weekday: 6, morning: ["s1", "s2"], evening: ["s1"], night: ["s2"] }],
+    },
+  };
+  ({ dom } = await boot({ mode: "admin", shiftPlan }));
+  doc = dom.window.document;
+  check("nöbet düğmesi görünür", doc.getElementById("sync-shift").hidden === false);
+  doc.getElementById("sync-shift").click();
+  await wait(40);
+  check("değiştirme onayı açıldı", doc.getElementById("confirm-dialog").hasAttribute("open"));
+  doc.getElementById("confirm-ok").dispatchEvent(new dom.window.Event("click", { bubbles: true }));
+  await wait(60);
+  const replacedText = doc.getElementById("team-list").textContent;
+  check("nöbet listesi ekibi değiştirdi", replacedText.includes("Plan Bir") && replacedText.includes("Plan İki"));
+  check("eski kişiler silindi", !replacedText.includes("Ece Kaya") && !replacedText.includes("Murat Demir"));
   dom.window.close();
 
   /* ---------- 6. Excel ve Word dosyası ---------- */
