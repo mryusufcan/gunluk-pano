@@ -305,7 +305,17 @@ function normalizeDay(raw) {
   const day = { team: [], meal: { text: "", updatedAt: 0 } };
   if (!raw || typeof raw !== "object") return day;
   if (Array.isArray(raw.team)) {
-    day.team = raw.team.map(normalizeMember).filter(Boolean).slice(0, 40);
+    const seen = new Set();
+    day.team = raw.team
+      .map(normalizeMember)
+      .filter((member) => {
+        if (!member) return false;
+        const key = `${nameKey(member.name)}|${shiftKey(member.shift)}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      })
+      .slice(0, 40);
   }
   if (raw.meal && typeof raw.meal === "object") {
     day.meal.text = str(raw.meal.text, "", 600);
@@ -1112,13 +1122,15 @@ function renderModality() {
   for (const key of keys) {
     for (const member of state.days[key].team) {
       const shift = String(member.shift || "").replace("–", "-");
-      const row = people.get(member.name) || { name: member.name, devices: {}, morning: 0, evening: 0, night: 0 };
+      const personKey = nameKey(member.name);
+      const row = people.get(personKey) || { name: member.name, nameCounts: {}, devices: {}, morning: 0, evening: 0, night: 0 };
+      row.nameCounts[member.name] = (row.nameCounts[member.name] || 0) + 1;
       if (shift.startsWith("08")) {
         row.morning++;
         if (MODALITIES.includes(member.note)) row.devices[member.note] = (row.devices[member.note] || 0) + 1;
       } else if (shift.startsWith("16")) row.evening++;
       else if (shift.startsWith("24")) row.night++;
-      people.set(member.name, row);
+      people.set(personKey, row);
     }
   }
   el("modality-hint").textContent = keys.length
@@ -1127,6 +1139,9 @@ function renderModality() {
   if (!people.size) {
     box.innerHTML = '<p class="import-empty">Bu ay için gün kaydı yok.</p>';
     return;
+  }
+  for (const row of people.values()) {
+    row.name = Object.entries(row.nameCounts).sort((a, b) => b[1] - a[1])[0][0];
   }
   const rows = [...people.values()].sort((a, b) => a.name.localeCompare(b.name, "tr"));
   const head = ["Personel", ...MODALITIES, "Sabah", "Akşam", "Gece", "Toplam"]
@@ -1263,7 +1278,7 @@ function importShiftTeam() {
   const day = ensureDay(selected);
   let added = 0;
   for (const person of list) {
-    const exists = day.team.some((member) => member.name === person.name && member.shift === person.shift);
+    const exists = day.team.some((member) => sameMember(member, person));
     if (exists) continue;
     day.team.push({ id: uid(), name: person.name, shift: person.shift, phone: "", note: person.note });
     added += 1;
@@ -1415,7 +1430,7 @@ async function applySharedHash() {
   for (const raw of Array.isArray(shared.team) ? shared.team : []) {
     const member = normalizeMember(raw);
     if (!member) continue;
-    if (day.team.some((item) => item.name === member.name && item.shift === member.shift)) continue;
+    if (day.team.some((item) => sameMember(item, member))) continue;
     day.team.push({ ...member, id: uid() });
   }
   const meal = str(shared.meal, "", 600).trim();
@@ -1792,6 +1807,19 @@ function lowerTr(text) {
   return String(text ?? "").toLocaleLowerCase("tr");
 }
 
+function nameKey(name) {
+  return lowerTr(name).replace(/\s+/g, " ").trim();
+}
+
+function shiftKey(value) {
+  return String(value || "").replace(/[-–—~]/g, "-");
+}
+
+/** Aynı kişi + vardiya mı? Ad ve vardiya büyük/küçük harf ve tire farkı duyarsız. */
+function sameMember(a, b) {
+  return nameKey(a.name) === nameKey(b.name) && shiftKey(a.shift) === shiftKey(b.shift);
+}
+
 function blankOut(text, index, length) {
   return text.slice(0, index) + " ".repeat(length) + text.slice(index + length);
 }
@@ -2014,7 +2042,7 @@ function extractPeople(text) {
 
 function addParsedMember(groups, dateKey, member) {
   const list = groups.get(dateKey) || [];
-  const exists = list.some((item) => item.name === member.name && item.shift === member.shift);
+  const exists = list.some((item) => sameMember(item, member));
   if (!exists) {
     list.push({ name: member.name, shift: member.shift || "", note: member.note || "" });
     groups.set(dateKey, list);
@@ -2460,7 +2488,7 @@ function applyImport() {
       if (replace) day.team = [];
       let touched = false;
       for (const member of groups.get(date)) {
-        if (day.team.some((item) => item.name === member.name && item.shift === member.shift)) continue;
+        if (day.team.some((item) => sameMember(item, member))) continue;
         day.team.push({ id: uid(), name: member.name, shift: member.shift, phone: "", note: member.note });
         added += 1;
         touched = true;

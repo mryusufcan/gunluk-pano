@@ -361,6 +361,22 @@ async function main() {
   const imported = draft3.days[shiftKey(1)];
   check("içe aktarma yazıldı", Boolean(imported) && imported.team.length === 3);
   check("cihaz notu", imported.team.some((member) => member.name.includes("Ayşe") && member.note === "MR"));
+
+  doc.getElementById("import-team").click();
+  doc.getElementById("import-text").value = [
+    `${trDate(shiftKey(1))} Pazartesi`,
+    "08:00-16:00  MURAT DEMİR (BT)",
+    "16:00-24:00  ALİ ŞAHİN",
+  ].join("\n");
+  doc.getElementById("import-text").dispatchEvent(new dom.window.Event("input", { bubbles: true }));
+  await wait(450);
+  doc.getElementById("import-apply").click();
+  await wait(60);
+  const draft3b = JSON.parse(dom.window.localStorage.getItem("pano-draft"));
+  check("büyük/küçük harf çift kayıt yapmıyor", draft3b.days[shiftKey(1)].team.length === 3, JSON.stringify(draft3b.days[shiftKey(1)].team.map((m) => [m.name, m.shift])));
+  doc.querySelector('.tab[data-view="modalite"]').click();
+  const modalityText2 = doc.getElementById("modality-summary").textContent.toLocaleLowerCase("tr");
+  check("modalite harf farkını tek satırda topluyor", modalityText2.split("murat demir").length - 1 === 1);
   dom.window.close();
 
   /* ---------- 6. Excel ve Word dosyası ---------- */
