@@ -1322,7 +1322,7 @@ async function importShiftTeam() {
   }));
   save();
   render();
-  toast(`${list.length} kişi nöbet listesinden alındı.`);
+  toast(`${longDate(selected)} nöbet listesi alındı · ${list.length} kişi.`);
 }
 
 /* ---------- Paylaşım ---------- */
